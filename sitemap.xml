@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://d-kuro.github.io/posts/2019-2020/</loc>
+    <lastmod>2020-01-02T22:42:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/</loc>
+    <lastmod>2020-01-02T22:42:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/poem/</loc>
+    <lastmod>2020-01-02T22:42:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/posts/</loc>
+    <lastmod>2020-01-02T22:42:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/</loc>
+    <lastmod>2020-01-02T22:42:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/202001/20200102/</loc>
+    <lastmod>2020-01-01T15:01:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/</loc>
+    <lastmod>2020-01-01T15:01:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubernetes/</loc>
+    <lastmod>2020-01-01T15:01:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/202001/20200101/</loc>
+    <lastmod>2019-12-31T15:01:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/datadog/</loc>
+    <lastmod>2019-12-31T15:01:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/go/</loc>
+    <lastmod>2019-12-31T15:01:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191231/</loc>
+    <lastmod>2019-12-30T15:01:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubernetes-the-hard-way/</loc>
+    <lastmod>2019-12-30T15:01:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/serviceaccount/</loc>
+    <lastmod>2019-12-30T15:01:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191230/</loc>
+    <lastmod>2019-12-29T15:01:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/argocd/</loc>
+    <lastmod>2019-12-29T15:01:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/computer-science/</loc>
+    <lastmod>2019-12-29T15:01:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/gitops/</loc>
+    <lastmod>2019-12-29T15:01:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/http3/</loc>
+    <lastmod>2019-12-29T15:01:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191229/</loc>
+    <lastmod>2019-12-28T15:01:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/ingress/</loc>
+    <lastmod>2019-12-28T15:01:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/microservices/</loc>
+    <lastmod>2019-12-28T15:01:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/service-mesh/</loc>
+    <lastmod>2019-12-28T15:01:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191228/</loc>
+    <lastmod>2019-12-27T15:01:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191227/</loc>
+    <lastmod>2019-12-26T15:02:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191226/</loc>
+    <lastmod>2019-12-25T15:02:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/client-go/</loc>
+    <lastmod>2019-12-25T15:02:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/istio/</loc>
+    <lastmod>2019-12-25T15:02:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubernetes-v1.17/</loc>
+    <lastmod>2019-12-25T15:02:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/operator-sdk/</loc>
+    <lastmod>2019-12-25T15:02:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191225/</loc>
+    <lastmod>2019-12-24T15:02:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/ckad/</loc>
+    <lastmod>2019-12-24T15:02:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/controller-runtime/</loc>
+    <lastmod>2019-12-24T15:02:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/goroutine/</loc>
+    <lastmod>2019-12-24T15:02:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191224/</loc>
+    <lastmod>2019-12-24T14:19:44+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kustomize/</loc>
+    <lastmod>2019-12-24T14:19:44+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191223/</loc>
+    <lastmod>2019-12-22T15:02:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/code-review/</loc>
+    <lastmod>2019-12-22T15:02:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/knative/</loc>
+    <lastmod>2019-12-22T15:02:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubectl/</loc>
+    <lastmod>2019-12-22T15:02:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/makefile/</loc>
+    <lastmod>2019-12-22T15:02:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191222/</loc>
+    <lastmod>2019-12-21T15:01:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/eks/</loc>
+    <lastmod>2019-12-21T15:01:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubedns/</loc>
+    <lastmod>2019-12-21T15:01:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/spot-instance/</loc>
+    <lastmod>2019-12-21T15:01:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191221/</loc>
+    <lastmod>2019-12-20T15:01:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/scheduler/</loc>
+    <lastmod>2019-12-20T15:01:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191220/</loc>
+    <lastmod>2019-12-19T15:01:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/argo-rollouts/</loc>
+    <lastmod>2019-12-19T15:01:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/context/</loc>
+    <lastmod>2019-12-19T15:01:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/finalizers/</loc>
+    <lastmod>2019-12-19T15:01:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191219/</loc>
+    <lastmod>2019-12-18T15:00:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191218/</loc>
+    <lastmod>2019-12-17T15:01:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/posts/deployment-revisionhistorylimit-default/</loc>
+    <lastmod>2019-12-17T23:45:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191217/</loc>
+    <lastmod>2019-12-16T15:00:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191216/</loc>
+    <lastmod>2019-12-15T15:01:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/channel/</loc>
+    <lastmod>2019-12-15T15:01:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/gc/</loc>
+    <lastmod>2019-12-15T15:01:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191215/</loc>
+    <lastmod>2019-12-14T15:00:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/fargate/</loc>
+    <lastmod>2019-12-14T15:00:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubebuilder/</loc>
+    <lastmod>2019-12-14T15:00:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191214/</loc>
+    <lastmod>2019-12-13T15:00:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/velero/</loc>
+    <lastmod>2019-12-13T15:00:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191213/</loc>
+    <lastmod>2019-12-12T15:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/concurrency/</loc>
+    <lastmod>2019-12-12T15:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/http2/</loc>
+    <lastmod>2019-12-12T15:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191212/</loc>
+    <lastmod>2019-12-11T15:01:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/monitoring/</loc>
+    <lastmod>2019-12-11T15:01:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191211/</loc>
+    <lastmod>2019-12-10T15:01:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/cni/</loc>
+    <lastmod>2019-12-10T15:01:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191210/</loc>
+    <lastmod>2019-12-09T15:01:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/loki/</loc>
+    <lastmod>2019-12-09T15:01:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/slice/</loc>
+    <lastmod>2019-12-09T15:01:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/timeout/</loc>
+    <lastmod>2019-12-09T15:01:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201912/20191209/</loc>
+    <lastmod>2019-12-09T13:03:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/hierarchical-namespacem/</loc>
+    <lastmod>2019-12-09T13:03:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191129/</loc>
+    <lastmod>2019-11-28T15:02:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubelet/</loc>
+    <lastmod>2019-11-28T15:02:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191128/</loc>
+    <lastmod>2019-11-27T15:03:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191127/</loc>
+    <lastmod>2019-11-26T15:03:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/alb-ingress-controller/</loc>
+    <lastmod>2019-11-26T15:03:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/last-week-in-kubernetes-development/</loc>
+    <lastmod>2019-11-26T15:03:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/service-topology/</loc>
+    <lastmod>2019-11-26T15:03:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191126/</loc>
+    <lastmod>2019-11-25T15:04:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191125/</loc>
+    <lastmod>2019-11-24T15:03:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/etcd/</loc>
+    <lastmod>2019-11-24T15:03:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191124/</loc>
+    <lastmod>2019-11-23T15:04:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191123/</loc>
+    <lastmod>2019-11-22T15:05:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191122/</loc>
+    <lastmod>2019-11-21T15:04:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubernetes-cluster-upgrade/</loc>
+    <lastmod>2019-11-21T15:04:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191121/</loc>
+    <lastmod>2019-11-20T15:04:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/jvm/</loc>
+    <lastmod>2019-11-20T15:04:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191120/</loc>
+    <lastmod>2019-11-19T15:03:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/sre/</loc>
+    <lastmod>2019-11-19T15:03:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191119/</loc>
+    <lastmod>2019-11-18T15:03:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/graceful-shutdown/</loc>
+    <lastmod>2019-11-18T15:03:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/strace/</loc>
+    <lastmod>2019-11-18T15:03:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191118/</loc>
+    <lastmod>2019-11-17T15:02:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/chaos-engineering/</loc>
+    <lastmod>2019-11-17T15:02:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/container/</loc>
+    <lastmod>2019-11-17T15:02:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/helm/</loc>
+    <lastmod>2019-11-17T15:02:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/java/</loc>
+    <lastmod>2019-11-17T15:02:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191117/</loc>
+    <lastmod>2019-11-16T15:03:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191116/</loc>
+    <lastmod>2019-11-15T15:02:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191115/</loc>
+    <lastmod>2019-11-14T15:03:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/argo-flux/</loc>
+    <lastmod>2019-11-14T15:03:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191114/</loc>
+    <lastmod>2019-11-13T15:02:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/cluster-autoscaler/</loc>
+    <lastmod>2019-11-13T15:02:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/godoc/</loc>
+    <lastmod>2019-11-13T15:02:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/topology-spread-constraints/</loc>
+    <lastmod>2019-11-13T15:02:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/csi/</loc>
+    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/event/</loc>
+    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/events/</loc>
+    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubernetes-meetup-tokyo/</loc>
+    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/events/k8sjp-25/</loc>
+    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/storage/</loc>
+    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191113/</loc>
+    <lastmod>2019-11-12T15:01:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191112/</loc>
+    <lastmod>2019-11-11T15:03:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/api-gateway/</loc>
+    <lastmod>2019-11-11T15:03:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubeweekly/</loc>
+    <lastmod>2019-11-11T15:03:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/networkpolicy/</loc>
+    <lastmod>2019-11-11T15:03:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191111/</loc>
+    <lastmod>2019-11-10T15:03:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/memory-allocation/</loc>
+    <lastmod>2019-11-10T15:03:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191110/</loc>
+    <lastmod>2019-11-09T15:02:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/ast/</loc>
+    <lastmod>2019-11-09T15:02:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/cka/</loc>
+    <lastmod>2019-11-09T15:02:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/go-modules/</loc>
+    <lastmod>2019-11-09T15:02:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/load-balancer/</loc>
+    <lastmod>2019-11-09T15:02:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/rate-limit/</loc>
+    <lastmod>2019-11-09T15:02:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191109/</loc>
+    <lastmod>2019-11-08T15:02:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/resole.conf/</loc>
+    <lastmod>2019-11-08T15:02:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191108/</loc>
+    <lastmod>2019-11-07T15:02:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/nil/</loc>
+    <lastmod>2019-11-07T15:02:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191107/</loc>
+    <lastmod>2019-11-06T15:02:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/argo-cd/</loc>
+    <lastmod>2019-11-06T15:02:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/flux/</loc>
+    <lastmod>2019-11-06T15:02:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191106/</loc>
+    <lastmod>2019-11-05T15:01:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/coredns/</loc>
+    <lastmod>2019-11-05T15:01:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/preemption/</loc>
+    <lastmod>2019-11-05T15:01:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/resource/</loc>
+    <lastmod>2019-11-05T15:01:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191105/</loc>
+    <lastmod>2019-11-04T15:02:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191104/</loc>
+    <lastmod>2019-11-03T15:02:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191103/</loc>
+    <lastmod>2019-11-02T15:02:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/github-actions/</loc>
+    <lastmod>2019-11-02T15:02:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191102/</loc>
+    <lastmod>2019-11-01T15:03:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201911/20191101/</loc>
+    <lastmod>2019-10-31T15:09:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191031/</loc>
+    <lastmod>2019-10-30T15:02:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191030/</loc>
+    <lastmod>2019-10-29T15:03:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/cue/</loc>
+    <lastmod>2019-10-29T15:03:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191029/</loc>
+    <lastmod>2019-10-28T15:03:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191028/</loc>
+    <lastmod>2019-10-27T15:03:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191027/</loc>
+    <lastmod>2019-10-26T15:02:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191026/</loc>
+    <lastmod>2019-10-25T15:01:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/events/k8sjp-24/</loc>
+    <lastmod>2019-10-25T10:31:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191025/</loc>
+    <lastmod>2019-10-24T15:01:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191024/</loc>
+    <lastmod>2019-10-23T15:02:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/goenv/</loc>
+    <lastmod>2019-10-23T15:02:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191023/</loc>
+    <lastmod>2019-10-23T11:52:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191022/</loc>
+    <lastmod>2019-10-22T01:17:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191021/</loc>
+    <lastmod>2019-10-21T11:43:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/runc/</loc>
+    <lastmod>2019-10-21T11:43:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191020/</loc>
+    <lastmod>2019-10-20T23:50:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191019/</loc>
+    <lastmod>2019-10-19T00:16:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191018/</loc>
+    <lastmod>2019-10-18T00:42:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191017/</loc>
+    <lastmod>2019-10-17T10:45:40+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/cve/</loc>
+    <lastmod>2019-10-17T10:45:40+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/201910/20191016/</loc>
+    <lastmod>2019-10-16T10:21:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/externaldns/</loc>
+    <lastmod>2019-10-16T10:21:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/posts/to-quipper/</loc>
+    <lastmod>2019-10-01T01:33:11+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/page/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/page/</loc>
+  </url>
+  
+</urlset>

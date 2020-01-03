@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes v1.17 on AFN Blog</title>
+    <link>https://d-kuro.github.io/tags/kubernetes-v1.17/</link>
+    <description>Recent content in Kubernetes v1.17 on AFN Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
+    <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
+    <lastBuildDate>Wed, 25 Dec 2019 15:02:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://d-kuro.github.io/tags/kubernetes-v1.17/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019-12-26</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191226/</link>
+      <pubDate>Wed, 25 Dec 2019 15:02:07 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191226/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-12-25</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191225/</link>
+      <pubDate>Tue, 24 Dec 2019 15:02:02 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191225/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-12-19</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191219/</link>
+      <pubDate>Wed, 18 Dec 2019 15:00:39 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191219/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-12-17</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191217/</link>
+      <pubDate>Mon, 16 Dec 2019 15:00:43 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191217/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-12-16</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191216/</link>
+      <pubDate>Sun, 15 Dec 2019 15:01:14 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191216/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-12-13</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191213/</link>
+      <pubDate>Thu, 12 Dec 2019 15:00:58 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191213/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-12-10</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191210/</link>
+      <pubDate>Mon, 09 Dec 2019 15:01:11 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191210/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-12-09</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191209/</link>
+      <pubDate>Mon, 09 Dec 2019 13:03:14 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191209/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>client-go on AFN Blog</title>
+    <link>https://d-kuro.github.io/tags/client-go/</link>
+    <description>Recent content in client-go on AFN Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
+    <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
+    <lastBuildDate>Wed, 25 Dec 2019 15:02:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://d-kuro.github.io/tags/client-go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019-12-26</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191226/</link>
+      <pubDate>Wed, 25 Dec 2019 15:02:07 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191226/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-10-31</title>
+      <link>https://d-kuro.github.io/diaries/201910/20191031/</link>
+      <pubDate>Wed, 30 Oct 2019 15:02:19 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201910/20191031/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-10-19</title>
+      <link>https://d-kuro.github.io/diaries/201910/20191019/</link>
+      <pubDate>Sat, 19 Oct 2019 00:16:05 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201910/20191019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

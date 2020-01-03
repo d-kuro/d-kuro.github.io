@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Context on AFN Blog</title>
+    <link>https://d-kuro.github.io/tags/context/</link>
+    <description>Recent content in Context on AFN Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
+    <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
+    <lastBuildDate>Thu, 19 Dec 2019 15:01:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://d-kuro.github.io/tags/context/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019-12-20</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191220/</link>
+      <pubDate>Thu, 19 Dec 2019 15:01:07 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191220/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

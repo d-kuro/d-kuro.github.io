@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kubectl on AFN Blog</title>
+    <link>https://d-kuro.github.io/tags/kubectl/</link>
+    <description>Recent content in kubectl on AFN Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
+    <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
+    <lastBuildDate>Sun, 22 Dec 2019 15:02:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://d-kuro.github.io/tags/kubectl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019-12-23</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191223/</link>
+      <pubDate>Sun, 22 Dec 2019 15:02:06 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191223/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-11-29</title>
+      <link>https://d-kuro.github.io/diaries/201911/20191129/</link>
+      <pubDate>Thu, 28 Nov 2019 15:02:40 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201911/20191129/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-11-26</title>
+      <link>https://d-kuro.github.io/diaries/201911/20191126/</link>
+      <pubDate>Mon, 25 Nov 2019 15:04:45 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201911/20191126/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-11-04</title>
+      <link>https://d-kuro.github.io/diaries/201911/20191104/</link>
+      <pubDate>Sun, 03 Nov 2019 15:02:23 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201911/20191104/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

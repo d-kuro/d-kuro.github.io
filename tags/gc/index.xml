@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GC on AFN Blog</title>
+    <link>https://d-kuro.github.io/tags/gc/</link>
+    <description>Recent content in GC on AFN Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
+    <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
+    <lastBuildDate>Sun, 15 Dec 2019 15:01:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://d-kuro.github.io/tags/gc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019-12-16</title>
+      <link>https://d-kuro.github.io/diaries/201912/20191216/</link>
+      <pubDate>Sun, 15 Dec 2019 15:01:14 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201912/20191216/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-11-18</title>
+      <link>https://d-kuro.github.io/diaries/201911/20191118/</link>
+      <pubDate>Sun, 17 Nov 2019 15:02:54 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201911/20191118/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-10-28</title>
+      <link>https://d-kuro.github.io/diaries/201910/20191028/</link>
+      <pubDate>Sun, 27 Oct 2019 15:03:07 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/201910/20191028/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
