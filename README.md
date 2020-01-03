@@ -1,1 +1,0 @@
-# d-kuro.github.io
