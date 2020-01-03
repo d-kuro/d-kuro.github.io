@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>controller-runtime on AFN Blog</title>
-    <link>https://d-kuro.github.io/tags/controller-runtime/</link>
-    <description>Recent content in controller-runtime on AFN Blog</description>
+    <title>Hugo on AFN Blog</title>
+    <link>https://d-kuro.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on AFN Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
     <lastBuildDate>Thu, 02 Jan 2020 15:01:52 +0000</lastBuildDate>
     
-	<atom:link href="https://d-kuro.github.io/tags/controller-runtime/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://d-kuro.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <pubDate>Thu, 02 Jan 2020 15:01:52 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200103/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2019-12-25</title>
-      <link>https://d-kuro.github.io/diaries/201912/20191225/</link>
-      <pubDate>Tue, 24 Dec 2019 15:02:02 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201912/20191225/</guid>
       <description></description>
     </item>
     
