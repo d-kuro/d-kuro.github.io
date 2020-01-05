@@ -8,10 +8,46 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Sat, 04 Jan 2020 00:20:49 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2020 21:28:38 +0900</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Computer science</title>
+      <link>https://d-kuro.github.io/tags/computer-science/</link>
+      <pubDate>Sun, 05 Jan 2020 21:28:38 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/computer-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://d-kuro.github.io/tags/go/</link>
+      <pubDate>Sun, 05 Jan 2020 21:28:38 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>goroutine</title>
+      <link>https://d-kuro.github.io/tags/goroutine/</link>
+      <pubDate>Sun, 05 Jan 2020 21:28:38 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/goroutine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://d-kuro.github.io/tags/kubernetes/</link>
+      <pubDate>Sun, 05 Jan 2020 21:28:38 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>
@@ -41,15 +77,6 @@
     </item>
     
     <item>
-      <title>Kubernetes</title>
-      <link>https://d-kuro.github.io/tags/kubernetes/</link>
-      <pubDate>Thu, 02 Jan 2020 15:01:52 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Poem</title>
       <link>https://d-kuro.github.io/tags/poem/</link>
       <pubDate>Thu, 02 Jan 2020 22:42:00 +0900</pubDate>
@@ -64,15 +91,6 @@
       <pubDate>Tue, 31 Dec 2019 15:01:47 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/datadog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://d-kuro.github.io/tags/go/</link>
-      <pubDate>Tue, 31 Dec 2019 15:01:47 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/go/</guid>
       <description></description>
     </item>
     
@@ -100,15 +118,6 @@
       <pubDate>Sun, 29 Dec 2019 15:01:38 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/argocd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer science</title>
-      <link>https://d-kuro.github.io/tags/computer-science/</link>
-      <pubDate>Sun, 29 Dec 2019 15:01:38 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/computer-science/</guid>
       <description></description>
     </item>
     
@@ -199,15 +208,6 @@
       <pubDate>Tue, 24 Dec 2019 15:02:02 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/ckad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>goroutine</title>
-      <link>https://d-kuro.github.io/tags/goroutine/</link>
-      <pubDate>Tue, 24 Dec 2019 15:02:02 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/goroutine/</guid>
       <description></description>
     </item>
     
@@ -320,7 +320,7 @@
     </item>
     
     <item>
-      <title>channel</title>
+      <title>Channel</title>
       <link>https://d-kuro.github.io/tags/channel/</link>
       <pubDate>Sun, 15 Dec 2019 15:01:14 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
