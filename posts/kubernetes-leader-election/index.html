@@ -354,7 +354,7 @@ metadata:
 <h3 id="configmap-">ConfigMap の作成を試行する</h3>
 <p>for でループしながら ConfigMap の作成を試行します。
 このループは ConfigMap が作成され, 自身がリーダーになるまで実行されます。</p>
-<p>リーダーの Pod が evicte された場合はその Pod の削除を行います。</p>
+<p>リーダーの Pod が evict された場合はその Pod の削除を行います。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// try to create a lock
 </span><span class="c1"></span><span class="nx">backoff</span> <span class="o">:=</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span>
 <span class="k">for</span> <span class="p">{</span>
