@@ -8,10 +8,55 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Sun, 05 Jan 2020 21:28:38 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 01:09:52 +0900</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>client-go</title>
+      <link>https://d-kuro.github.io/tags/client-go/</link>
+      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/client-go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>controller-runtime</title>
+      <link>https://d-kuro.github.io/tags/controller-runtime/</link>
+      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/controller-runtime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://d-kuro.github.io/tags/kubernetes/</link>
+      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leader election</title>
+      <link>https://d-kuro.github.io/tags/leader-election/</link>
+      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/leader-election/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Operator SDK</title>
+      <link>https://d-kuro.github.io/tags/operator-sdk/</link>
+      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/operator-sdk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Computer science</title>
@@ -41,29 +86,11 @@
     </item>
     
     <item>
-      <title>Kubernetes</title>
-      <link>https://d-kuro.github.io/tags/kubernetes/</link>
-      <pubDate>Sun, 05 Jan 2020 21:28:38 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Hugo</title>
       <link>https://d-kuro.github.io/tags/hugo/</link>
       <pubDate>Sat, 04 Jan 2020 00:20:49 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>controller-runtime</title>
-      <link>https://d-kuro.github.io/tags/controller-runtime/</link>
-      <pubDate>Thu, 02 Jan 2020 15:01:52 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/controller-runtime/</guid>
       <description></description>
     </item>
     
@@ -167,15 +194,6 @@
     </item>
     
     <item>
-      <title>client-go</title>
-      <link>https://d-kuro.github.io/tags/client-go/</link>
-      <pubDate>Wed, 25 Dec 2019 15:02:07 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/client-go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Istio</title>
       <link>https://d-kuro.github.io/tags/istio/</link>
       <pubDate>Wed, 25 Dec 2019 15:02:07 +0000</pubDate>
@@ -190,15 +208,6 @@
       <pubDate>Wed, 25 Dec 2019 15:02:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/kubernetes-v1.17/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Operator SDK</title>
-      <link>https://d-kuro.github.io/tags/operator-sdk/</link>
-      <pubDate>Wed, 25 Dec 2019 15:02:07 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/operator-sdk/</guid>
       <description></description>
     </item>
     

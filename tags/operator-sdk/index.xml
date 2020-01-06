@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Wed, 25 Dec 2019 15:02:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 01:09:52 +0900</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/tags/operator-sdk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kubernetes Leader Election in Depth</title>
+      <link>https://d-kuro.github.io/posts/kubernetes-leader-election/</link>
+      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/posts/kubernetes-leader-election/</guid>
+      <description>&lt;p&gt;この記事では Kubernetes の Leader election について解説していきます。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>2019-12-26</title>
