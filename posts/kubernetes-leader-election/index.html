@@ -458,7 +458,7 @@ Leader-for-life と違う点はリース期間が設定されている点です�
     <span class="o">...</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/manager.go#L375-L378">https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/manager.go#L375-L378</a></p>
-<p><code>leaderelection.NewResourceLock</code> 関数を見ていきます。
+<p><code>leaderelection.NewResourceLock()</code> 関数を見ていきます。
 ここで client-go の <code>leaderelection</code> package を使用しているのがわかります。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">import</span> <span class="p">(</span>
     <span class="o">...</span>
@@ -556,7 +556,7 @@ client-go の <code>leaderelection</code> package を使用して Leader electio
 <code>le.acquire()</code> では <code>le.tryAcquireOrRenew()</code> 関数が成功した場合は終了し, 失敗した場合は一定の周期でリトライされます。
 <code>le.renew()</code> ではその逆で <code>le.tryAcquireOrRenew()</code> 関数が失敗した場合は終了し, 成功した場合は一定の周期でリトライされます。</p>
 <p>わかりやすい言葉で説明すると, <code>le.acquire()</code> ではリーダーを獲得できるまでリトライを行い, <code>le.renew()</code> ではリーダー獲得できている間リトライを行います。
-リーダーをロストした場合は defer で実行している <code>le.config.Callbacks.OnStoppedLeading()</code> というコールバック関数でエラーを返し, controller を終了させます。
+リーダーをロストした場合は defer で実行している <code>le.config.Callbacks.OnStoppedLeading()</code> というコールバック関数でエラーを返し, Controller を終了させます。
 こうすることにより Kubernetes の Deployment 等の仕組みにより新しい Pod が起動し, また Leader election loop を実行することができます。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">Callbacks</span><span class="p">:</span> <span class="nx">leaderelection</span><span class="p">.</span><span class="nx">LeaderCallbacks</span><span class="p">{</span>
     <span class="nx">OnStartedLeading</span><span class="p">:</span> <span class="kd">func</span><span class="p">(</span><span class="nx">_</span> <span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span> <span class="p">{</span>
