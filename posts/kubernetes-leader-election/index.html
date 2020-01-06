@@ -59,7 +59,7 @@
   "headline": "Kubernetes Leader Election in Depth",
   "description" : "この記事では Kubernetes の Leader election について解説していきます。\n",
   "inLanguage" : "en",
-  "wordCount":  1874 ,
+  "wordCount":  1892 ,
   "datePublished" : "2020-01-06T01:09:52",
   "dateModified" : "2020-01-06T01:09:52",
   "image" : "https:\/\/d-kuro.github.io\/img\/avatar-icon.jpg",
@@ -262,6 +262,7 @@
 <p>Kubernetes における Leader election は Controller 間の競合を防ぐために使われます。</p>
 <p>例として Deployment を watch して処理を行う Controller の Pod がある場合に Pod が 2 台だと 1 つの Deployment の操作に対して 2 つの Pod が処理を行うため, 場合によっては競合してしまいます。
 そのような競合を防ぐために Kubernetes では clinet-go に Leader election の仕組みが用意されています。</p>
+<p>可用性が必要な Controller 以外の場合は <code>replicas: 1</code> にすれば問題ない, と思うかもしれませんが Deployment の strategy を RollingUpdate にしている場合は一時的に 2 つの Pod が動作する状況が存在するため, 注意が必要です。</p>
 <p>本ブログでは以下の 2 つの Leader election の実装について解説していきます。</p>
 <ul>
 <li>Leader-for-life
