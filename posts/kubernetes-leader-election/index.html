@@ -59,7 +59,7 @@
   "headline": "Kubernetes Leader Election in Depth",
   "description" : "この記事では Kubernetes の Leader election について解説していきます。\n",
   "inLanguage" : "en",
-  "wordCount":  1885 ,
+  "wordCount":  1874 ,
   "datePublished" : "2020-01-06T01:09:52",
   "dateModified" : "2020-01-06T01:09:52",
   "image" : "https:\/\/d-kuro.github.io\/img\/avatar-icon.jpg",
@@ -550,8 +550,6 @@ client-go の <code>leaderelection</code> package を使用して Leader electio
 	<span class="nx">le</span><span class="p">.</span><span class="nf">renew</span><span class="p">(</span><span class="nx">ctx</span><span class="p">)</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L189-L202">https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L189-L202</a></p>
-<p><code>Run()</code> 関数は <code>acquire</code> が成功するとユーザーが提供する <code>le.config.Callbacks.OnStartedLeading()</code> 関数を呼び出します。
-続いて <code>le.renew()</code> 関数を呼び出します。この関数はリーダーのリースの取得が成功するか, context がキャンセルされない限りブロックします。</p>
 <p><code>le.acquire()</code> と <code>le.renew()</code> 関数はどちらも内部では <code>le.tryAcquireOrRenew()</code> 関数を呼び出しています。
 <code>le.acquire()</code> では <code>le.tryAcquireOrRenew()</code> 関数が成功した場合は終了し, 失敗した場合は一定の周期でリトライされます。
 <code>le.renew()</code> ではその逆で <code>le.tryAcquireOrRenew()</code> 関数が失敗した場合は終了し, 成功した場合は一定の周期でリトライされます。</p>
