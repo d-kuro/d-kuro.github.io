@@ -414,10 +414,10 @@ metadata:
 <p>中では client-go で提供されてる <code>leaderelection</code> package を使用しています。</p>
 <p><a href="https://godoc.org/k8s.io/client-go/tools/leaderelection">https://godoc.org/k8s.io/client-go/tools/leaderelection</a></p>
 <p>Leader-with-lease の仕組みは先程の Leader-for-life と同じように ConfigMap または Endpoints を用いて分散ロックを実現しています。
-ロックを取得する Pod はリーダーになり, 取得できない Pod は待機します。
+ロックを取得する Controller はリーダーになり, 取得できない Controller は待機します。
 Leader-for-life と違う点はリース期間が設定されている点です。
 リーダーは定期的にリースを更新しています。
-リーダーが何らかの理由で死ぬとリースは期限切れになり, 待機していた Pod がリーダーを獲得しようとします。</p>
+リーダーが何らかの理由で死ぬとリースは期限切れになり, 待機していた Controller がリーダーを獲得しようとします。</p>
 <p><a href="https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L50-L52"><strong>この仕組みは現時点で Alpha であり将来的に大幅に変更または削除される可能性があることが記載されています。</strong></a></p>
 <p>使用する際には以下のように使用します。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">import</span> <span class="p">(</span>
