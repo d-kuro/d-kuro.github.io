@@ -59,7 +59,7 @@
   "headline": "Kubernetes Leader Election in Depth",
   "description" : "この記事では Kubernetes の Leader election について解説していきます。\n",
   "inLanguage" : "en",
-  "wordCount":  1883 ,
+  "wordCount":  1885 ,
   "datePublished" : "2020-01-06T01:09:52",
   "dateModified" : "2020-01-06T01:09:52",
   "image" : "https:\/\/d-kuro.github.io\/img\/avatar-icon.jpg",
@@ -259,8 +259,8 @@
       <article role="main" class="blog-post">
         <p>この記事では Kubernetes の Leader election について解説していきます。</p>
 <h2 id="kubernetes--leader-election">Kubernetes における Leader election</h2>
-<p>Kubernetes における Leader election は Pod 間の競合を防ぐために使われます。</p>
-<p>例として Deployment を watch して処理を行う Pod がある場合に Pod が 2 台だと 1 つの Deployment の操作に対して 2 つの Pod が処理を行うため, 場合によっては競合してしまいます。
+<p>Kubernetes における Leader election は Controller 間の競合を防ぐために使われます。</p>
+<p>例として Deployment を watch して処理を行う Controller の Pod がある場合に Pod が 2 台だと 1 つの Deployment の操作に対して 2 つの Pod が処理を行うため, 場合によっては競合してしまいます。
 そのような競合を防ぐために Kubernetes では clinet-go に Leader election の仕組みが用意されています。</p>
 <p>本ブログでは以下の 2 つの Leader election の実装について解説していきます。</p>
 <ul>
