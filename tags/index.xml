@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Mon, 06 Jan 2020 01:09:52 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 15:03:01 +0000</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://d-kuro.github.io/tags/kubernetes/</link>
+      <pubDate>Mon, 06 Jan 2020 15:03:01 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>client-go</title>
@@ -32,15 +41,6 @@
     </item>
     
     <item>
-      <title>Kubernetes</title>
-      <link>https://d-kuro.github.io/tags/kubernetes/</link>
-      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Leader election</title>
       <link>https://d-kuro.github.io/tags/leader-election/</link>
       <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
@@ -55,6 +55,15 @@
       <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/operator-sdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EKS</title>
+      <link>https://d-kuro.github.io/tags/eks/</link>
+      <pubDate>Sun, 05 Jan 2020 15:03:01 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/eks/</guid>
       <description></description>
     </item>
     
@@ -271,15 +280,6 @@
       <pubDate>Sun, 22 Dec 2019 15:02:06 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/makefile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EKS</title>
-      <link>https://d-kuro.github.io/tags/eks/</link>
-      <pubDate>Sat, 21 Dec 2019 15:01:59 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/eks/</guid>
       <description></description>
     </item>
     
