@@ -19,7 +19,7 @@
       <pubDate>Mon, 06 Jan 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200107/</guid>
-      <description>Diary  I have not read the book 😇  Note  Kubernetesの動向予測 2019 =&amp;gt; 2020  青山さんの   A Deep Dive into eBPF: The Technology that Powers Tracee  Go のコードで説明されてる, ちゃんと読みたい   [Go] GitHub Actionsでキャッシュ機能を使う #github  https://github.com/actions/cache/blob/master/examples.md#go---modules 便利   Support Custom Pod Status for PodReadinessGate to Block Premature Pod Termination  ALB Ingress の IP mode (Pod に直接ルーティングする方) でタイムアウトが起きるという話   Toolbox App 1.11: What’s New.</description>
+      <description>Diary  I have not read the book 😇  Note  Kubernetesの動向予測 2019 =&amp;gt; 2020  http://gihyo.jp/admin/column/newyear/2020/kubernetes-prospect 青山さんの   A Deep Dive into eBPF: The Technology that Powers Tracee  https://blog.aquasec.com/intro-ebpf-tracing-containers Go のコードで説明されてる, ちゃんと読みたい   [Go] GitHub Actionsでキャッシュ機能を使う #github  https://budougumi0617.github.io/2019/11/03/use-cache-in-github-actions/ https://github.com/actions/cache/blob/master/examples.md#go---modules 便利   Support Custom Pod Status for PodReadinessGate to Block Premature Pod Termination  https://github.com/kubernetes-sigs/aws-alb-ingress-controller/issues/905 ALB Ingress の IP mode (Pod に直接ルーティングする方) でタイムアウトが起きるという話   Toolbox App 1.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Sun, 05 Jan 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200106/</guid>
-      <description>Diary  I published blog  https://d-kuro.github.io/posts/kubernetes-leader-election/    Note  Golang IO Cookbook  Go の I/O に関する Cookbook   Service 間通信を Envoy 経由で行い、Metrics を取得する  Envoy なんもわからん   分散システムのリーダー選挙  AWS でも一番使われている Leader Election はリースらしい ベストプラクティスも載ってる   Operator SDK Version upgrade guide  バージョン上げるために読んでる 基本は依存ライブラリの更新っぽい dependabot とか使わないほうがいいのかな   EKSのIAM Role for Service Accountsを使用するときにはSTSのリージョナルエンドポイントを使うように設定しようという話  AWS_STS_REGIONAL_ENDPOINTS=regional    </description>
+      <description>Diary  I published blog  https://d-kuro.github.io/posts/kubernetes-leader-election/    Note  Golang IO Cookbook  https://github.com/jesseduffield/notes/wiki/Golang-IO-Cookbook Go の I/O に関する Cookbook   Service 間通信を Envoy 経由で行い、Metrics を取得する  https://blog.chaspy.me/entry/2020/01/05/120000 Envoy なんもわからん   分散システムのリーダー選挙  https://aws.amazon.com/jp/builders-library/leader-election-in-distributed-systems/?did=ba_card&amp;amp;trk=ba_card AWS でも一番使われている Leader Election はリースらしい ベストプラクティスも載ってる   Operator SDK Version upgrade guide  https://github.com/operator-framework/operator-sdk/blob/master/doc/migration/version-upgrade-guide.md バージョン上げるために読んでる 基本は依存ライブラリの更新っぽい dependabot とか使わないほうがいいのかな   EKSのIAM Role for Service Accountsを使用するときにはSTSのリージョナルエンドポイントを使うように設定しようという話  https://katainaka0503.hatenablog.com/entry/2020/01/06/184314 AWS_STS_REGIONAL_ENDPOINTS=regional    </description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       <pubDate>Thu, 02 Jan 2020 15:01:52 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200103/</guid>
-      <description>Diary  I bought Programming Kubernetes  Note  Host on GitHub | Hugo  GitHub pages で &amp;lt;USERNAME&amp;gt;.github.io ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった 個別のリポジトリで GitHub pages を設定すると https://&amp;lt;USERNAME&amp;gt;.github.io/&amp;lt;REPO&amp;gt;/ って URL になる   Kubernete Meetup Tokyo #18 - Kubebuilder/controller-runtime 入門  現地で聞いたとき何もわからんなって思ってたけど今ならわかる   Kubernetes production best practices  Check list   Understanding kubernetes networking: pods  Pod のネットワーキングについて    </description>
+      <description>Diary  I bought Programming Kubernetes  Note  Host on GitHub | Hugo  https://gohugo.io/hosting-and-deployment/hosting-on-github/ GitHub pages で &amp;lt;USERNAME&amp;gt;.github.io ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった 個別のリポジトリで GitHub pages を設定すると https://&amp;lt;USERNAME&amp;gt;.github.io/&amp;lt;REPO&amp;gt;/ って URL になる   Kubernete Meetup Tokyo #18 - Kubebuilder/controller-runtime 入門  https://www.slideshare.net/pfi/kubernete-meetup-tokyo-18-kubebuildercontrollerruntime 現地で聞いたとき何もわからんなって思ってたけど今ならわかる   Kubernetes production best practices  https://learnk8s.io/production-best-practices Check list   Understanding kubernetes networking: pods  https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727 Pod のネットワーキングについて    </description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       <pubDate>Wed, 01 Jan 2020 15:01:48 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200102/</guid>
-      <description>Diary  None  Note  KubernetesでRollingUpdateするためのPodの安全な終了  いつもの sleep とかの話   Kubernetes - Plugins | JetBrains  JetBrains IDE の Kubernetes plugin, VSCode で書くより遥かに体験がいいけど YAML 書くために JetBrains IDE 起動したくないというジレンマがある   A Practical Guide to Setting Kubernetes Requests and Limits  Pod の resources の決め方 limits を 2x requests にしろとか書いてあるけどこれには反対で特に memory は requests と limits 同じにしたほうがいいと思ってる    </description>
+      <description>Diary  None  Note  KubernetesでRollingUpdateするためのPodの安全な終了  https://tech-lab.sios.jp/archives/18730 いつもの sleep とかの話   Kubernetes - Plugins | JetBrains  https://plugins.jetbrains.com/plugin/10485-kubernetes JetBrains IDE の Kubernetes plugin, VSCode で書くより遥かに体験がいいけど YAML 書くために JetBrains IDE 起動したくないというジレンマがある   A Practical Guide to Setting Kubernetes Requests and Limits  http://blog.kubecost.com/blog/requests-and-limits/?utm_sq=g99e5gas9j Pod の resources の決め方 limits を 2x requests にしろとか書いてあるけどこれには反対で特に memory は requests と limits 同じにしたほうがいいと思ってる    </description>
     </item>
     
     <item>

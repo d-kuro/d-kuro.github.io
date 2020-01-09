@@ -19,7 +19,7 @@
       <pubDate>Tue, 07 Jan 2020 15:03:21 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200108/</guid>
-      <description>Diary  None  Note  Introducing Datadog Agent 7  Datadog の custome checks 一覧下のリンクで確認できて便利  https://app.datadoghq.com/compatibility_check     io.Readerのファイルタイプを判定する  io.MultiReader の使い所さん   Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい 技術推薦図書 - Google スプレッドシート  すごい   Goのnet/httpのkeep-aliveで気をつけること  keep-alive の条件に response body を読み切る, というのは知らなかった io.Copy(ioutil.Discard, resp.Body) よさそう    </description>
+      <description>Diary  None  Note  Introducing Datadog Agent 7  https://www.datadoghq.com/blog/introducing-agent7-with-python3/ Datadog の custome checks 一覧下のリンクで確認できて便利  https://app.datadoghq.com/compatibility_check     io.Readerのファイルタイプを判定する  https://qiita.com/knqyf263/items/6dfc891c6d3c6b94f895 io.MultiReader の使い所さん   Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい  https://twitter.com/ido_kara_deru/status/1214721176917798912   技術推薦図書 - Google スプレッドシート  https://docs.google.com/spreadsheets/d/1wk8AG6keEM0y0-ZK6_vb-88UMgXM6ttVqumoE6Pc4qw/edit#gid=0 すごい   Goのnet/httpのkeep-aliveで気をつけること  https://christina04.hatenablog.com/entry/go-keep-alive keep-alive の条件に response body を読み切る, というのは知らなかった io.Copy(ioutil.Discard, resp.Body) よさそう    </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Mon, 06 Jan 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200107/</guid>
-      <description>Diary  I have not read the book 😇  Note  Kubernetesの動向予測 2019 =&amp;gt; 2020  青山さんの   A Deep Dive into eBPF: The Technology that Powers Tracee  Go のコードで説明されてる, ちゃんと読みたい   [Go] GitHub Actionsでキャッシュ機能を使う #github  https://github.com/actions/cache/blob/master/examples.md#go---modules 便利   Support Custom Pod Status for PodReadinessGate to Block Premature Pod Termination  ALB Ingress の IP mode (Pod に直接ルーティングする方) でタイムアウトが起きるという話   Toolbox App 1.11: What’s New.</description>
+      <description>Diary  I have not read the book 😇  Note  Kubernetesの動向予測 2019 =&amp;gt; 2020  http://gihyo.jp/admin/column/newyear/2020/kubernetes-prospect 青山さんの   A Deep Dive into eBPF: The Technology that Powers Tracee  https://blog.aquasec.com/intro-ebpf-tracing-containers Go のコードで説明されてる, ちゃんと読みたい   [Go] GitHub Actionsでキャッシュ機能を使う #github  https://budougumi0617.github.io/2019/11/03/use-cache-in-github-actions/ https://github.com/actions/cache/blob/master/examples.md#go---modules 便利   Support Custom Pod Status for PodReadinessGate to Block Premature Pod Termination  https://github.com/kubernetes-sigs/aws-alb-ingress-controller/issues/905 ALB Ingress の IP mode (Pod に直接ルーティングする方) でタイムアウトが起きるという話   Toolbox App 1.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Sun, 05 Jan 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200106/</guid>
-      <description>Diary  I published blog  https://d-kuro.github.io/posts/kubernetes-leader-election/    Note  Golang IO Cookbook  Go の I/O に関する Cookbook   Service 間通信を Envoy 経由で行い、Metrics を取得する  Envoy なんもわからん   分散システムのリーダー選挙  AWS でも一番使われている Leader Election はリースらしい ベストプラクティスも載ってる   Operator SDK Version upgrade guide  バージョン上げるために読んでる 基本は依存ライブラリの更新っぽい dependabot とか使わないほうがいいのかな   EKSのIAM Role for Service Accountsを使用するときにはSTSのリージョナルエンドポイントを使うように設定しようという話  AWS_STS_REGIONAL_ENDPOINTS=regional    </description>
+      <description>Diary  I published blog  https://d-kuro.github.io/posts/kubernetes-leader-election/    Note  Golang IO Cookbook  https://github.com/jesseduffield/notes/wiki/Golang-IO-Cookbook Go の I/O に関する Cookbook   Service 間通信を Envoy 経由で行い、Metrics を取得する  https://blog.chaspy.me/entry/2020/01/05/120000 Envoy なんもわからん   分散システムのリーダー選挙  https://aws.amazon.com/jp/builders-library/leader-election-in-distributed-systems/?did=ba_card&amp;amp;trk=ba_card AWS でも一番使われている Leader Election はリースらしい ベストプラクティスも載ってる   Operator SDK Version upgrade guide  https://github.com/operator-framework/operator-sdk/blob/master/doc/migration/version-upgrade-guide.md バージョン上げるために読んでる 基本は依存ライブラリの更新っぽい dependabot とか使わないほうがいいのかな   EKSのIAM Role for Service Accountsを使用するときにはSTSのリージョナルエンドポイントを使うように設定しようという話  https://katainaka0503.hatenablog.com/entry/2020/01/06/184314 AWS_STS_REGIONAL_ENDPOINTS=regional    </description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       <pubDate>Sun, 05 Jan 2020 21:28:38 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200105/</guid>
-      <description>Diary  None  Note  Go: Concurrency &amp;amp; Scheduler Affinity  goroutine の仕組み   Lectures | UTokyo OpenCourseWare  東大の CS 講義   ghq v1リリースとghq-handbookのお知らせ  ないと生きていけないツール    </description>
+      <description>Diary  None  Note  Go: Concurrency &amp;amp; Scheduler Affinity  https://medium.com/a-journey-with-go/go-concurrency-scheduler-affinity-3b678f490488 goroutine の仕組み   Lectures | UTokyo OpenCourseWare]  https://ocw.u-tokyo.ac.jp/lecture-search/?fq%5Bsubject_codes%5D%5B0%5D=540 東大の CS 講義   ghq v1リリースとghq-handbookのお知らせ  https://songmu.jp/riji/entry/2020-01-05-ghq-v1.html ないと生きていけないツール    </description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       <pubDate>Sat, 04 Jan 2020 00:20:49 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200104/</guid>
-      <description>Diary  None  Note  Hugo v0.60.0 更新後、Markdown に HTML を入れている場合。  見事にハマった Markdown のレンダリングエンジンが goldmark に変わったので unsafe を有効にしないといけない config.toml に以下を記載    [markup.goldmark.renderer] unsafe = true  【初心者用】Hugoで作成したブログをGoogle検索結果に表示させる方法【Google Search Console】  やってなかったので Goole 検索に出てきてなかった Google search console で登録してサイトマップに index.xml を登録しようという話    </description>
+      <description>Diary  None  Note  Hugo v0.60.0 更新後、Markdown に HTML を入れている場合。  https://blog.balloon.im/2019/11/hugo-v0.60.0-%E6%9B%B4%E6%96%B0%E5%BE%8Cmarkdown-%E3%81%AB-html-%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88/ 見事にハマった Markdown のレンダリングエンジンが goldmark に変わったので unsafe を有効にしないといけない config.toml に以下を記載    [markup.goldmark.renderer] unsafe = true  【初心者用】Hugoで作成したブログをGoogle検索結果に表示させる方法【Google Search Console】  https://tc-minami.github.io/2018/12/%E5%88%9D%E5%BF%83%E8%80%85%E7%94%A8hugo%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92google%E6%A4%9C%E7%B4%A2%E7%B5%90%E6%9E%9C%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95google-search-console/ やってなかったので Goole 検索に出てきてなかった Google search console で登録してサイトマップに index.xml を登録しようという話    </description>
     </item>
     
     <item>
@@ -64,7 +64,7 @@
       <pubDate>Thu, 02 Jan 2020 15:01:52 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200103/</guid>
-      <description>Diary  I bought Programming Kubernetes  Note  Host on GitHub | Hugo  GitHub pages で &amp;lt;USERNAME&amp;gt;.github.io ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった 個別のリポジトリで GitHub pages を設定すると https://&amp;lt;USERNAME&amp;gt;.github.io/&amp;lt;REPO&amp;gt;/ って URL になる   Kubernete Meetup Tokyo #18 - Kubebuilder/controller-runtime 入門  現地で聞いたとき何もわからんなって思ってたけど今ならわかる   Kubernetes production best practices  Check list   Understanding kubernetes networking: pods  Pod のネットワーキングについて    </description>
+      <description>Diary  I bought Programming Kubernetes  Note  Host on GitHub | Hugo  https://gohugo.io/hosting-and-deployment/hosting-on-github/ GitHub pages で &amp;lt;USERNAME&amp;gt;.github.io ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった 個別のリポジトリで GitHub pages を設定すると https://&amp;lt;USERNAME&amp;gt;.github.io/&amp;lt;REPO&amp;gt;/ って URL になる   Kubernete Meetup Tokyo #18 - Kubebuilder/controller-runtime 入門  https://www.slideshare.net/pfi/kubernete-meetup-tokyo-18-kubebuildercontrollerruntime 現地で聞いたとき何もわからんなって思ってたけど今ならわかる   Kubernetes production best practices  https://learnk8s.io/production-best-practices Check list   Understanding kubernetes networking: pods  https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727 Pod のネットワーキングについて    </description>
     </item>
     
     <item>
@@ -73,7 +73,7 @@
       <pubDate>Wed, 01 Jan 2020 15:01:48 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200102/</guid>
-      <description>Diary  None  Note  KubernetesでRollingUpdateするためのPodの安全な終了  いつもの sleep とかの話   Kubernetes - Plugins | JetBrains  JetBrains IDE の Kubernetes plugin, VSCode で書くより遥かに体験がいいけど YAML 書くために JetBrains IDE 起動したくないというジレンマがある   A Practical Guide to Setting Kubernetes Requests and Limits  Pod の resources の決め方 limits を 2x requests にしろとか書いてあるけどこれには反対で特に memory は requests と limits 同じにしたほうがいいと思ってる    </description>
+      <description>Diary  None  Note  KubernetesでRollingUpdateするためのPodの安全な終了  https://tech-lab.sios.jp/archives/18730 いつもの sleep とかの話   Kubernetes - Plugins | JetBrains  https://plugins.jetbrains.com/plugin/10485-kubernetes JetBrains IDE の Kubernetes plugin, VSCode で書くより遥かに体験がいいけど YAML 書くために JetBrains IDE 起動したくないというジレンマがある   A Practical Guide to Setting Kubernetes Requests and Limits  http://blog.kubecost.com/blog/requests-and-limits/?utm_sq=g99e5gas9j Pod の resources の決め方 limits を 2x requests にしろとか書いてあるけどこれには反対で特に memory は requests と limits 同じにしたほうがいいと思ってる    </description>
     </item>
     
     <item>
@@ -82,7 +82,7 @@
       <pubDate>Tue, 31 Dec 2019 15:01:47 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200101/</guid>
-      <description>Diary  Happy new year 🥳  Note  2019年発表された Datadog のプロダクトを勝手に紹介していく  Network performance monitoring, 入れてみてるんだけど有効活用できてないのでもっと活用していきたい   Why are my Go executable files so large?  Go のバイナリサイズが runtime.pclntab というシンボルテーブルがソースコードのサイズに比して super-linear に肥大するため膨れてしまうという話, らしい   Fate/Grand Orderにおける大規模なデータベース移行と負荷試験  &amp;ldquo;負荷試験は決して片手間にやるものではなく、専任の担当者が、余裕を持ったスケジュールで行うべきです&amp;rdquo; いいはなしすぎる https://twitter.com/voluntas/status/1212278094104416257    </description>
+      <description>Diary  Happy new year 🥳  Note  2019年発表された Datadog のプロダクトを勝手に紹介していく  https://yasuharu519.hatenablog.com/entry/2019/12/14/002155 Network performance monitoring, 入れてみてるんだけど有効活用できてないのでもっと活用していきたい   Why are my Go executable files so large?  https://www.cockroachlabs.com/blog/go-file-size/ Go のバイナリサイズが runtime.pclntab というシンボルテーブルがソースコードのサイズに比して super-linear に肥大するため膨れてしまうという話, らしい   Fate/Grand Orderにおける大規模なデータベース移行と負荷試験  https://www.slideshare.net/MorioImai/fategrand-order &amp;ldquo;負荷試験は決して片手間にやるものではなく、専任の担当者が、余裕を持ったスケジュールで行うべきです&amp;rdquo; いいはなしすぎる https://twitter.com/voluntas/status/1212278094104416257    </description>
     </item>
     
     <item>

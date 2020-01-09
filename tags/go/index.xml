@@ -19,7 +19,7 @@
       <pubDate>Tue, 07 Jan 2020 15:03:21 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200108/</guid>
-      <description>Diary  None  Note  Introducing Datadog Agent 7  Datadog の custome checks 一覧下のリンクで確認できて便利  https://app.datadoghq.com/compatibility_check     io.Readerのファイルタイプを判定する  io.MultiReader の使い所さん   Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい 技術推薦図書 - Google スプレッドシート  すごい   Goのnet/httpのkeep-aliveで気をつけること  keep-alive の条件に response body を読み切る, というのは知らなかった io.Copy(ioutil.Discard, resp.Body) よさそう    </description>
+      <description>Diary  None  Note  Introducing Datadog Agent 7  https://www.datadoghq.com/blog/introducing-agent7-with-python3/ Datadog の custome checks 一覧下のリンクで確認できて便利  https://app.datadoghq.com/compatibility_check     io.Readerのファイルタイプを判定する  https://qiita.com/knqyf263/items/6dfc891c6d3c6b94f895 io.MultiReader の使い所さん   Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい  https://twitter.com/ido_kara_deru/status/1214721176917798912   技術推薦図書 - Google スプレッドシート  https://docs.google.com/spreadsheets/d/1wk8AG6keEM0y0-ZK6_vb-88UMgXM6ttVqumoE6Pc4qw/edit#gid=0 すごい   Goのnet/httpのkeep-aliveで気をつけること  https://christina04.hatenablog.com/entry/go-keep-alive keep-alive の条件に response body を読み切る, というのは知らなかった io.Copy(ioutil.Discard, resp.Body) よさそう    </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Sun, 05 Jan 2020 21:28:38 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200105/</guid>
-      <description>Diary  None  Note  Go: Concurrency &amp;amp; Scheduler Affinity  goroutine の仕組み   Lectures | UTokyo OpenCourseWare  東大の CS 講義   ghq v1リリースとghq-handbookのお知らせ  ないと生きていけないツール    </description>
+      <description>Diary  None  Note  Go: Concurrency &amp;amp; Scheduler Affinity  https://medium.com/a-journey-with-go/go-concurrency-scheduler-affinity-3b678f490488 goroutine の仕組み   Lectures | UTokyo OpenCourseWare]  https://ocw.u-tokyo.ac.jp/lecture-search/?fq%5Bsubject_codes%5D%5B0%5D=540 東大の CS 講義   ghq v1リリースとghq-handbookのお知らせ  https://songmu.jp/riji/entry/2020-01-05-ghq-v1.html ないと生きていけないツール    </description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Tue, 31 Dec 2019 15:01:47 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200101/</guid>
-      <description>Diary  Happy new year 🥳  Note  2019年発表された Datadog のプロダクトを勝手に紹介していく  Network performance monitoring, 入れてみてるんだけど有効活用できてないのでもっと活用していきたい   Why are my Go executable files so large?  Go のバイナリサイズが runtime.pclntab というシンボルテーブルがソースコードのサイズに比して super-linear に肥大するため膨れてしまうという話, らしい   Fate/Grand Orderにおける大規模なデータベース移行と負荷試験  &amp;ldquo;負荷試験は決して片手間にやるものではなく、専任の担当者が、余裕を持ったスケジュールで行うべきです&amp;rdquo; いいはなしすぎる https://twitter.com/voluntas/status/1212278094104416257    </description>
+      <description>Diary  Happy new year 🥳  Note  2019年発表された Datadog のプロダクトを勝手に紹介していく  https://yasuharu519.hatenablog.com/entry/2019/12/14/002155 Network performance monitoring, 入れてみてるんだけど有効活用できてないのでもっと活用していきたい   Why are my Go executable files so large?  https://www.cockroachlabs.com/blog/go-file-size/ Go のバイナリサイズが runtime.pclntab というシンボルテーブルがソースコードのサイズに比して super-linear に肥大するため膨れてしまうという話, らしい   Fate/Grand Orderにおける大規模なデータベース移行と負荷試験  https://www.slideshare.net/MorioImai/fategrand-order &amp;ldquo;負荷試験は決して片手間にやるものではなく、専任の担当者が、余裕を持ったスケジュールで行うべきです&amp;rdquo; いいはなしすぎる https://twitter.com/voluntas/status/1212278094104416257    </description>
     </item>
     
     <item>
