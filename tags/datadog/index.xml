@@ -19,7 +19,7 @@
       <pubDate>Tue, 07 Jan 2020 15:03:21 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200108/</guid>
-      <description>Diary Note  Introducing Datadog Agent 7  Datadog の custome checks 一覧下のリンクで確認できて便利  https://app.datadoghq.com/compatibility_check     io.Readerのファイルタイプを判定する  io.MultiReader の使い所さん   Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい 技術推薦図書 - Google スプレッドシート  すごい   Goのnet/httpのkeep-aliveで気をつけること  keep-alive の条件に response body を読み切る, というのは知らなかった io.Copy(ioutil.Discard, resp.Body) よさそう    </description>
+      <description>Diary  None  Note  Introducing Datadog Agent 7  Datadog の custome checks 一覧下のリンクで確認できて便利  https://app.datadoghq.com/compatibility_check     io.Readerのファイルタイプを判定する  io.MultiReader の使い所さん   Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい 技術推薦図書 - Google スプレッドシート  すごい   Goのnet/httpのkeep-aliveで気をつけること  keep-alive の条件に response body を読み切る, というのは知らなかった io.Copy(ioutil.Discard, resp.Body) よさそう    </description>
     </item>
     
     <item>
