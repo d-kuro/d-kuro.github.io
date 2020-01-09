@@ -19,7 +19,7 @@
       <pubDate>Thu, 28 Nov 2019 15:02:40 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191129/</guid>
-      <description></description>
+      <description>Diary  Certificate expired in Kuberentes cluster 😱  Note  What even is a kubelet?  http://kamalmarhubi.com/blog/2015/08/27/what-even-is-a-kubelet/ Kubelet とは   interactive kubectl pod filter  https://github.com/kubernetes/kubernetes/pull/85715 interactive に kubectl exec する Pod を選択できる, 便利そう    </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Thu, 21 Nov 2019 15:04:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191122/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  Learn more about Kubernetes certificates  Note  Accessing Kubelet API  https://gist.github.com/lizrice/c32740fac51db2a5518f06c3dae4944f Kubelet の API にアクセスする   Is there API documentation for Kubelet API  https://stackoverflow.com/questions/35075195/is-there-api-documentation-for-kubelet-api Kubelet の API のドキュメントはないよってやつ   Attacking Kubernetes through Kubelet  https://labs.f-secure.com/blog/attacking-kubernetes-through-kubelet/ Kubelet の API で Pod への exec ができるので ServiceAccount の token 取ってきて API Server に攻撃する話 Kubelet はデフォルトで匿名のアクセスを受け入れるので無効にするためには明示的にオプションを指定する必要がある   Kubelet authentication/authorization  https://kubernetes.</description>
     </item>
     
   </channel>

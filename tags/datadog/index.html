@@ -241,8 +241,37 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200108/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://www.datadoghq.com/blog/introducing-agent7-with-python3/">Introducing Datadog Agent 7</a>
+<ul>
+<li>Datadog の custome checks 一覧下のリンクで確認できて便利
+<ul>
+<li><a href="https://app.datadoghq.com/compatibility_check">https://app.datadoghq.com/compatibility_check</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://qiita.com/knqyf263/items/6dfc891c6d3c6b94f895">io.Readerのファイルタイプを判定する</a>
+<ul>
+<li><code>io.MultiReader</code> の使い所さん</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/ido_kara_deru/status/1214721176917798912">Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1wk8AG6keEM0y0-ZK6_vb-88UMgXM6ttVqumoE6Pc4qw/edit#gid=0">技術推薦図書 - Google スプレッドシート</a>
+<ul>
+<li>すごい</li>
+</ul>
+</li>
+<li><a href="https://christina04.hatenablog.com/entry/go-keep-alive">Goのnet/httpのkeep-aliveで気をつけること</a>
+<ul>
+<li>keep-alive の条件に response body を読み切る, というのは知らなかった</li>
+<li><code>io.Copy(ioutil.Discard, resp.Body)</code> よさそう</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -290,8 +319,30 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200101/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>Happy new year 🥳</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://yasuharu519.hatenablog.com/entry/2019/12/14/002155">2019年発表された Datadog のプロダクトを勝手に紹介していく</a>
+<ul>
+<li>Network performance monitoring, 入れてみてるんだけど有効活用できてないのでもっと活用していきたい</li>
+</ul>
+</li>
+<li><a href="https://www.cockroachlabs.com/blog/go-file-size/">Why are my Go executable files so large?</a>
+<ul>
+<li>Go のバイナリサイズが runtime.pclntab というシンボルテーブルがソースコードのサイズに比して super-linear に肥大するため膨れてしまうという話, らしい</li>
+</ul>
+</li>
+<li><a href="https://www.slideshare.net/MorioImai/fategrand-order">Fate/Grand Orderにおける大規模なデータベース移行と負荷試験</a>
+<ul>
+<li>&ldquo;負荷試験は決して片手間にやるものではなく、専任の担当者が、余裕を持ったスケジュールで行うべきです&rdquo; いいはなしすぎる</li>
+<li><a href="https://twitter.com/voluntas/status/1212278094104416257">https://twitter.com/voluntas/status/1212278094104416257</a></li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -339,8 +390,29 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/201912/20191227/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<p>None</p>
+<h2 id="note">Note</h2>
+<ul>
+<li>Kubernetes Pod Escape Using Log Mounts
+<ul>
+<li><a href="https://blog.aquasec.com/kubernetes-security-pod-escape-log-mounts">https://blog.aquasec.com/kubernetes-security-pod-escape-log-mounts</a></li>
+<li>Kubernetes の logging について</li>
+</ul>
+</li>
+<li>What's next for monitoring Kubernetes
+<ul>
+<li><a href="https://www.datadoghq.com/ja/blog/whats-next-monitoring-kubernetes/">https://www.datadoghq.com/ja/blog/whats-next-monitoring-kubernetes/</a></li>
+<li>ExtendedDaemonSet と Datadog Operator, 期待
+<ul>
+<li><a href="https://github.com/DataDog/extendeddaemonset">https://github.com/DataDog/extendeddaemonset</a></li>
+<li><a href="https://github.com/DataDog/datadog-operator">https://github.com/DataDog/datadog-operator</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -388,8 +460,33 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/201912/20191219/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>I upgraded the Kubernetes cluster</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li>Datadog agent v7 のリリースがきた
+<ul>
+<li><a href="https://github.com/DataDog/datadog-agent/releases/tag/7.16.0">https://github.com/DataDog/datadog-agent/releases/tag/7.16.0</a></li>
+<li>Python 2 のサポートが無くなった</li>
+<li>5 -&gt; 7 のマイグレーションもできそう</li>
+<li><a href="https://docs.datadoghq.com/agent/versions/upgrade_to_agent_v7/?tab=linux">https://docs.datadoghq.com/agent/versions/upgrade_to_agent_v7/?tab=linux</a></li>
+</ul>
+</li>
+<li>Kubernetes 1.17: SIG-Auth の変更内容
+<ul>
+<li><a href="https://qiita.com/hiyosi/items/837096e6d7e62e677e00">https://qiita.com/hiyosi/items/837096e6d7e62e677e00</a></li>
+</ul>
+</li>
+<li>Knative Serving in Production
+<ul>
+<li><a href="https://qiita.com/toVersus/items/1317a31fead9b836a68d">https://qiita.com/toVersus/items/1317a31fead9b836a68d</a></li>
+<li>Knative なんもわからん</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -441,8 +538,55 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/201911/20191128/" class="post-read-more">[Read More]</a>
+        <h2 id="want-to-do">Want to do</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="achievement">Achievement</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="diary">Diary</h2>
+<ul>
+<li>I had tonsillitis</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li>Kubernetes Control Plane monitoring with Datadog
+<ul>
+<li><a href="https://www.datadoghq.com/blog/kubernetes-control-plane-monitoring/">https://www.datadoghq.com/blog/kubernetes-control-plane-monitoring/</a></li>
+<li>Control Plane の監視の話</li>
+</ul>
+</li>
+<li>Introducing the Datadog Cluster Agent
+<ul>
+<li><a href="https://www.datadoghq.com/blog/datadog-cluster-agent/">https://www.datadoghq.com/blog/datadog-cluster-agent/</a></li>
+</ul>
+</li>
+<li>go-fuzzyfinder でストリームをサポートした
+<ul>
+<li><a href="https://twitter.com/ktr_0731/status/1199747821756284929">https://twitter.com/ktr_0731/status/1199747821756284929</a></li>
+<li>すごい</li>
+</ul>
+</li>
+<li>1年間のシステム運用を通して分かったIstioの嬉しさと活用における注意点
+<ul>
+<li><a href="https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience">https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience</a></li>
+</ul>
+</li>
+<li>我々は Kubernetes の何を監視すればいいのか？
+<ul>
+<li><a href="https://speakerdeck.com/manabusakai/cloudnative-days-kansai-2019">https://speakerdeck.com/manabusakai/cloudnative-days-kansai-2019</a></li>
+</ul>
+</li>
+<li>Production Ready Kubernetesに必要な15のこと
+<ul>
+<li><a href="https://speakerdeck.com/govargo/production-ready-kubernetes-15-rules">https://speakerdeck.com/govargo/production-ready-kubernetes-15-rules</a></li>
+<li>最高</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -496,8 +640,39 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/201911/20191121/" class="post-read-more">[Read More]</a>
+        <h2 id="want-to-do">Want to do</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="achievement">Achievement</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="diary">Diary</h2>
+<ul>
+<li>There was a dinner for hiring</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li>Using Native Memory by JVM
+<ul>
+<li><a href="https://dev.classmethod.jp/server-side/using-native-memory-by-jvm/">https://dev.classmethod.jp/server-side/using-native-memory-by-jvm/</a></li>
+<li>JVM のメモリの話</li>
+</ul>
+</li>
+<li>Datadog Agent の livenessProbe が失敗して Pod が再起動されまくるやつを踏んだ
+<ul>
+<li><a href="https://github.com/DataDog/datadog-agent/issues/1830">https://github.com/DataDog/datadog-agent/issues/1830</a></li>
+<li><code>DD_CHECK_RUNNERS</code> とか試したけど改善しなくてサポートに投げてる</li>
+</ul>
+</li>
+<li>Datadog Agent で <code>Unable to detect the kubelet URL automatically</code> というエラーが出て Kubernetes のメトリクスが取れない話
+<ul>
+<li><a href="https://github.com/DataDog/integrations-core/issues/2582">https://github.com/DataDog/integrations-core/issues/2582</a></li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 

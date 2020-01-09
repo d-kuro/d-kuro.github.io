@@ -240,8 +240,37 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200108/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://www.datadoghq.com/blog/introducing-agent7-with-python3/">Introducing Datadog Agent 7</a>
+<ul>
+<li>Datadog の custome checks 一覧下のリンクで確認できて便利
+<ul>
+<li><a href="https://app.datadoghq.com/compatibility_check">https://app.datadoghq.com/compatibility_check</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://qiita.com/knqyf263/items/6dfc891c6d3c6b94f895">io.Readerのファイルタイプを判定する</a>
+<ul>
+<li><code>io.MultiReader</code> の使い所さん</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/ido_kara_deru/status/1214721176917798912">Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1wk8AG6keEM0y0-ZK6_vb-88UMgXM6ttVqumoE6Pc4qw/edit#gid=0">技術推薦図書 - Google スプレッドシート</a>
+<ul>
+<li>すごい</li>
+</ul>
+</li>
+<li><a href="https://christina04.hatenablog.com/entry/go-keep-alive">Goのnet/httpのkeep-aliveで気をつけること</a>
+<ul>
+<li>keep-alive の条件に response body を読み切る, というのは知らなかった</li>
+<li><code>io.Copy(ioutil.Discard, resp.Body)</code> よさそう</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -289,7 +318,7 @@
     </p>
     <div class="post-entry">
         
-        
+        Diary  I have not read the book 😇  Note  Kubernetesの動向予測 2019 =&gt; 2020  青山さんの   A Deep Dive into eBPF: The Technology that Powers Tracee  Go のコードで説明されてる, ちゃんと読みたい   [Go] GitHub Actionsでキャッシュ機能を使う #github  https://github.com/actions/cache/blob/master/examples.md#go---modules 便利   Support Custom Pod Status for PodReadinessGate to Block Premature Pod Termination  ALB Ingress の IP mode (Pod に直接ルーティングする方) でタイムアウトが起きるという話   Toolbox App 1.11: What’s New.
         <a href="https://d-kuro.github.io/diaries/202001/20200107/" class="post-read-more">[Read More]</a>
         
     </div>
@@ -342,8 +371,46 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200106/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>I published blog
+<ul>
+<li><a href="https://d-kuro.github.io/posts/kubernetes-leader-election/">https://d-kuro.github.io/posts/kubernetes-leader-election/</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://github.com/jesseduffield/notes/wiki/Golang-IO-Cookbook">Golang IO Cookbook</a>
+<ul>
+<li>Go の I/O に関する Cookbook</li>
+</ul>
+</li>
+<li><a href="https://blog.chaspy.me/entry/2020/01/05/120000">Service 間通信を Envoy 経由で行い、Metrics を取得する</a>
+<ul>
+<li>Envoy なんもわからん</li>
+</ul>
+</li>
+<li><a href="https://aws.amazon.com/jp/builders-library/leader-election-in-distributed-systems/?did=ba_card&amp;trk=ba_card">分散システムのリーダー選挙</a>
+<ul>
+<li>AWS でも一番使われている Leader Election はリースらしい</li>
+<li>ベストプラクティスも載ってる</li>
+</ul>
+</li>
+<li><a href="https://github.com/operator-framework/operator-sdk/blob/master/doc/migration/version-upgrade-guide.md">Operator SDK Version upgrade guide</a>
+<ul>
+<li>バージョン上げるために読んでる</li>
+<li>基本は依存ライブラリの更新っぽい</li>
+<li>dependabot とか使わないほうがいいのかな</li>
+</ul>
+</li>
+<li><a href="https://katainaka0503.hatenablog.com/entry/2020/01/06/184314">EKSのIAM Role for Service Accountsを使用するときにはSTSのリージョナルエンドポイントを使うように設定しようという話</a>
+<ul>
+<li><code>AWS_STS_REGIONAL_ENDPOINTS=regional</code></li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -397,8 +464,29 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200105/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://medium.com/a-journey-with-go/go-concurrency-scheduler-affinity-3b678f490488">Go: Concurrency &amp; Scheduler Affinity</a>
+<ul>
+<li>goroutine の仕組み</li>
+</ul>
+</li>
+<li><a href="https://ocw.u-tokyo.ac.jp/lecture-search/?fq%5Bsubject_codes%5D%5B0%5D=540">Lectures | UTokyo OpenCourseWare</a>
+<ul>
+<li>東大の CS 講義</li>
+</ul>
+</li>
+<li><a href="https://songmu.jp/riji/entry/2020-01-05-ghq-v1.html">ghq v1リリースとghq-handbookのお知らせ</a>
+<ul>
+<li>ないと生きていけないツール</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -448,8 +536,31 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200104/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://blog.balloon.im/2019/11/hugo-v0.60.0-%E6%9B%B4%E6%96%B0%E5%BE%8Cmarkdown-%E3%81%AB-html-%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88/">Hugo v0.60.0 更新後、Markdown に HTML を入れている場合。</a>
+<ul>
+<li>見事にハマった</li>
+<li>Markdown のレンダリングエンジンが goldmark に変わったので unsafe を有効にしないといけない</li>
+<li><code>config.toml</code> に以下を記載</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">[markup.goldmark.renderer]
+  unsafe = true
+</code></pre></div><ul>
+<li><a href="https://tc-minami.github.io/2018/12/%E5%88%9D%E5%BF%83%E8%80%85%E7%94%A8hugo%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92google%E6%A4%9C%E7%B4%A2%E7%B5%90%E6%9E%9C%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95google-search-console/">【初心者用】Hugoで作成したブログをGoogle検索結果に表示させる方法【Google Search Console】</a>
+<ul>
+<li>やってなかったので Goole 検索に出てきてなかった</li>
+<li>Google search console で登録してサイトマップに <code>index.xml</code> を登録しようという話</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -495,8 +606,35 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200103/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>I bought Programming Kubernetes</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Host on GitHub | Hugo</a>
+<ul>
+<li>GitHub pages で <code>&lt;USERNAME&gt;.github.io</code> ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった</li>
+<li>個別のリポジトリで GitHub pages を設定すると <code>https://&lt;USERNAME&gt;.github.io/&lt;REPO&gt;/</code> って URL になる</li>
+</ul>
+</li>
+<li><a href="https://www.slideshare.net/pfi/kubernete-meetup-tokyo-18-kubebuildercontrollerruntime">Kubernete Meetup Tokyo #18 - Kubebuilder/controller-runtime 入門</a>
+<ul>
+<li>現地で聞いたとき何もわからんなって思ってたけど今ならわかる</li>
+</ul>
+</li>
+<li><a href="https://learnk8s.io/production-best-practices">Kubernetes production best practices</a>
+<ul>
+<li>Check list</li>
+</ul>
+</li>
+<li><a href="https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727">Understanding kubernetes networking: pods</a>
+<ul>
+<li>Pod のネットワーキングについて</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -548,8 +686,30 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200102/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://tech-lab.sios.jp/archives/18730">KubernetesでRollingUpdateするためのPodの安全な終了</a>
+<ul>
+<li>いつもの sleep とかの話</li>
+</ul>
+</li>
+<li><a href="https://plugins.jetbrains.com/plugin/10485-kubernetes">Kubernetes - Plugins | JetBrains</a>
+<ul>
+<li>JetBrains IDE の Kubernetes plugin, VSCode で書くより遥かに体験がいいけど YAML 書くために JetBrains IDE 起動したくないというジレンマがある</li>
+</ul>
+</li>
+<li><a href="http://blog.kubecost.com/blog/requests-and-limits/?utm_sq=g99e5gas9j">A Practical Guide to Setting Kubernetes Requests and Limits</a>
+<ul>
+<li>Pod の resources の決め方</li>
+<li>limits を 2x requests にしろとか書いてあるけどこれには反対で特に memory は requests と limits 同じにしたほうがいいと思ってる</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -595,8 +755,30 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200101/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>Happy new year 🥳</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://yasuharu519.hatenablog.com/entry/2019/12/14/002155">2019年発表された Datadog のプロダクトを勝手に紹介していく</a>
+<ul>
+<li>Network performance monitoring, 入れてみてるんだけど有効活用できてないのでもっと活用していきたい</li>
+</ul>
+</li>
+<li><a href="https://www.cockroachlabs.com/blog/go-file-size/">Why are my Go executable files so large?</a>
+<ul>
+<li>Go のバイナリサイズが runtime.pclntab というシンボルテーブルがソースコードのサイズに比して super-linear に肥大するため膨れてしまうという話, らしい</li>
+</ul>
+</li>
+<li><a href="https://www.slideshare.net/MorioImai/fategrand-order">Fate/Grand Orderにおける大規模なデータベース移行と負荷試験</a>
+<ul>
+<li>&ldquo;負荷試験は決して片手間にやるものではなく、専任の担当者が、余裕を持ったスケジュールで行うべきです&rdquo; いいはなしすぎる</li>
+<li><a href="https://twitter.com/voluntas/status/1212278094104416257">https://twitter.com/voluntas/status/1212278094104416257</a></li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -644,8 +826,34 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/201912/20191231/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<h2 id="note">Note</h2>
+<ul>
+<li>KubernetesのService Accountについて調べてみた
+<ul>
+<li><a href="https://qiita.com/knqyf263/items/ecc799650fe247dce9c5">https://qiita.com/knqyf263/items/ecc799650fe247dce9c5</a></li>
+</ul>
+</li>
+<li>ラベルとjsonpathを使ったkubectl/ocの出力のフィルタリング
+<ul>
+<li><a href="https://zaki-hmkc.hatenablog.com/entry/2019/12/30/093754">https://zaki-hmkc.hatenablog.com/entry/2019/12/30/093754</a></li>
+<li>jsonpath 使いこなせなさすぎるマン</li>
+</ul>
+</li>
+<li>Kubernetes The Hard Way(日本語版)
+<ul>
+<li><a href="https://github.com/inductor/kubernetes-the-hard-way">https://github.com/inductor/kubernetes-the-hard-way</a></li>
+<li>日本語版</li>
+</ul>
+</li>
+<li>Envoy + SPIRE + OPA で Service Mesh を構築する
+<ul>
+<li><a href="https://qiita.com/ryysud/items/bbfc730e17f53be65ce0">https://qiita.com/ryysud/items/bbfc730e17f53be65ce0</a></li>
+<li>OPA なんもわからん</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -695,8 +903,32 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/201912/20191230/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li>働きながら米国のコンピュータサイエンスの学士号を取得する、UoPeopleという選択肢
+<ul>
+<li><a href="https://tmkk.hatenablog.com/entry/2019/12/30/191131">https://tmkk.hatenablog.com/entry/2019/12/30/191131</a></li>
+<li>学士ほしい……</li>
+</ul>
+</li>
+<li>HTTP/3をUDPロードバランサで分散するときの問題点 (AWS NLBで試してみた)
+<ul>
+<li><a href="https://asnokaze.hatenablog.com/entry/2019/12/30/201331">https://asnokaze.hatenablog.com/entry/2019/12/30/201331</a></li>
+<li>UDP 使うぐらいしか知らなかったけど, stateful なんだ</li>
+</ul>
+</li>
+<li>GitOpsで絶対に避けて通れないブランチ戦略
+<ul>
+<li><a href="https://amaya382.hatenablog.jp/entry/2019/12/02/192159">https://amaya382.hatenablog.jp/entry/2019/12/02/192159</a></li>
+<li>GitOps, manifest を別のリポジトリに切り出せみたいなのがベストプラクティスみたいな感じになってるけど monorepo だとそのまま打ち込んでおきたいよなみたいな気持ちになってる</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 

@@ -28,7 +28,7 @@
       <pubDate>Thu, 02 Jan 2020 15:01:52 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200103/</guid>
-      <description></description>
+      <description>Diary  I bought Programming Kubernetes  Note  Host on GitHub | Hugo  GitHub pages で &amp;lt;USERNAME&amp;gt;.github.io ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった 個別のリポジトリで GitHub pages を設定すると https://&amp;lt;USERNAME&amp;gt;.github.io/&amp;lt;REPO&amp;gt;/ って URL になる   Kubernete Meetup Tokyo #18 - Kubebuilder/controller-runtime 入門  現地で聞いたとき何もわからんなって思ってたけど今ならわかる   Kubernetes production best practices  Check list   Understanding kubernetes networking: pods  Pod のネットワーキングについて    </description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Tue, 24 Dec 2019 15:02:02 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191225/</guid>
-      <description></description>
+      <description>Diary  Merry Christmas 🎄  Note  Practice Enough With These 150 Questions for the CKAD Exam  https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552 CKAD 150 問   Logging Guidelines  https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/TMP-LOGGING.md controller-runtime の log についてのガイドライン Log level  https://github.com/kubernetes-sigs/controller-runtime/issues/167     プラットフォームの上でものを作るということ  https://toris.io/2019/12/what-i-think-about-when-i-think-about-kubernetes-and-ecs/ いい話   goroutine が確保するメモリはスタックにあるという  https://twitter.com/sonatard/status/1209877645334216705   Kubernetes 1.17: SIG-Network の変更内容  https://qiita.com/superbrothers/items/fd936c4046459a16609c EndpointSlice, あんまり良くわかってない   kubebuilder の MultiVersion Conversion の話  https://book.kubebuilder.io/multiversion-tutorial/conversion-concepts.html   Kubernetes 1.</description>
     </item>
     
   </channel>

@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>2019-12-22 - AFN Blog</title>
+  <meta name="description" content="Diary  None  Note  time.Timer#Reset() の正しい使い方  https://www.kaoriya.net/blog/2019/12/19/ あんまり使ったことなかった   Amazon EKS でなんかいい感じにスポットインスタンスを使う  https://qiita.com/mats16/items/9939e16b70fba71c0cca eksctl と AWS Node Termination Handler でいい感じにする   Deep dive into KubeDNS  https://keisukeyamashita.com/post/20191111_dns_deep_dive/ ちゃんと読みたい   Operator 101  https://speakerdeck.com/capsmalt/operator-101 Operator SDK と kubebuilder, どっちがいいんだろ   Goのコンパイラをみてみよう 〜iotaを通じて〜 @MCCMMANCC 2019 / dive into go complier with iota  https://speakerdeck.com/uniuniunicode/dive-into-go-complier-with-iota コンパイラなんもわからん   Kubernetes 101  https://www.cncf.io/blog/2019/12/16/kubernetes-101/ Kubernetes 勉強会のスライドで触れてもいいかもしれない    ">
   <meta name="author" content="d-kuro"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -56,7 +57,7 @@
     "name" : "d-kuro"
   },
   "headline": "2019-12-22",
-  "description" : "",
+  "description" : "Diary  None  Note  time.Timer#Reset() の正しい使い方  https:\/\/www.kaoriya.net\/blog\/2019\/12\/19\/ あんまり使ったことなかった   Amazon EKS でなんかいい感じにスポットインスタンスを使う  https:\/\/qiita.com\/mats16\/items\/9939e16b70fba71c0cca eksctl と AWS Node Termination Handler でいい感じにする   Deep dive into KubeDNS  https:\/\/keisukeyamashita.com\/post\/20191111_dns_deep_dive\/ ちゃんと読みたい   Operator 101  https:\/\/speakerdeck.com\/capsmalt\/operator-101 Operator SDK と kubebuilder, どっちがいいんだろ   Goのコンパイラをみてみよう 〜iotaを通じて〜 @MCCMMANCC 2019 \/ dive into go complier with iota  https:\/\/speakerdeck.com\/uniuniunicode\/dive-into-go-complier-with-iota コンパイラなんもわからん   Kubernetes 101  https:\/\/www.cncf.io\/blog\/2019\/12\/16\/kubernetes-101\/ Kubernetes 勉強会のスライドで触れてもいいかもしれない    ",
   "inLanguage" : "en",
   "wordCount":  50 ,
   "datePublished" : "2019-12-21T15:01:59",
@@ -78,12 +79,14 @@
 </script>
 
 <meta property="og:title" content="2019-12-22" />
+<meta property="og:description" content="Diary  None  Note  time.Timer#Reset() の正しい使い方  https://www.kaoriya.net/blog/2019/12/19/ あんまり使ったことなかった   Amazon EKS でなんかいい感じにスポットインスタンスを使う  https://qiita.com/mats16/items/9939e16b70fba71c0cca eksctl と AWS Node Termination Handler でいい感じにする   Deep dive into KubeDNS  https://keisukeyamashita.com/post/20191111_dns_deep_dive/ ちゃんと読みたい   Operator 101  https://speakerdeck.com/capsmalt/operator-101 Operator SDK と kubebuilder, どっちがいいんだろ   Goのコンパイラをみてみよう 〜iotaを通じて〜 @MCCMMANCC 2019 / dive into go complier with iota  https://speakerdeck.com/uniuniunicode/dive-into-go-complier-with-iota コンパイラなんもわからん   Kubernetes 101  https://www.cncf.io/blog/2019/12/16/kubernetes-101/ Kubernetes 勉強会のスライドで触れてもいいかもしれない    ">
 <meta property="og:image" content="https://d-kuro.github.io/img/avatar-icon.jpg" />
 <meta property="og:url" content="https://d-kuro.github.io/diaries/201912/20191222/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="AFN Blog" />
 
   <meta name="twitter:title" content="2019-12-22" />
+  <meta name="twitter:description" content="Diary  None  Note  time.Timer#Reset() の正しい使い方  https://www.kaoriya.net/blog/2019/12/19/ あんまり使ったことなかった   Amazon EKS でなんかいい感じにスポットインスタンスを使う  https://qiita.com/mats16/items/9939e16b70fba71c0cca eksctl …">
   <meta name="twitter:image" content="https://d-kuro.github.io/img/avatar-icon.jpg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@ponde_m" />
@@ -297,6 +300,7 @@
 </ul>
 </li>
 </ul>
+
 
         
           <div class="blog-tags">

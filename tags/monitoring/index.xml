@@ -19,7 +19,7 @@
       <pubDate>Wed, 11 Dec 2019 15:01:03 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191212/</guid>
-      <description></description>
+      <description>Diary  I&#39;m wondering if a bucket for velero backup should be provided for each cluster  https://velero.io/docs/v1.2.0/    Note  Go の命名規則  https://micnncim.com/post/2019/12/11/go-naming-conventions/ いい話   Go の strings.Index の内部実装と Rabin-Karp アルゴリズム  https://qiita.com/po3rin/items/07d51249629390a6201a   Key metrics for Amazon EKS monitoring  https://www.datadoghq.com/blog/eks-cluster-metrics/ 見るべきメトリクス, EKS じゃなくても使える    </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Mon, 09 Dec 2019 13:03:14 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191209/</guid>
-      <description></description>
+      <description>Diary  日記書くのサボってしまった 項目減らしてみたりしたので再開したい  Note  What’s new in Kubernetes 1.17?  https://sysdig.com/blog/whats-new-kubernetes-1-17/   Dave Cheney が pkg 配下に Go のアサーションライブラリを作り始めたらしい  https://github.com/pkg/expect https://twitter.com/micnncim/status/1203466881048272896   EKSでの認証認可 〜aws-iam-authenticatorとIRSAのしくみ〜  https://katainaka0503.hatenablog.com/entry/2019/12/07/091737 ここらへんで動いてる Admission Webhook, master node で動いてるっぽい (Pod として動いてない)   EKS on Fargate：virtual-kubelet の違い + Network/LB 周りの調査  https://amsy810.hateblo.jp/entry/2019/12/04/151642 EKS on Fargate, virtual-kubelet ですらなかった   Hierarchical Namespace で Namespace を階層構造に管理してオブジェクトを伝搬させる  https://amsy810.hateblo.jp/entry/2019/12/01/230822 Namespace 跨いで Object を伝搬させるやつ   The RED Method: How to Instrument Your Services  https://grafana.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Wed, 27 Nov 2019 15:03:39 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191128/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I had tonsillitis  Note  Kubernetes Control Plane monitoring with Datadog  https://www.datadoghq.com/blog/kubernetes-control-plane-monitoring/ Control Plane の監視の話   Introducing the Datadog Cluster Agent  https://www.datadoghq.com/blog/datadog-cluster-agent/   go-fuzzyfinder でストリームをサポートした  https://twitter.com/ktr_0731/status/1199747821756284929 すごい   1年間のシステム運用を通して分かったIstioの嬉しさと活用における注意点  https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience   我々は Kubernetes の何を監視すればいいのか？  https://speakerdeck.com/manabusakai/cloudnative-days-kansai-2019   Production Ready Kubernetesに必要な15のこと  https://speakerdeck.com/govargo/production-ready-kubernetes-15-rules 最高    </description>
     </item>
     
   </channel>

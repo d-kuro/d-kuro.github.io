@@ -19,7 +19,7 @@
       <pubDate>Tue, 07 Jan 2020 15:03:21 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200108/</guid>
-      <description></description>
+      <description>Diary Note  Introducing Datadog Agent 7  Datadog の custome checks 一覧下のリンクで確認できて便利  https://app.datadoghq.com/compatibility_check     io.Readerのファイルタイプを判定する  io.MultiReader の使い所さん   Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい 技術推薦図書 - Google スプレッドシート  すごい   Goのnet/httpのkeep-aliveで気をつけること  keep-alive の条件に response body を読み切る, というのは知らなかった io.Copy(ioutil.Discard, resp.Body) よさそう    </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Tue, 31 Dec 2019 15:01:47 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200101/</guid>
-      <description></description>
+      <description>Diary  Happy new year 🥳  Note  2019年発表された Datadog のプロダクトを勝手に紹介していく  Network performance monitoring, 入れてみてるんだけど有効活用できてないのでもっと活用していきたい   Why are my Go executable files so large?  Go のバイナリサイズが runtime.pclntab というシンボルテーブルがソースコードのサイズに比して super-linear に肥大するため膨れてしまうという話, らしい   Fate/Grand Orderにおける大規模なデータベース移行と負荷試験  &amp;ldquo;負荷試験は決して片手間にやるものではなく、専任の担当者が、余裕を持ったスケジュールで行うべきです&amp;rdquo; いいはなしすぎる https://twitter.com/voluntas/status/1212278094104416257    </description>
     </item>
     
     <item>
@@ -37,7 +37,8 @@
       <pubDate>Thu, 26 Dec 2019 15:02:08 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191227/</guid>
-      <description></description>
+      <description>Diary None
+Note  Kubernetes Pod Escape Using Log Mounts  https://blog.aquasec.com/kubernetes-security-pod-escape-log-mounts Kubernetes の logging について   What&#39;s next for monitoring Kubernetes  https://www.datadoghq.com/ja/blog/whats-next-monitoring-kubernetes/ ExtendedDaemonSet と Datadog Operator, 期待  https://github.com/DataDog/extendeddaemonset https://github.com/DataDog/datadog-operator      </description>
     </item>
     
     <item>
@@ -46,7 +47,7 @@
       <pubDate>Wed, 18 Dec 2019 15:00:39 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191219/</guid>
-      <description></description>
+      <description>Diary  I upgraded the Kubernetes cluster  Note  Datadog agent v7 のリリースがきた  https://github.com/DataDog/datadog-agent/releases/tag/7.16.0 Python 2 のサポートが無くなった 5 -&amp;gt; 7 のマイグレーションもできそう https://docs.datadoghq.com/agent/versions/upgrade_to_agent_v7/?tab=linux   Kubernetes 1.17: SIG-Auth の変更内容  https://qiita.com/hiyosi/items/837096e6d7e62e677e00   Knative Serving in Production  https://qiita.com/toVersus/items/1317a31fead9b836a68d Knative なんもわからん    </description>
     </item>
     
     <item>
@@ -55,7 +56,7 @@
       <pubDate>Wed, 27 Nov 2019 15:03:39 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191128/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I had tonsillitis  Note  Kubernetes Control Plane monitoring with Datadog  https://www.datadoghq.com/blog/kubernetes-control-plane-monitoring/ Control Plane の監視の話   Introducing the Datadog Cluster Agent  https://www.datadoghq.com/blog/datadog-cluster-agent/   go-fuzzyfinder でストリームをサポートした  https://twitter.com/ktr_0731/status/1199747821756284929 すごい   1年間のシステム運用を通して分かったIstioの嬉しさと活用における注意点  https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience   我々は Kubernetes の何を監視すればいいのか？  https://speakerdeck.com/manabusakai/cloudnative-days-kansai-2019   Production Ready Kubernetesに必要な15のこと  https://speakerdeck.com/govargo/production-ready-kubernetes-15-rules 最高    </description>
     </item>
     
     <item>
@@ -64,7 +65,7 @@
       <pubDate>Wed, 20 Nov 2019 15:04:04 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191121/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  There was a dinner for hiring  Note  Using Native Memory by JVM  https://dev.classmethod.jp/server-side/using-native-memory-by-jvm/ JVM のメモリの話   Datadog Agent の livenessProbe が失敗して Pod が再起動されまくるやつを踏んだ  https://github.com/DataDog/datadog-agent/issues/1830 DD_CHECK_RUNNERS とか試したけど改善しなくてサポートに投げてる   Datadog Agent で Unable to detect the kubelet URL automatically というエラーが出て Kubernetes のメトリクスが取れない話  https://github.com/DataDog/integrations-core/issues/2582    </description>
     </item>
     
   </channel>

@@ -28,7 +28,7 @@
       <pubDate>Sun, 05 Jan 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200106/</guid>
-      <description></description>
+      <description>Diary  I published blog  https://d-kuro.github.io/posts/kubernetes-leader-election/    Note  Golang IO Cookbook  Go の I/O に関する Cookbook   Service 間通信を Envoy 経由で行い、Metrics を取得する  Envoy なんもわからん   分散システムのリーダー選挙  AWS でも一番使われている Leader Election はリースらしい ベストプラクティスも載ってる   Operator SDK Version upgrade guide  バージョン上げるために読んでる 基本は依存ライブラリの更新っぽい dependabot とか使わないほうがいいのかな   EKSのIAM Role for Service Accountsを使用するときにはSTSのリージョナルエンドポイントを使うように設定しようという話  AWS_STS_REGIONAL_ENDPOINTS=regional    </description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Wed, 25 Dec 2019 15:02:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191226/</guid>
-      <description></description>
+      <description>Diary  All Kubernetes clusters migrated version for v1.11 to v1.13  Note  Operator SDK の Leader Election について  https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.2/html/operators/osdk-leader-election   kubernetes 自定义控制器的高可用  http://blog.fatedier.com/2019/04/17/k8s-custom-controller-high-available/ こっちは clinet-go の leaderelection package について   Demystifying Istio&#39;s Sidecar Injection Model  https://istio.io/blog/2019/data-plane-setup/ Istio の sidecar injection の話   Kubernetes 1.17の変更点: SIG Node の変更内容  https://qiita.com/uesyn/items/654dd0c84c269b97b077    </description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       <pubDate>Sat, 21 Dec 2019 15:01:59 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191222/</guid>
-      <description></description>
+      <description>Diary  None  Note  time.Timer#Reset() の正しい使い方  https://www.kaoriya.net/blog/2019/12/19/ あんまり使ったことなかった   Amazon EKS でなんかいい感じにスポットインスタンスを使う  https://qiita.com/mats16/items/9939e16b70fba71c0cca eksctl と AWS Node Termination Handler でいい感じにする   Deep dive into KubeDNS  https://keisukeyamashita.com/post/20191111_dns_deep_dive/ ちゃんと読みたい   Operator 101  https://speakerdeck.com/capsmalt/operator-101 Operator SDK と kubebuilder, どっちがいいんだろ   Goのコンパイラをみてみよう 〜iotaを通じて〜 @MCCMMANCC 2019 / dive into go complier with iota  https://speakerdeck.com/uniuniunicode/dive-into-go-complier-with-iota コンパイラなんもわからん   Kubernetes 101  https://www.cncf.io/blog/2019/12/16/kubernetes-101/ Kubernetes 勉強会のスライドで触れてもいいかもしれない    </description>
     </item>
     
   </channel>

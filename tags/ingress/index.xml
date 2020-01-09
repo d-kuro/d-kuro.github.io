@@ -19,7 +19,7 @@
       <pubDate>Sat, 28 Dec 2019 15:01:40 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191229/</guid>
-      <description></description>
+      <description>Diary  I reading Practical Monitoring  Note  Service Mesh Comparison  https://servicemesh.es/?utm_sq=g93pkk1sp2 各 Service Mesh の比較   Open Microservice Specification  https://openmicroservices.org/about.html   How to Build a Custom Kubernetes Ingress Controller in Go  http://www.doxsey.net/blog/how-to-build-a-custom-kubernetes-ingress-controller-in-go Ingress Contoller の実装の話, 大変そう    </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Tue, 26 Nov 2019 15:03:45 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191127/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  None  Note  Kubernetesクラスタのバックアップとリストア  https://www.wantedly.com/companies/wantedly/post_articles/135823   Ingress Group Feature Testing  https://github.com/kubernetes-sigs/aws-alb-ingress-controller/issues/914 ALB Ingress の v2 で Ingress のグルーピングができて, 複数 Ingress に対して ALB 1 つみたいなのができそう   Last Week in Kubernetes Development  http://lwkd.info/2019/20191126   Service Topology implementation for Kubernetes  https://github.com/kubernetes/kubernetes/pull/72046 同じ Node や AZ に優先して Service のルーティングができるようになりそう    </description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Sat, 02 Nov 2019 15:02:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191103/</guid>
-      <description></description>
+      <description>Want to do  Play Studysapuri English  Achievement  None  Diary  I&#39;m sleepy  Note  kubernetes-sigs/ingress-controller-conformance  https://github.com/kubernetes-sigs/ingress-controller-conformance Ingress Controller の仕様   [Go] GitHub Actionsでキャッシュ機能を使う #github  https://budougumi0617.github.io/2019/11/03/use-cache-in-github-actions/ 欲しい物が来た    </description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       <pubDate>Thu, 24 Oct 2019 15:01:41 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191025/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる  Achievement  🚫スタディサプリ English やってない ✅昨日の Kubernetes Meetup Tokyo のメモ, ブログ化した  今までのも全部移行したい    Diary  Ruby なんもわからん  Note  Ingress v2 について  https://www.youtube.com/watch?v=Ne9UJL6irXY https://twitter.com/amsy810/status/1130766715380482051 https://crash.academy/video/906/2235   Ingress の KEP はこれかな  https://github.com/kubernetes/enhancements/blob/master/keps/sig-network/20190125-ingress-api-group.md   Exploring early access releases with feature preview  https://help.github.com/en/github/getting-started-with-github/exploring-early-access-releases-with-feature-preview GitHub の early access releases 有効化するやつ   Managing Kubernetes のススメ  https://twitter.com/nwiizo/status/1187638859045015552 https://speakerdeck.</description>
     </item>
     
   </channel>

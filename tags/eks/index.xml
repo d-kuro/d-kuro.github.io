@@ -19,7 +19,7 @@
       <pubDate>Sun, 05 Jan 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200106/</guid>
-      <description></description>
+      <description>Diary  I published blog  https://d-kuro.github.io/posts/kubernetes-leader-election/    Note  Golang IO Cookbook  Go の I/O に関する Cookbook   Service 間通信を Envoy 経由で行い、Metrics を取得する  Envoy なんもわからん   分散システムのリーダー選挙  AWS でも一番使われている Leader Election はリースらしい ベストプラクティスも載ってる   Operator SDK Version upgrade guide  バージョン上げるために読んでる 基本は依存ライブラリの更新っぽい dependabot とか使わないほうがいいのかな   EKSのIAM Role for Service Accountsを使用するときにはSTSのリージョナルエンドポイントを使うように設定しようという話  AWS_STS_REGIONAL_ENDPOINTS=regional    </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Sat, 21 Dec 2019 15:01:59 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191222/</guid>
-      <description></description>
+      <description>Diary  None  Note  time.Timer#Reset() の正しい使い方  https://www.kaoriya.net/blog/2019/12/19/ あんまり使ったことなかった   Amazon EKS でなんかいい感じにスポットインスタンスを使う  https://qiita.com/mats16/items/9939e16b70fba71c0cca eksctl と AWS Node Termination Handler でいい感じにする   Deep dive into KubeDNS  https://keisukeyamashita.com/post/20191111_dns_deep_dive/ ちゃんと読みたい   Operator 101  https://speakerdeck.com/capsmalt/operator-101 Operator SDK と kubebuilder, どっちがいいんだろ   Goのコンパイラをみてみよう 〜iotaを通じて〜 @MCCMMANCC 2019 / dive into go complier with iota  https://speakerdeck.com/uniuniunicode/dive-into-go-complier-with-iota コンパイラなんもわからん   Kubernetes 101  https://www.cncf.io/blog/2019/12/16/kubernetes-101/ Kubernetes 勉強会のスライドで触れてもいいかもしれない    </description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Sat, 14 Dec 2019 15:00:41 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191215/</guid>
-      <description></description>
+      <description>Diary  I trial the Kubebuilder  Note  入門 EKS on Fargate  https://qiita.com/mumoshu/items/c9dea2d82a402b4f9c31 アプリケーションが stdout/stderr にログを吐けない, マジかー   The Kubebuilder Book  https://book.kubebuilder.io/ ちょっと触ってる   CRD Validation - The Kubebuilder Book  https://book.kubebuilder.io/reference/markers/crd-validation.html    </description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       <pubDate>Fri, 13 Dec 2019 15:00:46 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191214/</guid>
-      <description></description>
+      <description>Diary  I have to create materials for in-house study sessions  Note  EKS production ready! part.1  https://medium.com/@sueken0117/eks-production-ready-part-1-8f08be5f873f   EKS production ready! part.2  https://medium.com/@sueken0117/eks-production-ready-part-2-1702a120476d IP アドレスの制限に気をつけようという話   Architecting Kubernetes clusters — choosing a worker node size  https://learnk8s.io/kubernetes-node-size Cluster のサイズについて   EKS におけるインスタンスサイズごとの最大 Pod 数  https://github.com/awslabs/amazon-eks-ami/blob/master/files/eni-max-pods.txt IP アドレスの数に引っ張られる   Understand Golang channels and how to monitor with Grafana (Part 1/2)  https://dev.to/ahmedash95/understand-golang-channels-and-how-to-monitor-with-grafana-154   災害に備えVeleroでKubernetesクラスタをバックアップする  https://blog.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       <pubDate>Tue, 10 Dec 2019 15:01:32 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191211/</guid>
-      <description></description>
+      <description>Diary  Confirmed increase in CPU usage due to API server not being able to connect with metrics-server  Note  Amazon VPC CNI plugin for KubernetesのソースコードリーディングでEKSのネットワーキングについて理解を深める #1  https://qiita.com/jlandowner/items/fec3cc33bc754282db11 わかりやすい   CNCF CNI プラグイン  https://qiita.com/hichihara/items/54ff9aeff476bf463509 CNI について   EKS の API Server, 2 台らしい  https://twitter.com/_inductor_/status/1204708329320136704   EKS Fargate は kubelet, kube-proxy, containerd の分のリソースで 256 MB くらいリソースを使うのでそれを見越して Pod の resources を設定しようという話  https://twitter.com/amsy810/status/1204712473154048000    </description>
     </item>
     
     <item>
@@ -64,7 +64,7 @@
       <pubDate>Mon, 18 Nov 2019 15:03:36 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191119/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  None  Note  Graceful shutdown of pods with Kubernetes  https://pracucci.com/graceful-shutdown-of-kubernetes-pods.html SIGTERM が子プロセスに送られないやつにハマってた   straceコマンドの使い方  https://qiita.com/hana_shin/items/a03150552e2f70994248 strace -e trace=signal -p $PID 覚えた   GitOps and Kubernetes  https://www.manning.com/books/gitops-and-kubernetes#toc GitOps の本   Extending the EKS API: Managed Node Groups  https://aws.amazon.com/jp/blogs/containers/eks-managed-node-groups/ eksctl がやっていたのが AWS の API として提供されるようになったっぽい    </description>
     </item>
     
     <item>
@@ -73,7 +73,7 @@
       <pubDate>Fri, 01 Nov 2019 15:03:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191102/</guid>
-      <description></description>
+      <description>Want to do  Play Studysapuri English  Achievement  ✅Play Studysapuri English  Diary  I have insufficient network knowledge😔  Note  A Kubernetes crime story  https://engineering.prezi.com/https-engineering-prezi-com-a-kubernetes-crime-story-2e8d75a77630 SNAT のせいで遅くなる話 EKS の場合は amazon-vpc-cni-k8s に AWS_VPC_K8S_CNI_EXTERNALSNAT=true を設定することで SNAT が無効になるらしい   A reason for unexplained connection timeouts on Kubernetes/Docker  https://tech.xing.com/a-reason-for-unexplained-connection-timeouts-on-kubernetes-docker-abd041cf7e02 SNAT 使ってるときに SYN パケットがドロップすることでタイムアウトが起きて遅くなる的な話 Conntrack とか何もわかってなくてつらい気持ちになった   Kubernetes Service Mesh: A Comparison of Istio, Linkerd and Consul  https://platform9.</description>
     </item>
     
   </channel>

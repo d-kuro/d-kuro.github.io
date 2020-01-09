@@ -241,8 +241,31 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200104/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://blog.balloon.im/2019/11/hugo-v0.60.0-%E6%9B%B4%E6%96%B0%E5%BE%8Cmarkdown-%E3%81%AB-html-%E3%82%92%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88/">Hugo v0.60.0 更新後、Markdown に HTML を入れている場合。</a>
+<ul>
+<li>見事にハマった</li>
+<li>Markdown のレンダリングエンジンが goldmark に変わったので unsafe を有効にしないといけない</li>
+<li><code>config.toml</code> に以下を記載</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">[markup.goldmark.renderer]
+  unsafe = true
+</code></pre></div><ul>
+<li><a href="https://tc-minami.github.io/2018/12/%E5%88%9D%E5%BF%83%E8%80%85%E7%94%A8hugo%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92google%E6%A4%9C%E7%B4%A2%E7%B5%90%E6%9E%9C%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95google-search-console/">【初心者用】Hugoで作成したブログをGoogle検索結果に表示させる方法【Google Search Console】</a>
+<ul>
+<li>やってなかったので Goole 検索に出てきてなかった</li>
+<li>Google search console で登録してサイトマップに <code>index.xml</code> を登録しようという話</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 
@@ -288,8 +311,35 @@
     </p>
     <div class="post-entry">
         
-        
-        <a href="https://d-kuro.github.io/diaries/202001/20200103/" class="post-read-more">[Read More]</a>
+        <h2 id="diary">Diary</h2>
+<ul>
+<li>I bought Programming Kubernetes</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Host on GitHub | Hugo</a>
+<ul>
+<li>GitHub pages で <code>&lt;USERNAME&gt;.github.io</code> ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった</li>
+<li>個別のリポジトリで GitHub pages を設定すると <code>https://&lt;USERNAME&gt;.github.io/&lt;REPO&gt;/</code> って URL になる</li>
+</ul>
+</li>
+<li><a href="https://www.slideshare.net/pfi/kubernete-meetup-tokyo-18-kubebuildercontrollerruntime">Kubernete Meetup Tokyo #18 - Kubebuilder/controller-runtime 入門</a>
+<ul>
+<li>現地で聞いたとき何もわからんなって思ってたけど今ならわかる</li>
+</ul>
+</li>
+<li><a href="https://learnk8s.io/production-best-practices">Kubernetes production best practices</a>
+<ul>
+<li>Check list</li>
+</ul>
+</li>
+<li><a href="https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727">Understanding kubernetes networking: pods</a>
+<ul>
+<li>Pod のネットワーキングについて</li>
+</ul>
+</li>
+</ul>
+
         
     </div>
 

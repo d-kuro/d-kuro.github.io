@@ -19,7 +19,7 @@
       <pubDate>Tue, 05 Nov 2019 15:01:42 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191106/</guid>
-      <description></description>
+      <description>Want to do  Play Studysapuri English  Achievement  None  Diary  I&#39;m not sure Pods preemption 😔  Note  hashicorp のリポジトリに PR 出した  https://github.com/hashicorp/go-plugin/pull/129 Terraform が使ってるプロセス起動して RPC で通信するやつ   EKS DNS at scale and spikeiness  https://aws.amazon.com/jp/blogs/containers/eks-dns-at-scale-and-spikeiness/ NodeLocal DNS の話   Pod Priority and Preemption  https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/ Preemption には Priority も考慮されるというやつ   Kubernetes Meetup Tokyo #10 で Pod の Preemption について話してきました  https://ccvanishing.</description>
     </item>
     
   </channel>

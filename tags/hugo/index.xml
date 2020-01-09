@@ -19,7 +19,7 @@
       <pubDate>Sat, 04 Jan 2020 00:20:49 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200104/</guid>
-      <description></description>
+      <description>Diary  None  Note  Hugo v0.60.0 更新後、Markdown に HTML を入れている場合。  見事にハマった Markdown のレンダリングエンジンが goldmark に変わったので unsafe を有効にしないといけない config.toml に以下を記載    [markup.goldmark.renderer] unsafe = true  【初心者用】Hugoで作成したブログをGoogle検索結果に表示させる方法【Google Search Console】  やってなかったので Goole 検索に出てきてなかった Google search console で登録してサイトマップに index.xml を登録しようという話    </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Thu, 02 Jan 2020 15:01:52 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200103/</guid>
-      <description></description>
+      <description>Diary  I bought Programming Kubernetes  Note  Host on GitHub | Hugo  GitHub pages で &amp;lt;USERNAME&amp;gt;.github.io ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった 個別のリポジトリで GitHub pages を設定すると https://&amp;lt;USERNAME&amp;gt;.github.io/&amp;lt;REPO&amp;gt;/ って URL になる   Kubernete Meetup Tokyo #18 - Kubebuilder/controller-runtime 入門  現地で聞いたとき何もわからんなって思ってたけど今ならわかる   Kubernetes production best practices  Check list   Understanding kubernetes networking: pods  Pod のネットワーキングについて    </description>
     </item>
     
   </channel>

@@ -19,7 +19,7 @@
       <pubDate>Tue, 07 Jan 2020 15:03:21 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200108/</guid>
-      <description></description>
+      <description>Diary Note  Introducing Datadog Agent 7  Datadog の custome checks 一覧下のリンクで確認できて便利  https://app.datadoghq.com/compatibility_check     io.Readerのファイルタイプを判定する  io.MultiReader の使い所さん   Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい 技術推薦図書 - Google スプレッドシート  すごい   Goのnet/httpのkeep-aliveで気をつけること  keep-alive の条件に response body を読み切る, というのは知らなかった io.Copy(ioutil.Discard, resp.Body) よさそう    </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Mon, 06 Jan 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200107/</guid>
-      <description></description>
+      <description>Diary  I have not read the book 😇  Note  Kubernetesの動向予測 2019 =&amp;gt; 2020  青山さんの   A Deep Dive into eBPF: The Technology that Powers Tracee  Go のコードで説明されてる, ちゃんと読みたい   [Go] GitHub Actionsでキャッシュ機能を使う #github  https://github.com/actions/cache/blob/master/examples.md#go---modules 便利   Support Custom Pod Status for PodReadinessGate to Block Premature Pod Termination  ALB Ingress の IP mode (Pod に直接ルーティングする方) でタイムアウトが起きるという話   Toolbox App 1.11: What’s New.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Sun, 05 Jan 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200106/</guid>
-      <description></description>
+      <description>Diary  I published blog  https://d-kuro.github.io/posts/kubernetes-leader-election/    Note  Golang IO Cookbook  Go の I/O に関する Cookbook   Service 間通信を Envoy 経由で行い、Metrics を取得する  Envoy なんもわからん   分散システムのリーダー選挙  AWS でも一番使われている Leader Election はリースらしい ベストプラクティスも載ってる   Operator SDK Version upgrade guide  バージョン上げるために読んでる 基本は依存ライブラリの更新っぽい dependabot とか使わないほうがいいのかな   EKSのIAM Role for Service Accountsを使用するときにはSTSのリージョナルエンドポイントを使うように設定しようという話  AWS_STS_REGIONAL_ENDPOINTS=regional    </description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       <pubDate>Sun, 05 Jan 2020 21:28:38 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200105/</guid>
-      <description></description>
+      <description>Diary  None  Note  Go: Concurrency &amp;amp; Scheduler Affinity  goroutine の仕組み   Lectures | UTokyo OpenCourseWare  東大の CS 講義   ghq v1リリースとghq-handbookのお知らせ  ないと生きていけないツール    </description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       <pubDate>Sat, 04 Jan 2020 00:20:49 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200104/</guid>
-      <description></description>
+      <description>Diary  None  Note  Hugo v0.60.0 更新後、Markdown に HTML を入れている場合。  見事にハマった Markdown のレンダリングエンジンが goldmark に変わったので unsafe を有効にしないといけない config.toml に以下を記載    [markup.goldmark.renderer] unsafe = true  【初心者用】Hugoで作成したブログをGoogle検索結果に表示させる方法【Google Search Console】  やってなかったので Goole 検索に出てきてなかった Google search console で登録してサイトマップに index.xml を登録しようという話    </description>
     </item>
     
     <item>
@@ -64,7 +64,7 @@
       <pubDate>Thu, 02 Jan 2020 15:01:52 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200103/</guid>
-      <description></description>
+      <description>Diary  I bought Programming Kubernetes  Note  Host on GitHub | Hugo  GitHub pages で &amp;lt;USERNAME&amp;gt;.github.io ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった 個別のリポジトリで GitHub pages を設定すると https://&amp;lt;USERNAME&amp;gt;.github.io/&amp;lt;REPO&amp;gt;/ って URL になる   Kubernete Meetup Tokyo #18 - Kubebuilder/controller-runtime 入門  現地で聞いたとき何もわからんなって思ってたけど今ならわかる   Kubernetes production best practices  Check list   Understanding kubernetes networking: pods  Pod のネットワーキングについて    </description>
     </item>
     
     <item>
@@ -73,7 +73,7 @@
       <pubDate>Wed, 01 Jan 2020 15:01:48 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200102/</guid>
-      <description></description>
+      <description>Diary  None  Note  KubernetesでRollingUpdateするためのPodの安全な終了  いつもの sleep とかの話   Kubernetes - Plugins | JetBrains  JetBrains IDE の Kubernetes plugin, VSCode で書くより遥かに体験がいいけど YAML 書くために JetBrains IDE 起動したくないというジレンマがある   A Practical Guide to Setting Kubernetes Requests and Limits  Pod の resources の決め方 limits を 2x requests にしろとか書いてあるけどこれには反対で特に memory は requests と limits 同じにしたほうがいいと思ってる    </description>
     </item>
     
     <item>
@@ -82,7 +82,7 @@
       <pubDate>Tue, 31 Dec 2019 15:01:47 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200101/</guid>
-      <description></description>
+      <description>Diary  Happy new year 🥳  Note  2019年発表された Datadog のプロダクトを勝手に紹介していく  Network performance monitoring, 入れてみてるんだけど有効活用できてないのでもっと活用していきたい   Why are my Go executable files so large?  Go のバイナリサイズが runtime.pclntab というシンボルテーブルがソースコードのサイズに比して super-linear に肥大するため膨れてしまうという話, らしい   Fate/Grand Orderにおける大規模なデータベース移行と負荷試験  &amp;ldquo;負荷試験は決して片手間にやるものではなく、専任の担当者が、余裕を持ったスケジュールで行うべきです&amp;rdquo; いいはなしすぎる https://twitter.com/voluntas/status/1212278094104416257    </description>
     </item>
     
     <item>
@@ -91,7 +91,7 @@
       <pubDate>Mon, 30 Dec 2019 15:01:41 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191231/</guid>
-      <description></description>
+      <description>Diary Note  KubernetesのService Accountについて調べてみた  https://qiita.com/knqyf263/items/ecc799650fe247dce9c5   ラベルとjsonpathを使ったkubectl/ocの出力のフィルタリング  https://zaki-hmkc.hatenablog.com/entry/2019/12/30/093754 jsonpath 使いこなせなさすぎるマン   Kubernetes The Hard Way(日本語版)  https://github.com/inductor/kubernetes-the-hard-way 日本語版   Envoy + SPIRE + OPA で Service Mesh を構築する  https://qiita.com/ryysud/items/bbfc730e17f53be65ce0 OPA なんもわからん    </description>
     </item>
     
     <item>
@@ -100,7 +100,7 @@
       <pubDate>Sun, 29 Dec 2019 15:01:38 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191230/</guid>
-      <description></description>
+      <description>Diary  None  Note  働きながら米国のコンピュータサイエンスの学士号を取得する、UoPeopleという選択肢  https://tmkk.hatenablog.com/entry/2019/12/30/191131 学士ほしい……   HTTP/3をUDPロードバランサで分散するときの問題点 (AWS NLBで試してみた)  https://asnokaze.hatenablog.com/entry/2019/12/30/201331 UDP 使うぐらいしか知らなかったけど, stateful なんだ   GitOpsで絶対に避けて通れないブランチ戦略  https://amaya382.hatenablog.jp/entry/2019/12/02/192159 GitOps, manifest を別のリポジトリに切り出せみたいなのがベストプラクティスみたいな感じになってるけど monorepo だとそのまま打ち込んでおきたいよなみたいな気持ちになってる    </description>
     </item>
     
     <item>
@@ -109,7 +109,7 @@
       <pubDate>Sat, 28 Dec 2019 15:01:40 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191229/</guid>
-      <description></description>
+      <description>Diary  I reading Practical Monitoring  Note  Service Mesh Comparison  https://servicemesh.es/?utm_sq=g93pkk1sp2 各 Service Mesh の比較   Open Microservice Specification  https://openmicroservices.org/about.html   How to Build a Custom Kubernetes Ingress Controller in Go  http://www.doxsey.net/blog/how-to-build-a-custom-kubernetes-ingress-controller-in-go Ingress Contoller の実装の話, 大変そう    </description>
     </item>
     
     <item>
@@ -118,7 +118,7 @@
       <pubDate>Fri, 27 Dec 2019 15:01:40 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191228/</guid>
-      <description></description>
+      <description>Diary  None  Note  Goでリバースプロキシつくるときにつかえる net/http/httputil.ReverseProxy の紹介  https://qiita.com/convto/items/64e8f090198a4cf7a4fc 便利   pkg/errors から徐々に Go 1.13 errors へ移行する  https://syfm.hatenablog.com/entry/2019/12/27/193348 errors package, スタックトレース入れてほしい    </description>
     </item>
     
     <item>
@@ -127,7 +127,8 @@
       <pubDate>Thu, 26 Dec 2019 15:02:08 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191227/</guid>
-      <description></description>
+      <description>Diary None
+Note  Kubernetes Pod Escape Using Log Mounts  https://blog.aquasec.com/kubernetes-security-pod-escape-log-mounts Kubernetes の logging について   What&#39;s next for monitoring Kubernetes  https://www.datadoghq.com/ja/blog/whats-next-monitoring-kubernetes/ ExtendedDaemonSet と Datadog Operator, 期待  https://github.com/DataDog/extendeddaemonset https://github.com/DataDog/datadog-operator      </description>
     </item>
     
     <item>
@@ -136,7 +137,7 @@
       <pubDate>Wed, 25 Dec 2019 15:02:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191226/</guid>
-      <description></description>
+      <description>Diary  All Kubernetes clusters migrated version for v1.11 to v1.13  Note  Operator SDK の Leader Election について  https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.2/html/operators/osdk-leader-election   kubernetes 自定义控制器的高可用  http://blog.fatedier.com/2019/04/17/k8s-custom-controller-high-available/ こっちは clinet-go の leaderelection package について   Demystifying Istio&#39;s Sidecar Injection Model  https://istio.io/blog/2019/data-plane-setup/ Istio の sidecar injection の話   Kubernetes 1.17の変更点: SIG Node の変更内容  https://qiita.com/uesyn/items/654dd0c84c269b97b077    </description>
     </item>
     
     <item>
@@ -145,7 +146,7 @@
       <pubDate>Tue, 24 Dec 2019 15:02:02 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191225/</guid>
-      <description></description>
+      <description>Diary  Merry Christmas 🎄  Note  Practice Enough With These 150 Questions for the CKAD Exam  https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552 CKAD 150 問   Logging Guidelines  https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/TMP-LOGGING.md controller-runtime の log についてのガイドライン Log level  https://github.com/kubernetes-sigs/controller-runtime/issues/167     プラットフォームの上でものを作るということ  https://toris.io/2019/12/what-i-think-about-when-i-think-about-kubernetes-and-ecs/ いい話   goroutine が確保するメモリはスタックにあるという  https://twitter.com/sonatard/status/1209877645334216705   Kubernetes 1.17: SIG-Network の変更内容  https://qiita.com/superbrothers/items/fd936c4046459a16609c EndpointSlice, あんまり良くわかってない   kubebuilder の MultiVersion Conversion の話  https://book.kubebuilder.io/multiversion-tutorial/conversion-concepts.html   Kubernetes 1.</description>
     </item>
     
     <item>
@@ -154,7 +155,7 @@
       <pubDate>Tue, 24 Dec 2019 14:19:44 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191224/</guid>
-      <description></description>
+      <description>Diary  Merry Christmas 🎄  Note  Go の testing パッケージにアサーションやその他便利関数がない理由  https://golang.org/doc/faq#testing_framework https://golang.org/doc/faq#assertions   kustomize edit fix コマンド, 便利かもしれない https://github.com/kubernetes-sigs/kustomize/blob/master/docs/versioningPolicy.md#the-edit-fix-command  </description>
     </item>
     
     <item>
@@ -163,7 +164,7 @@
       <pubDate>Sun, 22 Dec 2019 15:02:06 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191223/</guid>
-      <description></description>
+      <description>Diary  Upgrading kustomize from v1 to v3  Note  より良いコードレビューをするために気をつけていること  https://tech.mercari.com/entry/2019/12/22/080000 Go の話   Using Makefile(s) for Go  https://danishpraka.sh/2019/12/07/using-makefiles-for-go.html Go で Makefile 使うとのサンプルにしたい   Kubernetes Podcast in 2019: year-end recap  https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-podcast-in-2019-year-end-recap Kubernetes Podcast, 全然聞き取れない   Traffic Management for Knative Services  https://medium.com/@zhimin.wen/traffic-management-for-knative-services-a211171c6e5f Knative の traffic management の話, どちらかといえば Istio の話っぽい   Programmatically Kubernetes port forward in Go  https://gianarb.it/blog/programmatically-kube-port-forward-in-go Kubernetes への port forward を Go で実装する話   Looking at Kubernetes’ 2k+ TODO Comments  https://medium.</description>
     </item>
     
     <item>
@@ -172,7 +173,7 @@
       <pubDate>Sat, 21 Dec 2019 15:01:59 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191222/</guid>
-      <description></description>
+      <description>Diary  None  Note  time.Timer#Reset() の正しい使い方  https://www.kaoriya.net/blog/2019/12/19/ あんまり使ったことなかった   Amazon EKS でなんかいい感じにスポットインスタンスを使う  https://qiita.com/mats16/items/9939e16b70fba71c0cca eksctl と AWS Node Termination Handler でいい感じにする   Deep dive into KubeDNS  https://keisukeyamashita.com/post/20191111_dns_deep_dive/ ちゃんと読みたい   Operator 101  https://speakerdeck.com/capsmalt/operator-101 Operator SDK と kubebuilder, どっちがいいんだろ   Goのコンパイラをみてみよう 〜iotaを通じて〜 @MCCMMANCC 2019 / dive into go complier with iota  https://speakerdeck.com/uniuniunicode/dive-into-go-complier-with-iota コンパイラなんもわからん   Kubernetes 101  https://www.cncf.io/blog/2019/12/16/kubernetes-101/ Kubernetes 勉強会のスライドで触れてもいいかもしれない    </description>
     </item>
     
     <item>
@@ -181,7 +182,7 @@
       <pubDate>Fri, 20 Dec 2019 15:01:59 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191221/</guid>
-      <description></description>
+      <description>Diary  None  Note  「詰める」と「散らす」の動力学 - 原理・原則から理解するコンテナ配置戦略 #openshiftjp / OpenShift Run 2019  https://speakerdeck.com/ytaka23/openshift-run-2019   result は res、response は resp です。  https://twitter.com/mattn_jp/status/1208073483042713600 なるほど   [Kubernetes] クラスタ外から ClusterIP の Service にいい感じにアクセスする  https://qiita.com/superbrothers/items/0dca5d2a10727fc14734 Cluster IP の仕組みから書いてある    </description>
     </item>
     
     <item>
@@ -190,7 +191,7 @@
       <pubDate>Thu, 19 Dec 2019 15:01:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191220/</guid>
-      <description></description>
+      <description>Diary  I don&#39;t know Strategic Merge Patch  Note  Golangのcontext.Valueの使い方  https://deeeet.com/writing/2017/02/23/go-context-value/ RequestID とかは適切なユースケース   Argo Rolloutsの新機能「Experiments」を試す  https://qiita.com/inajob/items/1baf2a53581c7a6a9df7 Istio とか入れて Canary するよりは機能が限定的でいいなあとおもいつつ, 最終的にはサービスメッシュ入れていきたいよなあみたいなので触ってない   The Top 10 Most Common Mistakes I’ve Seen in Go Projects  https://itnext.io/the-top-10-most-common-mistakes-ive-seen-in-go-projects-4b79d4f6cd65 Go のよくあるミス   Practical Go: Real world advice for writing maintainable Go programs  https://dave.cheney.net/practical-go/presentations/qcon-china.html 永久保存版   Garbage Collecting Load Balancers  https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/#garbage-collecting-load-balancers type LoadBalancer Service の finalizer   Finalizers  https://kubernetes.</description>
     </item>
     
     <item>
@@ -199,7 +200,7 @@
       <pubDate>Wed, 18 Dec 2019 15:00:39 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191219/</guid>
-      <description></description>
+      <description>Diary  I upgraded the Kubernetes cluster  Note  Datadog agent v7 のリリースがきた  https://github.com/DataDog/datadog-agent/releases/tag/7.16.0 Python 2 のサポートが無くなった 5 -&amp;gt; 7 のマイグレーションもできそう https://docs.datadoghq.com/agent/versions/upgrade_to_agent_v7/?tab=linux   Kubernetes 1.17: SIG-Auth の変更内容  https://qiita.com/hiyosi/items/837096e6d7e62e677e00   Knative Serving in Production  https://qiita.com/toVersus/items/1317a31fead9b836a68d Knative なんもわからん    </description>
     </item>
     
     <item>
@@ -208,7 +209,7 @@
       <pubDate>Tue, 17 Dec 2019 15:01:29 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191218/</guid>
-      <description></description>
+      <description>Diary  I attended the Kubernets 忘年会  Note  Kubernetes の国の愉快な小人の世界  https://www.youtube.com/watch?v=yrCaCBUceL4 IBM 公式動画   Go 1.14 の testing package に Cleanup 関数が追加される  https://twitter.com/sonatard/status/1207098803477573632 https://tip.golang.org/pkg/testing/#T.Cleanup 便利   Admission Webhookで快適なSecret管理 / Berglas Secret Admission Webhook  https://speakerdeck.com/govargo/berglas-secret-admission-webhook Admission Webhook で Secret ごにょごにょするの良さそう 変に Operator 作るよりいい気がする   kube-batch による Gang Scheduling #k8sjp / Kubernetes Invitational Meetup Tokyo 4th  https://speakerdeck.com/ytaka23/kubernetes-invitational-meetup-tokyo-4th 猫おじさんのスライドの質が毎回高くてすごい    </description>
     </item>
     
     <item>
@@ -217,7 +218,7 @@
       <pubDate>Mon, 16 Dec 2019 15:00:43 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191217/</guid>
-      <description></description>
+      <description>Diary  I posted blog  https://d-kuro.github.io/blog/posts/deployment-revisionhistorylimit-default/    Note  Kubernetes 1.17: SIG-API Machineryの変更内容  https://qiita.com/Ladicle/items/408ee3ec4e25ada9fe21 主要な変更特に無し   【Kubernetes】KubernetesのCronJobのcronスケジュールはどう管理されているのか？  https://nnao45.hatenadiary.com/entry/2019/12/17/110439 サードパーティのライブラリ使われてるよという話, CronJob のソースコード解説, 途中まで書いて封印してるの思い出した   Monitor Amazon EKS on AWS Fargate with Datadog  https://www.datadoghq.com/blog/eks-fargate-monitoring/ DD_EKS_FARGATE=true    </description>
     </item>
     
     <item>
@@ -226,7 +227,7 @@
       <pubDate>Sun, 15 Dec 2019 15:01:14 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191216/</guid>
-      <description></description>
+      <description>Diary  I want to automate Kubernetes B/G upgrade  Note  Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes  https://www.creationline.com/lab/31416 日本語   chan chan は意外と美味しい  https://qiita.com/hogedigo/items/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう   Istio VirtualServiceのHost衝突を検知するAdmission Webhookをつくってみる  https://tech.jxpress.net/entry/istio-host-collision-detection-with-admission-webhook Admission Webhook の話   LIFULLが主要サービスの(ほぼ)全てをKubernetesに移行するまで  https://www.lifull.blog/entry/2019/12/16/000000 しっかりしてる   kubectl cordon を実行した Node は Ingress, type LoadBalancer Service の振り分け対象から外されるよというやつ  https://github.com/kubernetes/kubernetes/issues/44997 https://github.com/kubernetes/kubernetes/issues/65013 その Node にのみ存在する Pod がある場合疎通できなくなって死ぬやつ   GoのGCを10分で学ぼう　 https://qiita.</description>
     </item>
     
     <item>
@@ -235,7 +236,7 @@
       <pubDate>Sat, 14 Dec 2019 15:00:41 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191215/</guid>
-      <description></description>
+      <description>Diary  I trial the Kubebuilder  Note  入門 EKS on Fargate  https://qiita.com/mumoshu/items/c9dea2d82a402b4f9c31 アプリケーションが stdout/stderr にログを吐けない, マジかー   The Kubebuilder Book  https://book.kubebuilder.io/ ちょっと触ってる   CRD Validation - The Kubebuilder Book  https://book.kubebuilder.io/reference/markers/crd-validation.html    </description>
     </item>
     
     <item>
@@ -244,7 +245,7 @@
       <pubDate>Fri, 13 Dec 2019 15:00:46 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191214/</guid>
-      <description></description>
+      <description>Diary  I have to create materials for in-house study sessions  Note  EKS production ready! part.1  https://medium.com/@sueken0117/eks-production-ready-part-1-8f08be5f873f   EKS production ready! part.2  https://medium.com/@sueken0117/eks-production-ready-part-2-1702a120476d IP アドレスの制限に気をつけようという話   Architecting Kubernetes clusters — choosing a worker node size  https://learnk8s.io/kubernetes-node-size Cluster のサイズについて   EKS におけるインスタンスサイズごとの最大 Pod 数  https://github.com/awslabs/amazon-eks-ami/blob/master/files/eni-max-pods.txt IP アドレスの数に引っ張られる   Understand Golang channels and how to monitor with Grafana (Part 1/2)  https://dev.to/ahmedash95/understand-golang-channels-and-how-to-monitor-with-grafana-154   災害に備えVeleroでKubernetesクラスタをバックアップする  https://blog.</description>
     </item>
     
     <item>
@@ -253,7 +254,7 @@
       <pubDate>Thu, 12 Dec 2019 15:00:58 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191213/</guid>
-      <description></description>
+      <description>Diary  I don&#39;t understand English without Google Translate  Note  kyaml2go  https://kyaml2go.prasadg.dev/ manigest の YAML を client-go を使った Go のコードに変換してくれる君   Kubernetesをぶち壊す10の奇妙な方法 (前編)  https://qiita.com/inductor/items/ee8c01811aaf7bd1652d 面白かった   Markdown の syntax highlight に console を使うといい感じに色分けされる話  https://twitter.com/piris314/status/1205038748422963201 いつも shell とかにしてた   Exercising Concurrency in Go: 3 Common Pitfalls and Lessons Learned  https://medium.com/modenetworks/exercising-concurrency-in-go-3-common-pitfalls-and-lessons-learned-2cca9e629620   Kubernetes 1.17 Feature: Kubernetes Volume Snapshot Moves to Beta  https://kubernetes.</description>
     </item>
     
     <item>
@@ -262,7 +263,7 @@
       <pubDate>Wed, 11 Dec 2019 15:01:03 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191212/</guid>
-      <description></description>
+      <description>Diary  I&#39;m wondering if a bucket for velero backup should be provided for each cluster  https://velero.io/docs/v1.2.0/    Note  Go の命名規則  https://micnncim.com/post/2019/12/11/go-naming-conventions/ いい話   Go の strings.Index の内部実装と Rabin-Karp アルゴリズム  https://qiita.com/po3rin/items/07d51249629390a6201a   Key metrics for Amazon EKS monitoring  https://www.datadoghq.com/blog/eks-cluster-metrics/ 見るべきメトリクス, EKS じゃなくても使える    </description>
     </item>
     
     <item>
@@ -271,7 +272,7 @@
       <pubDate>Tue, 10 Dec 2019 15:01:32 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191211/</guid>
-      <description></description>
+      <description>Diary  Confirmed increase in CPU usage due to API server not being able to connect with metrics-server  Note  Amazon VPC CNI plugin for KubernetesのソースコードリーディングでEKSのネットワーキングについて理解を深める #1  https://qiita.com/jlandowner/items/fec3cc33bc754282db11 わかりやすい   CNCF CNI プラグイン  https://qiita.com/hichihara/items/54ff9aeff476bf463509 CNI について   EKS の API Server, 2 台らしい  https://twitter.com/_inductor_/status/1204708329320136704   EKS Fargate は kubelet, kube-proxy, containerd の分のリソースで 256 MB くらいリソースを使うのでそれを見越して Pod の resources を設定しようという話  https://twitter.com/amsy810/status/1204712473154048000    </description>
     </item>
     
     <item>
@@ -280,7 +281,7 @@
       <pubDate>Mon, 09 Dec 2019 15:01:11 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191210/</guid>
-      <description></description>
+      <description>Diary  This week we will launch three Kubernetes clusters  Note  Released Kubernetes v1.17.0  https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.17.md#v1170   KubernetesのCloud Controller Managerについて  https://medium.com/@bells17/kubernetes-ccm-d4d3c71ba523   Kubernetes resource limits and kernel cgroups  https://medium.com/@kkwriting/kubernetes-resource-limits-and-kernel-cgroups-337625bab87d   The complete guide to Go net/http timeouts  https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/ 永久保存版 Go のタイムアウト記事   istio/client-go を触ってみた  https://hydrangea.netlify.com/posts/istio-client-go/ Istio の client, あるんだ   Kubernetes 1.17: Stability  https://kubernetes.io/blog/2019/12/09/kubernetes-1-17-release-announcement/   Kubernetes 1.17 Feature: Kubernetes Volume Snapshot Moves to Beta  https://kubernetes.</description>
     </item>
     
     <item>
@@ -289,7 +290,7 @@
       <pubDate>Mon, 09 Dec 2019 13:03:14 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191209/</guid>
-      <description></description>
+      <description>Diary  日記書くのサボってしまった 項目減らしてみたりしたので再開したい  Note  What’s new in Kubernetes 1.17?  https://sysdig.com/blog/whats-new-kubernetes-1-17/   Dave Cheney が pkg 配下に Go のアサーションライブラリを作り始めたらしい  https://github.com/pkg/expect https://twitter.com/micnncim/status/1203466881048272896   EKSでの認証認可 〜aws-iam-authenticatorとIRSAのしくみ〜  https://katainaka0503.hatenablog.com/entry/2019/12/07/091737 ここらへんで動いてる Admission Webhook, master node で動いてるっぽい (Pod として動いてない)   EKS on Fargate：virtual-kubelet の違い + Network/LB 周りの調査  https://amsy810.hateblo.jp/entry/2019/12/04/151642 EKS on Fargate, virtual-kubelet ですらなかった   Hierarchical Namespace で Namespace を階層構造に管理してオブジェクトを伝搬させる  https://amsy810.hateblo.jp/entry/2019/12/01/230822 Namespace 跨いで Object を伝搬させるやつ   The RED Method: How to Instrument Your Services  https://grafana.</description>
     </item>
     
     <item>
@@ -298,7 +299,7 @@
       <pubDate>Thu, 28 Nov 2019 15:02:40 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191129/</guid>
-      <description></description>
+      <description>Diary  Certificate expired in Kuberentes cluster 😱  Note  What even is a kubelet?  http://kamalmarhubi.com/blog/2015/08/27/what-even-is-a-kubelet/ Kubelet とは   interactive kubectl pod filter  https://github.com/kubernetes/kubernetes/pull/85715 interactive に kubectl exec する Pod を選択できる, 便利そう    </description>
     </item>
     
     <item>
@@ -307,7 +308,7 @@
       <pubDate>Wed, 27 Nov 2019 15:03:39 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191128/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I had tonsillitis  Note  Kubernetes Control Plane monitoring with Datadog  https://www.datadoghq.com/blog/kubernetes-control-plane-monitoring/ Control Plane の監視の話   Introducing the Datadog Cluster Agent  https://www.datadoghq.com/blog/datadog-cluster-agent/   go-fuzzyfinder でストリームをサポートした  https://twitter.com/ktr_0731/status/1199747821756284929 すごい   1年間のシステム運用を通して分かったIstioの嬉しさと活用における注意点  https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience   我々は Kubernetes の何を監視すればいいのか？  https://speakerdeck.com/manabusakai/cloudnative-days-kansai-2019   Production Ready Kubernetesに必要な15のこと  https://speakerdeck.com/govargo/production-ready-kubernetes-15-rules 最高    </description>
     </item>
     
     <item>
@@ -316,7 +317,7 @@
       <pubDate>Tue, 26 Nov 2019 15:03:45 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191127/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  None  Note  Kubernetesクラスタのバックアップとリストア  https://www.wantedly.com/companies/wantedly/post_articles/135823   Ingress Group Feature Testing  https://github.com/kubernetes-sigs/aws-alb-ingress-controller/issues/914 ALB Ingress の v2 で Ingress のグルーピングができて, 複数 Ingress に対して ALB 1 つみたいなのができそう   Last Week in Kubernetes Development  http://lwkd.info/2019/20191126   Service Topology implementation for Kubernetes  https://github.com/kubernetes/kubernetes/pull/72046 同じ Node や AZ に優先して Service のルーティングができるようになりそう    </description>
     </item>
     
     <item>
@@ -325,7 +326,7 @@
       <pubDate>Mon, 25 Nov 2019 15:04:45 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191126/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  None  Note  Kubernetes Service invalid clusterIP or resourceVersion  https://www.timcosta.io/kubernetes-service-invalid-clusterip-or-resourceversion/ Kubernetes の差分計算の仕組みを思い出した   Kubernetes: kubectl apply の動作  https://qiita.com/tkusumi/items/0bf5417c865ef716b221 詳しい    </description>
     </item>
     
     <item>
@@ -334,7 +335,7 @@
       <pubDate>Sun, 24 Nov 2019 15:03:28 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191125/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I&#39;m not feeling very well  Note  urfave/cli v2  https://github.com/urfave/cli/releases/tag/v2.0.0 出てた   Build a Go package that annotates errors with stack traces. (18 November 2019)  https://www.komu.engineer/blogs/golang-stacktrace/golang-stacktrace スタックトレースのとり方, errors に取り込まれてほしい   Go’s features of last resort  https://www.arp242.net/go-last-resort.html Go で必要な時はあるけど基本使うなよって機能の話   Go言語で学ぶetcdプログラミング  https://github.com/zoetrope/etcd-book etcd 本    </description>
     </item>
     
     <item>
@@ -343,7 +344,7 @@
       <pubDate>Sat, 23 Nov 2019 15:04:06 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191124/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I haven&#39;t written a program recently  Note  Debugging network stalls on Kubernetes  https://github.blog/2019-11-21-debugging-network-stalls-on-kubernetes/ 何もわからんってなってしまった   Shopifyはいかにしてモジュラモノリスへ移行したか  https://www.infoq.com/jp/news/2019/10/shopify-modular-monolith/    </description>
     </item>
     
     <item>
@@ -352,7 +353,7 @@
       <pubDate>Fri, 22 Nov 2019 15:05:08 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191123/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I get sick at night  Note  None  </description>
     </item>
     
     <item>
@@ -361,7 +362,7 @@
       <pubDate>Thu, 21 Nov 2019 15:04:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191122/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  Learn more about Kubernetes certificates  Note  Accessing Kubelet API  https://gist.github.com/lizrice/c32740fac51db2a5518f06c3dae4944f Kubelet の API にアクセスする   Is there API documentation for Kubelet API  https://stackoverflow.com/questions/35075195/is-there-api-documentation-for-kubelet-api Kubelet の API のドキュメントはないよってやつ   Attacking Kubernetes through Kubelet  https://labs.f-secure.com/blog/attacking-kubernetes-through-kubelet/ Kubelet の API で Pod への exec ができるので ServiceAccount の token 取ってきて API Server に攻撃する話 Kubelet はデフォルトで匿名のアクセスを受け入れるので無効にするためには明示的にオプションを指定する必要がある   Kubelet authentication/authorization  https://kubernetes.</description>
     </item>
     
     <item>
@@ -370,7 +371,7 @@
       <pubDate>Wed, 20 Nov 2019 15:04:04 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191121/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  There was a dinner for hiring  Note  Using Native Memory by JVM  https://dev.classmethod.jp/server-side/using-native-memory-by-jvm/ JVM のメモリの話   Datadog Agent の livenessProbe が失敗して Pod が再起動されまくるやつを踏んだ  https://github.com/DataDog/datadog-agent/issues/1830 DD_CHECK_RUNNERS とか試したけど改善しなくてサポートに投げてる   Datadog Agent で Unable to detect the kubelet URL automatically というエラーが出て Kubernetes のメトリクスが取れない話  https://github.com/DataDog/integrations-core/issues/2582    </description>
     </item>
     
     <item>
@@ -379,7 +380,7 @@
       <pubDate>Tue, 19 Nov 2019 15:03:13 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191120/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I have a cold.  Note  knsh14/sourcegraph-go-style-guide-ja  https://github.com/knsh14/sourcegraph-go-style-guide-ja Sourcegraph の Go の style ガイド   &amp;ldquo;Building Secure Reliable Systems&amp;rdquo; Book Early Release  https://landing.google.com/sre/resources/foundationsandprinciples/srs-book/ https://twitter.com/openshiftjp/status/1197292343591919616 Google の SRE 本, セキュリティと信頼性がテーマらしい   Loki version 1.0 is generally available for production use  https://www.apmdigest.com/grafana-labs-releases-loki https://twitter.com/grafana/status/1197262407334342656 Loki が GA    </description>
     </item>
     
     <item>
@@ -388,7 +389,7 @@
       <pubDate>Mon, 18 Nov 2019 15:03:36 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191119/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  None  Note  Graceful shutdown of pods with Kubernetes  https://pracucci.com/graceful-shutdown-of-kubernetes-pods.html SIGTERM が子プロセスに送られないやつにハマってた   straceコマンドの使い方  https://qiita.com/hana_shin/items/a03150552e2f70994248 strace -e trace=signal -p $PID 覚えた   GitOps and Kubernetes  https://www.manning.com/books/gitops-and-kubernetes#toc GitOps の本   Extending the EKS API: Managed Node Groups  https://aws.amazon.com/jp/blogs/containers/eks-managed-node-groups/ eksctl がやっていたのが AWS の API として提供されるようになったっぽい    </description>
     </item>
     
     <item>
@@ -397,7 +398,7 @@
       <pubDate>Sun, 17 Nov 2019 15:02:54 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191118/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I want to go to Kubecon (2回目)  Note  Javaのコンテナのメモリ割り当ての考え方をまきさんに教えていただいたので記録  https://bufferings.hatenablog.com/entry/2019/11/18/000007   Helm 3.0.0 has been released!  https://helm.sh/blog/helm-3-released/ Helm v3 がリリースされていた   Cloud Native Chaos Engineering – Enhancing Kubernetes Application Resiliency  https://www.cncf.io/blog/2019/11/06/cloud-native-chaos-engineering-enhancing-kubernetes-application-resiliency/ Chaos Engineering フレームワーク, Litmus の紹介   Kube-Downscaler  https://managedkube.com/kube-downscaler/2019/11/10/kube-downscaler.html Namespace の annotation に書いとくと Pod を落としてくれる君, 雑に便利そう   Kubernetes development, simplified—Skaffold is now GA  https://cloud.</description>
     </item>
     
     <item>
@@ -406,7 +407,7 @@
       <pubDate>Sat, 16 Nov 2019 15:03:09 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191117/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I want to go to Kubecon  Note  Design It! 読みたい  https://twitter.com/bufferings/status/1195705931859972096    </description>
     </item>
     
     <item>
@@ -415,7 +416,7 @@
       <pubDate>Fri, 15 Nov 2019 15:02:51 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191116/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I will tackle this issue  https://github.com/weaveworks/eksctl/issues/1355    Note  None  </description>
     </item>
     
     <item>
@@ -424,7 +425,7 @@
       <pubDate>Thu, 14 Nov 2019 15:03:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191115/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I have to study English  Note  Introducing Argo Flux - A Weaveworks-Intuit-AWS Collaboration  https://www.weave.works/blog/argo-flux-join-forces Argo Flux なる新しい OSS が誕生するよという話 この話が出たことで Argo CD にも Flux にはあった Docker レジストリの監視機能とかも入りそう 更に今後のロードマップとして Weave Flagger と Argo Rollouts をくっつけて Argo Flagger 作る話とかもあるっぽい   Grep from First Principles, in Golang  https://willdemaine.ghost.io/grep-from-first-principles-in-golang/ grep の仕組みの話とか書いてある    </description>
     </item>
     
     <item>
@@ -433,7 +434,7 @@
       <pubDate>Wed, 13 Nov 2019 15:02:55 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191114/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I can&#39;t speak Engliiiiiiiiiiiiiiiiiiish  Note  賢く「散らす」ための Topology Spread Constraints #k8sjp / Kubernetes Meetup Tokyo 25th  https://speakerdeck.com/ytaka23/kubernetes-meetup-tokyo-25th Topology 知りたかったので最高だった   Go.dev: a new hub for Go developers  https://blog.golang.org/go.dev これから GoDoc 読むときには https://pkg.go.dev/ を使おう   Frequently Asked Questions  https://v3.helm.sh/docs/faq/ https://twitter.com/ido_kara_deru/status/1194791510761340929 Helm v3 の FAQ    Cluster Autoscaler が MultiAZ の ASG をサポートしていない話  Cluster Auto Scaling では、複数のアベイラビリティーゾーンにまたがる Auto Scaling グループをサポートしていません。代わりに、アベイラビリティーゾーンごとに Auto Scaling グループを使用します。後で &amp;ndash;balance-similar-node-groups 機能を有効にして、アベイラビリティーゾーン間でクラスターのノード数を比較的均等に維持できます。</description>
     </item>
     
     <item>
@@ -442,7 +443,7 @@
       <pubDate>Tue, 12 Nov 2019 15:01:36 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191113/</guid>
-      <description></description>
+      <description>Want to do  I plan to participate in the Kubernetes Meetup Tokyo  https://k8sjp.connpass.com/event/150873/    Achievement  ✅I plan to participate in the Kubernetes Meetup Tokyo  Diary  I don&#39;t know the storage  Note  Goで毎分100万リクエストを処理する  https://postd.cc/handling-1-million-requests-per-minute-with-go/ channel の話    </description>
     </item>
     
     <item>
@@ -451,7 +452,7 @@
       <pubDate>Mon, 11 Nov 2019 15:03:19 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191112/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I don&#39;t know etcdctl  Note  Last Week in Kubernetes Development  http://lwkd.info/2019/20191111 今週もあんまりないかな   KubeWeekly #192: 11th of November 2019  https://mailchi.mp/cncf/kubeweekly-1465403   We built network isolation for 1,500 services to make Monzo more secure  https://monzo.com/blog/we-built-network-isolation-for-1-500-services 1500 サービスに NetworkPolicy を適用する話   kube-proxy の iptables flow  https://twitter.com/thockin/status/1191766983735296000 ちゃんと読みたい   What Service Meshes Are, and Why Istio Leads the Pack  https://www.</description>
     </item>
     
     <item>
@@ -460,7 +461,7 @@
       <pubDate>Sun, 10 Nov 2019 15:03:02 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191111/</guid>
-      <description></description>
+      <description>Want to do  Competitive programming  Achievement  ✅Competitive programming  Diary  I don&#39;t know much algorithm to reduce the amount of calculation  Note  メモリアロケーションに対する罪悪感  https://kawasin73.hatenablog.com/entry/2019/11/10/112301 アロケーション意識しよう   Kubernetes: 詳解 Pods の終了  https://qiita.com/superbrothers/items/3ac78daba3560ea406b2 定期的に見る   Knative = Kubernetes Networking++の全訳  https://qiita.com/toshi0607/items/45403965beaa5bd1f8ca    </description>
     </item>
     
     <item>
@@ -469,7 +470,7 @@
       <pubDate>Sat, 09 Nov 2019 15:02:49 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191110/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I broke the plate for two consecutive days  Note  Go Modules: v2 and Beyond  https://blog.golang.org/v2-go-modules Go Modules でメジャーバージョンが上がる時の話   GoのAST全部見る  https://monpoke1.hatenablog.com/entry/2018/12/16/110943 めっちゃ網羅されてた   arush-sal/cka-practice-environment  https://github.com/arush-sal/cka-practice-environment まともに動かないとかなんとか   様々なrate limitアルゴリズム  https://christina04.hatenablog.com/entry/rate-limiting-algorithm Token bucket 以外をなんだかんだ覚えていないやつ   Let&#39;s Create a Simple Load Balancer With Go  https://kasvith.github.io/posts/lets-create-a-simple-lb-go/ Go で Load Balancer を作る話    </description>
     </item>
     
     <item>
@@ -478,7 +479,7 @@
       <pubDate>Fri, 08 Nov 2019 15:02:33 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191109/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I ’m not sure when to take the CKA exam  Note  5 GitOps Best Practices  https://blog.argoproj.io/5-gitops-best-practices-d95cb0cbe9ff   Kubernetes pods /etc/resolv.conf ndots:5 option and why it may negatively affect your application performances  https://pracucci.com/kubernetes-dns-resolution-ndots-options-and-why-it-may-affect-application-performances.html Kubernetes の resolve.conf の ndots のデフォルト設定が微妙で名前解決が遅いという話    </description>
     </item>
     
     <item>
@@ -487,7 +488,7 @@
       <pubDate>Thu, 07 Nov 2019 15:02:16 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191108/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I want to write programming go language  Note  AWS supports Automated Draining for Spot Instance Nodes on Kubernetes  https://aws.amazon.com/jp/about-aws/whats-new/2019/11/aws-supports-automated-draining-for-spot-instance-nodes-on-kubernetes/ https://twitter.com/toricls/status/1192662607905247232 ラベルがいるらしい   nil は nil — プログラミング言語 Go | text.Baldanders.info  https://text.baldanders.info/golang/nil-is-nil/ 型を持った nil もあるぞというやつ   nil channel の話  https://twitter.com/mattn_jp/status/1192695230568386561 https://twitter.com/mattn_jp/status/1192695423065964547    </description>
     </item>
     
     <item>
@@ -496,7 +497,7 @@
       <pubDate>Wed, 06 Nov 2019 15:02:36 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191107/</guid>
-      <description></description>
+      <description>Want to do  Play Studysapuri English  Achievement  None  Diary  I want to automate the upgrade of Kubernetes cluster  Note  argoproj/gitops-engine  https://github.com/argoproj/gitops-engine Argo CD と Flux がコア機能の共有をするっぽい   Kubernetes クラスタへのアップグレード自動化について  https://twitter.com/go_vargo/status/1192388342983217152   Create a custom Kubernetes scheduler  https://developer.ibm.com/articles/creating-a-custom-kube-scheduler/ scheduler のちょっと詳しい話   krzko/awesome-cka  https://github.com/krzko/awesome-cka CKA 取りたい    </description>
     </item>
     
     <item>
@@ -505,7 +506,7 @@
       <pubDate>Tue, 05 Nov 2019 15:01:42 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191106/</guid>
-      <description></description>
+      <description>Want to do  Play Studysapuri English  Achievement  None  Diary  I&#39;m not sure Pods preemption 😔  Note  hashicorp のリポジトリに PR 出した  https://github.com/hashicorp/go-plugin/pull/129 Terraform が使ってるプロセス起動して RPC で通信するやつ   EKS DNS at scale and spikeiness  https://aws.amazon.com/jp/blogs/containers/eks-dns-at-scale-and-spikeiness/ NodeLocal DNS の話   Pod Priority and Preemption  https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/ Preemption には Priority も考慮されるというやつ   Kubernetes Meetup Tokyo #10 で Pod の Preemption について話してきました  https://ccvanishing.</description>
     </item>
     
     <item>
@@ -514,7 +515,7 @@
       <pubDate>Mon, 04 Nov 2019 15:02:24 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191105/</guid>
-      <description></description>
+      <description>Want to do  Participate in the Terraform Source Code Reading#3  https://terraform-jp.connpass.com/event/150359/    Achievement  ✅Participate in the Terraform Source Code Reading#3  Diary  I spoke English at a meeting  Note  Kubernetes Network Deep Dive (NodePort, ClusterIP, Flannel)  https://qiita.com/sugimount/items/ed07a3e77a6d4ab409a8 ちゃんと読みたい   kustomize の bases deprecated になっていた  https://github.com/kubernetes-sigs/kustomize/blob/master/docs/v2.1.0.md#resources-expanded-bases-deprecated kubectl に取り込まれている kustomize のバージョンは現在 v2.0.3 なので -k オプション使うなら支障でそう  https://github.com/kubernetes-sigs/kustomize/blob/v3.3.1/README.md#kubectl-integration     Users and RBAC authorizations in Kubernetes  https://www.</description>
     </item>
     
     <item>
@@ -523,7 +524,7 @@
       <pubDate>Sun, 03 Nov 2019 15:02:23 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191104/</guid>
-      <description></description>
+      <description>Want to do  Play Studysapuri English  Achievement  None  Diary  I deepened my understanding of Conntrack  https://tech.xing.com/a-reason-for-unexplained-connection-timeouts-on-kubernetes-docker-abd041cf7e02    Note  Kubernetes: How to write a kubectl plugin  https://elsesiy.com/blog/how-to-kubectl-plugin kubectl プラグインの作り方    </description>
     </item>
     
     <item>
@@ -532,7 +533,7 @@
       <pubDate>Sat, 02 Nov 2019 15:02:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191103/</guid>
-      <description></description>
+      <description>Want to do  Play Studysapuri English  Achievement  None  Diary  I&#39;m sleepy  Note  kubernetes-sigs/ingress-controller-conformance  https://github.com/kubernetes-sigs/ingress-controller-conformance Ingress Controller の仕様   [Go] GitHub Actionsでキャッシュ機能を使う #github  https://budougumi0617.github.io/2019/11/03/use-cache-in-github-actions/ 欲しい物が来た    </description>
     </item>
     
     <item>
@@ -541,7 +542,7 @@
       <pubDate>Fri, 01 Nov 2019 15:03:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191102/</guid>
-      <description></description>
+      <description>Want to do  Play Studysapuri English  Achievement  ✅Play Studysapuri English  Diary  I have insufficient network knowledge😔  Note  A Kubernetes crime story  https://engineering.prezi.com/https-engineering-prezi-com-a-kubernetes-crime-story-2e8d75a77630 SNAT のせいで遅くなる話 EKS の場合は amazon-vpc-cni-k8s に AWS_VPC_K8S_CNI_EXTERNALSNAT=true を設定することで SNAT が無効になるらしい   A reason for unexplained connection timeouts on Kubernetes/Docker  https://tech.xing.com/a-reason-for-unexplained-connection-timeouts-on-kubernetes-docker-abd041cf7e02 SNAT 使ってるときに SYN パケットがドロップすることでタイムアウトが起きて遅くなる的な話 Conntrack とか何もわかってなくてつらい気持ちになった   Kubernetes Service Mesh: A Comparison of Istio, Linkerd and Consul  https://platform9.</description>
     </item>
     
     <item>
@@ -550,7 +551,7 @@
       <pubDate>Thu, 31 Oct 2019 15:09:48 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191101/</guid>
-      <description></description>
+      <description>Want to do  Play Studysapuri English  Achievement  ✅Play Studysapuri English  Diary  I write in English except for the Note.  Note  Go の switch の仕様  https://golang.org/ref/spec#Switch_statements switch x := f(); { // missing switch expression means &amp;quot;true&amp;quot;   Jaeger が CNCF の Graduation になってた  https://www.cncf.io/announcement/2019/10/31/cloud-native-computing-foundation-announces-jaeger-graduation/   Goのtestを理解する in 2019  https://budougumi0617.github.io/2019/10/30/go-testing2019/ Go1.11からGo1.13に含まれるテスト関連の変更    </description>
     </item>
     
     <item>
@@ -559,7 +560,7 @@
       <pubDate>Wed, 30 Oct 2019 15:02:19 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191031/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる  Achievement  やっとらんな  Diary  グローバルインタプリタロックとかの話をオンボーディングで聞けてよかった  Note  Cluster Autoscaler はデフォルトで leader election してるので replicas 2 でも大丈夫  https://github.com/kubernetes/autoscaler/blob/cluster-autoscaler-1.16.2/cluster-autoscaler/FAQ.md#what-are-the-parameters-to-ca https://github.com/kubernetes/autoscaler/blob/cluster-autoscaler-1.16.2/cluster-autoscaler/main.go#L356   client-go の leader election, 空の Endpoints と 空の ConfigMap 使う実装の 2 つある  https://github.com/kubernetes/client-go/blob/v12.0.0/examples/leader-election/main.go https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/resourcelock/endpointslock.go https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/resourcelock/configmaplock.go   How Airbnb scaled its migration to continuous delivery with Spinnaker  https://techbeacon.com/app-dev-testing/how-airbnb-scaled-its-migration-continuous-delivery-spinnaker   Go 1.14 の変更について, defer が更に早くなるらしい  https://twitter.</description>
     </item>
     
     <item>
@@ -568,7 +569,7 @@
       <pubDate>Tue, 29 Oct 2019 15:03:58 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191030/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる  Achievement  ✅スタディサプリ English やった  Diary  CUE, どうなんだろう  Note  Googleが作った分散アプリケーション基盤、Borgの論文を読み解く -その1-  https://inductor.hatenablog.com/entry/2019/10/30/010839 Borg の話   インフラのボトルネックについて知る  https://tikasan.hatenablog.com/entry/2018/06/05/082728 わかりやすくていい話だった   マイクロサービス環境でのメルカリWebのリリースフロー  https://tech.mercari.com/entry/2019/10/30/105936 Spinnaker, こういうフローを構築するときは強い   Week Ending October 27, 2019  http://lwkd.info/2019/20191029 Last Week In Kubernetes Development の今週分, 特別気になるものはない気がした   GoでCUEのバリデーション機能を利用しつつ、.cue/.json/.yaml形式の設定ファイルを読み込む  https://future-architect.github.io/articles/20191030/ validate を全部スキーマに任せられるのか    </description>
     </item>
     
     <item>
@@ -577,7 +578,7 @@
       <pubDate>Mon, 28 Oct 2019 15:03:20 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191029/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる  Achievement  ✅スタディサプリ English やった  Diary  Kubernetes のクラスタアップグレード, トイルにしないようにするための仕組みづくりどうしよう 花粉がつらい  Note  Argo CD v1.2.5  https://github.com/argoproj/argo-cd/releases/tag/v1.2.5 bug fix   次の GopherCon, ディズニーらしい  https://twitter.com/erikstmartin/status/1187846267256365056   至高のDockerイメージ生成を求めて -2019年版-  https://qiita.com/inductor/items/25d5accb80ea606d5c51 Dockerfile おじさんにビルド高速化虎の巻教えてほしい    </description>
     </item>
     
     <item>
@@ -586,7 +587,7 @@
       <pubDate>Sun, 27 Oct 2019 15:03:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191028/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる  Achievement  できとらん  Diary  GoCon 行きたかった  Note  go gc algorithm 101  https://speakerdeck.com/taxio/go-gc-algorithm-101 Go の GC の話, わかりやすい   How to develop &amp;ldquo;Container/Kubernetes Ready&amp;rdquo; Go web Application?  https://speakerdeck.com/tomioka43131/go-conference-authmn sleep の話とかは頻出なので覚えておきたい   OSS Performance Tuning Tips  https://speakerdeck.com/orisano/oss-performance-tuning-tips パフォーマンスチューニングの話, pprof 使いこなしたい   Go1.13以後のエラーハンドリングについて語ろう / Let&#39;s talk about error handling after Go 1 13  https://speakerdeck.com/ciarana/lets-talk-about-error-handling-after-go-1-13 xerrors のスタックトレースが早く標準パッケージに取り込まれてほしい    </description>
     </item>
     
     <item>
@@ -595,7 +596,7 @@
       <pubDate>Sat, 26 Oct 2019 15:02:49 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191027/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる  Achievement Diary  堕落していた 日記だけ続いてるのは偉いとおもう  Note  git の develop ブランチは必要なのか、またはリリースtagについて  https://togetter.com/li/1422612 個人的には feature と master だけでいいよ派   How We Structure Our Work At Mercari Microservices Platform Team  https://speakerdeck.com/tcnksm/how-we-structure-our-work-at-mercari-microservices-platform-team メルカリのプラットフォームチームのマネジメントについて   DevOps 技術: トランクベース開発  https://cloud.google.com/solutions/devops/devops-tech-trunk-based-development?hl=ja Google の DevOps に関するドキュメント    </description>
     </item>
     
     <item>
@@ -604,7 +605,7 @@
       <pubDate>Fri, 25 Oct 2019 15:01:40 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191026/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる FGO アニメ見た  Achievement  ✅スタディサプリ English やった ✅FGO アニメ見た  Diary  出掛けてた 何もやっとらん Datadog の Custom Agent check, v6 にアップグレードしたときに import するものが変わっていてハマった  Note  Writing a custom Agent check  https://docs.datadoghq.com/developers/write_agent_check/?tab=agentv6    </description>
     </item>
     
     <item>
@@ -613,7 +614,7 @@
       <pubDate>Thu, 24 Oct 2019 15:01:41 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191025/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる  Achievement  🚫スタディサプリ English やってない ✅昨日の Kubernetes Meetup Tokyo のメモ, ブログ化した  今までのも全部移行したい    Diary  Ruby なんもわからん  Note  Ingress v2 について  https://www.youtube.com/watch?v=Ne9UJL6irXY https://twitter.com/amsy810/status/1130766715380482051 https://crash.academy/video/906/2235   Ingress の KEP はこれかな  https://github.com/kubernetes/enhancements/blob/master/keps/sig-network/20190125-ingress-api-group.md   Exploring early access releases with feature preview  https://help.github.com/en/github/getting-started-with-github/exploring-early-access-releases-with-feature-preview GitHub の early access releases 有効化するやつ   Managing Kubernetes のススメ  https://twitter.com/nwiizo/status/1187638859045015552 https://speakerdeck.</description>
     </item>
     
     <item>
@@ -622,7 +623,7 @@
       <pubDate>Wed, 23 Oct 2019 15:02:46 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191024/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる Kubernetes Meetup Tokyo 参加  https://k8sjp.connpass.com/event/149872/   KubeWeekly 読む  https://mailchi.mp/cncf/kubeweekly-1465395    Achievement  ✅スタディサプリ English やった ✅KubeWeekly 読んだ  https://mailchi.mp/cncf/kubeweekly-1465395 めちゃくちゃおもしろい話は無さそう   ✅Kubernetes Meetup Tokyo 参加した  https://k8sjp.connpass.com/event/149872/    Diary  kubectlenv がほしい  Note  Argo CD の v1.3.0-rc1 のリリースノート  https://github.com/argoproj/argo-cd/releases/tag/v1.3.0-rc   Go の構造体定義のアライメントを可視化してくれるやつ  https://twitter.com/sonatard/status/1187215121342287872 http://golang-sizeof.tips/   Kubernetes で Complete/Failed となった Job を自動削除する  https://qiita.</description>
     </item>
     
     <item>
@@ -631,7 +632,7 @@
       <pubDate>Wed, 23 Oct 2019 11:52:09 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191023/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる  Achievement  ✅スタディサプリ English やったので偉い  Diary  Kubernetes Podcast 聞いてみたけど速すぎて聞き取れない  速く喋られると脳が処理を裁けなくてキューが詰まって死ぬ現象 詰まった瞬間にキューの中身を全部投げ捨てる感じになってる   CI じゃなくて手元で Hugo のビルドしたほうが GitHub Pages へ反映が早いことに気づいた  Note  Zero Scale Abstraction in Knative Serving  https://speakerdeck.com/toversus/zero-scale-abstraction-in-knative-serving ちゃんと読みたい   Kubernetes の Scheduler のスケジューリングのアルゴリズムについて  スコアリングの重み付け, 大体 1 だった NodePreferAvoidPodsPriority だけ絶対優先されるようになってる https://kubernetes.io/docs/concepts/scheduling/kube-scheduler/#kube-scheduler-implementation https://github.com/kubernetes/kubernetes/blob/v1.16.2/pkg/scheduler/algorithmprovider/defaults/register_priorities.go    </description>
     </item>
     
     <item>
@@ -640,7 +641,7 @@
       <pubDate>Tue, 22 Oct 2019 01:17:21 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191022/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる Blog の移行やる  Achievement  ✅Blog の移行少しやった ✅スタディサプリ English やった ✅既存リポジトリの CI の設定とかいじった  Diary  golangci-lint アップデートしたら whitespace 入れないと怒ってくる linter が結構厳しかった 上野公園には人間慣れしすぎた野良猫がいるという知見を得た  Note  WSL - Whitespace Linter  https://github.com/bombsimon/wsl    </description>
     </item>
     
     <item>
@@ -649,7 +650,7 @@
       <pubDate>Mon, 21 Oct 2019 11:43:45 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191021/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる Blog の移行やる 炎炎ノ消防隊見る  Achievement  ✅炎炎ノ消防隊見た  Diary  Blog の移行 is&amp;hellip; GitHub Actions の cron 使って日記の自動生成するようにした Ruby の構文がなにもわからないやつをやった  Note  GitHub Actions の cron はこう書く  https://help.github.com/en/github/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#onschedule   コンテナユーザなら誰もが使っているランタイム「runc」を俯瞰する[Container Runtime Meetup #1発表レポート]  https://medium.com/nttlabs/runc-overview-263b83164c98 runc なんもわらかん   tfenv install できないやつにハマった  https://github.com/tfutils/tfenv/issues/83   コマンドを間違えたときに fuck って打つと正しいコマンド実行してくれるやつ, UX が素晴らしい  https://github.com/nvbn/thefuck    </description>
     </item>
     
     <item>
@@ -658,7 +659,7 @@
       <pubDate>Sun, 20 Oct 2019 23:50:51 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191020/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる FGO アニメみたい  Achievement  ✅FGO アニメ見た  Diary  なんもやっとらん serverspec が何もわからないやつをやっている 今年の Hacktoberfest, 審査終わって完了したっぽい Go を書く時間を確保できていないので確保しないといけないなってなってる  Note  uber-go/guideの 日本語訳  https://github.com/knsh14/uber-style-guide-ja    </description>
     </item>
     
     <item>
@@ -667,7 +668,7 @@
       <pubDate>Sat, 19 Oct 2019 00:16:05 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191019/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる ブログの移行作業をする 12 Kubernetes configuration best practices 読む  https://www.stackrox.com/post/2019/09/12-kubernetes-configuration-best-practices/   Kubernetes Networking: Behind the scenes 読む  https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb   Kubernetes Patterns 読む  https://www.magalix.com/blog/kubernetes-patterns-the-stateful-service-pattern 他の記事もある    Achievement  ✅スタディサプリ English やった ✅12 Kubernetes configuration best practices 読んだ  https://www.stackrox.com/post/2019/09/12-kubernetes-configuration-best-practices/ 各コンポーネントの option とかめっちゃ細かく書いてある. 保存版   ✅Kubernetes Networking: Behind the scenes 読む  https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb めっちゃ詳しいんだけどネットワークの基礎知識が足りてないのであんまり理解ができてない   ✅Kubernetes Patterns : The Stateful Service Pattern 読んだ  https://www.</description>
     </item>
     
     <item>
@@ -676,7 +677,7 @@
       <pubDate>Fri, 18 Oct 2019 00:42:32 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191018/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる ブログの移行作業をする 虚構推理読みたい KubeWeekly 読みたい  https://mailchi.mp/cncf/kubeweekly-1465391    Achievement  ✅虚構推理読んだ ✅スタディサプリ English やる ✅KubeWeekly 読んだ  https://mailchi.mp/cncf/kubeweekly-1465391   🚫ブログの移行作業をする  Diary  Ruby となかよくなれるきがしない Blog と Diary 分けてたけど冷静に分ける意味なくね? って思ってしまったので統合した Go 書きたい  Note  Zalando がいい感じに Kubernetes クラスタの管理をしている話  ここまでの仕組みづくりができるの強い https://srcco.de/posts/how-zalando-manages-140-kubernetes-clusters.html   Go 1.13.3  https://twitter.com/golang/status/1184973510839537664   Go 1.13 の error の公式ブログ  https://blog.golang.org/go1.13-errors    </description>
     </item>
     
     <item>
@@ -685,7 +686,7 @@
       <pubDate>Thu, 17 Oct 2019 10:45:40 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191017/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる ブログの移行作業をする 虚構推理読みたい  Achievement  🚫全然できてない ✅Datadog agent の process check 有効化してファイルディスクリプタ監視できるようにした  Diary  英語焼き肉会で喋れなさを実感したのでつらいきもちになった  Note  Kubernetes の API Server の CVE  https://groups.google.com/forum/#!msg/kubernetes-security-announce/jk8polzSUxs/dfq6a-MnCQAJ 参考になる Twitter スレッド https://twitter.com/superbrothers/status/1184636588682121216   CockroachCloud が誕生していた  https://www.cockroachlabs.com/blog/cockroachcloud-release/ Spanner との差別化がどうなってるのか気になる   Kubernetes Networking: Behind the scenes  読みたい https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb   Kubernetes 1.12 のリリースノート読まないといけない  heapstar が死んでてて metrics-server を入れないといけない    </description>
     </item>
     
     <item>
@@ -694,7 +695,7 @@
       <pubDate>Wed, 16 Oct 2019 10:21:57 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191016/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる ブログの移行作業をする  Achievement  ✅スタディサプリ English やる ✅PR 出すと Hugo の build して push する感じの GitHub Actions workflow 書いた  Diary  英語で Issue とか PR とか書いてるとイマイチコンテキストを伝えきれないことがあって、英語ぢからのなさを実感してる Hugo で post に tag 付けられるのは便利だなって思った  Note  base64 パッケージで []byte の slice 作るときは base64.StdEncoding.DecodedLen(len(b64Buffer)) とか使う  https://golang.org/pkg/encoding/base64/#Encoding.DecodedLen   Envoy の発音, おんゔぉい だった ExternalDNS 使ってマルチクラスタにトラフィック流すやつ  ExternalDNS に CRD を watch させるらしい https://github.com/kubernetes-sigs/kubefed/blob/v0.0.10/docs/servicedns-with-externaldns.md   ALB Ingress Controller, ALB の認証も使えそうだった  https://kubernetes-sigs.</description>
     </item>
     
   </channel>

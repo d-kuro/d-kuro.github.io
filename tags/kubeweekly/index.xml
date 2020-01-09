@@ -19,7 +19,7 @@
       <pubDate>Mon, 11 Nov 2019 15:03:19 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191112/</guid>
-      <description></description>
+      <description>Want to do  None  Achievement  None  Diary  I don&#39;t know etcdctl  Note  Last Week in Kubernetes Development  http://lwkd.info/2019/20191111 今週もあんまりないかな   KubeWeekly #192: 11th of November 2019  https://mailchi.mp/cncf/kubeweekly-1465403   We built network isolation for 1,500 services to make Monzo more secure  https://monzo.com/blog/we-built-network-isolation-for-1-500-services 1500 サービスに NetworkPolicy を適用する話   kube-proxy の iptables flow  https://twitter.com/thockin/status/1191766983735296000 ちゃんと読みたい   What Service Meshes Are, and Why Istio Leads the Pack  https://www.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Wed, 23 Oct 2019 15:02:46 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191024/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる Kubernetes Meetup Tokyo 参加  https://k8sjp.connpass.com/event/149872/   KubeWeekly 読む  https://mailchi.mp/cncf/kubeweekly-1465395    Achievement  ✅スタディサプリ English やった ✅KubeWeekly 読んだ  https://mailchi.mp/cncf/kubeweekly-1465395 めちゃくちゃおもしろい話は無さそう   ✅Kubernetes Meetup Tokyo 参加した  https://k8sjp.connpass.com/event/149872/    Diary  kubectlenv がほしい  Note  Argo CD の v1.3.0-rc1 のリリースノート  https://github.com/argoproj/argo-cd/releases/tag/v1.3.0-rc   Go の構造体定義のアライメントを可視化してくれるやつ  https://twitter.com/sonatard/status/1187215121342287872 http://golang-sizeof.tips/   Kubernetes で Complete/Failed となった Job を自動削除する  https://qiita.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Fri, 18 Oct 2019 00:42:32 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191018/</guid>
-      <description></description>
+      <description>Want to do  スタディサプリ English やる ブログの移行作業をする 虚構推理読みたい KubeWeekly 読みたい  https://mailchi.mp/cncf/kubeweekly-1465391    Achievement  ✅虚構推理読んだ ✅スタディサプリ English やる ✅KubeWeekly 読んだ  https://mailchi.mp/cncf/kubeweekly-1465391   🚫ブログの移行作業をする  Diary  Ruby となかよくなれるきがしない Blog と Diary 分けてたけど冷静に分ける意味なくね? って思ってしまったので統合した Go 書きたい  Note  Zalando がいい感じに Kubernetes クラスタの管理をしている話  ここまでの仕組みづくりができるの強い https://srcco.de/posts/how-zalando-manages-140-kubernetes-clusters.html   Go 1.13.3  https://twitter.com/golang/status/1184973510839537664   Go 1.13 の error の公式ブログ  https://blog.golang.org/go1.13-errors    </description>
     </item>
     
   </channel>

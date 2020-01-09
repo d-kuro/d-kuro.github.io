@@ -19,7 +19,7 @@
       <pubDate>Sun, 22 Dec 2019 15:02:06 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191223/</guid>
-      <description></description>
+      <description>Diary  Upgrading kustomize from v1 to v3  Note  より良いコードレビューをするために気をつけていること  https://tech.mercari.com/entry/2019/12/22/080000 Go の話   Using Makefile(s) for Go  https://danishpraka.sh/2019/12/07/using-makefiles-for-go.html Go で Makefile 使うとのサンプルにしたい   Kubernetes Podcast in 2019: year-end recap  https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-podcast-in-2019-year-end-recap Kubernetes Podcast, 全然聞き取れない   Traffic Management for Knative Services  https://medium.com/@zhimin.wen/traffic-management-for-knative-services-a211171c6e5f Knative の traffic management の話, どちらかといえば Istio の話っぽい   Programmatically Kubernetes port forward in Go  https://gianarb.it/blog/programmatically-kube-port-forward-in-go Kubernetes への port forward を Go で実装する話   Looking at Kubernetes’ 2k+ TODO Comments  https://medium.</description>
     </item>
     
   </channel>
