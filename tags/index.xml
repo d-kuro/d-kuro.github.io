@@ -8,10 +8,64 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Tue, 07 Jan 2020 15:03:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2020 15:03:06 +0000</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go</title>
+      <link>https://d-kuro.github.io/tags/go/</link>
+      <pubDate>Thu, 09 Jan 2020 15:03:06 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Envoy</title>
+      <link>https://d-kuro.github.io/tags/envoy/</link>
+      <pubDate>Wed, 08 Jan 2020 15:03:07 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/envoy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Istio</title>
+      <link>https://d-kuro.github.io/tags/istio/</link>
+      <pubDate>Wed, 08 Jan 2020 15:03:07 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JetBrains</title>
+      <link>https://d-kuro.github.io/tags/jetbrains/</link>
+      <pubDate>Wed, 08 Jan 2020 15:03:07 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/jetbrains/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubebuilder</title>
+      <link>https://d-kuro.github.io/tags/kubebuilder/</link>
+      <pubDate>Wed, 08 Jan 2020 15:03:07 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/kubebuilder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://d-kuro.github.io/tags/kubernetes/</link>
+      <pubDate>Wed, 08 Jan 2020 15:03:07 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Datadog</title>
@@ -19,15 +73,6 @@
       <pubDate>Tue, 07 Jan 2020 15:03:21 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/datadog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://d-kuro.github.io/tags/go/</link>
-      <pubDate>Tue, 07 Jan 2020 15:03:21 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/go/</guid>
       <description></description>
     </item>
     
@@ -41,29 +86,11 @@
     </item>
     
     <item>
-      <title>JetBrains</title>
-      <link>https://d-kuro.github.io/tags/jetbrains/</link>
-      <pubDate>Mon, 06 Jan 2020 15:03:01 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/jetbrains/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>kubectl plugin</title>
       <link>https://d-kuro.github.io/tags/kubectl-plugin/</link>
       <pubDate>Mon, 06 Jan 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/kubectl-plugin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kubernetes</title>
-      <link>https://d-kuro.github.io/tags/kubernetes/</link>
-      <pubDate>Mon, 06 Jan 2020 15:03:01 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
     
@@ -113,15 +140,6 @@
     </item>
     
     <item>
-      <title>Envoy</title>
-      <link>https://d-kuro.github.io/tags/envoy/</link>
-      <pubDate>Sun, 05 Jan 2020 15:03:01 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/envoy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Computer science</title>
       <link>https://d-kuro.github.io/tags/computer-science/</link>
       <pubDate>Sun, 05 Jan 2020 21:28:38 +0900</pubDate>
@@ -145,15 +163,6 @@
       <pubDate>Sat, 04 Jan 2020 00:20:49 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kubebuilder</title>
-      <link>https://d-kuro.github.io/tags/kubebuilder/</link>
-      <pubDate>Thu, 02 Jan 2020 15:01:52 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubebuilder/</guid>
       <description></description>
     </item>
     
@@ -235,15 +244,6 @@
       <pubDate>Sat, 28 Dec 2019 15:01:40 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/service-mesh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Istio</title>
-      <link>https://d-kuro.github.io/tags/istio/</link>
-      <pubDate>Wed, 25 Dec 2019 15:02:07 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/istio/</guid>
       <description></description>
     </item>
     
