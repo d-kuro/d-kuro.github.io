@@ -19,7 +19,7 @@
       <pubDate>Thu, 09 Jan 2020 15:03:06 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200110/</guid>
-      <description>Diary  None  Note  Go 1.13.6 が出た  https://twitter.com/golang/status/1215401407194464256   Envoy と Kubernetes で始める Progressive Delivery  https://qiita.com/mumoshu/items/63b29bca6a052d8c7087   Dynamic Routing by Envoy + Istio  https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio   1年間のシステム運用を通して分かったIstioの嬉しさと活用  https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい   CloudNative Days Kansai2019 登壇内容の補足  https://qiita.com/t-ide/items/830ef145a77e411fae44 上のスライドの補足    </description>
+      <description>Diary  None  Note  Go 1.13.6 が出た  https://twitter.com/golang/status/1215401407194464256   Envoy と Kubernetes で始める Progressive Delivery  https://qiita.com/mumoshu/items/63b29bca6a052d8c7087   Dynamic Routing by Envoy + Istio  https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio   1年間のシステム運用を通して分かったIstioの嬉しさと活用  https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい   CloudNative Days Kansai2019 登壇内容の補足  https://qiita.com/t-ide/items/830ef145a77e411fae44 上のスライドの補足   io.CopyにはなるべくWriteTo関数を渡してあげた方が良さそう  https://qiita.com/yamasaki-masahide/items/ed4c10d47900f1e7cdc0    </description>
     </item>
     
     <item>
