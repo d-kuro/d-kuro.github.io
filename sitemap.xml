@@ -18,6 +18,21 @@
   </url>
   
   <url>
+    <loc>https://d-kuro.github.io/tags/eks/</loc>
+    <lastmod>2020-01-16T15:03:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubernetes/</loc>
+    <lastmod>2020-01-16T15:03:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/</loc>
+    <lastmod>2020-01-16T15:03:17+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://d-kuro.github.io/diaries/202001/20200116/</loc>
     <lastmod>2020-01-15T15:03:19+00:00</lastmod>
   </url>
@@ -33,17 +48,7 @@
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/tags/kubernetes/</loc>
-    <lastmod>2020-01-15T15:03:19+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://d-kuro.github.io/tags/loki/</loc>
-    <lastmod>2020-01-15T15:03:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/</loc>
     <lastmod>2020-01-15T15:03:19+00:00</lastmod>
   </url>
   
@@ -184,11 +189,6 @@
   
   <url>
     <loc>https://d-kuro.github.io/diaries/202001/20200106/</loc>
-    <lastmod>2020-01-05T15:03:01+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/eks/</loc>
     <lastmod>2020-01-05T15:03:01+00:00</lastmod>
   </url>
   
