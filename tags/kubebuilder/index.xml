@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kubebuilder on AFN Blog</title>
+    <title>Kubebuilder on AFN Blog</title>
     <link>https://d-kuro.github.io/tags/kubebuilder/</link>
-    <description>Recent content in kubebuilder on AFN Blog</description>
+    <description>Recent content in Kubebuilder on AFN Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>

@@ -23,11 +23,29 @@
     </item>
     
     <item>
+      <title>Go</title>
+      <link>https://d-kuro.github.io/tags/go/</link>
+      <pubDate>Wed, 15 Jan 2020 15:03:19 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kubernetes</title>
       <link>https://d-kuro.github.io/tags/kubernetes/</link>
       <pubDate>Wed, 15 Jan 2020 15:03:19 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loki</title>
+      <link>https://d-kuro.github.io/tags/loki/</link>
+      <pubDate>Wed, 15 Jan 2020 15:03:19 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/loki/</guid>
       <description></description>
     </item>
     
@@ -68,15 +86,6 @@
     </item>
     
     <item>
-      <title>Go</title>
-      <link>https://d-kuro.github.io/tags/go/</link>
-      <pubDate>Sun, 12 Jan 2020 15:03:01 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Envoy</title>
       <link>https://d-kuro.github.io/tags/envoy/</link>
       <pubDate>Thu, 09 Jan 2020 15:03:06 +0000</pubDate>
@@ -113,7 +122,7 @@
     </item>
     
     <item>
-      <title>kubebuilder</title>
+      <title>Kubebuilder</title>
       <link>https://d-kuro.github.io/tags/kubebuilder/</link>
       <pubDate>Wed, 08 Jan 2020 15:03:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
@@ -478,15 +487,6 @@
       <pubDate>Tue, 10 Dec 2019 15:01:32 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/cni/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Loki</title>
-      <link>https://d-kuro.github.io/tags/loki/</link>
-      <pubDate>Mon, 09 Dec 2019 15:01:11 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/loki/</guid>
       <description></description>
     </item>
     

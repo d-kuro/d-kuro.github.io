@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>2020-01-16 - AFN Blog</title>
-  <meta name="description" content="Diary  None  Note  Argo CD のパスワードリセットの方法  https://github.com/argoproj/argo-cd/blob/master/docs/faq.md#i-forgot-the-admin-password-how-do-i-reset-it   Kubernetesのネットワーク構成  https://tech-lab.sios.jp/archives/7857 図があってわかりやすい, iptables の話とか    ">
+  <meta name="description" content="Diary  None  Note  Argo CD のパスワードリセットの方法  https://github.com/argoproj/argo-cd/blob/master/docs/faq.md#i-forgot-the-admin-password-how-do-i-reset-it   Kubernetesのネットワーク構成  https://tech-lab.sios.jp/archives/7857 図があってわかりやすい, iptables の話とか   Container exits with non-zero exit code 137  https://success.docker.com/article/what-causes-a-container-to-exit-with-code-137 137 の秘密, SIGTERM の 10 秒後に SIGKILL が送られるっぽい   Terraform、Docker、Kubernetesなどのテストを自動化する - Yevgeniy Brikman氏のQCon SFでの講演より  https://www.infoq.com/jp/news/2020/01/automated-testing-infrastructure/ インフラのコードのテスト, やりたい   Go: How Does Go Stop the World?  https://medium.com/a-journey-with-go/go-how-does-go-stop-the-world-1ffab8bc8846 Go の STW について   5 Best Practices for Configuring Kubernetes Pods Running in Production  https://thenewstack.">
   <meta name="author" content="d-kuro"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -57,13 +57,13 @@
     "name" : "d-kuro"
   },
   "headline": "2020-01-16",
-  "description" : "Diary  None  Note  Argo CD のパスワードリセットの方法  https:\/\/github.com\/argoproj\/argo-cd\/blob\/master\/docs\/faq.md#i-forgot-the-admin-password-how-do-i-reset-it   Kubernetesのネットワーク構成  https:\/\/tech-lab.sios.jp\/archives\/7857 図があってわかりやすい, iptables の話とか    ",
+  "description" : "Diary  None  Note  Argo CD のパスワードリセットの方法  https:\/\/github.com\/argoproj\/argo-cd\/blob\/master\/docs\/faq.md#i-forgot-the-admin-password-how-do-i-reset-it   Kubernetesのネットワーク構成  https:\/\/tech-lab.sios.jp\/archives\/7857 図があってわかりやすい, iptables の話とか   Container exits with non-zero exit code 137  https:\/\/success.docker.com\/article\/what-causes-a-container-to-exit-with-code-137 137 の秘密, SIGTERM の 10 秒後に SIGKILL が送られるっぽい   Terraform、Docker、Kubernetesなどのテストを自動化する - Yevgeniy Brikman氏のQCon SFでの講演より  https:\/\/www.infoq.com\/jp\/news\/2020\/01\/automated-testing-infrastructure\/ インフラのコードのテスト, やりたい   Go: How Does Go Stop the World?  https:\/\/medium.com\/a-journey-with-go\/go-how-does-go-stop-the-world-1ffab8bc8846 Go の STW について   5 Best Practices for Configuring Kubernetes Pods Running in Production  https:\/\/thenewstack.",
   "inLanguage" : "en",
-  "wordCount":  12 ,
+  "wordCount":  80 ,
   "datePublished" : "2020-01-15T15:03:19",
   "dateModified" : "2020-01-15T15:03:19",
   "image" : "https:\/\/d-kuro.github.io\/img\/avatar-icon.jpg",
-  "keywords" : [ "Kubernetes, Argo CD" ],
+  "keywords" : [ "Kubernetes, Argo CD, Go, Loki" ],
   "mainEntityOfPage" : "https:\/\/d-kuro.github.io\/diaries\/202001\/20200116\/",
   "publisher" : {
     "@type": "Organization",
@@ -79,7 +79,7 @@
 </script>
 
 <meta property="og:title" content="2020-01-16" />
-<meta property="og:description" content="Diary  None  Note  Argo CD のパスワードリセットの方法  https://github.com/argoproj/argo-cd/blob/master/docs/faq.md#i-forgot-the-admin-password-how-do-i-reset-it   Kubernetesのネットワーク構成  https://tech-lab.sios.jp/archives/7857 図があってわかりやすい, iptables の話とか    ">
+<meta property="og:description" content="Diary  None  Note  Argo CD のパスワードリセットの方法  https://github.com/argoproj/argo-cd/blob/master/docs/faq.md#i-forgot-the-admin-password-how-do-i-reset-it   Kubernetesのネットワーク構成  https://tech-lab.sios.jp/archives/7857 図があってわかりやすい, iptables の話とか   Container exits with non-zero exit code 137  https://success.docker.com/article/what-causes-a-container-to-exit-with-code-137 137 の秘密, SIGTERM の 10 秒後に SIGKILL が送られるっぽい   Terraform、Docker、Kubernetesなどのテストを自動化する - Yevgeniy Brikman氏のQCon SFでの講演より  https://www.infoq.com/jp/news/2020/01/automated-testing-infrastructure/ インフラのコードのテスト, やりたい   Go: How Does Go Stop the World?  https://medium.com/a-journey-with-go/go-how-does-go-stop-the-world-1ffab8bc8846 Go の STW について   5 Best Practices for Configuring Kubernetes Pods Running in Production  https://thenewstack.">
 <meta property="og:image" content="https://d-kuro.github.io/img/avatar-icon.jpg" />
 <meta property="og:url" content="https://d-kuro.github.io/diaries/202001/20200116/" />
 <meta property="og:type" content="website" />
@@ -274,6 +274,36 @@
 <li>図があってわかりやすい, iptables の話とか</li>
 </ul>
 </li>
+<li>Container exits with non-zero exit code 137
+<ul>
+<li><a href="https://success.docker.com/article/what-causes-a-container-to-exit-with-code-137">https://success.docker.com/article/what-causes-a-container-to-exit-with-code-137</a></li>
+<li>137 の秘密, SIGTERM の 10 秒後に SIGKILL が送られるっぽい</li>
+</ul>
+</li>
+<li>Terraform、Docker、Kubernetesなどのテストを自動化する - Yevgeniy Brikman氏のQCon SFでの講演より
+<ul>
+<li><a href="https://www.infoq.com/jp/news/2020/01/automated-testing-infrastructure/">https://www.infoq.com/jp/news/2020/01/automated-testing-infrastructure/</a></li>
+<li>インフラのコードのテスト, やりたい</li>
+</ul>
+</li>
+<li>Go: How Does Go Stop the World?
+<ul>
+<li><a href="https://medium.com/a-journey-with-go/go-how-does-go-stop-the-world-1ffab8bc8846">https://medium.com/a-journey-with-go/go-how-does-go-stop-the-world-1ffab8bc8846</a></li>
+<li>Go の STW について</li>
+</ul>
+</li>
+<li>5 Best Practices for Configuring Kubernetes Pods Running in Production
+<ul>
+<li><a href="https://thenewstack.io/5-best-practices-for-configuring-kubernetes-pods-running-in-production/">https://thenewstack.io/5-best-practices-for-configuring-kubernetes-pods-running-in-production/</a></li>
+<li>適切な Object, ヘルスチェック, init container, Affinity, Autoscaler</li>
+</ul>
+</li>
+<li>次世代のログ基盤 Grafana Lokiを始めよう! / prometheus-meetup-tokyo-3-lets-start-the-loki
+<ul>
+<li><a href="https://speakerdeck.com/uesyn/prometheus-meetup-tokyo-3-lets-start-the-loki">https://speakerdeck.com/uesyn/prometheus-meetup-tokyo-3-lets-start-the-loki</a></li>
+</ul>
+</li>
+<li>Argo CD が管理する Object には <code>app.kubernetes.io/part-of: &lt;Application&gt;</code> ラベルが付くというメモ</li>
 </ul>
 
 
@@ -283,6 +313,10 @@
               <a href="https://d-kuro.github.io//tags/kubernetes/">Kubernetes</a>&nbsp;
             
               <a href="https://d-kuro.github.io//tags/argo-cd/">Argo CD</a>&nbsp;
+            
+              <a href="https://d-kuro.github.io//tags/go/">Go</a>&nbsp;
+            
+              <a href="https://d-kuro.github.io//tags/loki/">Loki</a>&nbsp;
             
           </div>
         
@@ -354,6 +388,10 @@
               <a href="https://d-kuro.github.io/diaries/202001/20200115/" data-toggle="tooltip" data-placement="top" title="2020-01-15">&larr; Previous Post</a>
             </li>
           
+          
+            <li class="next">
+              <a href="https://d-kuro.github.io/diaries/202001/20200117/" data-toggle="tooltip" data-placement="top" title="2020-01-17">Next Post &rarr;</a>
+            </li>
           
         </ul>
       
