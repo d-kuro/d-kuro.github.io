@@ -19,7 +19,7 @@
       <pubDate>Sun, 19 Jan 2020 15:03:21 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200120/</guid>
-      <description>Diary  None  Note  Argo CD v1.4 Released!  https://blog.argoproj.io/argo-cd-v1-4-released-4361ed19cc72   Sync Windows - Argo CD - Declarative GitOps CD for Kubernetes  https://argoproj.github.io/argo-cd/user-guide/sync_windows/ 特定の時間だけ Sync しますみたいなやつ    </description>
+      <description>Diary  None  Note  Argo CD v1.4 Released!  https://blog.argoproj.io/argo-cd-v1-4-released-4361ed19cc72   Sync Windows - Argo CD - Declarative GitOps CD for Kubernetes  https://argoproj.github.io/argo-cd/user-guide/sync_windows/ 特定の時間だけ Sync しますみたいなやつ   Argo CDによる継続的デリバリーのベストプラクティスとその実装  https://blog.cybozu.io/entry/2019/11/21/100000 サイボウズの事例, 大体同じ気持ち    </description>
     </item>
     
     <item>
