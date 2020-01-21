@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://d-kuro.github.io/diaries/202001/20200120/</loc>
-    <lastmod>2020-01-19T15:03:21+00:00</lastmod>
+    <loc>https://d-kuro.github.io/diaries/202001/20200121/</loc>
+    <lastmod>2020-01-20T15:03:30+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://d-kuro.github.io/</loc>
+    <lastmod>2020-01-20T15:03:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/</loc>
+    <lastmod>2020-01-20T15:03:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/go/</loc>
+    <lastmod>2020-01-20T15:03:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/</loc>
+    <lastmod>2020-01-20T15:03:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/202001/20200120/</loc>
     <lastmod>2020-01-19T15:03:21+00:00</lastmod>
   </url>
   
@@ -18,22 +38,12 @@
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/diaries/</loc>
-    <lastmod>2020-01-19T15:03:21+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/</loc>
+    <loc>https://d-kuro.github.io/tags/datadog/</loc>
     <lastmod>2020-01-19T15:03:21+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://d-kuro.github.io/diaries/202001/20200119/</loc>
-    <lastmod>2020-01-18T15:03:24+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/go/</loc>
     <lastmod>2020-01-18T15:03:24+00:00</lastmod>
   </url>
   
@@ -154,11 +164,6 @@
   
   <url>
     <loc>https://d-kuro.github.io/diaries/202001/20200108/</loc>
-    <lastmod>2020-01-07T15:03:21+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/datadog/</loc>
     <lastmod>2020-01-07T15:03:21+00:00</lastmod>
   </url>
   
