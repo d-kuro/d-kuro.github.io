@@ -8,10 +8,28 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Fri, 24 Jan 2020 15:03:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2020 15:03:03 +0000</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go</title>
+      <link>https://d-kuro.github.io/tags/go/</link>
+      <pubDate>Sat, 25 Jan 2020 15:03:03 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SRE</title>
+      <link>https://d-kuro.github.io/tags/sre/</link>
+      <pubDate>Sat, 25 Jan 2020 15:03:03 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/sre/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>client-go</title>
@@ -19,15 +37,6 @@
       <pubDate>Fri, 24 Jan 2020 15:03:06 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/client-go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://d-kuro.github.io/tags/go/</link>
-      <pubDate>Fri, 24 Jan 2020 15:03:06 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/go/</guid>
       <description></description>
     </item>
     
@@ -586,15 +595,6 @@
       <pubDate>Wed, 20 Nov 2019 15:04:04 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/jvm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SRE</title>
-      <link>https://d-kuro.github.io/tags/sre/</link>
-      <pubDate>Tue, 19 Nov 2019 15:03:13 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/sre/</guid>
       <description></description>
     </item>
     
