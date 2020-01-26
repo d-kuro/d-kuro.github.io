@@ -19,7 +19,7 @@
       <pubDate>Thu, 14 Nov 2019 15:03:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191115/</guid>
-      <description>Want to do  None  Achievement  None  Diary  I have to study English  Note  Introducing Argo Flux - A Weaveworks-Intuit-AWS Collaboration  https://www.weave.works/blog/argo-flux-join-forces Argo Flux なる新しい OSS が誕生するよという話 この話が出たことで Argo CD にも Flux にはあった Docker レジストリの監視機能とかも入りそう 更に今後のロードマップとして Weave Flagger と Argo Rollouts をくっつけて Argo Flagger 作る話とかもあるっぽい   Grep from First Principles, in Golang  https://willdemaine.ghost.io/grep-from-first-principles-in-golang/ grep の仕組みの話とか書いてある    </description>
+      <description>Want to do None Achievement None Diary I have to study English Note Introducing Argo Flux - A Weaveworks-Intuit-AWS Collaboration https://www.weave.works/blog/argo-flux-join-forces Argo Flux なる新しい OSS が誕生するよという話 この話が出たことで Argo CD にも Flux にはあった Docker レジストリの監視機能と</description>
     </item>
     
   </channel>

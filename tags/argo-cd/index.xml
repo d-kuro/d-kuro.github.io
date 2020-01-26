@@ -19,7 +19,7 @@
       <pubDate>Sun, 19 Jan 2020 15:03:21 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200120/</guid>
-      <description>Diary  None  Note  Argo CD v1.4 Released!  https://blog.argoproj.io/argo-cd-v1-4-released-4361ed19cc72   Sync Windows - Argo CD - Declarative GitOps CD for Kubernetes  https://argoproj.github.io/argo-cd/user-guide/sync_windows/ 特定の時間だけ Sync しますみたいなやつ   Argo CDによる継続的デリバリーのベストプラクティスとその実装  https://blog.cybozu.io/entry/2019/11/21/100000 サイボウズの事例, 大体同じ気持ち   Prometheus and OpenMetrics metrics collection  https://docs.datadoghq.com/ja/getting_started/integrations/prometheus/?tab=host Datadog で OpenMetrics のエンドポイントからメトリクス拾うやつ    </description>
+      <description>Diary None Note Argo CD v1.4 Released! https://blog.argoproj.io/argo-cd-v1-4-released-4361ed19cc72 Sync Windows - Argo CD - Declarative GitOps CD for Kubernetes https://argoproj.github.io/argo-cd/user-guide/sync_windows/ 特定の時間だけ Sync しますみたいなやつ Argo CDによる継続的デリバリーのベストプラクティスとその実装 https://blog.cybozu.io/entry/2019/11/21/100000 サイボ</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Fri, 17 Jan 2020 15:03:19 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200118/</guid>
-      <description>Diary  None  Note  Kubernetes 1.17: Volume Snapshots Beta and Scheduler changes for stability and extensibility – Red Hat OpenShift Blog  https://blog.openshift.com/kubernetes-1-17-volume-snapshots-beta-and-scheduler-changes-for-stability-and-extensibility/ Kubernetes v1.17 でスケジューリングのアルゴリズムが変わったよというやつ   Argo CD v1.4.0 has been released  https://github.com/argoproj/argo-cd/releases/tag/v1.4.0   golangとDockerとOOM  https://www.kaoriya.net/blog/2020/01/18/golang-on-docker-oom/ Docker で動かしているときに, 仮想メモリは確保できているのに OOM が送られてくるよという話    </description>
+      <description>Diary None Note Kubernetes 1.17: Volume Snapshots Beta and Scheduler changes for stability and extensibility – Red Hat OpenShift Blog https://blog.openshift.com/kubernetes-1-17-volume-snapshots-beta-and-scheduler-changes-for-stability-and-extensibility/ Kubernetes v1.17 でスケジューリングのアルゴリズムが変わったよというやつ Argo CD v1.4.0 has been released https://github.com/argoproj/argo-cd/releases/tag/v1.4.0 golangとDocker</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Wed, 15 Jan 2020 15:03:19 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200116/</guid>
-      <description>Diary  None  Note  Argo CD のパスワードリセットの方法  https://github.com/argoproj/argo-cd/blob/master/docs/faq.md#i-forgot-the-admin-password-how-do-i-reset-it   Kubernetesのネットワーク構成  https://tech-lab.sios.jp/archives/7857 図があってわかりやすい, iptables の話とか   Container exits with non-zero exit code 137  https://success.docker.com/article/what-causes-a-container-to-exit-with-code-137 137 の秘密, SIGTERM の 10 秒後に SIGKILL が送られるっぽい   Terraform、Docker、Kubernetesなどのテストを自動化する - Yevgeniy Brikman氏のQCon SFでの講演より  https://www.infoq.com/jp/news/2020/01/automated-testing-infrastructure/ インフラのコードのテスト, やりたい   Go: How Does Go Stop the World?  https://medium.com/a-journey-with-go/go-how-does-go-stop-the-world-1ffab8bc8846 Go の STW について   5 Best Practices for Configuring Kubernetes Pods Running in Production  https://thenewstack.</description>
+      <description>Diary None Note Argo CD のパスワードリセットの方法 https://github.com/argoproj/argo-cd/blob/master/docs/faq.md#i-forgot-the-admin-password-how-do-i-reset-it Kubernetesのネットワーク構成 https://tech-lab.sios.jp/archives/7857 図があってわかりやすい, iptables の話とか Container exits with non-zero exit code 137 https://success.docker.com/article/what-causes-a-container-to-exit-with-code-137 137 の秘密, SIGTERM</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       <pubDate>Wed, 06 Nov 2019 15:02:36 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191107/</guid>
-      <description>Want to do  Play Studysapuri English  Achievement  None  Diary  I want to automate the upgrade of Kubernetes cluster  Note  argoproj/gitops-engine  https://github.com/argoproj/gitops-engine Argo CD と Flux がコア機能の共有をするっぽい   Kubernetes クラスタへのアップグレード自動化について  https://twitter.com/go_vargo/status/1192388342983217152   Create a custom Kubernetes scheduler  https://developer.ibm.com/articles/creating-a-custom-kube-scheduler/ scheduler のちょっと詳しい話   krzko/awesome-cka  https://github.com/krzko/awesome-cka CKA 取りたい    </description>
+      <description>Want to do Play Studysapuri English Achievement None Diary I want to automate the upgrade of Kubernetes cluster Note argoproj/gitops-engine https://github.com/argoproj/gitops-engine Argo CD と Flux がコア機能の共有をするっぽい Kubernetes クラスタへのアップグレード自動化について https://twitter.com/go_vargo/status/1192388342983217152 Create a custom Kubernetes scheduler https://developer.ibm.com/articles/creating-a-custom-kube-scheduler/ scheduler のち</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       <pubDate>Wed, 23 Oct 2019 15:02:46 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191024/</guid>
-      <description>Want to do  スタディサプリ English やる Kubernetes Meetup Tokyo 参加  https://k8sjp.connpass.com/event/149872/   KubeWeekly 読む  https://mailchi.mp/cncf/kubeweekly-1465395    Achievement  ✅スタディサプリ English やった ✅KubeWeekly 読んだ  https://mailchi.mp/cncf/kubeweekly-1465395 めちゃくちゃおもしろい話は無さそう   ✅Kubernetes Meetup Tokyo 参加した  https://k8sjp.connpass.com/event/149872/    Diary  kubectlenv がほしい  Note  Argo CD の v1.3.0-rc1 のリリースノート  https://github.com/argoproj/argo-cd/releases/tag/v1.3.0-rc   Go の構造体定義のアライメントを可視化してくれるやつ  https://twitter.com/sonatard/status/1187215121342287872 http://golang-sizeof.tips/   Kubernetes で Complete/Failed となった Job を自動削除する  https://qiita.</description>
+      <description>Want to do スタディサプリ English やる Kubernetes Meetup Tokyo 参加 https://k8sjp.connpass.com/event/149872/ KubeWeekly 読む https://mailchi.mp/cncf/kubeweekly-1465395 Achievement ✅スタディサプリ English やった ✅KubeWeekly 読んだ https://mailchi.mp/cncf/kubeweekly-1465395 めちゃくちゃおもしろい話は無さそう ✅K</description>
     </item>
     
   </channel>

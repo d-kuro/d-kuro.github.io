@@ -19,7 +19,7 @@
       <pubDate>Tue, 24 Dec 2019 14:19:44 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191224/</guid>
-      <description>Diary  Merry Christmas 🎄  Note  Go の testing パッケージにアサーションやその他便利関数がない理由  https://golang.org/doc/faq#testing_framework https://golang.org/doc/faq#assertions   kustomize edit fix コマンド, 便利かもしれない https://github.com/kubernetes-sigs/kustomize/blob/master/docs/versioningPolicy.md#the-edit-fix-command  </description>
+      <description>Diary Merry Christmas 🎄 Note Go の testing パッケージにアサーションやその他便利関数がない理由 https://golang.org/doc/faq#testing_framework https://golang.org/doc/faq#assertions kustomize edit fix コマンド, 便利かもしれない https://github.com/kubernetes-sigs/kustomize/blob/master/docs/versioningPolicy.md#the-edit-fix-command</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Mon, 04 Nov 2019 15:02:24 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191105/</guid>
-      <description>Want to do  Participate in the Terraform Source Code Reading#3  https://terraform-jp.connpass.com/event/150359/    Achievement  ✅Participate in the Terraform Source Code Reading#3  Diary  I spoke English at a meeting  Note  Kubernetes Network Deep Dive (NodePort, ClusterIP, Flannel)  https://qiita.com/sugimount/items/ed07a3e77a6d4ab409a8 ちゃんと読みたい   kustomize の bases deprecated になっていた  https://github.com/kubernetes-sigs/kustomize/blob/master/docs/v2.1.0.md#resources-expanded-bases-deprecated kubectl に取り込まれている kustomize のバージョンは現在 v2.0.3 なので -k オプション使うなら支障でそう  https://github.com/kubernetes-sigs/kustomize/blob/v3.3.1/README.md#kubectl-integration     Users and RBAC authorizations in Kubernetes  https://www.</description>
+      <description>Want to do Participate in the Terraform Source Code Reading#3 https://terraform-jp.connpass.com/event/150359/ Achievement ✅Participate in the Terraform Source Code Reading#3 Diary I spoke English at a meeting Note Kubernetes Network Deep Dive (NodePort, ClusterIP, Flannel) https://qiita.com/sugimount/items/ed07a3e77a6d4ab409a8 ちゃんと読みたい kustomize の bases deprecated になっていた https://github.com/kubernetes-sigs/kustomize/blob/master/docs/v2.1.0.md#resources-expanded-bases-deprecated kubectl に取り込</description>
     </item>
     
   </channel>

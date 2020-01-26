@@ -19,7 +19,7 @@
       <pubDate>Sun, 22 Dec 2019 15:02:06 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191223/</guid>
-      <description>Diary  Upgrading kustomize from v1 to v3  Note  より良いコードレビューをするために気をつけていること  https://tech.mercari.com/entry/2019/12/22/080000 Go の話   Using Makefile(s) for Go  https://danishpraka.sh/2019/12/07/using-makefiles-for-go.html Go で Makefile 使うとのサンプルにしたい   Kubernetes Podcast in 2019: year-end recap  https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-podcast-in-2019-year-end-recap Kubernetes Podcast, 全然聞き取れない   Traffic Management for Knative Services  https://medium.com/@zhimin.wen/traffic-management-for-knative-services-a211171c6e5f Knative の traffic management の話, どちらかといえば Istio の話っぽい   Programmatically Kubernetes port forward in Go  https://gianarb.it/blog/programmatically-kube-port-forward-in-go Kubernetes への port forward を Go で実装する話   Looking at Kubernetes’ 2k+ TODO Comments  https://medium.</description>
+      <description>Diary Upgrading kustomize from v1 to v3 Note より良いコードレビューをするために気をつけていること https://tech.mercari.com/entry/2019/12/22/080000 Go の話 Using Makefile(s) for Go https://danishpraka.sh/2019/12/07/using-makefiles-for-go.html Go で Makefile 使うとのサンプルにしたい Kubernetes Podcast in 2019: year-end recap https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-podcast-in-2019-year-end-recap Kubernetes Podcast, 全然聞</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Thu, 28 Nov 2019 15:02:40 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191129/</guid>
-      <description>Diary  Certificate expired in Kuberentes cluster 😱  Note  What even is a kubelet?  http://kamalmarhubi.com/blog/2015/08/27/what-even-is-a-kubelet/ Kubelet とは   interactive kubectl pod filter  https://github.com/kubernetes/kubernetes/pull/85715 interactive に kubectl exec する Pod を選択できる, 便利そう    </description>
+      <description>Diary Certificate expired in Kuberentes cluster 😱 Note What even is a kubelet? http://kamalmarhubi.com/blog/2015/08/27/what-even-is-a-kubelet/ Kubelet とは interactive kubectl pod filter https://github.com/kubernetes/kubernetes/pull/85715 interactive に kubectl exec する Pod を選択できる, 便利そう</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Mon, 25 Nov 2019 15:04:45 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191126/</guid>
-      <description>Want to do  None  Achievement  None  Diary  None  Note  Kubernetes Service invalid clusterIP or resourceVersion  https://www.timcosta.io/kubernetes-service-invalid-clusterip-or-resourceversion/ Kubernetes の差分計算の仕組みを思い出した   Kubernetes: kubectl apply の動作  https://qiita.com/tkusumi/items/0bf5417c865ef716b221 詳しい    </description>
+      <description>Want to do None Achievement None Diary None Note Kubernetes Service invalid clusterIP or resourceVersion https://www.timcosta.io/kubernetes-service-invalid-clusterip-or-resourceversion/ Kubernetes の差分計算の仕組みを思い出した Kubernetes: kubectl apply の動作 https://qiita.com/tkusumi/items/0bf5417c865ef716b221 詳しい</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       <pubDate>Sun, 03 Nov 2019 15:02:23 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191104/</guid>
-      <description>Want to do  Play Studysapuri English  Achievement  None  Diary  I deepened my understanding of Conntrack  https://tech.xing.com/a-reason-for-unexplained-connection-timeouts-on-kubernetes-docker-abd041cf7e02    Note  Kubernetes: How to write a kubectl plugin  https://elsesiy.com/blog/how-to-kubectl-plugin kubectl プラグインの作り方    </description>
+      <description>Want to do Play Studysapuri English Achievement None Diary I deepened my understanding of Conntrack https://tech.xing.com/a-reason-for-unexplained-connection-timeouts-on-kubernetes-docker-abd041cf7e02 Note Kubernetes: How to write a kubectl plugin https://elsesiy.com/blog/how-to-kubectl-plugin kubectl プラグインの作り方</description>
     </item>
     
   </channel>

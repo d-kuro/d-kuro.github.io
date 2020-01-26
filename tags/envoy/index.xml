@@ -19,7 +19,7 @@
       <pubDate>Thu, 09 Jan 2020 15:03:06 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200110/</guid>
-      <description>Diary  None  Note  Go 1.13.6 が出た  https://twitter.com/golang/status/1215401407194464256   Envoy と Kubernetes で始める Progressive Delivery  https://qiita.com/mumoshu/items/63b29bca6a052d8c7087   Dynamic Routing by Envoy + Istio  https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio   1年間のシステム運用を通して分かったIstioの嬉しさと活用  https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい   CloudNative Days Kansai2019 登壇内容の補足  https://qiita.com/t-ide/items/830ef145a77e411fae44 上のスライドの補足   io.CopyにはなるべくWriteTo関数を渡してあげた方が良さそう  https://qiita.com/yamasaki-masahide/items/ed4c10d47900f1e7cdc0   uber-go/goleak: Goroutine leak detector  https://github.com/uber-go/goleak goroutine がリークしてるか調べるやつ, テストで実行するらしい    </description>
+      <description>Diary None Note Go 1.13.6 が出た https://twitter.com/golang/status/1215401407194464256 Envoy と Kubernetes で始める Progressive Delivery https://qiita.com/mumoshu/items/63b29bca6a052d8c7087 Dynamic Routing by Envoy + Istio https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio 1年間のシステム運用を通して分かったIstioの嬉しさと活用 https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい CloudNative Days Kansai2019 登壇内容の</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Wed, 08 Jan 2020 15:03:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200109/</guid>
-      <description>Diary  None  Note  microservices-infrastructure-with-envoy-consul-nomad  https://speakerdeck.com/kencharos/microservices-infrastructure-with-envoy-consul-nomad   Envoy Get Started - Google スライド  https://docs.google.com/presentation/d/1kqWUmsLx1NLDU2M9l4xXWnDiYjG2HGdNw2opZVw5j4A/edit#slide=id.g49b4537706_0_0   お前もメッシュにしてやろうか / Who really needs to be meshified? #envoytokyo  https://speakerdeck.com/toricls/who-really-needs-to-be-meshified-number-envoytokyo   「istioctl analyze」という、マニフェストファイルを解析して問題点を洗い出す機能があるという話  https://twitter.com/ido_kara_deru/status/1214920226963259392 普通の Kubernetes にもほしい   Istio as an Example of When Not to Do Microservices  https://blog.christianposta.com/microservices/istio-as-an-example-of-when-not-to-do-microservices/ Istio 1.5 からモノリスとしても動くようになるという話   Go 言語の日付処理  https://text.baldanders.info/golang/time-functions/ 標準パッケージで const が定義されている, 便利   kubebuilder v2 で webhook 開発  https://ymmt.</description>
+      <description>Diary None Note microservices-infrastructure-with-envoy-consul-nomad https://speakerdeck.com/kencharos/microservices-infrastructure-with-envoy-consul-nomad Envoy Get Started - Google スライド https://docs.google.com/presentation/d/1kqWUmsLx1NLDU2M9l4xXWnDiYjG2HGdNw2opZVw5j4A/edit#slide=id.g49b4537706_0_0 お前もメッシュにしてやろうか / Who really needs to be meshified? #envoytokyo https://speakerdeck.com/toricls/who-really-needs-to-be-meshified-number-envoytokyo 「istioctl analyze」という、マニフェストファイルを</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Sun, 05 Jan 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200106/</guid>
-      <description>Diary  I published blog  https://d-kuro.github.io/posts/kubernetes-leader-election/    Note  Golang IO Cookbook  https://github.com/jesseduffield/notes/wiki/Golang-IO-Cookbook Go の I/O に関する Cookbook   Service 間通信を Envoy 経由で行い、Metrics を取得する  https://blog.chaspy.me/entry/2020/01/05/120000 Envoy なんもわからん   分散システムのリーダー選挙  https://aws.amazon.com/jp/builders-library/leader-election-in-distributed-systems/?did=ba_card&amp;amp;trk=ba_card AWS でも一番使われている Leader Election はリースらしい ベストプラクティスも載ってる   Operator SDK Version upgrade guide  https://github.com/operator-framework/operator-sdk/blob/master/doc/migration/version-upgrade-guide.md バージョン上げるために読んでる 基本は依存ライブラリの更新っぽい dependabot とか使わないほうがいいのかな   EKSのIAM Role for Service Accountsを使用するときにはSTSのリージョナルエンドポイントを使うように設定しようという話  https://katainaka0503.hatenablog.com/entry/2020/01/06/184314 AWS_STS_REGIONAL_ENDPOINTS=regional    </description>
+      <description>Diary I published blog https://d-kuro.github.io/posts/kubernetes-leader-election/ Note Golang IO Cookbook https://github.com/jesseduffield/notes/wiki/Golang-IO-Cookbook Go の I/O に関する Cookbook Service 間通信を Envoy 経由で行い、Metrics を取得する https://blog.chaspy.me/entry/2020/01/05/120000 Envoy なんもわからん 分散システムのリーダー選挙 https://aws.amazon.com/jp/builders-library/leader-election-in-distributed-systems/?did=ba_card&amp;amp;trk=ba_card AWS でも一番</description>
     </item>
     
   </channel>

@@ -19,7 +19,7 @@
       <pubDate>Sat, 02 Nov 2019 15:02:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191103/</guid>
-      <description>Want to do  Play Studysapuri English  Achievement  None  Diary  I&#39;m sleepy  Note  kubernetes-sigs/ingress-controller-conformance  https://github.com/kubernetes-sigs/ingress-controller-conformance Ingress Controller の仕様   [Go] GitHub Actionsでキャッシュ機能を使う #github  https://budougumi0617.github.io/2019/11/03/use-cache-in-github-actions/ 欲しい物が来た    </description>
+      <description>Want to do Play Studysapuri English Achievement None Diary I&#39;m sleepy Note kubernetes-sigs/ingress-controller-conformance https://github.com/kubernetes-sigs/ingress-controller-conformance Ingress Controller の仕様 [Go] GitHub Actionsでキャッシュ機能を使う #github https://budougumi0617.github.io/2019/11/03/use-cache-in-github-actions/ 欲しい物が来た</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Wed, 30 Oct 2019 15:02:19 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191031/</guid>
-      <description>Want to do  スタディサプリ English やる  Achievement  やっとらんな  Diary  グローバルインタプリタロックとかの話をオンボーディングで聞けてよかった  Note  Cluster Autoscaler はデフォルトで leader election してるので replicas 2 でも大丈夫  https://github.com/kubernetes/autoscaler/blob/cluster-autoscaler-1.16.2/cluster-autoscaler/FAQ.md#what-are-the-parameters-to-ca https://github.com/kubernetes/autoscaler/blob/cluster-autoscaler-1.16.2/cluster-autoscaler/main.go#L356   client-go の leader election, 空の Endpoints と 空の ConfigMap 使う実装の 2 つある  https://github.com/kubernetes/client-go/blob/v12.0.0/examples/leader-election/main.go https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/resourcelock/endpointslock.go https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/resourcelock/configmaplock.go   How Airbnb scaled its migration to continuous delivery with Spinnaker  https://techbeacon.com/app-dev-testing/how-airbnb-scaled-its-migration-continuous-delivery-spinnaker   Go 1.14 の変更について, defer が更に早くなるらしい  https://twitter.</description>
+      <description>Want to do スタディサプリ English やる Achievement やっとらんな Diary グローバルインタプリタロックとかの話をオンボーディングで聞けてよかった Note Cluster Autoscaler はデフォルトで leader election して</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Mon, 21 Oct 2019 11:43:45 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191021/</guid>
-      <description>Want to do  スタディサプリ English やる Blog の移行やる 炎炎ノ消防隊見る  Achievement  ✅炎炎ノ消防隊見た  Diary  Blog の移行 is&amp;hellip; GitHub Actions の cron 使って日記の自動生成するようにした Ruby の構文がなにもわからないやつをやった  Note  GitHub Actions の cron はこう書く  https://help.github.com/en/github/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#onschedule   コンテナユーザなら誰もが使っているランタイム「runc」を俯瞰する[Container Runtime Meetup #1発表レポート]  https://medium.com/nttlabs/runc-overview-263b83164c98 runc なんもわらかん   tfenv install できないやつにハマった  https://github.com/tfutils/tfenv/issues/83   コマンドを間違えたときに fuck って打つと正しいコマンド実行してくれるやつ, UX が素晴らしい  https://github.com/nvbn/thefuck    </description>
+      <description>Want to do スタディサプリ English やる Blog の移行やる 炎炎ノ消防隊見る Achievement ✅炎炎ノ消防隊見た Diary Blog の移行 is&amp;hellip; GitHub Actions の cron 使って日記の自動生成するようにした Ruby の構文がな</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       <pubDate>Wed, 16 Oct 2019 10:21:57 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191016/</guid>
-      <description>Want to do  スタディサプリ English やる ブログの移行作業をする  Achievement  ✅スタディサプリ English やる ✅PR 出すと Hugo の build して push する感じの GitHub Actions workflow 書いた  Diary  英語で Issue とか PR とか書いてるとイマイチコンテキストを伝えきれないことがあって、英語ぢからのなさを実感してる Hugo で post に tag 付けられるのは便利だなって思った  Note  base64 パッケージで []byte の slice 作るときは base64.StdEncoding.DecodedLen(len(b64Buffer)) とか使う  https://golang.org/pkg/encoding/base64/#Encoding.DecodedLen   Envoy の発音, おんゔぉい だった ExternalDNS 使ってマルチクラスタにトラフィック流すやつ  ExternalDNS に CRD を watch させるらしい https://github.com/kubernetes-sigs/kubefed/blob/v0.0.10/docs/servicedns-with-externaldns.md   ALB Ingress Controller, ALB の認証も使えそうだった  https://kubernetes-sigs.</description>
+      <description>Want to do スタディサプリ English やる ブログの移行作業をする Achievement ✅スタディサプリ English やる ✅PR 出すと Hugo の build して push する感じの GitHub Actions workflow 書いた Diary 英語で Issue とか PR とか書</description>
     </item>
     
   </channel>

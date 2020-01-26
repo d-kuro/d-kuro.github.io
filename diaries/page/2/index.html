@@ -226,7 +226,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;80&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;251&nbsp;words
   
   
     
@@ -240,7 +240,7 @@
     </p>
     <div class="post-entry">
         
-        Diary  None  Note  Argo CD のパスワードリセットの方法  https://github.com/argoproj/argo-cd/blob/master/docs/faq.md#i-forgot-the-admin-password-how-do-i-reset-it   Kubernetesのネットワーク構成  https://tech-lab.sios.jp/archives/7857 図があってわかりやすい, iptables の話とか   Container exits with non-zero exit code 137  https://success.docker.com/article/what-causes-a-container-to-exit-with-code-137 137 の秘密, SIGTERM の 10 秒後に SIGKILL が送られるっぽい   Terraform、Docker、Kubernetesなどのテストを自動化する - Yevgeniy Brikman氏のQCon SFでの講演より  https://www.infoq.com/jp/news/2020/01/automated-testing-infrastructure/ インフラのコードのテスト, やりたい   Go: How Does Go Stop the World?  https://medium.com/a-journey-with-go/go-how-does-go-stop-the-world-1ffab8bc8846 Go の STW について   5 Best Practices for Configuring Kubernetes Pods Running in Production  https://thenewstack.
+        Diary None Note Argo CD のパスワードリセットの方法 https://github.com/argoproj/argo-cd/blob/master/docs/faq.md#i-forgot-the-admin-password-how-do-i-reset-it Kubernetesのネットワーク構成 https://tech-lab.sios.jp/archives/7857 図があってわかりやすい, iptables の話とか Container exits with non-zero exit code 137 https://success.docker.com/article/what-causes-a-container-to-exit-with-code-137 137 の秘密, SIGTERM
         <a href="https://d-kuro.github.io/diaries/202001/20200116/" class="post-read-more">[Read More]</a>
         
     </div>
@@ -276,10 +276,10 @@
   <i class="fas fa-calendar"></i>&nbsp;Posted on January 14, 2020
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;221&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;481&nbsp;words
   
   
     
@@ -293,7 +293,7 @@
     </p>
     <div class="post-entry">
         
-        Diary  None  Note  Kubernetes ベスト プラクティス 6 選  https://cloud.google.com/blog/ja/products/containers-kubernetes/your-guide-kubernetes-best-practices   Week Ending January 12, 2020 | Last Week in Kubernetes Development  http://lwkd.info/2020/20200113 今週もあんまりないかも   HPA Autoscaling Algorithm  https://github.com/kubernetes/community/blob/master/contributors/design-proposals/autoscaling/horizontal-pod-autoscaler.md#autoscaling-algorithm HPA のスケーリングアルゴリズムの公式ドキュメント    CPU throttling for Pods CPU Manager  Feature Highlight: CPU Manager  https://kubernetes.io/blog/2018/07/24/feature-highlight-cpu-manager/ CPU Manager の話, --cpu-manager-policy を static にして Guaranteed QoS class の Pod で CPU をコア数で指定すると CPU を専有できる   Control CPU Management Policies on the Node  https://kubernetes.
+        Diary None Note Kubernetes ベスト プラクティス 6 選 https://cloud.google.com/blog/ja/products/containers-kubernetes/your-guide-kubernetes-best-practices Week Ending January 12, 2020 | Last Week in Kubernetes Development http://lwkd.info/2020/20200113 今週もあんまりないかも HPA Autoscaling Algorithm https://github.com/kubernetes/community/blob/master/contributors/design-proposals/autoscaling/horizontal-pod-autoscaler.md#autoscaling-algorithm HPA のスケーリングアルゴリズムの公式ドキュメント CPU throttling for Pods
         <a href="https://d-kuro.github.io/diaries/202001/20200115/" class="post-read-more">[Read More]</a>
         
     </div>
@@ -332,7 +332,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;50&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;103&nbsp;words
   
   
     
@@ -346,34 +346,8 @@
     </p>
     <div class="post-entry">
         
-        <h2 id="diary">Diary</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="note">Note</h2>
-<ul>
-<li>Throttling: New Developments in Application Performance with CPU Limits - Dave Chiluk, Indeed
-<ul>
-<li><a href="https://kccncna19.sched.com/event/Uae1">https://kccncna19.sched.com/event/Uae1</a></li>
-<li>CPU の limit をつけるとパフォーマンスが悪化する話, kernel のアップグレードでバグが修正されて直るかもしれない</li>
-<li><a href="https://github.com/kubernetes/kubernetes/issues/51135">https://github.com/kubernetes/kubernetes/issues/51135</a></li>
-<li><a href="https://github.com/kubernetes/kubernetes/issues/70585">https://github.com/kubernetes/kubernetes/issues/70585</a></li>
-</ul>
-</li>
-<li>3.2. cpu Red Hat Enterprise Linux 6 | Red Hat Customer Portal
-<ul>
-<li><a href="https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/6/html/resource_management_guide/sec-cpu">https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/6/html/resource_management_guide/sec-cpu</a></li>
-<li>CFS の話とかが載ってる</li>
-</ul>
-</li>
-<li>Understanding resource limits in kubernetes: cpu time
-<ul>
-<li><a href="https://medium.com/@betz.mark/understanding-resource-limits-in-kubernetes-cpu-time-9eff74d3161b">https://medium.com/@betz.mark/understanding-resource-limits-in-kubernetes-cpu-time-9eff74d3161b</a></li>
-<li>cgroups の話とか</li>
-</ul>
-</li>
-</ul>
-
+        Diary None Note Throttling: New Developments in Application Performance with CPU Limits - Dave Chiluk, Indeed https://kccncna19.sched.com/event/Uae1 CPU の limit をつけるとパフォーマンスが悪化する話, kernel のアップグレードでバグが修正されて直るかもしれない https://github.com/kubernetes/kubernetes/issues/51135 https://github.com/kubernetes/kubernetes/issues/70585 3.2. cpu Red
+        <a href="https://d-kuro.github.io/diaries/202001/20200114/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -405,7 +379,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;54&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;136&nbsp;words
   
   
     
@@ -419,37 +393,8 @@
     </p>
     <div class="post-entry">
         
-        <h2 id="diary">Diary</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="note">Note</h2>
-<ul>
-<li>Go 1.14 でめっちゃ defer が早くなる
-<ul>
-<li><a href="https://twitter.com/janiszt/status/1215601972281253888">https://twitter.com/janiszt/status/1215601972281253888</a></li>
-</ul>
-</li>
-<li>Manage Thousands of Clusters with GitOps and the Cluster API
-<ul>
-<li><a href="https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api">https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api</a></li>
-<li>Cluster API と GitOps で cluster を管理する話, cluster 管理用の cluster を作る</li>
-</ul>
-</li>
-<li>grafana/kubernetes-diff-logger: Logs updates to Kubernetes Objects for storing and querying with Loki
-<ul>
-<li><a href="https://github.com/grafana/kubernetes-diff-logger">https://github.com/grafana/kubernetes-diff-logger</a></li>
-<li>Kubernetes Object の更新を記録するやつ</li>
-</ul>
-</li>
-<li>Go で channel 受信後に処理するときは、channel の送信側で行った処理が確実に行われたことを保証するという話が書いてあるやつ
-<ul>
-<li><a href="https://golang.org/ref/mem#tmp_7">https://golang.org/ref/mem#tmp_7</a></li>
-<li><a href="https://twitter.com/SSSSSSSHHHHHH4/status/1215965009651494912">https://twitter.com/SSSSSSSHHHHHH4/status/1215965009651494912</a></li>
-</ul>
-</li>
-</ul>
-
+        Diary None Note Go 1.14 でめっちゃ defer が早くなる https://twitter.com/janiszt/status/1215601972281253888 Manage Thousands of Clusters with GitOps and the Cluster API https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api Cluster API と GitOps で cluster を管理する話, cluster 管理用の cluster を作る grafana/kubernetes-diff-logger: Logs updates to Kubernetes Objects for storing and querying with Loki https://github.com/grafana/kubernetes-diff-logger Kubernetes Object の更新を記
+        <a href="https://d-kuro.github.io/diaries/202001/20200113/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -485,7 +430,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;27&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;105&nbsp;words
   
   
     
@@ -499,27 +444,8 @@
     </p>
     <div class="post-entry">
         
-        <h2 id="diary">Diary</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="note">Note</h2>
-<ul>
-<li>[Go] selectのcase文中でch &lt;- &lt;- chやch &lt;- f()をしない方が良い #golangjp #横浜go読書会
-<ul>
-<li><a href="https://budougumi0617.github.io/2019/03/15/go-strange-result-in-select/#disqus_thread">https://budougumi0617.github.io/2019/03/15/go-strange-result-in-select/#disqus_thread</a></li>
-<li>勝手に実行される可能性がある</li>
-</ul>
-</li>
-<li>HPA がどうやって CPU 使用率とかを計算してるかについて, requests が基準になっている
-<ul>
-<li><a href="https://github.com/kubernetes/kubernetes/blob/v1.17.0/pkg/controller/podautoscaler/replica_calculator.go#L62">https://github.com/kubernetes/kubernetes/blob/v1.17.0/pkg/controller/podautoscaler/replica_calculator.go#L62</a></li>
-<li><a href="https://github.com/kubernetes/kubernetes/blob/v1.17.0/pkg/controller/podautoscaler/metrics/utilization.go#L49">https://github.com/kubernetes/kubernetes/blob/v1.17.0/pkg/controller/podautoscaler/metrics/utilization.go#L49</a></li>
-<li><code>(metricsTotal * 100) / requestsTotal</code></li>
-</ul>
-</li>
-</ul>
-
+        Diary None Note [Go] selectのcase文中でch &lt;- &lt;- chやch &lt;- f()をしない方が良い #golangjp #横浜go読書会 https://budougumi0617.github.io/2019/03/15/go-strange-result-in-select/#disqus_thread 勝手に実行される可能性がある HPA がどうやって
+        <a href="https://d-kuro.github.io/diaries/202001/20200112/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -551,7 +477,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;60&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;109&nbsp;words
   
   
     
@@ -565,7 +491,7 @@
     </p>
     <div class="post-entry">
         
-        Diary  None  Note  Kubernetes Failure Stories  https://k8s.af/ Kubernetes の失敗談   GOTO 2019 • Why I love Kubernetes Failure Stories and You Should Too • Henning Jacobs  https://www.youtube.com/watch?v=E0GBU8Q-VFY zalando の Kubernetes の失敗事例セッション   zalando-incubator/cluster-lifecycle-manager: Cluster Lifecycle Manager (CLM) to provision and update multiple Kubernetes clusters  https://github.com/zalando-incubator/cluster-lifecycle-manager zalando の Kubernets cluster の lifesycle manager, あんまり全貌を把握してない   HOW ZALANDO MANAGES 140+ KUBERNETES CLUSTERS  https://srcco.
+        Diary None Note Kubernetes Failure Stories https://k8s.af/ Kubernetes の失敗談 GOTO 2019 • Why I love Kubernetes Failure Stories and You Should Too • Henning Jacobs https://www.youtube.com/watch?v=E0GBU8Q-VFY zalando の Kubernetes の失敗事例セッション zalando-incubator/cluster-lifecycle-manager: Cluster Lifecycle Manager (CLM) to provision and update multiple Kubernetes clusters https://github.com/zalando-incubator/cluster-lifecycle-manager zalando の Kubernets cluster の lifesycle manager, あんまり全貌を把
         <a href="https://d-kuro.github.io/diaries/202001/20200111/" class="post-read-more">[Read More]</a>
         
     </div>
@@ -598,7 +524,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;41&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;149&nbsp;words
   
   
     
@@ -612,52 +538,8 @@
     </p>
     <div class="post-entry">
         
-        <h2 id="diary">Diary</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="note">Note</h2>
-<ul>
-<li>Go 1.13.6 が出た
-<ul>
-<li><a href="https://twitter.com/golang/status/1215401407194464256">https://twitter.com/golang/status/1215401407194464256</a></li>
-</ul>
-</li>
-<li>Envoy と Kubernetes で始める Progressive Delivery
-<ul>
-<li><a href="https://qiita.com/mumoshu/items/63b29bca6a052d8c7087">https://qiita.com/mumoshu/items/63b29bca6a052d8c7087</a></li>
-</ul>
-</li>
-<li>Dynamic Routing by Envoy + Istio
-<ul>
-<li><a href="https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio">https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio</a></li>
-</ul>
-</li>
-<li>1年間のシステム運用を通して分かったIstioの嬉しさと活用
-<ul>
-<li><a href="https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience">https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience</a></li>
-<li>Istio, 入れたい</li>
-</ul>
-</li>
-<li>CloudNative Days Kansai2019 登壇内容の補足
-<ul>
-<li><a href="https://qiita.com/t-ide/items/830ef145a77e411fae44">https://qiita.com/t-ide/items/830ef145a77e411fae44</a></li>
-<li>上のスライドの補足</li>
-</ul>
-</li>
-<li>io.CopyにはなるべくWriteTo関数を渡してあげた方が良さそう
-<ul>
-<li><a href="https://qiita.com/yamasaki-masahide/items/ed4c10d47900f1e7cdc0">https://qiita.com/yamasaki-masahide/items/ed4c10d47900f1e7cdc0</a></li>
-</ul>
-</li>
-<li>uber-go/goleak: Goroutine leak detector
-<ul>
-<li><a href="https://github.com/uber-go/goleak">https://github.com/uber-go/goleak</a></li>
-<li>goroutine がリークしてるか調べるやつ, テストで実行するらしい</li>
-</ul>
-</li>
-</ul>
-
+        Diary None Note Go 1.13.6 が出た https://twitter.com/golang/status/1215401407194464256 Envoy と Kubernetes で始める Progressive Delivery https://qiita.com/mumoshu/items/63b29bca6a052d8c7087 Dynamic Routing by Envoy + Istio https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio 1年間のシステム運用を通して分かったIstioの嬉しさと活用 https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい CloudNative Days Kansai2019 登壇内容の
+        <a href="https://d-kuro.github.io/diaries/202001/20200110/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -697,7 +579,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;84&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;384&nbsp;words
   
   
     
@@ -711,7 +593,7 @@
     </p>
     <div class="post-entry">
         
-        Diary  None  Note  microservices-infrastructure-with-envoy-consul-nomad  https://speakerdeck.com/kencharos/microservices-infrastructure-with-envoy-consul-nomad   Envoy Get Started - Google スライド  https://docs.google.com/presentation/d/1kqWUmsLx1NLDU2M9l4xXWnDiYjG2HGdNw2opZVw5j4A/edit#slide=id.g49b4537706_0_0   お前もメッシュにしてやろうか / Who really needs to be meshified? #envoytokyo  https://speakerdeck.com/toricls/who-really-needs-to-be-meshified-number-envoytokyo   「istioctl analyze」という、マニフェストファイルを解析して問題点を洗い出す機能があるという話  https://twitter.com/ido_kara_deru/status/1214920226963259392 普通の Kubernetes にもほしい   Istio as an Example of When Not to Do Microservices  https://blog.christianposta.com/microservices/istio-as-an-example-of-when-not-to-do-microservices/ Istio 1.5 からモノリスとしても動くようになるという話   Go 言語の日付処理  https://text.baldanders.info/golang/time-functions/ 標準パッケージで const が定義されている, 便利   kubebuilder v2 で webhook 開発  https://ymmt.
+        Diary None Note microservices-infrastructure-with-envoy-consul-nomad https://speakerdeck.com/kencharos/microservices-infrastructure-with-envoy-consul-nomad Envoy Get Started - Google スライド https://docs.google.com/presentation/d/1kqWUmsLx1NLDU2M9l4xXWnDiYjG2HGdNw2opZVw5j4A/edit#slide=id.g49b4537706_0_0 お前もメッシュにしてやろうか / Who really needs to be meshified? #envoytokyo https://speakerdeck.com/toricls/who-really-needs-to-be-meshified-number-envoytokyo 「istioctl analyze」という、マニフェストファイルを
         <a href="https://d-kuro.github.io/diaries/202001/20200109/" class="post-read-more">[Read More]</a>
         
     </div>
@@ -754,7 +636,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;41&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;179&nbsp;words
   
   
     
@@ -768,48 +650,8 @@
     </p>
     <div class="post-entry">
         
-        <h2 id="diary">Diary</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="note">Note</h2>
-<ul>
-<li>Introducing Datadog Agent 7
-<ul>
-<li><a href="https://www.datadoghq.com/blog/introducing-agent7-with-python3/">https://www.datadoghq.com/blog/introducing-agent7-with-python3/</a></li>
-<li>Datadog の custome checks 一覧下のリンクで確認できて便利
-<ul>
-<li><a href="https://app.datadoghq.com/compatibility_check">https://app.datadoghq.com/compatibility_check</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>io.Readerのファイルタイプを判定する
-<ul>
-<li><a href="https://qiita.com/knqyf263/items/6dfc891c6d3c6b94f895">https://qiita.com/knqyf263/items/6dfc891c6d3c6b94f895</a></li>
-<li><code>io.MultiReader</code> の使い所さん</li>
-</ul>
-</li>
-<li>Istio 1.5 でコントロールプレーンがシングルバイナリに置き換わる istiod なるものが出るらしい
-<ul>
-<li><a href="https://twitter.com/ido_kara_deru/status/1214721176917798912">https://twitter.com/ido_kara_deru/status/1214721176917798912</a></li>
-</ul>
-</li>
-<li>技術推薦図書 - Google スプレッドシート
-<ul>
-<li><a href="https://docs.google.com/spreadsheets/d/1wk8AG6keEM0y0-ZK6_vb-88UMgXM6ttVqumoE6Pc4qw/edit#gid=0">https://docs.google.com/spreadsheets/d/1wk8AG6keEM0y0-ZK6_vb-88UMgXM6ttVqumoE6Pc4qw/edit#gid=0</a></li>
-<li>すごい</li>
-</ul>
-</li>
-<li>Goのnet/httpのkeep-aliveで気をつけること
-<ul>
-<li><a href="https://christina04.hatenablog.com/entry/go-keep-alive">https://christina04.hatenablog.com/entry/go-keep-alive</a></li>
-<li>keep-alive の条件に response body を読み切る, というのは知らなかった</li>
-<li><code>io.Copy(ioutil.Discard, resp.Body)</code> よさそう</li>
-</ul>
-</li>
-</ul>
-
+        Diary None Note Introducing Datadog Agent 7 https://www.datadoghq.com/blog/introducing-agent7-with-python3/ Datadog の custome checks 一覧下のリンクで確認できて便利 https://app.datadoghq.com/compatibility_check io.Readerのファイルタイプを判定する https://qiita.com/knqyf263/items/6dfc891c6d3c6b94f895 io.MultiReader の使い所さん Istio 1.5 でコントロールプレー
+        <a href="https://d-kuro.github.io/diaries/202001/20200108/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -843,7 +685,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;147&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;327&nbsp;words
   
   
     
@@ -857,7 +699,7 @@
     </p>
     <div class="post-entry">
         
-        Diary  I have not read the book 😇  Note  Kubernetesの動向予測 2019 =&gt; 2020  http://gihyo.jp/admin/column/newyear/2020/kubernetes-prospect 青山さんの   A Deep Dive into eBPF: The Technology that Powers Tracee  https://blog.aquasec.com/intro-ebpf-tracing-containers Go のコードで説明されてる, ちゃんと読みたい   [Go] GitHub Actionsでキャッシュ機能を使う #github  https://budougumi0617.github.io/2019/11/03/use-cache-in-github-actions/ https://github.com/actions/cache/blob/master/examples.md#go---modules 便利   Support Custom Pod Status for PodReadinessGate to Block Premature Pod Termination  https://github.com/kubernetes-sigs/aws-alb-ingress-controller/issues/905 ALB Ingress の IP mode (Pod に直接ルーティングする方) でタイムアウトが起きるという話   Toolbox App 1.
+        Diary I have not read the book 😇 Note Kubernetesの動向予測 2019 =&gt; 2020 http://gihyo.jp/admin/column/newyear/2020/kubernetes-prospect 青山さんの A Deep Dive into eBPF: The Technology that Powers Tracee https://blog.aquasec.com/intro-ebpf-tracing-containers Go のコードで説明されてる, ちゃんと読みたい [Go] GitHub Act
         <a href="https://d-kuro.github.io/diaries/202001/20200107/" class="post-read-more">[Read More]</a>
         
     </div>

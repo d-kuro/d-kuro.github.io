@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>2019-12-16 - AFN Blog</title>
-  <meta name="description" content="Diary  I want to automate Kubernetes B/G upgrade  Note  Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes  https://www.creationline.com/lab/31416 日本語   chan chan は意外と美味しい  https://qiita.com/hogedigo/items/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう   Istio VirtualServiceのHost衝突を検知するAdmission Webhookをつくってみる  https://tech.jxpress.net/entry/istio-host-collision-detection-with-admission-webhook Admission Webhook の話   LIFULLが主要サービスの(ほぼ)全てをKubernetesに移行するまで  https://www.lifull.blog/entry/2019/12/16/000000 しっかりしてる   kubectl cordon を実行した Node は Ingress, type LoadBalancer Service の振り分け対象から外されるよというやつ  https://github.com/kubernetes/kubernetes/issues/44997 https://github.com/kubernetes/kubernetes/issues/65013 その Node にのみ存在する Pod がある場合疎通できなくなって死ぬやつ   GoのGCを10分で学ぼう　 https://qiita.">
+  <meta name="description" content="Diary I want to automate Kubernetes B/G upgrade Note Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes https://www.creationline.com/lab/31416 日本語 chan chan は意外と美味しい https://qiita.com/hogedigo/items/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう Istio VirtualServiceのHo">
   <meta name="author" content="d-kuro"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -57,9 +57,9 @@
     "name" : "d-kuro"
   },
   "headline": "2019-12-16",
-  "description" : "Diary  I want to automate Kubernetes B\/G upgrade  Note  Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes  https:\/\/www.creationline.com\/lab\/31416 日本語   chan chan は意外と美味しい  https:\/\/qiita.com\/hogedigo\/items\/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう   Istio VirtualServiceのHost衝突を検知するAdmission Webhookをつくってみる  https:\/\/tech.jxpress.net\/entry\/istio-host-collision-detection-with-admission-webhook Admission Webhook の話   LIFULLが主要サービスの(ほぼ)全てをKubernetesに移行するまで  https:\/\/www.lifull.blog\/entry\/2019\/12\/16\/000000 しっかりしてる   kubectl cordon を実行した Node は Ingress, type LoadBalancer Service の振り分け対象から外されるよというやつ  https:\/\/github.com\/kubernetes\/kubernetes\/issues\/44997 https:\/\/github.com\/kubernetes\/kubernetes\/issues\/65013 その Node にのみ存在する Pod がある場合疎通できなくなって死ぬやつ   GoのGCを10分で学ぼう　 https:\/\/qiita.",
+  "description" : "Diary I want to automate Kubernetes B\/G upgrade Note Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes https:\/\/www.creationline.com\/lab\/31416 日本語 chan chan は意外と美味しい https:\/\/qiita.com\/hogedigo\/items\/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう Istio VirtualServiceのHo",
   "inLanguage" : "en",
-  "wordCount":  54 ,
+  "wordCount":  230 ,
   "datePublished" : "2019-12-15T15:01:14",
   "dateModified" : "2019-12-15T15:01:14",
   "image" : "https:\/\/d-kuro.github.io\/img\/avatar-icon.jpg",
@@ -79,14 +79,14 @@
 </script>
 
 <meta property="og:title" content="2019-12-16" />
-<meta property="og:description" content="Diary  I want to automate Kubernetes B/G upgrade  Note  Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes  https://www.creationline.com/lab/31416 日本語   chan chan は意外と美味しい  https://qiita.com/hogedigo/items/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう   Istio VirtualServiceのHost衝突を検知するAdmission Webhookをつくってみる  https://tech.jxpress.net/entry/istio-host-collision-detection-with-admission-webhook Admission Webhook の話   LIFULLが主要サービスの(ほぼ)全てをKubernetesに移行するまで  https://www.lifull.blog/entry/2019/12/16/000000 しっかりしてる   kubectl cordon を実行した Node は Ingress, type LoadBalancer Service の振り分け対象から外されるよというやつ  https://github.com/kubernetes/kubernetes/issues/44997 https://github.com/kubernetes/kubernetes/issues/65013 その Node にのみ存在する Pod がある場合疎通できなくなって死ぬやつ   GoのGCを10分で学ぼう　 https://qiita.">
+<meta property="og:description" content="Diary I want to automate Kubernetes B/G upgrade Note Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes https://www.creationline.com/lab/31416 日本語 chan chan は意外と美味しい https://qiita.com/hogedigo/items/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう Istio VirtualServiceのHo">
 <meta property="og:image" content="https://d-kuro.github.io/img/avatar-icon.jpg" />
 <meta property="og:url" content="https://d-kuro.github.io/diaries/201912/20191216/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="AFN Blog" />
 
   <meta name="twitter:title" content="2019-12-16" />
-  <meta name="twitter:description" content="Diary  I want to automate Kubernetes B/G upgrade  Note  Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes  https://www.creationline.com/lab/31416 日本語   chan chan …">
+  <meta name="twitter:description" content="Diary I want to automate Kubernetes B/G upgrade Note Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes https://www.creationline.com/lab/31416 日本語 chan chan …">
   <meta name="twitter:image" content="https://d-kuro.github.io/img/avatar-icon.jpg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@ponde_m" />

@@ -19,7 +19,7 @@
       <pubDate>Sun, 22 Dec 2019 15:02:06 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191223/</guid>
-      <description>Diary  Upgrading kustomize from v1 to v3  Note  より良いコードレビューをするために気をつけていること  https://tech.mercari.com/entry/2019/12/22/080000 Go の話   Using Makefile(s) for Go  https://danishpraka.sh/2019/12/07/using-makefiles-for-go.html Go で Makefile 使うとのサンプルにしたい   Kubernetes Podcast in 2019: year-end recap  https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-podcast-in-2019-year-end-recap Kubernetes Podcast, 全然聞き取れない   Traffic Management for Knative Services  https://medium.com/@zhimin.wen/traffic-management-for-knative-services-a211171c6e5f Knative の traffic management の話, どちらかといえば Istio の話っぽい   Programmatically Kubernetes port forward in Go  https://gianarb.it/blog/programmatically-kube-port-forward-in-go Kubernetes への port forward を Go で実装する話   Looking at Kubernetes’ 2k+ TODO Comments  https://medium.</description>
+      <description>Diary Upgrading kustomize from v1 to v3 Note より良いコードレビューをするために気をつけていること https://tech.mercari.com/entry/2019/12/22/080000 Go の話 Using Makefile(s) for Go https://danishpraka.sh/2019/12/07/using-makefiles-for-go.html Go で Makefile 使うとのサンプルにしたい Kubernetes Podcast in 2019: year-end recap https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-podcast-in-2019-year-end-recap Kubernetes Podcast, 全然聞</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Wed, 18 Dec 2019 15:00:39 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191219/</guid>
-      <description>Diary  I upgraded the Kubernetes cluster  Note  Datadog agent v7 のリリースがきた  https://github.com/DataDog/datadog-agent/releases/tag/7.16.0 Python 2 のサポートが無くなった 5 -&amp;gt; 7 のマイグレーションもできそう https://docs.datadoghq.com/agent/versions/upgrade_to_agent_v7/?tab=linux   Kubernetes 1.17: SIG-Auth の変更内容  https://qiita.com/hiyosi/items/837096e6d7e62e677e00   Knative Serving in Production  https://qiita.com/toVersus/items/1317a31fead9b836a68d Knative なんもわからん    </description>
+      <description>Diary I upgraded the Kubernetes cluster Note Datadog agent v7 のリリースがきた https://github.com/DataDog/datadog-agent/releases/tag/7.16.0 Python 2 のサポートが無くなった 5 -&amp;gt; 7 のマイグレーションもできそう https://docs.datadoghq.com/agent/versions/upgrade_to_agent_v7/?tab=linux Kubernetes 1.17: SIG-Auth の変更内容 https://qiita.com/hiyosi/items/837096e6d7e62e677e00 Knative Serving in Production https://qiita.com/toVersus/items/1317a31fead9b836a68d Knative なんもわか</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Sun, 10 Nov 2019 15:03:02 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191111/</guid>
-      <description>Want to do  Competitive programming  Achievement  ✅Competitive programming  Diary  I don&#39;t know much algorithm to reduce the amount of calculation  Note  メモリアロケーションに対する罪悪感  https://kawasin73.hatenablog.com/entry/2019/11/10/112301 アロケーション意識しよう   Kubernetes: 詳解 Pods の終了  https://qiita.com/superbrothers/items/3ac78daba3560ea406b2 定期的に見る   Knative = Kubernetes Networking++の全訳  https://qiita.com/toshi0607/items/45403965beaa5bd1f8ca    </description>
+      <description>Want to do Competitive programming Achievement ✅Competitive programming Diary I don&#39;t know much algorithm to reduce the amount of calculation Note メモリアロケーションに対する罪悪感 https://kawasin73.hatenablog.com/entry/2019/11/10/112301 アロケーション意識しよう Kubernetes: 詳解 Pods の終了 https://qiita.com/superbrothers/items/3ac78daba3560ea406b2</description>
     </item>
     
   </channel>

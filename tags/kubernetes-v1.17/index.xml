@@ -19,7 +19,7 @@
       <pubDate>Wed, 25 Dec 2019 15:02:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191226/</guid>
-      <description>Diary  All Kubernetes clusters migrated version for v1.11 to v1.13  Note  Operator SDK の Leader Election について  https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.2/html/operators/osdk-leader-election   kubernetes 自定义控制器的高可用  http://blog.fatedier.com/2019/04/17/k8s-custom-controller-high-available/ こっちは clinet-go の leaderelection package について   Demystifying Istio&#39;s Sidecar Injection Model  https://istio.io/blog/2019/data-plane-setup/ Istio の sidecar injection の話   Kubernetes 1.17の変更点: SIG Node の変更内容  https://qiita.com/uesyn/items/654dd0c84c269b97b077    </description>
+      <description>Diary All Kubernetes clusters migrated version for v1.11 to v1.13 Note Operator SDK の Leader Election について https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.2/html/operators/osdk-leader-election kubernetes 自定义控制器的高可用 http://blog.fatedier.com/2019/04/17/k8s-custom-controller-high-available/ こっちは clinet-go の leaderelection package について Demystifying Istio&#39;s Sidecar Injection Model https://istio.io/blog/2019/data-plane-setup/ Istio の sidecar injection の話 Kubernetes 1.17の変更点: SIG Node の</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Tue, 24 Dec 2019 15:02:02 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191225/</guid>
-      <description>Diary  Merry Christmas 🎄  Note  Practice Enough With These 150 Questions for the CKAD Exam  https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552 CKAD 150 問   Logging Guidelines  https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/TMP-LOGGING.md controller-runtime の log についてのガイドライン Log level  https://github.com/kubernetes-sigs/controller-runtime/issues/167     プラットフォームの上でものを作るということ  https://toris.io/2019/12/what-i-think-about-when-i-think-about-kubernetes-and-ecs/ いい話   goroutine が確保するメモリはスタックにあるという  https://twitter.com/sonatard/status/1209877645334216705   Kubernetes 1.17: SIG-Network の変更内容  https://qiita.com/superbrothers/items/fd936c4046459a16609c EndpointSlice, あんまり良くわかってない   kubebuilder の MultiVersion Conversion の話  https://book.kubebuilder.io/multiversion-tutorial/conversion-concepts.html   Kubernetes 1.</description>
+      <description>Diary Merry Christmas 🎄 Note Practice Enough With These 150 Questions for the CKAD Exam https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552 CKAD 150 問 Logging Guidelines https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/TMP-LOGGING.md controller-runtime の log についてのガイドライン Log level https://github.com/kubernetes-sigs/controller-runtime/issues/167 プラットフォームの上でものを作るということ https://toris.io/2019/12/what-i-think-about-when-i-think-about-kubernetes-and-ecs/ いい話 goroutine が確保する</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Wed, 18 Dec 2019 15:00:39 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191219/</guid>
-      <description>Diary  I upgraded the Kubernetes cluster  Note  Datadog agent v7 のリリースがきた  https://github.com/DataDog/datadog-agent/releases/tag/7.16.0 Python 2 のサポートが無くなった 5 -&amp;gt; 7 のマイグレーションもできそう https://docs.datadoghq.com/agent/versions/upgrade_to_agent_v7/?tab=linux   Kubernetes 1.17: SIG-Auth の変更内容  https://qiita.com/hiyosi/items/837096e6d7e62e677e00   Knative Serving in Production  https://qiita.com/toVersus/items/1317a31fead9b836a68d Knative なんもわからん    </description>
+      <description>Diary I upgraded the Kubernetes cluster Note Datadog agent v7 のリリースがきた https://github.com/DataDog/datadog-agent/releases/tag/7.16.0 Python 2 のサポートが無くなった 5 -&amp;gt; 7 のマイグレーションもできそう https://docs.datadoghq.com/agent/versions/upgrade_to_agent_v7/?tab=linux Kubernetes 1.17: SIG-Auth の変更内容 https://qiita.com/hiyosi/items/837096e6d7e62e677e00 Knative Serving in Production https://qiita.com/toVersus/items/1317a31fead9b836a68d Knative なんもわか</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       <pubDate>Mon, 16 Dec 2019 15:00:43 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191217/</guid>
-      <description>Diary  I posted blog  https://d-kuro.github.io/blog/posts/deployment-revisionhistorylimit-default/    Note  Kubernetes 1.17: SIG-API Machineryの変更内容  https://qiita.com/Ladicle/items/408ee3ec4e25ada9fe21 主要な変更特に無し   【Kubernetes】KubernetesのCronJobのcronスケジュールはどう管理されているのか？  https://nnao45.hatenadiary.com/entry/2019/12/17/110439 サードパーティのライブラリ使われてるよという話, CronJob のソースコード解説, 途中まで書いて封印してるの思い出した   Monitor Amazon EKS on AWS Fargate with Datadog  https://www.datadoghq.com/blog/eks-fargate-monitoring/ DD_EKS_FARGATE=true    </description>
+      <description>Diary I posted blog https://d-kuro.github.io/blog/posts/deployment-revisionhistorylimit-default/ Note Kubernetes 1.17: SIG-API Machineryの変更内容 https://qiita.com/Ladicle/items/408ee3ec4e25ada9fe21 主要な変更特に無し 【Kubernetes】KubernetesのCronJobのcronスケ</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       <pubDate>Sun, 15 Dec 2019 15:01:14 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191216/</guid>
-      <description>Diary  I want to automate Kubernetes B/G upgrade  Note  Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes  https://www.creationline.com/lab/31416 日本語   chan chan は意外と美味しい  https://qiita.com/hogedigo/items/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう   Istio VirtualServiceのHost衝突を検知するAdmission Webhookをつくってみる  https://tech.jxpress.net/entry/istio-host-collision-detection-with-admission-webhook Admission Webhook の話   LIFULLが主要サービスの(ほぼ)全てをKubernetesに移行するまで  https://www.lifull.blog/entry/2019/12/16/000000 しっかりしてる   kubectl cordon を実行した Node は Ingress, type LoadBalancer Service の振り分け対象から外されるよというやつ  https://github.com/kubernetes/kubernetes/issues/44997 https://github.com/kubernetes/kubernetes/issues/65013 その Node にのみ存在する Pod がある場合疎通できなくなって死ぬやつ   GoのGCを10分で学ぼう　 https://qiita.</description>
+      <description>Diary I want to automate Kubernetes B/G upgrade Note Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes https://www.creationline.com/lab/31416 日本語 chan chan は意外と美味しい https://qiita.com/hogedigo/items/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう Istio VirtualServiceのHo</description>
     </item>
     
     <item>
@@ -64,7 +64,7 @@
       <pubDate>Thu, 12 Dec 2019 15:00:58 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191213/</guid>
-      <description>Diary  I don&#39;t understand English without Google Translate  Note  kyaml2go  https://kyaml2go.prasadg.dev/ manigest の YAML を client-go を使った Go のコードに変換してくれる君   Kubernetesをぶち壊す10の奇妙な方法 (前編)  https://qiita.com/inductor/items/ee8c01811aaf7bd1652d 面白かった   Markdown の syntax highlight に console を使うといい感じに色分けされる話  https://twitter.com/piris314/status/1205038748422963201 いつも shell とかにしてた   Exercising Concurrency in Go: 3 Common Pitfalls and Lessons Learned  https://medium.com/modenetworks/exercising-concurrency-in-go-3-common-pitfalls-and-lessons-learned-2cca9e629620   Kubernetes 1.17 Feature: Kubernetes Volume Snapshot Moves to Beta  https://kubernetes.</description>
+      <description>Diary I don&#39;t understand English without Google Translate Note kyaml2go https://kyaml2go.prasadg.dev/ manigest の YAML を client-go を使った Go のコードに変換してくれる君 Kubernetesをぶち壊す10の奇妙な方法 (前編) https://qiita.com/inductor/items/ee8c01811aaf7bd1652d 面白かった Markdown の syntax</description>
     </item>
     
     <item>
@@ -73,7 +73,7 @@
       <pubDate>Mon, 09 Dec 2019 15:01:11 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191210/</guid>
-      <description>Diary  This week we will launch three Kubernetes clusters  Note  Released Kubernetes v1.17.0  https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.17.md#v1170   KubernetesのCloud Controller Managerについて  https://medium.com/@bells17/kubernetes-ccm-d4d3c71ba523   Kubernetes resource limits and kernel cgroups  https://medium.com/@kkwriting/kubernetes-resource-limits-and-kernel-cgroups-337625bab87d   The complete guide to Go net/http timeouts  https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/ 永久保存版 Go のタイムアウト記事   istio/client-go を触ってみた  https://hydrangea.netlify.com/posts/istio-client-go/ Istio の client, あるんだ   Kubernetes 1.17: Stability  https://kubernetes.io/blog/2019/12/09/kubernetes-1-17-release-announcement/   Kubernetes 1.17 Feature: Kubernetes Volume Snapshot Moves to Beta  https://kubernetes.</description>
+      <description>Diary This week we will launch three Kubernetes clusters Note Released Kubernetes v1.17.0 https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.17.md#v1170 KubernetesのCloud Controller Managerについて https://medium.com/@bells17/kubernetes-ccm-d4d3c71ba523 Kubernetes resource limits and kernel cgroups https://medium.com/@kkwriting/kubernetes-resource-limits-and-kernel-cgroups-337625bab87d The complete guide to Go net/http timeouts https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/ 永久保存版 Go のタイムアウ</description>
     </item>
     
     <item>
@@ -82,7 +82,7 @@
       <pubDate>Mon, 09 Dec 2019 13:03:14 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191209/</guid>
-      <description>Diary  日記書くのサボってしまった 項目減らしてみたりしたので再開したい  Note  What’s new in Kubernetes 1.17?  https://sysdig.com/blog/whats-new-kubernetes-1-17/   Dave Cheney が pkg 配下に Go のアサーションライブラリを作り始めたらしい  https://github.com/pkg/expect https://twitter.com/micnncim/status/1203466881048272896   EKSでの認証認可 〜aws-iam-authenticatorとIRSAのしくみ〜  https://katainaka0503.hatenablog.com/entry/2019/12/07/091737 ここらへんで動いてる Admission Webhook, master node で動いてるっぽい (Pod として動いてない)   EKS on Fargate：virtual-kubelet の違い + Network/LB 周りの調査  https://amsy810.hateblo.jp/entry/2019/12/04/151642 EKS on Fargate, virtual-kubelet ですらなかった   Hierarchical Namespace で Namespace を階層構造に管理してオブジェクトを伝搬させる  https://amsy810.hateblo.jp/entry/2019/12/01/230822 Namespace 跨いで Object を伝搬させるやつ   The RED Method: How to Instrument Your Services  https://grafana.</description>
+      <description>Diary 日記書くのサボってしまった 項目減らしてみたりしたので再開したい Note What’s new in Kubernetes 1.17? https://sysdig.com/blog/whats-new-kubernetes-1-17/ Dave Cheney が pkg 配下に Go のアサーションライブラリを作り始めた</description>
     </item>
     
   </channel>

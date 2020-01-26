@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>2020-01-10 - AFN Blog</title>
-  <meta name="description" content="Diary  None  Note  Go 1.13.6 が出た  https://twitter.com/golang/status/1215401407194464256   Envoy と Kubernetes で始める Progressive Delivery  https://qiita.com/mumoshu/items/63b29bca6a052d8c7087   Dynamic Routing by Envoy &#43; Istio  https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio   1年間のシステム運用を通して分かったIstioの嬉しさと活用  https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい   CloudNative Days Kansai2019 登壇内容の補足  https://qiita.com/t-ide/items/830ef145a77e411fae44 上のスライドの補足   io.CopyにはなるべくWriteTo関数を渡してあげた方が良さそう  https://qiita.com/yamasaki-masahide/items/ed4c10d47900f1e7cdc0   uber-go/goleak: Goroutine leak detector  https://github.com/uber-go/goleak goroutine がリークしてるか調べるやつ, テストで実行するらしい    ">
+  <meta name="description" content="Diary None Note Go 1.13.6 が出た https://twitter.com/golang/status/1215401407194464256 Envoy と Kubernetes で始める Progressive Delivery https://qiita.com/mumoshu/items/63b29bca6a052d8c7087 Dynamic Routing by Envoy &#43; Istio https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio 1年間のシステム運用を通して分かったIstioの嬉しさと活用 https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい CloudNative Days Kansai2019 登壇内容の">
   <meta name="author" content="d-kuro"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -57,9 +57,9 @@
     "name" : "d-kuro"
   },
   "headline": "2020-01-10",
-  "description" : "Diary  None  Note  Go 1.13.6 が出た  https:\/\/twitter.com\/golang\/status\/1215401407194464256   Envoy と Kubernetes で始める Progressive Delivery  https:\/\/qiita.com\/mumoshu\/items\/63b29bca6a052d8c7087   Dynamic Routing by Envoy \x2b Istio  https:\/\/speakerdeck.com\/110y\/dynamic-routing-by-envoy-plus-istio   1年間のシステム運用を通して分かったIstioの嬉しさと活用  https:\/\/speakerdeck.com\/ido_kara_deru\/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい   CloudNative Days Kansai2019 登壇内容の補足  https:\/\/qiita.com\/t-ide\/items\/830ef145a77e411fae44 上のスライドの補足   io.CopyにはなるべくWriteTo関数を渡してあげた方が良さそう  https:\/\/qiita.com\/yamasaki-masahide\/items\/ed4c10d47900f1e7cdc0   uber-go\/goleak: Goroutine leak detector  https:\/\/github.com\/uber-go\/goleak goroutine がリークしてるか調べるやつ, テストで実行するらしい    ",
+  "description" : "Diary None Note Go 1.13.6 が出た https:\/\/twitter.com\/golang\/status\/1215401407194464256 Envoy と Kubernetes で始める Progressive Delivery https:\/\/qiita.com\/mumoshu\/items\/63b29bca6a052d8c7087 Dynamic Routing by Envoy \x2b Istio https:\/\/speakerdeck.com\/110y\/dynamic-routing-by-envoy-plus-istio 1年間のシステム運用を通して分かったIstioの嬉しさと活用 https:\/\/speakerdeck.com\/ido_kara_deru\/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい CloudNative Days Kansai2019 登壇内容の",
   "inLanguage" : "en",
-  "wordCount":  41 ,
+  "wordCount":  149 ,
   "datePublished" : "2020-01-09T15:03:06",
   "dateModified" : "2020-01-09T15:03:06",
   "image" : "https:\/\/d-kuro.github.io\/img\/avatar-icon.jpg",
@@ -79,14 +79,14 @@
 </script>
 
 <meta property="og:title" content="2020-01-10" />
-<meta property="og:description" content="Diary  None  Note  Go 1.13.6 が出た  https://twitter.com/golang/status/1215401407194464256   Envoy と Kubernetes で始める Progressive Delivery  https://qiita.com/mumoshu/items/63b29bca6a052d8c7087   Dynamic Routing by Envoy &#43; Istio  https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio   1年間のシステム運用を通して分かったIstioの嬉しさと活用  https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい   CloudNative Days Kansai2019 登壇内容の補足  https://qiita.com/t-ide/items/830ef145a77e411fae44 上のスライドの補足   io.CopyにはなるべくWriteTo関数を渡してあげた方が良さそう  https://qiita.com/yamasaki-masahide/items/ed4c10d47900f1e7cdc0   uber-go/goleak: Goroutine leak detector  https://github.com/uber-go/goleak goroutine がリークしてるか調べるやつ, テストで実行するらしい    ">
+<meta property="og:description" content="Diary None Note Go 1.13.6 が出た https://twitter.com/golang/status/1215401407194464256 Envoy と Kubernetes で始める Progressive Delivery https://qiita.com/mumoshu/items/63b29bca6a052d8c7087 Dynamic Routing by Envoy &#43; Istio https://speakerdeck.com/110y/dynamic-routing-by-envoy-plus-istio 1年間のシステム運用を通して分かったIstioの嬉しさと活用 https://speakerdeck.com/ido_kara_deru/benefits-and-usage-notes-of-istio-based-on-our-system-operation-experience Istio, 入れたい CloudNative Days Kansai2019 登壇内容の">
 <meta property="og:image" content="https://d-kuro.github.io/img/avatar-icon.jpg" />
 <meta property="og:url" content="https://d-kuro.github.io/diaries/202001/20200110/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="AFN Blog" />
 
   <meta name="twitter:title" content="2020-01-10" />
-  <meta name="twitter:description" content="Diary  None  Note  Go 1.13.6 が出た  https://twitter.com/golang/status/1215401407194464256   Envoy と Kubernetes で始める Progressive Delivery  https://qiita.com/mumoshu/items/63b29bca6a052d8c7087   Dynamic …">
+  <meta name="twitter:description" content="Diary None Note Go 1.13.6 が出た https://twitter.com/golang/status/1215401407194464256 Envoy と Kubernetes で始める Progressive Delivery https://qiita.com/mumoshu/items/63b29bca6a052d8c7087 Dynamic Routing by …">
   <meta name="twitter:image" content="https://d-kuro.github.io/img/avatar-icon.jpg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@ponde_m" />

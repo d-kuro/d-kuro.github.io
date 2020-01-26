@@ -19,7 +19,7 @@
       <pubDate>Sun, 15 Dec 2019 15:01:14 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191216/</guid>
-      <description>Diary  I want to automate Kubernetes B/G upgrade  Note  Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes  https://www.creationline.com/lab/31416 日本語   chan chan は意外と美味しい  https://qiita.com/hogedigo/items/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう   Istio VirtualServiceのHost衝突を検知するAdmission Webhookをつくってみる  https://tech.jxpress.net/entry/istio-host-collision-detection-with-admission-webhook Admission Webhook の話   LIFULLが主要サービスの(ほぼ)全てをKubernetesに移行するまで  https://www.lifull.blog/entry/2019/12/16/000000 しっかりしてる   kubectl cordon を実行した Node は Ingress, type LoadBalancer Service の振り分け対象から外されるよというやつ  https://github.com/kubernetes/kubernetes/issues/44997 https://github.com/kubernetes/kubernetes/issues/65013 その Node にのみ存在する Pod がある場合疎通できなくなって死ぬやつ   GoのGCを10分で学ぼう　 https://qiita.</description>
+      <description>Diary I want to automate Kubernetes B/G upgrade Note Kubernetes 1.17 新機能と改善の紹介 #AquaSecurity #Kubernetes https://www.creationline.com/lab/31416 日本語 chan chan は意外と美味しい https://qiita.com/hogedigo/items/15af273176599307a2b2 chan chan error みたいなのの話, 便利そう Istio VirtualServiceのHo</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Sun, 17 Nov 2019 15:02:54 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201911/20191118/</guid>
-      <description>Want to do  None  Achievement  None  Diary  I want to go to Kubecon (2回目)  Note  Javaのコンテナのメモリ割り当ての考え方をまきさんに教えていただいたので記録  https://bufferings.hatenablog.com/entry/2019/11/18/000007   Helm 3.0.0 has been released!  https://helm.sh/blog/helm-3-released/ Helm v3 がリリースされていた   Cloud Native Chaos Engineering – Enhancing Kubernetes Application Resiliency  https://www.cncf.io/blog/2019/11/06/cloud-native-chaos-engineering-enhancing-kubernetes-application-resiliency/ Chaos Engineering フレームワーク, Litmus の紹介   Kube-Downscaler  https://managedkube.com/kube-downscaler/2019/11/10/kube-downscaler.html Namespace の annotation に書いとくと Pod を落としてくれる君, 雑に便利そう   Kubernetes development, simplified—Skaffold is now GA  https://cloud.</description>
+      <description>Want to do None Achievement None Diary I want to go to Kubecon (2回目) Note Javaのコンテナのメモリ割り当ての考え方をまきさんに教えていただいたので記録 https://bufferings.hatenablog.com/entry/2019/11/18/000007 Helm 3.0.0 has been released! https://helm.sh/blog/helm-3-released/ Helm v3 がリリ</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Sun, 27 Oct 2019 15:03:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201910/20191028/</guid>
-      <description>Want to do  スタディサプリ English やる  Achievement  できとらん  Diary  GoCon 行きたかった  Note  go gc algorithm 101  https://speakerdeck.com/taxio/go-gc-algorithm-101 Go の GC の話, わかりやすい   How to develop &amp;ldquo;Container/Kubernetes Ready&amp;rdquo; Go web Application?  https://speakerdeck.com/tomioka43131/go-conference-authmn sleep の話とかは頻出なので覚えておきたい   OSS Performance Tuning Tips  https://speakerdeck.com/orisano/oss-performance-tuning-tips パフォーマンスチューニングの話, pprof 使いこなしたい   Go1.13以後のエラーハンドリングについて語ろう / Let&#39;s talk about error handling after Go 1 13  https://speakerdeck.com/ciarana/lets-talk-about-error-handling-after-go-1-13 xerrors のスタックトレースが早く標準パッケージに取り込まれてほしい    </description>
+      <description>Want to do スタディサプリ English やる Achievement できとらん Diary GoCon 行きたかった Note go gc algorithm 101 https://speakerdeck.com/taxio/go-gc-algorithm-101 Go の GC の話, わかりやすい How to develop &amp;ldquo;Container/Kubernetes Ready&amp;rdquo; Go web Application? https://speakerdeck.com/tomioka43131/go-conference-authmn sleep の話とかは頻出なので覚えておき</description>
     </item>
     
   </channel>

@@ -19,7 +19,7 @@
       <pubDate>Sun, 05 Jan 2020 21:28:38 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200105/</guid>
-      <description>Diary  None  Note  Go: Concurrency &amp;amp; Scheduler Affinity  https://medium.com/a-journey-with-go/go-concurrency-scheduler-affinity-3b678f490488 goroutine の仕組み   Lectures | UTokyo OpenCourseWare]  https://ocw.u-tokyo.ac.jp/lecture-search/?fq%5Bsubject_codes%5D%5B0%5D=540 東大の CS 講義   ghq v1リリースとghq-handbookのお知らせ  https://songmu.jp/riji/entry/2020-01-05-ghq-v1.html ないと生きていけないツール    </description>
+      <description>Diary None Note Go: Concurrency &amp;amp; Scheduler Affinity https://medium.com/a-journey-with-go/go-concurrency-scheduler-affinity-3b678f490488 goroutine の仕組み Lectures | UTokyo OpenCourseWare] https://ocw.u-tokyo.ac.jp/lecture-search/?fq%5Bsubject_codes%5D%5B0%5D=540 東大の CS 講義 ghq v1リリースとghq-handbookのお知らせ https://songmu.jp/riji/entry/2020-01-05-ghq-v1.html ないと生きていけないツール</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Sun, 29 Dec 2019 15:01:38 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191230/</guid>
-      <description>Diary  None  Note  働きながら米国のコンピュータサイエンスの学士号を取得する、UoPeopleという選択肢  https://tmkk.hatenablog.com/entry/2019/12/30/191131 学士ほしい……   HTTP/3をUDPロードバランサで分散するときの問題点 (AWS NLBで試してみた)  https://asnokaze.hatenablog.com/entry/2019/12/30/201331 UDP 使うぐらいしか知らなかったけど, stateful なんだ   GitOpsで絶対に避けて通れないブランチ戦略  https://amaya382.hatenablog.jp/entry/2019/12/02/192159 GitOps, manifest を別のリポジトリに切り出せみたいなのがベストプラクティスみたいな感じになってるけど monorepo だとそのまま打ち込んでおきたいよなみたいな気持ちになってる    </description>
+      <description>Diary None Note 働きながら米国のコンピュータサイエンスの学士号を取得する、UoPeopleという選択肢 https://tmkk.hatenablog.com/entry/2019/12/30/191131 学士ほしい…… HTTP/3をUDPロードバラン</description>
     </item>
     
   </channel>

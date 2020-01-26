@@ -19,7 +19,7 @@
       <pubDate>Wed, 08 Jan 2020 15:03:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200109/</guid>
-      <description>Diary  None  Note  microservices-infrastructure-with-envoy-consul-nomad  https://speakerdeck.com/kencharos/microservices-infrastructure-with-envoy-consul-nomad   Envoy Get Started - Google スライド  https://docs.google.com/presentation/d/1kqWUmsLx1NLDU2M9l4xXWnDiYjG2HGdNw2opZVw5j4A/edit#slide=id.g49b4537706_0_0   お前もメッシュにしてやろうか / Who really needs to be meshified? #envoytokyo  https://speakerdeck.com/toricls/who-really-needs-to-be-meshified-number-envoytokyo   「istioctl analyze」という、マニフェストファイルを解析して問題点を洗い出す機能があるという話  https://twitter.com/ido_kara_deru/status/1214920226963259392 普通の Kubernetes にもほしい   Istio as an Example of When Not to Do Microservices  https://blog.christianposta.com/microservices/istio-as-an-example-of-when-not-to-do-microservices/ Istio 1.5 からモノリスとしても動くようになるという話   Go 言語の日付処理  https://text.baldanders.info/golang/time-functions/ 標準パッケージで const が定義されている, 便利   kubebuilder v2 で webhook 開発  https://ymmt.</description>
+      <description>Diary None Note microservices-infrastructure-with-envoy-consul-nomad https://speakerdeck.com/kencharos/microservices-infrastructure-with-envoy-consul-nomad Envoy Get Started - Google スライド https://docs.google.com/presentation/d/1kqWUmsLx1NLDU2M9l4xXWnDiYjG2HGdNw2opZVw5j4A/edit#slide=id.g49b4537706_0_0 お前もメッシュにしてやろうか / Who really needs to be meshified? #envoytokyo https://speakerdeck.com/toricls/who-really-needs-to-be-meshified-number-envoytokyo 「istioctl analyze」という、マニフェストファイルを</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Thu, 02 Jan 2020 15:01:52 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202001/20200103/</guid>
-      <description>Diary  I bought Programming Kubernetes  Note  Host on GitHub | Hugo  https://gohugo.io/hosting-and-deployment/hosting-on-github/ GitHub pages で &amp;lt;USERNAME&amp;gt;.github.io ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった 個別のリポジトリで GitHub pages を設定すると https://&amp;lt;USERNAME&amp;gt;.github.io/&amp;lt;REPO&amp;gt;/ って URL になる   Kubernete Meetup Tokyo #18 - Kubebuilder/controller-runtime 入門  https://www.slideshare.net/pfi/kubernete-meetup-tokyo-18-kubebuildercontrollerruntime 現地で聞いたとき何もわからんなって思ってたけど今ならわかる   Kubernetes production best practices  https://learnk8s.io/production-best-practices Check list   Understanding kubernetes networking: pods  https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727 Pod のネットワーキングについて    </description>
+      <description>Diary I bought Programming Kubernetes Note Host on GitHub | Hugo https://gohugo.io/hosting-and-deployment/hosting-on-github/ GitHub pages で &amp;lt;USERNAME&amp;gt;.github.io ってリポジトリの master ブランチにコンテンツ置くとユーザーページになるの知らなかった 個別のリポジトリで GitHub pages を設定す</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Sat, 14 Dec 2019 15:00:41 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/201912/20191215/</guid>
-      <description>Diary  I trial the Kubebuilder  Note  入門 EKS on Fargate  https://qiita.com/mumoshu/items/c9dea2d82a402b4f9c31 アプリケーションが stdout/stderr にログを吐けない, マジかー   The Kubebuilder Book  https://book.kubebuilder.io/ ちょっと触ってる   CRD Validation - The Kubebuilder Book  https://book.kubebuilder.io/reference/markers/crd-validation.html    </description>
+      <description>Diary I trial the Kubebuilder Note 入門 EKS on Fargate https://qiita.com/mumoshu/items/c9dea2d82a402b4f9c31 アプリケーションが stdout/stderr にログを吐けない, マジかー The Kubebuilder Book https://book.kubebuilder.io/ ちょっと触ってる CRD Validation - The Kubebuilder Book https://book.kubebuilder.io/reference/markers/crd-validation.html</description>
     </item>
     
   </channel>
