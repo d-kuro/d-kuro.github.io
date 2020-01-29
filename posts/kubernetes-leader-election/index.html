@@ -59,7 +59,7 @@
   "headline": "Kubernetes Leader Election in Depth",
   "description" : "この記事では Kubernetes の Leader election について解説していきます。\n",
   "inLanguage" : "en",
-  "wordCount":  3725 ,
+  "wordCount":  3738 ,
   "datePublished" : "2020-01-06T01:09:52",
   "dateModified" : "2020-01-06T01:09:52",
   "image" : "https:\/\/d-kuro.github.io\/img\/avatar-icon.jpg",
@@ -280,6 +280,8 @@ Leader election を使用するとリーダーとなる Controller が reconcili
 </ul>
 <p>上記の名前は Operator SDK のドキュメントから持ってきています。</p>
 <p><a href="https://docs.openshift.com/container-platform/4.1/applications/operator_sdk/osdk-leader-election.html">https://docs.openshift.com/container-platform/4.1/applications/operator_sdk/osdk-leader-election.html</a></p>
+<h3 id="-kubernetes-meetup-tokyo-27--lt-">追記: Kubernetes Meetup Tokyo #27 で LT しました</h3>
+<script async class="speakerdeck-embed" data-id="6aa22d2c4ff34536bc52461feacb2be5" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 <h2 id="leader-for-life">Leader-for-life</h2>
 <p>Leader-for-life は Operator SDK が提供している Leader election の仕組みです。</p>
 <p>仕組みは単純で OwnerReference がリーダーの Pod である ConfigMap を作成し, ロックします。
