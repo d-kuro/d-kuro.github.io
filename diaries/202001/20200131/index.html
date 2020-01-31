@@ -59,11 +59,11 @@
   "headline": "2020-01-31",
   "description" : "Diary None Note KubeCon \x2b CloudNativeConにプロポーザル出すときに気をつけたこと https:\/\/knqyf263.hatenablog.com\/entry\/2020\/01\/30\/214825 すごい参考になる Kubernetes Istio simply visually explained https:\/\/itnext.io\/kubernetes-istio-simply-visually-explained-58a7d158b83f Istio の図解 SRE NEXT 2020 で「SLO Revie",
   "inLanguage" : "en",
-  "wordCount":  91 ,
+  "wordCount":  340 ,
   "datePublished" : "2020-01-30T15:03:16",
   "dateModified" : "2020-01-30T15:03:16",
   "image" : "https:\/\/d-kuro.github.io\/img\/avatar-icon.jpg",
-  "keywords" : [ "Proposal, Istio" ],
+  "keywords" : [ "Proposal, Istio, Go, Cluster Autoscaler" ],
   "mainEntityOfPage" : "https:\/\/d-kuro.github.io\/diaries\/202001\/20200131\/",
   "publisher" : {
     "@type": "Organization",
@@ -281,6 +281,38 @@
 <li>いい話</li>
 </ul>
 </li>
+<li>google/gops: A tool to list and diagnose Go processes currently running on your system
+<ul>
+<li><a href="https://github.com/google/gops">https://github.com/google/gops</a></li>
+<li>便利, コード読むとだいたい標準パッケージなんだなあってなった</li>
+</ul>
+</li>
+<li>golang で書かれたプロセスのリソースを外部から監視/操作できる「gops」 - Qiita
+<ul>
+<li><a href="https://qiita.com/mattn/items/a92f69ff18eb5cbcdd59">https://qiita.com/mattn/items/a92f69ff18eb5cbcdd59</a></li>
+<li>mattn さんの記事</li>
+</ul>
+</li>
+<li>autoscaler/FAQ.md at master · kubernetes/autoscaler
+<ul>
+<li><a href="https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md">https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md</a></li>
+<li>Cluster Autoscaler の FAQ</li>
+</ul>
+</li>
+<li>Cluster Autosaler 雑メモ
+<ul>
+<li>CA くんは Pod の requests しか見てない
+<ul>
+<li>何故か metrics API とか見てると勘違いしてた, 考えて見えたらそれはそうってやつ</li>
+</ul>
+</li>
+<li>AWS の実装だと tag で auto discovery してるけど AWS の API 叩きすぎると ratelimit に引っかかるのでインメモリキャッシュとか駆使してる
+<ul>
+<li>tag で ASG 引っ張ってきてそれに紐付いている全インスタンスをインメモリキャッシュに入れとく, みたいな実装</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
 
@@ -290,6 +322,10 @@
               <a href="https://d-kuro.github.io//tags/proposal/">Proposal</a>&nbsp;
             
               <a href="https://d-kuro.github.io//tags/istio/">Istio</a>&nbsp;
+            
+              <a href="https://d-kuro.github.io//tags/go/">Go</a>&nbsp;
+            
+              <a href="https://d-kuro.github.io//tags/cluster-autoscaler/">Cluster Autoscaler</a>&nbsp;
             
           </div>
         

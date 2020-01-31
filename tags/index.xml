@@ -14,6 +14,24 @@
     
     
     <item>
+      <title>Cluster Autoscaler</title>
+      <link>https://d-kuro.github.io/tags/cluster-autoscaler/</link>
+      <pubDate>Thu, 30 Jan 2020 15:03:16 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/cluster-autoscaler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://d-kuro.github.io/tags/go/</link>
+      <pubDate>Thu, 30 Jan 2020 15:03:16 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Istio</title>
       <link>https://d-kuro.github.io/tags/istio/</link>
       <pubDate>Thu, 30 Jan 2020 15:03:16 +0000</pubDate>
@@ -37,15 +55,6 @@
       <pubDate>Wed, 29 Jan 2020 15:03:13 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://d-kuro.github.io/tags/go/</link>
-      <pubDate>Tue, 28 Jan 2020 15:03:19 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/go/</guid>
       <description></description>
     </item>
     
@@ -667,15 +676,6 @@
       <pubDate>Thu, 14 Nov 2019 15:03:07 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/argo-flux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cluster Autoscaler</title>
-      <link>https://d-kuro.github.io/tags/cluster-autoscaler/</link>
-      <pubDate>Wed, 13 Nov 2019 15:02:55 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/cluster-autoscaler/</guid>
       <description></description>
     </item>
     

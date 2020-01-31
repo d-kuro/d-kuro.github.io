@@ -13,7 +13,17 @@
   </url>
   
   <url>
+    <loc>https://d-kuro.github.io/tags/cluster-autoscaler/</loc>
+    <lastmod>2020-01-30T15:03:16+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://d-kuro.github.io/diaries/</loc>
+    <lastmod>2020-01-30T15:03:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/go/</loc>
     <lastmod>2020-01-30T15:03:16+00:00</lastmod>
   </url>
   
@@ -44,11 +54,6 @@
   
   <url>
     <loc>https://d-kuro.github.io/diaries/202001/20200129/</loc>
-    <lastmod>2020-01-28T15:03:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/go/</loc>
     <lastmod>2020-01-28T15:03:19+00:00</lastmod>
   </url>
   
@@ -749,11 +754,6 @@
   
   <url>
     <loc>https://d-kuro.github.io/diaries/201911/20191114/</loc>
-    <lastmod>2019-11-13T15:02:55+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/cluster-autoscaler/</loc>
     <lastmod>2019-11-13T15:02:55+00:00</lastmod>
   </url>
   
