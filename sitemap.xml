@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://d-kuro.github.io/tags/argo-cd/</loc>
+    <lastmod>2020-02-03T15:03:20+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://d-kuro.github.io/diaries/</loc>
     <lastmod>2020-02-03T15:03:20+00:00</lastmod>
   </url>
@@ -154,11 +159,6 @@
   
   <url>
     <loc>https://d-kuro.github.io/diaries/202001/20200120/</loc>
-    <lastmod>2020-01-19T15:03:21+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/argo-cd/</loc>
     <lastmod>2020-01-19T15:03:21+00:00</lastmod>
   </url>
   
