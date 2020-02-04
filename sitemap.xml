@@ -3,32 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://d-kuro.github.io/diaries/202002/20200203/</loc>
+    <lastmod>2020-02-02T15:03:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/</loc>
+    <lastmod>2020-02-02T15:03:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/</loc>
+    <lastmod>2020-02-02T15:03:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/git/</loc>
+    <lastmod>2020-02-02T15:03:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/go/</loc>
+    <lastmod>2020-02-02T15:03:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kustomize/</loc>
+    <lastmod>2020-02-02T15:03:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/musl/</loc>
+    <lastmod>2020-02-02T15:03:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/</loc>
+    <lastmod>2020-02-02T15:03:01+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://d-kuro.github.io/diaries/202002/20200202/</loc>
     <lastmod>2020-02-01T15:02:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/</loc>
-    <lastmod>2020-02-01T15:02:59+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/diaries/</loc>
-    <lastmod>2020-02-01T15:02:59+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://d-kuro.github.io/diaries/202002/20200201/</loc>
-    <lastmod>2020-01-31T15:03:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/go/</loc>
-    <lastmod>2020-01-31T15:03:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/</loc>
     <lastmod>2020-01-31T15:03:02+00:00</lastmod>
   </url>
   
@@ -424,11 +444,6 @@
   
   <url>
     <loc>https://d-kuro.github.io/diaries/201912/20191224/</loc>
-    <lastmod>2019-12-24T14:19:44+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/kustomize/</loc>
     <lastmod>2019-12-24T14:19:44+09:00</lastmod>
   </url>
   
