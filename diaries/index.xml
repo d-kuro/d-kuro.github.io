@@ -19,7 +19,7 @@
       <pubDate>Tue, 04 Feb 2020 15:03:04 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202002/20200205/</guid>
-      <description>Diary Note golangでファイルの存在確認 - An At a NOA https://anatanoa.net/writings/2016/10/is_not_exist.html 定期的に忘れるシリーズ func CommandContext https://golang.org/pkg/os/exec/#CommandContext 便利 Go: Timeout Commands with os/exec CommandContext - Kale Blankenship - Medium https://medium.com/@vCabbage/go-timeout-commands-with-os-exec-commandcontext-ba0c861ed738 便利 Go memory ballast: How I learnt to stop worrying and love the heap https://blog.twitch.tv/en/2019/04/10/go-memory-ballast-how-i-learnt-to-stop-worrying-and-love-the-heap-26c2462549a2/ Twitch の</description>
+      <description>Diary None Note golangでファイルの存在確認 - An At a NOA https://anatanoa.net/writings/2016/10/is_not_exist.html 定期的に忘れるシリーズ func CommandContext https://golang.org/pkg/os/exec/#CommandContext 便利 Go: Timeout Commands with os/exec CommandContext - Kale Blankenship - Medium https://medium.com/@vCabbage/go-timeout-commands-with-os-exec-commandcontext-ba0c861ed738 便利 Go memory ballast: How I learnt to stop worrying and love the heap https://blog.twitch.tv/en/2019/04/10/go-memory-ballast-how-i-learnt-to-stop-worrying-and-love-the-heap-26c2462549a2/ Twitch</description>
     </item>
     
     <item>
