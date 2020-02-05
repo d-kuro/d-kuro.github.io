@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Mon, 03 Feb 2020 15:03:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2020 15:03:04 +0000</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go</title>
+      <link>https://d-kuro.github.io/tags/go/</link>
+      <pubDate>Tue, 04 Feb 2020 15:03:04 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/go/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Argo CD</title>
@@ -55,15 +64,6 @@
       <pubDate>Sun, 02 Feb 2020 15:03:01 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://d-kuro.github.io/tags/go/</link>
-      <pubDate>Sun, 02 Feb 2020 15:03:01 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/go/</guid>
       <description></description>
     </item>
     
