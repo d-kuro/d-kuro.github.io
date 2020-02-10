@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Sat, 08 Feb 2020 15:04:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2020 15:05:23 +0000</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://d-kuro.github.io/tags/kubernetes/</link>
+      <pubDate>Sun, 09 Feb 2020 15:05:23 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Go</title>
@@ -19,15 +28,6 @@
       <pubDate>Sat, 08 Feb 2020 15:04:45 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kubernetes</title>
-      <link>https://d-kuro.github.io/tags/kubernetes/</link>
-      <pubDate>Sat, 08 Feb 2020 15:04:45 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
     
