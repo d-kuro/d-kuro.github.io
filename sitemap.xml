@@ -3,37 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://d-kuro.github.io/diaries/202002/20200213/</loc>
+    <lastmod>2020-02-12T15:05:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/</loc>
+    <lastmod>2020-02-12T15:05:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/</loc>
+    <lastmod>2020-02-12T15:05:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/go/</loc>
+    <lastmod>2020-02-12T15:05:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/kubernetes/</loc>
+    <lastmod>2020-02-12T15:05:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/</loc>
+    <lastmod>2020-02-12T15:05:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/202002/20200212/</loc>
+    <lastmod>2020-02-11T15:05:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/diaries/202002/20200211/</loc>
+    <lastmod>2020-02-10T15:05:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/tags/istio/</loc>
+    <lastmod>2020-02-10T15:05:54+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://d-kuro.github.io/diaries/202002/20200210/</loc>
     <lastmod>2020-02-09T15:05:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/</loc>
-    <lastmod>2020-02-09T15:05:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/diaries/</loc>
-    <lastmod>2020-02-09T15:05:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/kubernetes/</loc>
-    <lastmod>2020-02-09T15:05:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/</loc>
-    <lastmod>2020-02-09T15:05:23+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://d-kuro.github.io/diaries/202002/20200209/</loc>
-    <lastmod>2020-02-08T15:04:45+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/go/</loc>
     <lastmod>2020-02-08T15:04:45+00:00</lastmod>
   </url>
   
@@ -119,11 +139,6 @@
   
   <url>
     <loc>https://d-kuro.github.io/tags/cluster-autoscaler/</loc>
-    <lastmod>2020-01-30T15:03:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/istio/</loc>
     <lastmod>2020-01-30T15:03:16+00:00</lastmod>
   </url>
   
