@@ -8,10 +8,37 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Wed, 12 Feb 2020 15:05:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2020 15:05:46 +0000</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Container</title>
+      <link>https://d-kuro.github.io/tags/container/</link>
+      <pubDate>Sat, 15 Feb 2020 15:05:46 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CNI</title>
+      <link>https://d-kuro.github.io/tags/cni/</link>
+      <pubDate>Fri, 14 Feb 2020 15:05:58 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/cni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://d-kuro.github.io/tags/kubernetes/</link>
+      <pubDate>Thu, 13 Feb 2020 15:05:43 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Go</title>
@@ -19,15 +46,6 @@
       <pubDate>Wed, 12 Feb 2020 15:05:51 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kubernetes</title>
-      <link>https://d-kuro.github.io/tags/kubernetes/</link>
-      <pubDate>Wed, 12 Feb 2020 15:05:51 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
     
@@ -491,7 +509,7 @@
     </item>
     
     <item>
-      <title>Channel</title>
+      <title>channel</title>
       <link>https://d-kuro.github.io/tags/channel/</link>
       <pubDate>Sun, 15 Dec 2019 15:01:14 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
@@ -550,15 +568,6 @@
       <pubDate>Wed, 11 Dec 2019 15:01:03 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/monitoring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CNI</title>
-      <link>https://d-kuro.github.io/tags/cni/</link>
-      <pubDate>Tue, 10 Dec 2019 15:01:32 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/cni/</guid>
       <description></description>
     </item>
     
@@ -676,15 +685,6 @@
       <pubDate>Sun, 17 Nov 2019 15:02:54 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/chaos-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Container</title>
-      <link>https://d-kuro.github.io/tags/container/</link>
-      <pubDate>Sun, 17 Nov 2019 15:02:54 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/container/</guid>
       <description></description>
     </item>
     

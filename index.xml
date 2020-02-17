@@ -8,10 +8,37 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Wed, 12 Feb 2020 15:05:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2020 15:05:46 +0000</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020-02-16</title>
+      <link>https://d-kuro.github.io/diaries/202002/20200216/</link>
+      <pubDate>Sat, 15 Feb 2020 15:05:46 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/202002/20200216/</guid>
+      <description>Diary None Note Goのソースコードから読み解くオブジェクト指向プログラミング@Object-Oriented Conference 2020 - Speaker Deck https://speakerdeck.com/adsholoko/gofalsesosukodokaradu-mijie-kuobuziekutozhi-xiang-puroguramingu-at-object-oriented-conference-2020 コンテナはなぜ安全（または安全</description>
+    </item>
+    
+    <item>
+      <title>2020-02-15</title>
+      <link>https://d-kuro.github.io/diaries/202002/20200215/</link>
+      <pubDate>Fri, 14 Feb 2020 15:05:58 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/202002/20200215/</guid>
+      <description>Diary None Note マルチホストでのDocker Container間通信 第3回: Kubernetesのネットワーク(CNI, kube-proxy, kube-dns) - UZABASE Tech Blog https://tech.uzabase.com/entry/2017/09/12/164756 コンテナのネット</description>
+    </item>
+    
+    <item>
+      <title>2020-02-14</title>
+      <link>https://d-kuro.github.io/diaries/202002/20200214/</link>
+      <pubDate>Thu, 13 Feb 2020 15:05:43 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/202002/20200214/</guid>
+      <description>Diary None Note OpenShiftのResource requestとlimit - nekop&#39;s blog https://nekop.hatenablog.com/entry/2017/12/20/182523 空いているCPUが他のPodに利用されていても、requests</description>
+    </item>
     
     <item>
       <title>2020-02-13</title>
