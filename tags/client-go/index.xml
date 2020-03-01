@@ -40,23 +40,5 @@
       <description>Diary All Kubernetes clusters migrated version for v1.11 to v1.13 Note Operator SDK の Leader Election について https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.2/html/operators/osdk-leader-election kubernetes 自定义控制器的高可用 http://blog.fatedier.com/2019/04/17/k8s-custom-controller-high-available/ こっちは clinet-go の leaderelection package について Demystifying Istio&#39;s Sidecar Injection Model https://istio.io/blog/2019/data-plane-setup/ Istio の sidecar injection の話 Kubernetes 1.17の変更点: SIG Node の</description>
     </item>
     
-    <item>
-      <title>2019-10-31</title>
-      <link>https://d-kuro.github.io/diaries/201910/20191031/</link>
-      <pubDate>Wed, 30 Oct 2019 15:02:19 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201910/20191031/</guid>
-      <description>Want to do スタディサプリ English やる Achievement やっとらんな Diary グローバルインタプリタロックとかの話をオンボーディングで聞けてよかった Note Cluster Autoscaler はデフォルトで leader election して</description>
-    </item>
-    
-    <item>
-      <title>2019-10-19</title>
-      <link>https://d-kuro.github.io/diaries/201910/20191019/</link>
-      <pubDate>Sat, 19 Oct 2019 00:16:05 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201910/20191019/</guid>
-      <description>Want to do スタディサプリ English やる ブログの移行作業をする 12 Kubernetes configuration best practices 読む https://www.stackrox.com/post/2019/09/12-kubernetes-configuration-best-practices/ Kubernetes Networking: Behind the scenes 読む https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb Kubernetes Patterns 読む https://www.magalix.com/blog/kubernetes-patterns-the-stateful-service-pattern 他の記事もある Achievement ✅スタディサプリ English やった ✅12 Kubernetes configuration</description>
-    </item>
-    
   </channel>
 </rss>

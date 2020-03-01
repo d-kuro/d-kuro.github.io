@@ -22,32 +22,5 @@
       <description>Diary I reading Practical Monitoring Note Service Mesh Comparison https://servicemesh.es/?utm_sq=g93pkk1sp2 各 Service Mesh の比較 Open Microservice Specification https://openmicroservices.org/about.html How to Build a Custom Kubernetes Ingress Controller in Go http://www.doxsey.net/blog/how-to-build-a-custom-kubernetes-ingress-controller-in-go Ingress Contoller の実装の話, 大変そう</description>
     </item>
     
-    <item>
-      <title>2019-11-27</title>
-      <link>https://d-kuro.github.io/diaries/201911/20191127/</link>
-      <pubDate>Tue, 26 Nov 2019 15:03:45 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201911/20191127/</guid>
-      <description>Want to do None Achievement None Diary None Note Kubernetesクラスタのバックアップとリストア https://www.wantedly.com/companies/wantedly/post_articles/135823 Ingress Group Feature Testing https://github.com/kubernetes-sigs/aws-alb-ingress-controller/issues/914 ALB Ingress の v2 で Ingress のグルーピングができて, 複数 Ingress に対して ALB 1 つみ</description>
-    </item>
-    
-    <item>
-      <title>2019-11-03</title>
-      <link>https://d-kuro.github.io/diaries/201911/20191103/</link>
-      <pubDate>Sat, 02 Nov 2019 15:02:01 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201911/20191103/</guid>
-      <description>Want to do Play Studysapuri English Achievement None Diary I&#39;m sleepy Note kubernetes-sigs/ingress-controller-conformance https://github.com/kubernetes-sigs/ingress-controller-conformance Ingress Controller の仕様 [Go] GitHub Actionsでキャッシュ機能を使う #github https://budougumi0617.github.io/2019/11/03/use-cache-in-github-actions/ 欲しい物が来た</description>
-    </item>
-    
-    <item>
-      <title>2019-10-25</title>
-      <link>https://d-kuro.github.io/diaries/201910/20191025/</link>
-      <pubDate>Thu, 24 Oct 2019 15:01:41 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201910/20191025/</guid>
-      <description>Want to do スタディサプリ English やる Achievement 🚫スタディサプリ English やってない ✅昨日の Kubernetes Meetup Tokyo のメモ, ブログ化した 今までのも全部移行したい Diary Ruby なんもわからん Note Ingress v2 に</description>
-    </item>
-    
   </channel>
 </rss>

@@ -49,23 +49,5 @@
       <description>Diary None Note Argo CD のパスワードリセットの方法 https://github.com/argoproj/argo-cd/blob/master/docs/faq.md#i-forgot-the-admin-password-how-do-i-reset-it Kubernetesのネットワーク構成 https://tech-lab.sios.jp/archives/7857 図があってわかりやすい, iptables の話とか Container exits with non-zero exit code 137 https://success.docker.com/article/what-causes-a-container-to-exit-with-code-137 137 の秘密, SIGTERM</description>
     </item>
     
-    <item>
-      <title>2019-11-07</title>
-      <link>https://d-kuro.github.io/diaries/201911/20191107/</link>
-      <pubDate>Wed, 06 Nov 2019 15:02:36 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201911/20191107/</guid>
-      <description>Want to do Play Studysapuri English Achievement None Diary I want to automate the upgrade of Kubernetes cluster Note argoproj/gitops-engine https://github.com/argoproj/gitops-engine Argo CD と Flux がコア機能の共有をするっぽい Kubernetes クラスタへのアップグレード自動化について https://twitter.com/go_vargo/status/1192388342983217152 Create a custom Kubernetes scheduler https://developer.ibm.com/articles/creating-a-custom-kube-scheduler/ scheduler のち</description>
-    </item>
-    
-    <item>
-      <title>2019-10-24</title>
-      <link>https://d-kuro.github.io/diaries/201910/20191024/</link>
-      <pubDate>Wed, 23 Oct 2019 15:02:46 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201910/20191024/</guid>
-      <description>Want to do スタディサプリ English やる Kubernetes Meetup Tokyo 参加 https://k8sjp.connpass.com/event/149872/ KubeWeekly 読む https://mailchi.mp/cncf/kubeweekly-1465395 Achievement ✅スタディサプリ English やった ✅KubeWeekly 読んだ https://mailchi.mp/cncf/kubeweekly-1465395 めちゃくちゃおもしろい話は無さそう ✅K</description>
-    </item>
-    
   </channel>
 </rss>

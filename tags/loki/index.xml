@@ -31,14 +31,5 @@
       <description>Diary This week we will launch three Kubernetes clusters Note Released Kubernetes v1.17.0 https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.17.md#v1170 KubernetesのCloud Controller Managerについて https://medium.com/@bells17/kubernetes-ccm-d4d3c71ba523 Kubernetes resource limits and kernel cgroups https://medium.com/@kkwriting/kubernetes-resource-limits-and-kernel-cgroups-337625bab87d The complete guide to Go net/http timeouts https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/ 永久保存版 Go のタイムアウ</description>
     </item>
     
-    <item>
-      <title>2019-11-20</title>
-      <link>https://d-kuro.github.io/diaries/201911/20191120/</link>
-      <pubDate>Tue, 19 Nov 2019 15:03:13 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201911/20191120/</guid>
-      <description>Want to do None Achievement None Diary I have a cold. Note knsh14/sourcegraph-go-style-guide-ja https://github.com/knsh14/sourcegraph-go-style-guide-ja Sourcegraph の Go の style ガイド &amp;ldquo;Building Secure Reliable Systems&amp;rdquo; Book Early Release https://landing.google.com/sre/resources/foundationsandprinciples/srs-book/ https://twitter.com/openshiftjp/status/1197292343591919616 Google の SRE 本, セキュリティと信頼性がテーマらしい Loki version 1.0 is generally available for production use https://www.apmdigest.com/grafana-labs-releases-loki https://twitter.com/grafana/status/1197262407334342656 Loki が GA</description>
-    </item>
-    
   </channel>
 </rss>

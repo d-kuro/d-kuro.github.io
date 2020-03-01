@@ -8,7 +8,7 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Sat, 29 Feb 2020 15:05:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 15:05:40 +0000</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,7 +16,7 @@
     <item>
       <title>Go</title>
       <link>https://d-kuro.github.io/tags/go/</link>
-      <pubDate>Sat, 29 Feb 2020 15:05:20 +0000</pubDate>
+      <pubDate>Thu, 27 Feb 2020 15:05:40 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/go/</guid>
       <description></description>
@@ -509,7 +509,7 @@
     </item>
     
     <item>
-      <title>channel</title>
+      <title>Channel</title>
       <link>https://d-kuro.github.io/tags/channel/</link>
       <pubDate>Sun, 15 Dec 2019 15:01:14 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
@@ -599,141 +599,6 @@
     </item>
     
     <item>
-      <title>Kubelet</title>
-      <link>https://d-kuro.github.io/tags/kubelet/</link>
-      <pubDate>Thu, 28 Nov 2019 15:02:40 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubelet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ALB Ingress Controller</title>
-      <link>https://d-kuro.github.io/tags/alb-ingress-controller/</link>
-      <pubDate>Tue, 26 Nov 2019 15:03:45 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/alb-ingress-controller/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Last Week in Kubernetes Development</title>
-      <link>https://d-kuro.github.io/tags/last-week-in-kubernetes-development/</link>
-      <pubDate>Tue, 26 Nov 2019 15:03:45 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/last-week-in-kubernetes-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Service Topology</title>
-      <link>https://d-kuro.github.io/tags/service-topology/</link>
-      <pubDate>Tue, 26 Nov 2019 15:03:45 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/service-topology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>etcd</title>
-      <link>https://d-kuro.github.io/tags/etcd/</link>
-      <pubDate>Sun, 24 Nov 2019 15:03:28 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/etcd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kubernetes cluster upgrade</title>
-      <link>https://d-kuro.github.io/tags/kubernetes-cluster-upgrade/</link>
-      <pubDate>Thu, 21 Nov 2019 15:04:07 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubernetes-cluster-upgrade/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JVM</title>
-      <link>https://d-kuro.github.io/tags/jvm/</link>
-      <pubDate>Wed, 20 Nov 2019 15:04:04 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/jvm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graceful shutdown</title>
-      <link>https://d-kuro.github.io/tags/graceful-shutdown/</link>
-      <pubDate>Mon, 18 Nov 2019 15:03:36 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/graceful-shutdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>strace</title>
-      <link>https://d-kuro.github.io/tags/strace/</link>
-      <pubDate>Mon, 18 Nov 2019 15:03:36 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/strace/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chaos Engineering</title>
-      <link>https://d-kuro.github.io/tags/chaos-engineering/</link>
-      <pubDate>Sun, 17 Nov 2019 15:02:54 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/chaos-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Helm</title>
-      <link>https://d-kuro.github.io/tags/helm/</link>
-      <pubDate>Sun, 17 Nov 2019 15:02:54 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/helm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://d-kuro.github.io/tags/java/</link>
-      <pubDate>Sun, 17 Nov 2019 15:02:54 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Argo Flux</title>
-      <link>https://d-kuro.github.io/tags/argo-flux/</link>
-      <pubDate>Thu, 14 Nov 2019 15:03:07 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/argo-flux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GoDoc</title>
-      <link>https://d-kuro.github.io/tags/godoc/</link>
-      <pubDate>Wed, 13 Nov 2019 15:02:55 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/godoc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Topology Spread Constraints</title>
-      <link>https://d-kuro.github.io/tags/topology-spread-constraints/</link>
-      <pubDate>Wed, 13 Nov 2019 15:02:55 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/topology-spread-constraints/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CSI</title>
       <link>https://d-kuro.github.io/tags/csi/</link>
       <pubDate>Wed, 13 Nov 2019 18:52:43 +0900</pubDate>
@@ -766,195 +631,6 @@
       <pubDate>Wed, 13 Nov 2019 18:52:43 +0900</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/tags/storage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>API Gateway</title>
-      <link>https://d-kuro.github.io/tags/api-gateway/</link>
-      <pubDate>Mon, 11 Nov 2019 15:03:19 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/api-gateway/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>KubeWeekly</title>
-      <link>https://d-kuro.github.io/tags/kubeweekly/</link>
-      <pubDate>Mon, 11 Nov 2019 15:03:19 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubeweekly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NetworkPolicy</title>
-      <link>https://d-kuro.github.io/tags/networkpolicy/</link>
-      <pubDate>Mon, 11 Nov 2019 15:03:19 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/networkpolicy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Memory Allocation</title>
-      <link>https://d-kuro.github.io/tags/memory-allocation/</link>
-      <pubDate>Sun, 10 Nov 2019 15:03:02 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/memory-allocation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AST</title>
-      <link>https://d-kuro.github.io/tags/ast/</link>
-      <pubDate>Sat, 09 Nov 2019 15:02:49 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/ast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CKA</title>
-      <link>https://d-kuro.github.io/tags/cka/</link>
-      <pubDate>Sat, 09 Nov 2019 15:02:49 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/cka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go Modules</title>
-      <link>https://d-kuro.github.io/tags/go-modules/</link>
-      <pubDate>Sat, 09 Nov 2019 15:02:49 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/go-modules/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Load Balancer</title>
-      <link>https://d-kuro.github.io/tags/load-balancer/</link>
-      <pubDate>Sat, 09 Nov 2019 15:02:49 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/load-balancer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rate Limit</title>
-      <link>https://d-kuro.github.io/tags/rate-limit/</link>
-      <pubDate>Sat, 09 Nov 2019 15:02:49 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/rate-limit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>resole.conf</title>
-      <link>https://d-kuro.github.io/tags/resole.conf/</link>
-      <pubDate>Fri, 08 Nov 2019 15:02:33 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/resole.conf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nil</title>
-      <link>https://d-kuro.github.io/tags/nil/</link>
-      <pubDate>Thu, 07 Nov 2019 15:02:16 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/nil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flux</title>
-      <link>https://d-kuro.github.io/tags/flux/</link>
-      <pubDate>Wed, 06 Nov 2019 15:02:36 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/flux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CoreDNS</title>
-      <link>https://d-kuro.github.io/tags/coredns/</link>
-      <pubDate>Tue, 05 Nov 2019 15:01:42 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/coredns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Preemption</title>
-      <link>https://d-kuro.github.io/tags/preemption/</link>
-      <pubDate>Tue, 05 Nov 2019 15:01:42 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/preemption/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Resource</title>
-      <link>https://d-kuro.github.io/tags/resource/</link>
-      <pubDate>Tue, 05 Nov 2019 15:01:42 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/resource/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GitHub Actions</title>
-      <link>https://d-kuro.github.io/tags/github-actions/</link>
-      <pubDate>Sat, 02 Nov 2019 15:02:01 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/github-actions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CUE</title>
-      <link>https://d-kuro.github.io/tags/cue/</link>
-      <pubDate>Tue, 29 Oct 2019 15:03:58 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/cue/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>goenv</title>
-      <link>https://d-kuro.github.io/tags/goenv/</link>
-      <pubDate>Wed, 23 Oct 2019 15:02:46 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/goenv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>runc</title>
-      <link>https://d-kuro.github.io/tags/runc/</link>
-      <pubDate>Mon, 21 Oct 2019 11:43:45 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/runc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CVE</title>
-      <link>https://d-kuro.github.io/tags/cve/</link>
-      <pubDate>Thu, 17 Oct 2019 10:45:40 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/cve/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ExternalDNS</title>
-      <link>https://d-kuro.github.io/tags/externaldns/</link>
-      <pubDate>Wed, 16 Oct 2019 10:21:57 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/externaldns/</guid>
       <description></description>
     </item>
     

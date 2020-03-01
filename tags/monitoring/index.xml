@@ -31,14 +31,5 @@
       <description>Diary 日記書くのサボってしまった 項目減らしてみたりしたので再開したい Note What’s new in Kubernetes 1.17? https://sysdig.com/blog/whats-new-kubernetes-1-17/ Dave Cheney が pkg 配下に Go のアサーションライブラリを作り始めた</description>
     </item>
     
-    <item>
-      <title>2019-11-28</title>
-      <link>https://d-kuro.github.io/diaries/201911/20191128/</link>
-      <pubDate>Wed, 27 Nov 2019 15:03:39 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201911/20191128/</guid>
-      <description>Want to do None Achievement None Diary I had tonsillitis Note Kubernetes Control Plane monitoring with Datadog https://www.datadoghq.com/blog/kubernetes-control-plane-monitoring/ Control Plane の監視の話 Introducing the Datadog Cluster Agent https://www.datadoghq.com/blog/datadog-cluster-agent/ go-fuzzyfinder でストリームをサポートした https://twitter.com/ktr_0731/status/1199747821756284929 すごい 1年間のシステム運用を通して分かったIst</description>
-    </item>
-    
   </channel>
 </rss>

@@ -67,23 +67,5 @@
       <description>Diary Confirmed increase in CPU usage due to API server not being able to connect with metrics-server Note Amazon VPC CNI plugin for KubernetesのソースコードリーディングでEKSのネットワーキングについて理解を深める #1</description>
     </item>
     
-    <item>
-      <title>2019-11-19</title>
-      <link>https://d-kuro.github.io/diaries/201911/20191119/</link>
-      <pubDate>Mon, 18 Nov 2019 15:03:36 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201911/20191119/</guid>
-      <description>Want to do None Achievement None Diary None Note Graceful shutdown of pods with Kubernetes https://pracucci.com/graceful-shutdown-of-kubernetes-pods.html SIGTERM が子プロセスに送られないやつにハマってた straceコマンドの使い方 https://qiita.com/hana_shin/items/a03150552e2f70994248 strace -e trace=signal -p $PID 覚えた GitOps and Kubernetes https://www.manning.com/books/gitops-and-kubernetes#toc GitOps の本 Extending the EKS</description>
-    </item>
-    
-    <item>
-      <title>2019-11-02</title>
-      <link>https://d-kuro.github.io/diaries/201911/20191102/</link>
-      <pubDate>Fri, 01 Nov 2019 15:03:07 +0000</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/diaries/201911/20191102/</guid>
-      <description>Want to do Play Studysapuri English Achievement ✅Play Studysapuri English Diary I have insufficient network knowledge😔 Note A Kubernetes crime story https://engineering.prezi.com/https-engineering-prezi-com-a-kubernetes-crime-story-2e8d75a77630 SNAT のせいで遅くなる話 EKS の場合は amazon-vpc-cni-k8s に AWS_VPC_K8S_CNI_EXTERNALSNAT=true を設定することで SNAT が無効になるらし</description>
-    </item>
-    
   </channel>
 </rss>
