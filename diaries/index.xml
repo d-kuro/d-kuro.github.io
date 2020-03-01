@@ -19,7 +19,7 @@
       <pubDate>Sat, 29 Feb 2020 15:05:20 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202003/20200301/</guid>
-      <description>Note </description>
+      <description>Note 名前付き戻り値との正しい付き合い方 - Eureka Engineering - Medium https://medium.com/eureka-engineering/named-return-values-7f485d867df0 それでも私は名前付き戻り値が嫌いです Go 1.14でシステムコールがEINTRエラーを返すように</description>
     </item>
     
     <item>
