@@ -226,7 +226,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;41&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;74&nbsp;words
   
   
     
@@ -240,22 +240,8 @@
     </p>
     <div class="post-entry">
         
-        <h2 id="note">Note</h2>
-<ul>
-<li>kustomize の configMapGenerator の <code>env</code> field が <code>envs</code> になってた
-<ul>
-<li><a href="https://github.com/kubernetes-sigs/kustomize/blob/5b774d09e10d6b80c7b2cd6e280443c040a0ecb9/api/types/kvpairsources.go#L30">https://github.com/kubernetes-sigs/kustomize/blob/5b774d09e10d6b80c7b2cd6e280443c040a0ecb9/api/types/kvpairsources.go#L30</a></li>
-<li><a href="https://kubectl.docs.kubernetes.io/pages/reference/kustomize.html#configmapgenerator">https://kubectl.docs.kubernetes.io/pages/reference/kustomize.html#configmapgenerator</a></li>
-<li>いつ変更されたのかはわからん
-<ul>
-<li>deprecated にはなってたらしい</li>
-<li><a href="https://github.com/kubernetes-sigs/kustomize/blob/v3.3.1/pkg/types/generatorargs.go#L52">https://github.com/kubernetes-sigs/kustomize/blob/v3.3.1/pkg/types/generatorargs.go#L52</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
+        Note kustomize の configMapGenerator の env field が envs になってた https://github.com/kubernetes-sigs/kustomize/blob/5b774d09e10d6b80c7b2cd6e280443c040a0ecb9/api/types/kvpairsources.go#L30 https://kubectl.docs.kubernetes.io/pages/reference/kustomize.html#configmapgenerator いつ変更されたのかはわからん deprecated にはなってたらしい https://github.com/kubernetes-sigs/kustomize/blob/v3.3.1/pkg/types/generatorargs.go#L52 Go 1.14の主なregression https://gist.github.com/itchyny/e74dd400e3e2b7f0ada1cc0f729a9b4b opencensus-integrations/ocsql: OpenCensus SQL database driver wrapper for Go https://github.com/opencensus-integrations/ocsql 便
+        <a href="https://d-kuro.github.io/diaries/202003/20200316/" class="post-read-more">[Read More]</a>
         
     </div>
 
