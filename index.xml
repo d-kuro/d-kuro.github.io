@@ -8,10 +8,37 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Sat, 21 Mar 2020 15:04:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2020 15:04:15 +0000</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020-03-26</title>
+      <link>https://d-kuro.github.io/diaries/202003/20200326/</link>
+      <pubDate>Wed, 25 Mar 2020 15:04:15 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/202003/20200326/</guid>
+      <description>Note Kubernetes クラスタの移行から学んだクラスタのポータビリティの重要性と条件 | Wantedly Engineer Blog https://www.wantedly.com/companies/wantedly/post_articles/222009 アルゴリズムビジュアル大事典 https://yutaka-watanobe.github.io/star-aida/books/ すごい Kubernetes 1.18: Fit &amp;amp; Finish - Kubernetes https://kubernetes.io/blog/2020/03/25/kubernetes-1-18-release-announcement/ リリースされ</description>
+    </item>
+    
+    <item>
+      <title>2020-03-25</title>
+      <link>https://d-kuro.github.io/diaries/202003/20200325/</link>
+      <pubDate>Tue, 24 Mar 2020 15:04:26 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/202003/20200325/</guid>
+      <description>Note pod(Kubernetes)のlifecycle.prestopの挙動 - １クール続けるブログ https://44smkn.hatenadiary.com/entry/2018/08/01/022312 Dockerfile に apt, apt-get, source コマンドを書く時のTips | cloud.config Tech</description>
+    </item>
+    
+    <item>
+      <title>2020-03-24</title>
+      <link>https://d-kuro.github.io/diaries/202003/20200324/</link>
+      <pubDate>Mon, 23 Mar 2020 15:04:09 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/202003/20200324/</guid>
+      <description>Note Alpine Linux入門 -内部構造とapkでパッケージインストール編- · tehepero note(・ω&amp;lt;) 2.0 https://blog.stormcat.io/post/entry/alpine-entry-apk/ apk, 存在を忘れがち Kubernetes Watch Pod Events with api - Stack Overflow Watch API を叩き</description>
+    </item>
     
     <item>
       <title>2020-03-22</title>
