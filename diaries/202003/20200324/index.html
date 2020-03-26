@@ -59,7 +59,7 @@
   "headline": "2020-03-24",
   "description" : "Note Alpine Linux入門 -内部構造とapkでパッケージインストール編- · tehepero note(・ω\x26lt;) 2.0 https:\/\/blog.stormcat.io\/post\/entry\/alpine-entry-apk\/ apk, 存在を忘れがち Kubernetes Watch Pod Events with api - Stack Overflow Watch API を叩き",
   "inLanguage" : "en",
-  "wordCount":  91 ,
+  "wordCount":  145 ,
   "datePublished" : "2020-03-23T15:04:09",
   "dateModified" : "2020-03-23T15:04:09",
   "image" : "https:\/\/d-kuro.github.io\/img\/avatar-icon.jpg",
@@ -273,7 +273,22 @@
 </ul>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">kubectl proxy
 curl -s http://127.0.0.1:8001/api/v1/watch/events
-</code></pre></div>
+</code></pre></div><ul>
+<li>kubectl が API 叩くときどうやって APIVersion 決めているかのコード
+<ul>
+<li><a href="https://github.com/kubernetes/kubectl/blob/v0.18.0/pkg/cmd/create/create_deployment.go#L131">https://github.com/kubernetes/kubectl/blob/v0.18.0/pkg/cmd/create/create_deployment.go#L131</a></li>
+<li><a href="https://twitter.com/tomiokasyogo/status/1242091895708254209">https://twitter.com/tomiokasyogo/status/1242091895708254209</a></li>
+<li>決め打ちっぽい</li>
+</ul>
+</li>
+<li>Release v1.1.6 · kubernetes-sigs/aws-alb-ingress-controller
+<ul>
+<li><a href="https://github.com/kubernetes-sigs/aws-alb-ingress-controller/releases/tag/v1.1.6">https://github.com/kubernetes-sigs/aws-alb-ingress-controller/releases/tag/v1.1.6</a></li>
+<li>ALB Ingress のリリース, readiness gate 対応したらしい</li>
+</ul>
+</li>
+</ul>
+
 
         
 
