@@ -19,7 +19,7 @@
       <pubDate>Sun, 12 Apr 2020 15:04:08 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202004/20200413/</guid>
-      <description>Note Argo CVEs https://www.soluble.ai/blog/argo-cves-2020 Argo argocd-server Pod Name Default Admin Password (CVE-2020-8828) この仕様が CVE になってたの笑ってしまった v1.15 で SSO のみのログインに変更できるらしい https://github.com/argoproj/argo-cd/releases/tag/v1.5.0</description>
+      <description>Note Argo CVEs https://www.soluble.ai/blog/argo-cves-2020 Argo argocd-server Pod Name Default Admin Password (CVE-2020-8828) この仕様が CVE になってたの笑ってしまった v1.15 で SSO のみのログインに変更できるらしい https://github.com/argoproj/argo-cd/releases/tag/v1.5.0 cobra の v1, リリースされた https://github.com/spf13/cobra/releases/tag/v1.0.0</description>
     </item>
     
     <item>
