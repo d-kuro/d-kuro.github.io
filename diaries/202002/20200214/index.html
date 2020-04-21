@@ -59,7 +59,7 @@
   "headline": "2020-02-14",
   "description" : "Diary None Note OpenShiftのResource requestとlimit - nekop\x27s blog https:\/\/nekop.hatenablog.com\/entry\/2017\/12\/20\/182523 空いているCPUが他のPodに利用されていても、requests",
   "inLanguage" : "en",
-  "wordCount":  326 ,
+  "wordCount":  361 ,
   "datePublished" : "2020-02-13T15:05:43",
   "dateModified" : "2020-02-13T15:05:43",
   "image" : "https:\/\/d-kuro.github.io\/img\/avatar-icon.jpg",
@@ -279,6 +279,7 @@
 <ul>
 <li><a href="https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-resource-requests-and-limits">https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-resource-requests-and-limits</a></li>
 <li>At this point, Kubernetes goes into something called an “overcommitted state.” Here is where things get interesting. Because CPU can be compressed, Kubernetes will make sure your containers get the CPU they requested and will throttle the rest. Memory cannot be compressed, so Kubernetes needs to start making decisions on what containers to terminate if the Node runs out of memory.</li>
+<li>CPU は requests 分必ず確保し残りはスロットリングさせるらしい, Memory は Eviction させるのかな</li>
 </ul>
 </li>
 <li>Resource Quality of Service in Kubernetes
