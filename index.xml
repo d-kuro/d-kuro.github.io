@@ -73,7 +73,7 @@
       <pubDate>Wed, 15 Apr 2020 15:04:08 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202004/20200416/</guid>
-      <description>Note </description>
+      <description>Note Pod Lifecycle Event Generator: Understanding the &amp;ldquo;PLEG is not healthy&amp;rdquo; issue in Kubernetes - Red Hat Developer https://developers.redhat.com/blog/2019/11/13/pod-lifecycle-event-generator-understanding-the-pleg-is-not-healthy-issue-in-kubernetes/ PLEG is not healthy, 遭遇したことがない コンテナの状態を監視するやつっぽい community/pod-lifecycle-event-generator.md at master · kubernetes/community https://github.com/kubernetes/community/blob/master/contributors/design-proposals/node/pod-lifecycle-event-generator.md こう言われれば見覚えのあるやつ</description>
     </item>
     
     <item>
@@ -82,7 +82,7 @@
       <pubDate>Tue, 14 Apr 2020 15:04:25 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202004/20200415/</guid>
-      <description>Note How Thanos Would Program in Go | @bwplotka https://www.bwplotka.dev/2020/how-thanos-would-program-in-go/ Thanos での Go のコーディングガイド, 結構いいこと書いてある defer の error を確認する response の close interface を狭くする ログメッセージの書き方 などなど</description>
+      <description>Note How Thanos Would Program in Go | @bwplotka https://www.bwplotka.dev/2020/how-thanos-would-program-in-go/ Thanos での Go のコーディングガイド, 結構いいこと書いてある defer の error を確認する response の close interface を狭くする ログメッセージの書き方 などなど An example</description>
     </item>
     
     <item>
