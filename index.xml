@@ -100,7 +100,7 @@
       <pubDate>Sat, 18 Apr 2020 15:03:31 +0000</pubDate>
       <author>kurosawa7620@gmail.com (d-kuro)</author>
       <guid>https://d-kuro.github.io/diaries/202004/20200419/</guid>
-      <description>Note GoでHTTP Clientのテストを書く - Qiita http.Client.Transport を差し替える方法, interface でモックするよりこっちのがよさそう type RoundTripFunc func(req *http.Request) *http.Response func (f RoundTripFunc) RoundTrip(req *http.Request) (*http.Response, error) { return f(req), nil } func NewTestClient(fn</description>
+      <description>Note GoでHTTP Clientのテストを書く - Qiita http.Client.Transport を差し替える方法, interface でモックするよりこっちのがよさそう https://qiita.com/sawadashota/items/47d8e990f27372d4c4c8 type RoundTripFunc func(req *http.Request) *http.Response func (f RoundTripFunc) RoundTrip(req *http.Request) (*http.Response, error) { return f(req), nil } func</description>
     </item>
     
     <item>
