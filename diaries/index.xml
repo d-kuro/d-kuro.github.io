@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
     <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Sat, 02 May 2020 15:03:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 15:04:31 +0000</lastBuildDate>
     
 	<atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020-05-05</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200505/</link>
+      <pubDate>Mon, 04 May 2020 15:04:31 +0000</pubDate>
+      <author>kurosawa7620@gmail.com (d-kuro)</author>
+      <guid>https://d-kuro.github.io/diaries/202005/20200505/</guid>
+      <description>Note IntelliJ IDEAのKubernetes Pluginが便利だったので紹介する - gashirar&#39;s blog https://gashirar.hatenablog.com/entry/2020/05/01/174238 便利なんだけど簡単なエディタとして立ち上げるには重いんだよなあ</description>
+    </item>
     
     <item>
       <title>2020-05-03</title>
