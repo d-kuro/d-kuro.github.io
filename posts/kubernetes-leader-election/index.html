@@ -91,7 +91,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@ponde_m" />
   <meta name="twitter:creator" content="@ponde_m" />
-  <meta name="generator" content="Hugo 0.62.0" />
+  <meta name="generator" content="Hugo 0.69.2" />
   <link rel="alternate" href="https://d-kuro.github.io/index.xml" type="application/rss+xml" title="AFN Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://d-kuro.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -258,7 +258,7 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
         <p>この記事では Kubernetes の Leader election について解説していきます。</p>
-<h2 id="kubernetes--leader-election">Kubernetes における Leader election</h2>
+<h2 id="kubernetes-における-leader-election">Kubernetes における Leader election</h2>
 <p>Kubernetes における Leader election は Controller 間の競合を防ぐために使われます。</p>
 <p>例として Deployment を watch して処理を行う Controller の Pod がある場合に Replica の Pod が 2 台だと 1 つの Deployment の操作に対して 2 つの Pod が処理を行うため, 場合によっては競合してしまいます。
 そのような競合を防ぐために Kubernetes では clinet-go に Leader election の仕組みが用意されています。
@@ -280,7 +280,7 @@ Leader election を使用するとリーダーとなる Controller が reconcili
 </ul>
 <p>上記の名前は Operator SDK のドキュメントから持ってきています。</p>
 <p><a href="https://docs.openshift.com/container-platform/4.1/applications/operator_sdk/osdk-leader-election.html">https://docs.openshift.com/container-platform/4.1/applications/operator_sdk/osdk-leader-election.html</a></p>
-<h3 id="-kubernetes-meetup-tokyo-27--lt-">追記: Kubernetes Meetup Tokyo #27 で LT しました</h3>
+<h3 id="追記-kubernetes-meetup-tokyo-27-で-lt-しました">追記: Kubernetes Meetup Tokyo #27 で LT しました</h3>
 <script async class="speakerdeck-embed" data-id="6aa22d2c4ff34536bc52461feacb2be5" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 <h2 id="leader-for-life">Leader-for-life</h2>
 <p>Leader-for-life は Operator SDK が提供している Leader election の仕組みです。</p>
@@ -316,9 +316,9 @@ metadata:
   <span class="s">&#34;github.com/operator-framework/operator-sdk/pkg/leader&#34;</span>
 <span class="p">)</span>
 
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
   <span class="o">...</span>
-  <span class="nx">err</span> <span class="p">=</span> <span class="nx">leader</span><span class="p">.</span><span class="nf">Become</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nf">TODO</span><span class="p">(</span><span class="p">)</span><span class="p">,</span> <span class="s">&#34;memcached-operator-lock&#34;</span><span class="p">)</span>
+  <span class="nx">err</span> <span class="p">=</span> <span class="nx">leader</span><span class="p">.</span><span class="nf">Become</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nf">TODO</span><span class="p">(),</span> <span class="s">&#34;memcached-operator-lock&#34;</span><span class="p">)</span>
   <span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
     <span class="nx">log</span><span class="p">.</span><span class="nf">Error</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="s">&#34;Failed to retry for leader lock&#34;</span><span class="p">)</span>
     <span class="nx">os</span><span class="p">.</span><span class="nf">Exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -326,22 +326,22 @@ metadata:
   <span class="o">...</span>
 <span class="p">}</span>
 </code></pre></div><p>以下では詳しくコードを見ていきます。</p>
-<h3 id="ownerreference-">OwnerReference を作成する</h3>
+<h3 id="ownerreference-を作成する">OwnerReference を作成する</h3>
 <p>環境変数 <code>POD_NAME</code> より自身の Pod の name を取得して Pod を取得後, その情報を用いて OwnerReference を作成します。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">owner</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nf">myOwnerRef</span><span class="p">(</span><span class="nx">ctx</span><span class="p">,</span> <span class="nx">client</span><span class="p">,</span> <span class="nx">ns</span><span class="p">)</span>
 </code></pre></div><p><a href="https://github.com/operator-framework/operator-sdk/blob/v0.13.0/pkg/leader/leader.go#L67">https://github.com/operator-framework/operator-sdk/blob/v0.13.0/pkg/leader/leader.go#L67</a></p>
-<h3 id="configmap--owner-">ConfigMap を取得し, Owner を確認する</h3>
+<h3 id="configmap-を取得し-owner-を確認する">ConfigMap を取得し, Owner を確認する</h3>
 <p>ここで一度 ConfigMap を取得します。
 取得した結果, 自身が Owner であることが確認でした場合は <code>nil</code> を return し関数を終了します。</p>
 <p>リーダーである Pod が再起動された場合はここのロジックでリーダーを継続することができます。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// check for existing lock from this pod, in case we got restarted
-</span><span class="c1"></span><span class="nx">existing</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">corev1</span><span class="p">.</span><span class="nx">ConfigMap</span><span class="p">{</span><span class="p">}</span>
+</span><span class="c1"></span><span class="nx">existing</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">corev1</span><span class="p">.</span><span class="nx">ConfigMap</span><span class="p">{}</span>
 <span class="nx">key</span> <span class="o">:=</span> <span class="nx">crclient</span><span class="p">.</span><span class="nx">ObjectKey</span><span class="p">{</span><span class="nx">Namespace</span><span class="p">:</span> <span class="nx">ns</span><span class="p">,</span> <span class="nx">Name</span><span class="p">:</span> <span class="nx">lockName</span><span class="p">}</span>
 <span class="nx">err</span> <span class="p">=</span> <span class="nx">client</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="nx">ctx</span><span class="p">,</span> <span class="nx">key</span><span class="p">,</span> <span class="nx">existing</span><span class="p">)</span>
 
 <span class="k">switch</span> <span class="p">{</span>
 <span class="k">case</span> <span class="nx">err</span> <span class="o">==</span> <span class="kc">nil</span><span class="p">:</span>
-    <span class="k">for</span> <span class="nx">_</span><span class="p">,</span> <span class="nx">existingOwner</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">existing</span><span class="p">.</span><span class="nf">GetOwnerReferences</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="nx">_</span><span class="p">,</span> <span class="nx">existingOwner</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">existing</span><span class="p">.</span><span class="nf">GetOwnerReferences</span><span class="p">()</span> <span class="p">{</span>
         <span class="k">if</span> <span class="nx">existingOwner</span><span class="p">.</span><span class="nx">Name</span> <span class="o">==</span> <span class="nx">owner</span><span class="p">.</span><span class="nx">Name</span> <span class="p">{</span>
             <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;Found existing lock with my name. I was likely restarted.&#34;</span><span class="p">)</span>
             <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;Continuing as the leader.&#34;</span><span class="p">)</span>
@@ -349,14 +349,14 @@ metadata:
         <span class="p">}</span>
         <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;Found existing lock&#34;</span><span class="p">,</span> <span class="s">&#34;LockOwner&#34;</span><span class="p">,</span> <span class="nx">existingOwner</span><span class="p">.</span><span class="nx">Name</span><span class="p">)</span>
     <span class="p">}</span>
-<span class="k">case</span> <span class="nx">apierrors</span><span class="p">.</span><span class="nf">IsNotFound</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span><span class="p">:</span>
+<span class="k">case</span> <span class="nx">apierrors</span><span class="p">.</span><span class="nf">IsNotFound</span><span class="p">(</span><span class="nx">err</span><span class="p">):</span>
     <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;No pre-existing lock was found.&#34;</span><span class="p">)</span>
 <span class="k">default</span><span class="p">:</span>
     <span class="nx">log</span><span class="p">.</span><span class="nf">Error</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="s">&#34;Unknown error trying to get ConfigMap&#34;</span><span class="p">)</span>
     <span class="k">return</span> <span class="nx">err</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/operator-framework/operator-sdk/blob/v0.13.0/pkg/leader/leader.go#L72-L92">https://github.com/operator-framework/operator-sdk/blob/v0.13.0/pkg/leader/leader.go#L72-L92</a></p>
-<h3 id="configmap-">ConfigMap の作成を試行する</h3>
+<h3 id="configmap-の作成を試行する">ConfigMap の作成を試行する</h3>
 <p>for でループしながら ConfigMap の作成を試行します。
 このループは ConfigMap が作成され, 自身がリーダーになるまで実行されます。</p>
 <p>リーダーの Pod が evict された場合はその Pod の削除を行います。</p>
@@ -368,23 +368,23 @@ metadata:
     <span class="k">case</span> <span class="nx">err</span> <span class="o">==</span> <span class="kc">nil</span><span class="p">:</span>
         <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;Became the leader.&#34;</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">nil</span>
-    <span class="k">case</span> <span class="nx">apierrors</span><span class="p">.</span><span class="nf">IsAlreadyExists</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span><span class="p">:</span>
-        <span class="nx">existingOwners</span> <span class="o">:=</span> <span class="nx">existing</span><span class="p">.</span><span class="nf">GetOwnerReferences</span><span class="p">(</span><span class="p">)</span>
+    <span class="k">case</span> <span class="nx">apierrors</span><span class="p">.</span><span class="nf">IsAlreadyExists</span><span class="p">(</span><span class="nx">err</span><span class="p">):</span>
+        <span class="nx">existingOwners</span> <span class="o">:=</span> <span class="nx">existing</span><span class="p">.</span><span class="nf">GetOwnerReferences</span><span class="p">()</span>
         <span class="k">switch</span> <span class="p">{</span>
         <span class="k">case</span> <span class="nb">len</span><span class="p">(</span><span class="nx">existingOwners</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">:</span>
             <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;Leader lock configmap must have exactly one owner reference.&#34;</span><span class="p">,</span> <span class="s">&#34;ConfigMap&#34;</span><span class="p">,</span> <span class="nx">existing</span><span class="p">)</span>
-        <span class="k">case</span> <span class="nx">existingOwners</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">.</span><span class="nx">Kind</span> <span class="o">!=</span> <span class="s">&#34;Pod&#34;</span><span class="p">:</span>
-            <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;Leader lock configmap owner reference must be a pod.&#34;</span><span class="p">,</span> <span class="s">&#34;OwnerReference&#34;</span><span class="p">,</span> <span class="nx">existingOwners</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">)</span>
+        <span class="k">case</span> <span class="nx">existingOwners</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">Kind</span> <span class="o">!=</span> <span class="s">&#34;Pod&#34;</span><span class="p">:</span>
+            <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;Leader lock configmap owner reference must be a pod.&#34;</span><span class="p">,</span> <span class="s">&#34;OwnerReference&#34;</span><span class="p">,</span> <span class="nx">existingOwners</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
         <span class="k">default</span><span class="p">:</span>
-            <span class="nx">leaderPod</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">corev1</span><span class="p">.</span><span class="nx">Pod</span><span class="p">{</span><span class="p">}</span>
-            <span class="nx">key</span> <span class="p">=</span> <span class="nx">crclient</span><span class="p">.</span><span class="nx">ObjectKey</span><span class="p">{</span><span class="nx">Namespace</span><span class="p">:</span> <span class="nx">ns</span><span class="p">,</span> <span class="nx">Name</span><span class="p">:</span> <span class="nx">existingOwners</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">.</span><span class="nx">Name</span><span class="p">}</span>
+            <span class="nx">leaderPod</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">corev1</span><span class="p">.</span><span class="nx">Pod</span><span class="p">{}</span>
+            <span class="nx">key</span> <span class="p">=</span> <span class="nx">crclient</span><span class="p">.</span><span class="nx">ObjectKey</span><span class="p">{</span><span class="nx">Namespace</span><span class="p">:</span> <span class="nx">ns</span><span class="p">,</span> <span class="nx">Name</span><span class="p">:</span> <span class="nx">existingOwners</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">Name</span><span class="p">}</span>
             <span class="nx">err</span> <span class="p">=</span> <span class="nx">client</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="nx">ctx</span><span class="p">,</span> <span class="nx">key</span><span class="p">,</span> <span class="nx">leaderPod</span><span class="p">)</span>
             <span class="k">switch</span> <span class="p">{</span>
-            <span class="k">case</span> <span class="nx">apierrors</span><span class="p">.</span><span class="nf">IsNotFound</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span><span class="p">:</span>
+            <span class="k">case</span> <span class="nx">apierrors</span><span class="p">.</span><span class="nf">IsNotFound</span><span class="p">(</span><span class="nx">err</span><span class="p">):</span>
                 <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;Leader pod has been deleted, waiting for garbage collection do remove the lock.&#34;</span><span class="p">)</span>
             <span class="k">case</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span><span class="p">:</span>
                 <span class="k">return</span> <span class="nx">err</span>
-            <span class="k">case</span> <span class="nf">isPodEvicted</span><span class="p">(</span><span class="o">*</span><span class="nx">leaderPod</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nx">leaderPod</span><span class="p">.</span><span class="nf">GetDeletionTimestamp</span><span class="p">(</span><span class="p">)</span> <span class="o">==</span> <span class="kc">nil</span><span class="p">:</span>
+            <span class="k">case</span> <span class="nf">isPodEvicted</span><span class="p">(</span><span class="o">*</span><span class="nx">leaderPod</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nx">leaderPod</span><span class="p">.</span><span class="nf">GetDeletionTimestamp</span><span class="p">()</span> <span class="o">==</span> <span class="kc">nil</span><span class="p">:</span>
                 <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;Operator pod with leader lock has been evicted.&#34;</span><span class="p">,</span> <span class="s">&#34;leader&#34;</span><span class="p">,</span> <span class="nx">leaderPod</span><span class="p">.</span><span class="nx">Name</span><span class="p">)</span>
                 <span class="nx">log</span><span class="p">.</span><span class="nf">Info</span><span class="p">(</span><span class="s">&#34;Deleting evicted leader.&#34;</span><span class="p">)</span>
                 <span class="c1">// Pod may not delete immediately, continue with backoff
@@ -399,13 +399,13 @@ metadata:
         <span class="p">}</span>
 
         <span class="k">select</span> <span class="p">{</span>
-        <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">time</span><span class="p">.</span><span class="nf">After</span><span class="p">(</span><span class="nx">wait</span><span class="p">.</span><span class="nf">Jitter</span><span class="p">(</span><span class="nx">backoff</span><span class="p">,</span> <span class="mf">.2</span><span class="p">)</span><span class="p">)</span><span class="p">:</span>
+        <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">time</span><span class="p">.</span><span class="nf">After</span><span class="p">(</span><span class="nx">wait</span><span class="p">.</span><span class="nf">Jitter</span><span class="p">(</span><span class="nx">backoff</span><span class="p">,</span> <span class="mf">.2</span><span class="p">)):</span>
             <span class="k">if</span> <span class="nx">backoff</span> <span class="p">&lt;</span> <span class="nx">maxBackoffInterval</span> <span class="p">{</span>
                 <span class="nx">backoff</span> <span class="o">*=</span> <span class="mi">2</span>
             <span class="p">}</span>
             <span class="k">continue</span>
-        <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">ctx</span><span class="p">.</span><span class="nf">Done</span><span class="p">(</span><span class="p">)</span><span class="p">:</span>
-            <span class="k">return</span> <span class="nx">ctx</span><span class="p">.</span><span class="nf">Err</span><span class="p">(</span><span class="p">)</span>
+        <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">ctx</span><span class="p">.</span><span class="nf">Done</span><span class="p">():</span>
+            <span class="k">return</span> <span class="nx">ctx</span><span class="p">.</span><span class="nf">Err</span><span class="p">()</span>
         <span class="p">}</span>
     <span class="k">default</span><span class="p">:</span>
         <span class="nx">log</span><span class="p">.</span><span class="nf">Error</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="s">&#34;Unknown error creating ConfigMap&#34;</span><span class="p">)</span>
@@ -430,7 +430,7 @@ Leader-for-life と違う点はリース期間が設定されている点です�
   <span class="s">&#34;sigs.k8s.io/controller-runtime/pkg/manager&#34;</span>
 <span class="p">)</span>
 
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
   <span class="o">...</span>
   <span class="nx">opts</span> <span class="o">:=</span> <span class="nx">manager</span><span class="p">.</span><span class="nx">Options</span><span class="p">{</span>
     <span class="o">...</span>
@@ -441,7 +441,7 @@ Leader-for-life と違う点はリース期間が設定されている点です�
   <span class="o">...</span>
 <span class="p">}</span>
 </code></pre></div><p>以下では詳しくコードを見ていきます。</p>
-<h3 id="manager-">Manager の初期化</h3>
+<h3 id="manager-の初期化">Manager の初期化</h3>
 <p>上記のコードで言うと以下の部分です。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">mgr</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">manager</span><span class="p">.</span><span class="nf">New</span><span class="p">(</span><span class="nx">cfg</span><span class="p">,</span> <span class="nx">opts</span><span class="p">)</span>
 </code></pre></div><p><code>manager.New()</code> 関数の中で, Leader election に関する初期化を行っています。</p>
@@ -450,7 +450,7 @@ Leader-for-life と違う点はリース期間が設定されている点です�
     <span class="nx">LeaderElection</span><span class="p">:</span>          <span class="nx">options</span><span class="p">.</span><span class="nx">LeaderElection</span><span class="p">,</span>
     <span class="nx">LeaderElectionID</span><span class="p">:</span>        <span class="nx">options</span><span class="p">.</span><span class="nx">LeaderElectionID</span><span class="p">,</span>
     <span class="nx">LeaderElectionNamespace</span><span class="p">:</span> <span class="nx">options</span><span class="p">.</span><span class="nx">LeaderElectionNamespace</span><span class="p">,</span>
-<span class="p">}</span><span class="p">)</span>
+<span class="p">})</span>
 </code></pre></div><p><a href="https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/manager.go#L265-L270">https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/manager.go#L265-L270</a></p>
 <p><code>newResourceLock</code> は <code>setOptionsDefaults</code> という関数で初期化されています。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// setOptionsDefaults set default values for Options fields
@@ -472,33 +472,33 @@ Leader-for-life と違う点はリース期間が設定されている点です�
 <span class="p">)</span>
 
 <span class="c1">// NewResourceLock creates a new config map resource lock for use in a leader
-</span><span class="c1"></span><span class="c1">// election loop
+</span><span class="c1">// election loop
 </span><span class="c1"></span><span class="kd">func</span> <span class="nf">NewResourceLock</span><span class="p">(</span><span class="nx">config</span> <span class="o">*</span><span class="nx">rest</span><span class="p">.</span><span class="nx">Config</span><span class="p">,</span> <span class="nx">recorderProvider</span> <span class="nx">recorder</span><span class="p">.</span><span class="nx">Provider</span><span class="p">,</span> <span class="nx">options</span> <span class="nx">Options</span><span class="p">)</span> <span class="p">(</span><span class="nx">resourcelock</span><span class="p">.</span><span class="nx">Interface</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
     <span class="c1">// TODO(JoelSpeed): switch to leaderelection object in 1.12
 </span><span class="c1"></span>    <span class="k">return</span> <span class="nx">resourcelock</span><span class="p">.</span><span class="nf">New</span><span class="p">(</span><span class="nx">resourcelock</span><span class="p">.</span><span class="nx">ConfigMapsResourceLock</span><span class="p">,</span>
         <span class="nx">options</span><span class="p">.</span><span class="nx">LeaderElectionNamespace</span><span class="p">,</span>
         <span class="nx">options</span><span class="p">.</span><span class="nx">LeaderElectionID</span><span class="p">,</span>
-        <span class="nx">client</span><span class="p">.</span><span class="nf">CoreV1</span><span class="p">(</span><span class="p">)</span><span class="p">,</span>
-        <span class="nx">client</span><span class="p">.</span><span class="nf">CoordinationV1</span><span class="p">(</span><span class="p">)</span><span class="p">,</span>
+        <span class="nx">client</span><span class="p">.</span><span class="nf">CoreV1</span><span class="p">(),</span>
+        <span class="nx">client</span><span class="p">.</span><span class="nf">CoordinationV1</span><span class="p">(),</span>
         <span class="nx">resourcelock</span><span class="p">.</span><span class="nx">ResourceLockConfig</span><span class="p">{</span>
             <span class="nx">Identity</span><span class="p">:</span>      <span class="nx">id</span><span class="p">,</span>
-            <span class="nx">EventRecorder</span><span class="p">:</span> <span class="nx">recorderProvider</span><span class="p">.</span><span class="nf">GetEventRecorderFor</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span><span class="p">,</span>
-        <span class="p">}</span><span class="p">)</span>
+            <span class="nx">EventRecorder</span><span class="p">:</span> <span class="nx">recorderProvider</span><span class="p">.</span><span class="nf">GetEventRecorderFor</span><span class="p">(</span><span class="nx">id</span><span class="p">),</span>
+        <span class="p">})</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/leaderelection/leader_election.go#L82-L91">https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/leaderelection/leader_election.go#L82-L91</a></p>
 <p><code>resourcelock.New()</code> 関数の引数に <code>resourcelock.ConfigMapsResourceLock</code> という値を渡しており, controller-runtime では ConfigMap を用いる方法で分散ロックを実現していることがわかります。</p>
-<h3 id="leader-election-">Leader election の実行</h3>
+<h3 id="leader-election-の実行">Leader election の実行</h3>
 <p>Manager は <code>Start()</code> という関数で実行されます。
 Leader election の実行もこの中で行っています。</p>
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="p">(</span><span class="nx">cm</span> <span class="o">*</span><span class="nx">controllerManager</span><span class="p">)</span> <span class="nf">Start</span><span class="p">(</span><span class="nx">stop</span> <span class="o">&lt;-</span><span class="kd">chan</span> <span class="kd">struct</span><span class="p">{</span><span class="p">}</span><span class="p">)</span> <span class="kt">error</span> <span class="p">{</span>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="p">(</span><span class="nx">cm</span> <span class="o">*</span><span class="nx">controllerManager</span><span class="p">)</span> <span class="nf">Start</span><span class="p">(</span><span class="nx">stop</span> <span class="o">&lt;-</span><span class="kd">chan</span> <span class="kd">struct</span><span class="p">{})</span> <span class="kt">error</span> <span class="p">{</span>
     <span class="o">...</span>
     <span class="k">if</span> <span class="nx">cm</span><span class="p">.</span><span class="nx">resourceLock</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
-        <span class="nx">err</span> <span class="o">:=</span> <span class="nx">cm</span><span class="p">.</span><span class="nf">startLeaderElection</span><span class="p">(</span><span class="p">)</span>
+        <span class="nx">err</span> <span class="o">:=</span> <span class="nx">cm</span><span class="p">.</span><span class="nf">startLeaderElection</span><span class="p">()</span>
         <span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
             <span class="k">return</span> <span class="nx">err</span>
         <span class="p">}</span>
     <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-        <span class="k">go</span> <span class="nx">cm</span><span class="p">.</span><span class="nf">startLeaderElectionRunnables</span><span class="p">(</span><span class="p">)</span>
+        <span class="k">go</span> <span class="nx">cm</span><span class="p">.</span><span class="nf">startLeaderElectionRunnables</span><span class="p">()</span>
     <span class="p">}</span>
     <span class="o">...</span>
 </code></pre></div><p><a href="https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/internal.go#L424-L431">https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/internal.go#L424-L431</a></p>
@@ -511,7 +511,7 @@ client-go の <code>leaderelection</code> package を使用して Leader electio
     <span class="o">...</span>
 <span class="p">)</span>
 
-<span class="kd">func</span> <span class="p">(</span><span class="nx">cm</span> <span class="o">*</span><span class="nx">controllerManager</span><span class="p">)</span> <span class="nf">startLeaderElection</span><span class="p">(</span><span class="p">)</span> <span class="p">(</span><span class="nx">err</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+<span class="kd">func</span> <span class="p">(</span><span class="nx">cm</span> <span class="o">*</span><span class="nx">controllerManager</span><span class="p">)</span> <span class="nf">startLeaderElection</span><span class="p">()</span> <span class="p">(</span><span class="nx">err</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">l</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">leaderelection</span><span class="p">.</span><span class="nf">NewLeaderElector</span><span class="p">(</span><span class="nx">leaderelection</span><span class="p">.</span><span class="nx">LeaderElectionConfig</span><span class="p">{</span>
         <span class="nx">Lock</span><span class="p">:</span>          <span class="nx">cm</span><span class="p">.</span><span class="nx">resourceLock</span><span class="p">,</span>
         <span class="nx">LeaseDuration</span><span class="p">:</span> <span class="nx">cm</span><span class="p">.</span><span class="nx">leaseDuration</span><span class="p">,</span>
@@ -519,16 +519,16 @@ client-go の <code>leaderelection</code> package を使用して Leader electio
         <span class="nx">RetryPeriod</span><span class="p">:</span>   <span class="nx">cm</span><span class="p">.</span><span class="nx">retryPeriod</span><span class="p">,</span>
         <span class="nx">Callbacks</span><span class="p">:</span> <span class="nx">leaderelection</span><span class="p">.</span><span class="nx">LeaderCallbacks</span><span class="p">{</span>
             <span class="nx">OnStartedLeading</span><span class="p">:</span> <span class="kd">func</span><span class="p">(</span><span class="nx">_</span> <span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span> <span class="p">{</span>
-                <span class="nx">cm</span><span class="p">.</span><span class="nf">startLeaderElectionRunnables</span><span class="p">(</span><span class="p">)</span>
-            <span class="p">}</span><span class="p">,</span>
-            <span class="nx">OnStoppedLeading</span><span class="p">:</span> <span class="kd">func</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">cm</span><span class="p">.</span><span class="nf">startLeaderElectionRunnables</span><span class="p">()</span>
+            <span class="p">},</span>
+            <span class="nx">OnStoppedLeading</span><span class="p">:</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
                 <span class="c1">// Most implementations of leader election log.Fatal() here.
 </span><span class="c1"></span>                <span class="c1">// Since Start is wrapped in log.Fatal when called, we can just return
 </span><span class="c1"></span>                <span class="c1">// an error here which will cause the program to exit.
-</span><span class="c1"></span>                <span class="nx">cm</span><span class="p">.</span><span class="nx">errSignal</span><span class="p">.</span><span class="nf">SignalError</span><span class="p">(</span><span class="nx">fmt</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;leader election lost&#34;</span><span class="p">)</span><span class="p">)</span>
-            <span class="p">}</span><span class="p">,</span>
-        <span class="p">}</span><span class="p">,</span>
-    <span class="p">}</span><span class="p">)</span>
+</span><span class="c1"></span>                <span class="nx">cm</span><span class="p">.</span><span class="nx">errSignal</span><span class="p">.</span><span class="nf">SignalError</span><span class="p">(</span><span class="nx">fmt</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;leader election lost&#34;</span><span class="p">))</span>
+            <span class="p">},</span>
+        <span class="p">},</span>
+    <span class="p">})</span>
     <span class="o">...</span>
     <span class="c1">// Start the leader elector process
 </span><span class="c1"></span>    <span class="k">go</span> <span class="nx">l</span><span class="p">.</span><span class="nf">Run</span><span class="p">(</span><span class="nx">ctx</span><span class="p">)</span>
@@ -542,15 +542,15 @@ client-go の <code>leaderelection</code> package を使用して Leader electio
 </code></pre></div><p><code>Run()</code> 関数の中は以下のようになっています。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// Run starts the leader election loop
 </span><span class="c1"></span><span class="kd">func</span> <span class="p">(</span><span class="nx">le</span> <span class="o">*</span><span class="nx">LeaderElector</span><span class="p">)</span> <span class="nf">Run</span><span class="p">(</span><span class="nx">ctx</span> <span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span> <span class="p">{</span>
-	<span class="k">defer</span> <span class="kd">func</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-		<span class="nx">runtime</span><span class="p">.</span><span class="nf">HandleCrash</span><span class="p">(</span><span class="p">)</span>
-		<span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Callbacks</span><span class="p">.</span><span class="nf">OnStoppedLeading</span><span class="p">(</span><span class="p">)</span>
-	<span class="p">}</span><span class="p">(</span><span class="p">)</span>
+	<span class="k">defer</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+		<span class="nx">runtime</span><span class="p">.</span><span class="nf">HandleCrash</span><span class="p">()</span>
+		<span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Callbacks</span><span class="p">.</span><span class="nf">OnStoppedLeading</span><span class="p">()</span>
+	<span class="p">}()</span>
 	<span class="k">if</span> <span class="p">!</span><span class="nx">le</span><span class="p">.</span><span class="nf">acquire</span><span class="p">(</span><span class="nx">ctx</span><span class="p">)</span> <span class="p">{</span>
 		<span class="k">return</span> <span class="c1">// ctx signalled done
 </span><span class="c1"></span>	<span class="p">}</span>
 	<span class="nx">ctx</span><span class="p">,</span> <span class="nx">cancel</span> <span class="o">:=</span> <span class="nx">context</span><span class="p">.</span><span class="nf">WithCancel</span><span class="p">(</span><span class="nx">ctx</span><span class="p">)</span>
-	<span class="k">defer</span> <span class="nf">cancel</span><span class="p">(</span><span class="p">)</span>
+	<span class="k">defer</span> <span class="nf">cancel</span><span class="p">()</span>
 	<span class="k">go</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Callbacks</span><span class="p">.</span><span class="nf">OnStartedLeading</span><span class="p">(</span><span class="nx">ctx</span><span class="p">)</span>
 	<span class="nx">le</span><span class="p">.</span><span class="nf">renew</span><span class="p">(</span><span class="nx">ctx</span><span class="p">)</span>
 <span class="p">}</span>
@@ -563,38 +563,38 @@ client-go の <code>leaderelection</code> package を使用して Leader electio
 こうすることにより Kubernetes の Deployment 等の仕組みにより新しい Pod が起動し, また Leader election loop を実行することができます。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">Callbacks</span><span class="p">:</span> <span class="nx">leaderelection</span><span class="p">.</span><span class="nx">LeaderCallbacks</span><span class="p">{</span>
     <span class="nx">OnStartedLeading</span><span class="p">:</span> <span class="kd">func</span><span class="p">(</span><span class="nx">_</span> <span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">cm</span><span class="p">.</span><span class="nf">startLeaderElectionRunnables</span><span class="p">(</span><span class="p">)</span>
-    <span class="p">}</span><span class="p">,</span>
-    <span class="nx">OnStoppedLeading</span><span class="p">:</span> <span class="kd">func</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">cm</span><span class="p">.</span><span class="nf">startLeaderElectionRunnables</span><span class="p">()</span>
+    <span class="p">},</span>
+    <span class="nx">OnStoppedLeading</span><span class="p">:</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
         <span class="c1">// Most implementations of leader election log.Fatal() here.
 </span><span class="c1"></span>        <span class="c1">// Since Start is wrapped in log.Fatal when called, we can just return
 </span><span class="c1"></span>        <span class="c1">// an error here which will cause the program to exit.
-</span><span class="c1"></span>        <span class="nx">cm</span><span class="p">.</span><span class="nx">errSignal</span><span class="p">.</span><span class="nf">SignalError</span><span class="p">(</span><span class="nx">fmt</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;leader election lost&#34;</span><span class="p">)</span><span class="p">)</span>
-    <span class="p">}</span><span class="p">,</span>
-<span class="p">}</span><span class="p">,</span>
+</span><span class="c1"></span>        <span class="nx">cm</span><span class="p">.</span><span class="nx">errSignal</span><span class="p">.</span><span class="nf">SignalError</span><span class="p">(</span><span class="nx">fmt</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;leader election lost&#34;</span><span class="p">))</span>
+    <span class="p">},</span>
+<span class="p">},</span>
 </code></pre></div><p><a href="https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/internal.go#L516-L525">https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/internal.go#L516-L525</a></p>
 <details>
 <summary>le.acquire() Details</summary>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// acquire loops calling tryAcquireOrRenew and returns true immediately when tryAcquireOrRenew succeeds.
-</span><span class="c1"></span><span class="c1">// Returns false if ctx signals done.
+</span><span class="c1">// Returns false if ctx signals done.
 </span><span class="c1"></span><span class="kd">func</span> <span class="p">(</span><span class="nx">le</span> <span class="o">*</span><span class="nx">LeaderElector</span><span class="p">)</span> <span class="nf">acquire</span><span class="p">(</span><span class="nx">ctx</span> <span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span> <span class="kt">bool</span> <span class="p">{</span>
     <span class="nx">ctx</span><span class="p">,</span> <span class="nx">cancel</span> <span class="o">:=</span> <span class="nx">context</span><span class="p">.</span><span class="nf">WithCancel</span><span class="p">(</span><span class="nx">ctx</span><span class="p">)</span>
-    <span class="k">defer</span> <span class="nf">cancel</span><span class="p">(</span><span class="p">)</span>
+    <span class="k">defer</span> <span class="nf">cancel</span><span class="p">()</span>
     <span class="nx">succeeded</span> <span class="o">:=</span> <span class="kc">false</span>
-    <span class="nx">desc</span> <span class="o">:=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Describe</span><span class="p">(</span><span class="p">)</span>
+    <span class="nx">desc</span> <span class="o">:=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Describe</span><span class="p">()</span>
     <span class="nx">klog</span><span class="p">.</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;attempting to acquire leader lease  %v...&#34;</span><span class="p">,</span> <span class="nx">desc</span><span class="p">)</span>
-    <span class="nx">wait</span><span class="p">.</span><span class="nf">JitterUntil</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">succeeded</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nf">tryAcquireOrRenew</span><span class="p">(</span><span class="p">)</span>
-        <span class="nx">le</span><span class="p">.</span><span class="nf">maybeReportTransition</span><span class="p">(</span><span class="p">)</span>
+    <span class="nx">wait</span><span class="p">.</span><span class="nf">JitterUntil</span><span class="p">(</span><span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">succeeded</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nf">tryAcquireOrRenew</span><span class="p">()</span>
+        <span class="nx">le</span><span class="p">.</span><span class="nf">maybeReportTransition</span><span class="p">()</span>
         <span class="k">if</span> <span class="p">!</span><span class="nx">succeeded</span> <span class="p">{</span>
-            <span class="nx">klog</span><span class="p">.</span><span class="nf">V</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span><span class="p">.</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;failed to acquire lease %v&#34;</span><span class="p">,</span> <span class="nx">desc</span><span class="p">)</span>
+            <span class="nx">klog</span><span class="p">.</span><span class="nf">V</span><span class="p">(</span><span class="mi">4</span><span class="p">).</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;failed to acquire lease %v&#34;</span><span class="p">,</span> <span class="nx">desc</span><span class="p">)</span>
             <span class="k">return</span>
         <span class="p">}</span>
         <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">RecordEvent</span><span class="p">(</span><span class="s">&#34;became leader&#34;</span><span class="p">)</span>
         <span class="nx">le</span><span class="p">.</span><span class="nx">metrics</span><span class="p">.</span><span class="nf">leaderOn</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Name</span><span class="p">)</span>
         <span class="nx">klog</span><span class="p">.</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;successfully acquired lease %v&#34;</span><span class="p">,</span> <span class="nx">desc</span><span class="p">)</span>
-        <span class="nf">cancel</span><span class="p">(</span><span class="p">)</span>
-    <span class="p">}</span><span class="p">,</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">RetryPeriod</span><span class="p">,</span> <span class="nx">JitterFactor</span><span class="p">,</span> <span class="kc">true</span><span class="p">,</span> <span class="nx">ctx</span><span class="p">.</span><span class="nf">Done</span><span class="p">(</span><span class="p">)</span><span class="p">)</span>
+        <span class="nf">cancel</span><span class="p">()</span>
+    <span class="p">},</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">RetryPeriod</span><span class="p">,</span> <span class="nx">JitterFactor</span><span class="p">,</span> <span class="kc">true</span><span class="p">,</span> <span class="nx">ctx</span><span class="p">.</span><span class="nf">Done</span><span class="p">())</span>
     <span class="k">return</span> <span class="nx">succeeded</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L228-L249">https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L228-L249</a></p>
@@ -604,40 +604,40 @@ client-go の <code>leaderelection</code> package を使用して Leader electio
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// renew loops calling tryAcquireOrRenew and returns immediately when tryAcquireOrRenew fails or ctx signals done.
 </span><span class="c1"></span><span class="kd">func</span> <span class="p">(</span><span class="nx">le</span> <span class="o">*</span><span class="nx">LeaderElector</span><span class="p">)</span> <span class="nf">renew</span><span class="p">(</span><span class="nx">ctx</span> <span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">ctx</span><span class="p">,</span> <span class="nx">cancel</span> <span class="o">:=</span> <span class="nx">context</span><span class="p">.</span><span class="nf">WithCancel</span><span class="p">(</span><span class="nx">ctx</span><span class="p">)</span>
-    <span class="k">defer</span> <span class="nf">cancel</span><span class="p">(</span><span class="p">)</span>
-    <span class="nx">wait</span><span class="p">.</span><span class="nf">Until</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">defer</span> <span class="nf">cancel</span><span class="p">()</span>
+    <span class="nx">wait</span><span class="p">.</span><span class="nf">Until</span><span class="p">(</span><span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
         <span class="nx">timeoutCtx</span><span class="p">,</span> <span class="nx">timeoutCancel</span> <span class="o">:=</span> <span class="nx">context</span><span class="p">.</span><span class="nf">WithTimeout</span><span class="p">(</span><span class="nx">ctx</span><span class="p">,</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">RenewDeadline</span><span class="p">)</span>
-        <span class="k">defer</span> <span class="nf">timeoutCancel</span><span class="p">(</span><span class="p">)</span>
-        <span class="nx">err</span> <span class="o">:=</span> <span class="nx">wait</span><span class="p">.</span><span class="nf">PollImmediateUntil</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">RetryPeriod</span><span class="p">,</span> <span class="kd">func</span><span class="p">(</span><span class="p">)</span> <span class="p">(</span><span class="kt">bool</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">defer</span> <span class="nf">timeoutCancel</span><span class="p">()</span>
+        <span class="nx">err</span> <span class="o">:=</span> <span class="nx">wait</span><span class="p">.</span><span class="nf">PollImmediateUntil</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">RetryPeriod</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">(</span><span class="kt">bool</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
             <span class="nx">done</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">(</span><span class="kd">chan</span> <span class="kt">bool</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-            <span class="k">go</span> <span class="kd">func</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">go</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
                 <span class="k">defer</span> <span class="nb">close</span><span class="p">(</span><span class="nx">done</span><span class="p">)</span>
-                <span class="nx">done</span> <span class="o">&lt;-</span> <span class="nx">le</span><span class="p">.</span><span class="nf">tryAcquireOrRenew</span><span class="p">(</span><span class="p">)</span>
-            <span class="p">}</span><span class="p">(</span><span class="p">)</span>
+                <span class="nx">done</span> <span class="o">&lt;-</span> <span class="nx">le</span><span class="p">.</span><span class="nf">tryAcquireOrRenew</span><span class="p">()</span>
+            <span class="p">}()</span>
 
             <span class="k">select</span> <span class="p">{</span>
-            <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">timeoutCtx</span><span class="p">.</span><span class="nf">Done</span><span class="p">(</span><span class="p">)</span><span class="p">:</span>
-                <span class="k">return</span> <span class="kc">false</span><span class="p">,</span> <span class="nx">fmt</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;failed to tryAcquireOrRenew %s&#34;</span><span class="p">,</span> <span class="nx">timeoutCtx</span><span class="p">.</span><span class="nf">Err</span><span class="p">(</span><span class="p">)</span><span class="p">)</span>
+            <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">timeoutCtx</span><span class="p">.</span><span class="nf">Done</span><span class="p">():</span>
+                <span class="k">return</span> <span class="kc">false</span><span class="p">,</span> <span class="nx">fmt</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;failed to tryAcquireOrRenew %s&#34;</span><span class="p">,</span> <span class="nx">timeoutCtx</span><span class="p">.</span><span class="nf">Err</span><span class="p">())</span>
             <span class="k">case</span> <span class="nx">result</span> <span class="o">:=</span> <span class="o">&lt;-</span><span class="nx">done</span><span class="p">:</span>
                 <span class="k">return</span> <span class="nx">result</span><span class="p">,</span> <span class="kc">nil</span>
             <span class="p">}</span>
-        <span class="p">}</span><span class="p">,</span> <span class="nx">timeoutCtx</span><span class="p">.</span><span class="nf">Done</span><span class="p">(</span><span class="p">)</span><span class="p">)</span>
+        <span class="p">},</span> <span class="nx">timeoutCtx</span><span class="p">.</span><span class="nf">Done</span><span class="p">())</span>
 
-        <span class="nx">le</span><span class="p">.</span><span class="nf">maybeReportTransition</span><span class="p">(</span><span class="p">)</span>
-        <span class="nx">desc</span> <span class="o">:=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Describe</span><span class="p">(</span><span class="p">)</span>
+        <span class="nx">le</span><span class="p">.</span><span class="nf">maybeReportTransition</span><span class="p">()</span>
+        <span class="nx">desc</span> <span class="o">:=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Describe</span><span class="p">()</span>
         <span class="k">if</span> <span class="nx">err</span> <span class="o">==</span> <span class="kc">nil</span> <span class="p">{</span>
-            <span class="nx">klog</span><span class="p">.</span><span class="nf">V</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="p">.</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;successfully renewed lease %v&#34;</span><span class="p">,</span> <span class="nx">desc</span><span class="p">)</span>
+            <span class="nx">klog</span><span class="p">.</span><span class="nf">V</span><span class="p">(</span><span class="mi">5</span><span class="p">).</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;successfully renewed lease %v&#34;</span><span class="p">,</span> <span class="nx">desc</span><span class="p">)</span>
             <span class="k">return</span>
         <span class="p">}</span>
         <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">RecordEvent</span><span class="p">(</span><span class="s">&#34;stopped leading&#34;</span><span class="p">)</span>
         <span class="nx">le</span><span class="p">.</span><span class="nx">metrics</span><span class="p">.</span><span class="nf">leaderOff</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Name</span><span class="p">)</span>
         <span class="nx">klog</span><span class="p">.</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;failed to renew lease %v: %v&#34;</span><span class="p">,</span> <span class="nx">desc</span><span class="p">,</span> <span class="nx">err</span><span class="p">)</span>
-        <span class="nf">cancel</span><span class="p">(</span><span class="p">)</span>
-    <span class="p">}</span><span class="p">,</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">RetryPeriod</span><span class="p">,</span> <span class="nx">ctx</span><span class="p">.</span><span class="nf">Done</span><span class="p">(</span><span class="p">)</span><span class="p">)</span>
+        <span class="nf">cancel</span><span class="p">()</span>
+    <span class="p">},</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">RetryPeriod</span><span class="p">,</span> <span class="nx">ctx</span><span class="p">.</span><span class="nf">Done</span><span class="p">())</span>
 
     <span class="c1">// if we hold the lease, give it up
 </span><span class="c1"></span>    <span class="k">if</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">ReleaseOnCancel</span> <span class="p">{</span>
-        <span class="nx">le</span><span class="p">.</span><span class="nf">release</span><span class="p">(</span><span class="p">)</span>
+        <span class="nx">le</span><span class="p">.</span><span class="nf">release</span><span class="p">()</span>
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L251-L289">https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L251-L289</a></p>
@@ -647,48 +647,48 @@ client-go の <code>leaderelection</code> package を使用して Leader electio
 <details>
 <summary> le.tryAcquireOrRenew() Details</summary>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// tryAcquireOrRenew tries to acquire a leader lease if it is not already acquired,
-</span><span class="c1"></span><span class="c1">// else it tries to renew the lease if it has already been acquired. Returns true
-</span><span class="c1"></span><span class="c1">// on success else returns false.
-</span><span class="c1"></span><span class="kd">func</span> <span class="p">(</span><span class="nx">le</span> <span class="o">*</span><span class="nx">LeaderElector</span><span class="p">)</span> <span class="nf">tryAcquireOrRenew</span><span class="p">(</span><span class="p">)</span> <span class="kt">bool</span> <span class="p">{</span>
-    <span class="nx">now</span> <span class="o">:=</span> <span class="nx">metav1</span><span class="p">.</span><span class="nf">Now</span><span class="p">(</span><span class="p">)</span>
+</span><span class="c1">// else it tries to renew the lease if it has already been acquired. Returns true
+</span><span class="c1">// on success else returns false.
+</span><span class="c1"></span><span class="kd">func</span> <span class="p">(</span><span class="nx">le</span> <span class="o">*</span><span class="nx">LeaderElector</span><span class="p">)</span> <span class="nf">tryAcquireOrRenew</span><span class="p">()</span> <span class="kt">bool</span> <span class="p">{</span>
+    <span class="nx">now</span> <span class="o">:=</span> <span class="nx">metav1</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span>
     <span class="nx">leaderElectionRecord</span> <span class="o">:=</span> <span class="nx">rl</span><span class="p">.</span><span class="nx">LeaderElectionRecord</span><span class="p">{</span>
-        <span class="nx">HolderIdentity</span><span class="p">:</span>       <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Identity</span><span class="p">(</span><span class="p">)</span><span class="p">,</span>
-        <span class="nx">LeaseDurationSeconds</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">LeaseDuration</span> <span class="o">/</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span><span class="p">,</span>
+        <span class="nx">HolderIdentity</span><span class="p">:</span>       <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Identity</span><span class="p">(),</span>
+        <span class="nx">LeaseDurationSeconds</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">LeaseDuration</span> <span class="o">/</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">),</span>
         <span class="nx">RenewTime</span><span class="p">:</span>            <span class="nx">now</span><span class="p">,</span>
         <span class="nx">AcquireTime</span><span class="p">:</span>          <span class="nx">now</span><span class="p">,</span>
     <span class="p">}</span>
 
     <span class="c1">// 1. obtain or create the ElectionRecord
-</span><span class="c1"></span>    <span class="nx">oldLeaderElectionRecord</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="p">)</span>
+</span><span class="c1"></span>    <span class="nx">oldLeaderElectionRecord</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Get</span><span class="p">()</span>
     <span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
         <span class="k">if</span> <span class="p">!</span><span class="nx">errors</span><span class="p">.</span><span class="nf">IsNotFound</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">klog</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;error retrieving resource lock %v: %v&#34;</span><span class="p">,</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Describe</span><span class="p">(</span><span class="p">)</span><span class="p">,</span> <span class="nx">err</span><span class="p">)</span>
+            <span class="nx">klog</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;error retrieving resource lock %v: %v&#34;</span><span class="p">,</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Describe</span><span class="p">(),</span> <span class="nx">err</span><span class="p">)</span>
             <span class="k">return</span> <span class="kc">false</span>
         <span class="p">}</span>
-        <span class="k">if</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Create</span><span class="p">(</span><span class="nx">leaderElectionRecord</span><span class="p">)</span><span class="p">;</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Create</span><span class="p">(</span><span class="nx">leaderElectionRecord</span><span class="p">);</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
             <span class="nx">klog</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;error initially creating leader election record: %v&#34;</span><span class="p">,</span> <span class="nx">err</span><span class="p">)</span>
             <span class="k">return</span> <span class="kc">false</span>
         <span class="p">}</span>
         <span class="nx">le</span><span class="p">.</span><span class="nx">observedRecord</span> <span class="p">=</span> <span class="nx">leaderElectionRecord</span>
-        <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">(</span><span class="p">)</span>
+        <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span>
         <span class="k">return</span> <span class="kc">true</span>
     <span class="p">}</span>
 
     <span class="c1">// 2. Record obtained, check the Identity &amp; Time
 </span><span class="c1"></span>    <span class="k">if</span> <span class="p">!</span><span class="nx">reflect</span><span class="p">.</span><span class="nf">DeepEqual</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">observedRecord</span><span class="p">,</span> <span class="o">*</span><span class="nx">oldLeaderElectionRecord</span><span class="p">)</span> <span class="p">{</span>
         <span class="nx">le</span><span class="p">.</span><span class="nx">observedRecord</span> <span class="p">=</span> <span class="o">*</span><span class="nx">oldLeaderElectionRecord</span>
-        <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">(</span><span class="p">)</span>
+        <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span>
     <span class="p">}</span>
     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">HolderIdentity</span><span class="p">)</span> <span class="p">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span>
-        <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">LeaseDuration</span><span class="p">)</span><span class="p">.</span><span class="nf">After</span><span class="p">(</span><span class="nx">now</span><span class="p">.</span><span class="nx">Time</span><span class="p">)</span> <span class="o">&amp;&amp;</span>
-        <span class="p">!</span><span class="nx">le</span><span class="p">.</span><span class="nf">IsLeader</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">klog</span><span class="p">.</span><span class="nf">V</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span><span class="p">.</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;lock is held by %v and has not yet expired&#34;</span><span class="p">,</span> <span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">HolderIdentity</span><span class="p">)</span>
+        <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">LeaseDuration</span><span class="p">).</span><span class="nf">After</span><span class="p">(</span><span class="nx">now</span><span class="p">.</span><span class="nx">Time</span><span class="p">)</span> <span class="o">&amp;&amp;</span>
+        <span class="p">!</span><span class="nx">le</span><span class="p">.</span><span class="nf">IsLeader</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">klog</span><span class="p">.</span><span class="nf">V</span><span class="p">(</span><span class="mi">4</span><span class="p">).</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;lock is held by %v and has not yet expired&#34;</span><span class="p">,</span> <span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">HolderIdentity</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">false</span>
     <span class="p">}</span>
 
     <span class="c1">// 3. We&#39;re going to try to update. The leaderElectionRecord is set to it&#39;s default
 </span><span class="c1"></span>    <span class="c1">// here. Let&#39;s correct it before updating.
-</span><span class="c1"></span>    <span class="k">if</span> <span class="nx">le</span><span class="p">.</span><span class="nf">IsLeader</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="c1"></span>    <span class="k">if</span> <span class="nx">le</span><span class="p">.</span><span class="nf">IsLeader</span><span class="p">()</span> <span class="p">{</span>
         <span class="nx">leaderElectionRecord</span><span class="p">.</span><span class="nx">AcquireTime</span> <span class="p">=</span> <span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">AcquireTime</span>
         <span class="nx">leaderElectionRecord</span><span class="p">.</span><span class="nx">LeaderTransitions</span> <span class="p">=</span> <span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">LeaderTransitions</span>
     <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
@@ -696,24 +696,24 @@ client-go の <code>leaderelection</code> package を使用して Leader electio
     <span class="p">}</span>
 
     <span class="c1">// update the lock itself
-</span><span class="c1"></span>    <span class="k">if</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Update</span><span class="p">(</span><span class="nx">leaderElectionRecord</span><span class="p">)</span><span class="p">;</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+</span><span class="c1"></span>    <span class="k">if</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Update</span><span class="p">(</span><span class="nx">leaderElectionRecord</span><span class="p">);</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
         <span class="nx">klog</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;Failed to update lock: %v&#34;</span><span class="p">,</span> <span class="nx">err</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">false</span>
     <span class="p">}</span>
     <span class="nx">le</span><span class="p">.</span><span class="nx">observedRecord</span> <span class="p">=</span> <span class="nx">leaderElectionRecord</span>
-    <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">(</span><span class="p">)</span>
+    <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span>
     <span class="k">return</span> <span class="kc">true</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L308-L365">https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L308-L365</a></p>
 </details>
-<h4 id="-leaderelectionrecord-">更新に使用する LeaderElectionRecord の作成</h4>
+<h4 id="更新に使用する-leaderelectionrecord-の作成">更新に使用する LeaderElectionRecord の作成</h4>
 <p>はじめに, 更新に使用する LeaderElectionRecord の作成を行います。</p>
 <p>LeaderElectionRecord とは, ロックに用いる Object の <code>control-plane.alpha.kubernetes.io/leader</code> annotation に JSON で格納される struct です。
 誰がロックを獲得しているかなどの情報が格納されており, この情報を元にロックの制御を行います。</p>
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">now</span> <span class="o">:=</span> <span class="nx">metav1</span><span class="p">.</span><span class="nf">Now</span><span class="p">(</span><span class="p">)</span>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">now</span> <span class="o">:=</span> <span class="nx">metav1</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span>
 <span class="nx">leaderElectionRecord</span> <span class="o">:=</span> <span class="nx">rl</span><span class="p">.</span><span class="nx">LeaderElectionRecord</span><span class="p">{</span>
-    <span class="nx">HolderIdentity</span><span class="p">:</span>       <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Identity</span><span class="p">(</span><span class="p">)</span><span class="p">,</span>
-    <span class="nx">LeaseDurationSeconds</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">LeaseDuration</span> <span class="o">/</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span><span class="p">,</span>
+    <span class="nx">HolderIdentity</span><span class="p">:</span>       <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Identity</span><span class="p">(),</span>
+    <span class="nx">LeaseDurationSeconds</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">LeaseDuration</span> <span class="o">/</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">),</span>
     <span class="nx">RenewTime</span><span class="p">:</span>            <span class="nx">now</span><span class="p">,</span>
     <span class="nx">AcquireTime</span><span class="p">:</span>          <span class="nx">now</span><span class="p">,</span>
 <span class="p">}</span>
@@ -721,81 +721,81 @@ client-go の <code>leaderelection</code> package を使用して Leader electio
 <details>
 <summary>LeaderElectionRecord Details</summary>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// LeaderElectionRecord is the record that is stored in the leader election annotation.
-</span><span class="c1"></span><span class="c1">// This information should be used for observational purposes only and could be replaced
-</span><span class="c1"></span><span class="c1">// with a random string (e.g. UUID) with only slight modification of this code.
-</span><span class="c1"></span><span class="c1">// TODO(mikedanese): this should potentially be versioned
+</span><span class="c1">// This information should be used for observational purposes only and could be replaced
+</span><span class="c1">// with a random string (e.g. UUID) with only slight modification of this code.
+</span><span class="c1">// TODO(mikedanese): this should potentially be versioned
 </span><span class="c1"></span><span class="kd">type</span> <span class="nx">LeaderElectionRecord</span> <span class="kd">struct</span> <span class="p">{</span>
     <span class="c1">// HolderIdentity is the ID that owns the lease. If empty, no one owns this lease and
 </span><span class="c1"></span>    <span class="c1">// all callers may acquire. Versions of this library prior to Kubernetes 1.14 will not
 </span><span class="c1"></span>    <span class="c1">// attempt to acquire leases with empty identities and will wait for the full lease
 </span><span class="c1"></span>    <span class="c1">// interval to expire before attempting to reacquire. This value is set to empty when
-</span><span class="c1"></span>    <span class="nx">HolderIdentity</span>       <span class="kt">string</span>      <span class="s">`</span><span class="s">json:&#34;holderIdentity&#34;</span><span class="s">`</span>
-    <span class="nx">LeaseDurationSeconds</span> <span class="kt">int</span>         <span class="s">`</span><span class="s">json:&#34;leaseDurationSeconds&#34;</span><span class="s">`</span>
-    <span class="nx">AcquireTime</span>          <span class="nx">metav1</span><span class="p">.</span><span class="nx">Time</span> <span class="s">`</span><span class="s">json:&#34;acquireTime&#34;</span><span class="s">`</span>
-    <span class="nx">RenewTime</span>            <span class="nx">metav1</span><span class="p">.</span><span class="nx">Time</span> <span class="s">`</span><span class="s">json:&#34;renewTime&#34;</span><span class="s">`</span>
-    <span class="nx">LeaderTransitions</span>    <span class="kt">int</span>         <span class="s">`</span><span class="s">json:&#34;leaderTransitions&#34;</span><span class="s">`</span>
+</span><span class="c1"></span>    <span class="nx">HolderIdentity</span>       <span class="kt">string</span>      <span class="s">`json:&#34;holderIdentity&#34;`</span>
+    <span class="nx">LeaseDurationSeconds</span> <span class="kt">int</span>         <span class="s">`json:&#34;leaseDurationSeconds&#34;`</span>
+    <span class="nx">AcquireTime</span>          <span class="nx">metav1</span><span class="p">.</span><span class="nx">Time</span> <span class="s">`json:&#34;acquireTime&#34;`</span>
+    <span class="nx">RenewTime</span>            <span class="nx">metav1</span><span class="p">.</span><span class="nx">Time</span> <span class="s">`json:&#34;renewTime&#34;`</span>
+    <span class="nx">LeaderTransitions</span>    <span class="kt">int</span>         <span class="s">`json:&#34;leaderTransitions&#34;`</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/resourcelock/interface.go#L35-L50">https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/resourcelock/interface.go#L35-L50</a></p>
 </details>
-<h4 id="leaderelectionrecord-">LeaderElectionRecord の取得</h4>
+<h4 id="leaderelectionrecord-の取得">LeaderElectionRecord の取得</h4>
 <p>LeaderElectionRecord の取得 or 作成を行います。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// 1. obtain or create the ElectionRecord
-</span><span class="c1"></span><span class="nx">oldLeaderElectionRecord</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="p">)</span>
+</span><span class="c1"></span><span class="nx">oldLeaderElectionRecord</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Get</span><span class="p">()</span>
 <span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
     <span class="k">if</span> <span class="p">!</span><span class="nx">errors</span><span class="p">.</span><span class="nf">IsNotFound</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">klog</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;error retrieving resource lock %v: %v&#34;</span><span class="p">,</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Describe</span><span class="p">(</span><span class="p">)</span><span class="p">,</span> <span class="nx">err</span><span class="p">)</span>
+        <span class="nx">klog</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;error retrieving resource lock %v: %v&#34;</span><span class="p">,</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Describe</span><span class="p">(),</span> <span class="nx">err</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">false</span>
     <span class="p">}</span>
-    <span class="k">if</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Create</span><span class="p">(</span><span class="nx">leaderElectionRecord</span><span class="p">)</span><span class="p">;</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Create</span><span class="p">(</span><span class="nx">leaderElectionRecord</span><span class="p">);</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
         <span class="nx">klog</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;error initially creating leader election record: %v&#34;</span><span class="p">,</span> <span class="nx">err</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">false</span>
     <span class="p">}</span>
     <span class="nx">le</span><span class="p">.</span><span class="nx">observedRecord</span> <span class="p">=</span> <span class="nx">leaderElectionRecord</span>
-    <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">(</span><span class="p">)</span>
+    <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span>
     <span class="k">return</span> <span class="kc">true</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L320-L334">https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L320-L334</a></p>
-<h4 id="heading">ロックの所有者とリース時間の確認</h4>
+<h4 id="ロックの所有者とリース時間の確認">ロックの所有者とリース時間の確認</h4>
 <p>取得した LeaderElectionRecord の情報を取り込み, ロックの所有者と時間の確認を行います。</p>
 <p>現在のロックを保持しているのが自身ではなく, 最後に確認した時間がリース時間を超えていない場合は, 現在のロックは他人に確保されているとみなし, <code>false</code> を return します。
 これより下のロジックは, 自身がリーダーである場合かリーダーの入れ替えを行う際に通過します。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// 2. Record obtained, check the Identity &amp; Time
 </span><span class="c1"></span><span class="k">if</span> <span class="p">!</span><span class="nx">reflect</span><span class="p">.</span><span class="nf">DeepEqual</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">observedRecord</span><span class="p">,</span> <span class="o">*</span><span class="nx">oldLeaderElectionRecord</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">le</span><span class="p">.</span><span class="nx">observedRecord</span> <span class="p">=</span> <span class="o">*</span><span class="nx">oldLeaderElectionRecord</span>
-    <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">(</span><span class="p">)</span>
+    <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span>
 <span class="p">}</span>
 <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">HolderIdentity</span><span class="p">)</span> <span class="p">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span>
-    <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">LeaseDuration</span><span class="p">)</span><span class="p">.</span><span class="nf">After</span><span class="p">(</span><span class="nx">now</span><span class="p">.</span><span class="nx">Time</span><span class="p">)</span> <span class="o">&amp;&amp;</span>
-    <span class="p">!</span><span class="nx">le</span><span class="p">.</span><span class="nf">IsLeader</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">klog</span><span class="p">.</span><span class="nf">V</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span><span class="p">.</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;lock is held by %v and has not yet expired&#34;</span><span class="p">,</span> <span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">HolderIdentity</span><span class="p">)</span>
+    <span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">LeaseDuration</span><span class="p">).</span><span class="nf">After</span><span class="p">(</span><span class="nx">now</span><span class="p">.</span><span class="nx">Time</span><span class="p">)</span> <span class="o">&amp;&amp;</span>
+    <span class="p">!</span><span class="nx">le</span><span class="p">.</span><span class="nf">IsLeader</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">klog</span><span class="p">.</span><span class="nf">V</span><span class="p">(</span><span class="mi">4</span><span class="p">).</span><span class="nf">Infof</span><span class="p">(</span><span class="s">&#34;lock is held by %v and has not yet expired&#34;</span><span class="p">,</span> <span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">HolderIdentity</span><span class="p">)</span>
     <span class="k">return</span> <span class="kc">false</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L336-L346">https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L336-L346</a></p>
-<h4 id="leaderelectionrecord--1">LeaderElectionRecord フィールドの更新</h4>
+<h4 id="leaderelectionrecord-フィールドの更新">LeaderElectionRecord フィールドの更新</h4>
 <p>更新用の LeaderElectionRecord のフィールドを更新します。</p>
 <p>自身がリーダーである場合は <code>AcquireTime</code> には古い値を使用します。
 リーダーの入れ替え時には <code>LeaderTransitions</code> に 1 を加算します。</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// 3. We&#39;re going to try to update. The leaderElectionRecord is set to it&#39;s default
-</span><span class="c1"></span><span class="c1">// here. Let&#39;s correct it before updating.
-</span><span class="c1"></span><span class="k">if</span> <span class="nx">le</span><span class="p">.</span><span class="nf">IsLeader</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="c1">// here. Let&#39;s correct it before updating.
+</span><span class="c1"></span><span class="k">if</span> <span class="nx">le</span><span class="p">.</span><span class="nf">IsLeader</span><span class="p">()</span> <span class="p">{</span>
     <span class="nx">leaderElectionRecord</span><span class="p">.</span><span class="nx">AcquireTime</span> <span class="p">=</span> <span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">AcquireTime</span>
     <span class="nx">leaderElectionRecord</span><span class="p">.</span><span class="nx">LeaderTransitions</span> <span class="p">=</span> <span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">LeaderTransitions</span>
 <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
     <span class="nx">leaderElectionRecord</span><span class="p">.</span><span class="nx">LeaderTransitions</span> <span class="p">=</span> <span class="nx">oldLeaderElectionRecord</span><span class="p">.</span><span class="nx">LeaderTransitions</span> <span class="o">+</span> <span class="mi">1</span>
 <span class="p">}</span>
 </code></pre></div><p><a href="https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L348-L355">https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L348-L355</a></p>
-<h4 id="heading-1">ロック情報の更新</h4>
+<h4 id="ロック情報の更新">ロック情報の更新</h4>
 <p>ロックの情報を更新します。</p>
 <p>ロックには Kubernetes の Object を用いているため Kubernetes API の Atomicity の仕組みを利用することができます。
 Kubernetes の API Server は Object の 更新時に指定された <code>resourceVersion</code> と現在の <code>resourceVersion</code> が一致することを確認し, 更新操作の間に他の更新が行われていないことを確認します。</p>
 <p><a href="https://kubernetes.io/docs/reference/using-api/api-concepts/#resource-versions">Kubernetes API Concepts #Resource Versions - Kubernetes</a></p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// update the lock itself
-</span><span class="c1"></span><span class="k">if</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Update</span><span class="p">(</span><span class="nx">leaderElectionRecord</span><span class="p">)</span><span class="p">;</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+</span><span class="c1"></span><span class="k">if</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">Lock</span><span class="p">.</span><span class="nf">Update</span><span class="p">(</span><span class="nx">leaderElectionRecord</span><span class="p">);</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
     <span class="nx">klog</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;Failed to update lock: %v&#34;</span><span class="p">,</span> <span class="nx">err</span><span class="p">)</span>
     <span class="k">return</span> <span class="kc">false</span>
 <span class="p">}</span>
 <span class="nx">le</span><span class="p">.</span><span class="nx">observedRecord</span> <span class="p">=</span> <span class="nx">leaderElectionRecord</span>
-<span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">(</span><span class="p">)</span>
+<span class="nx">le</span><span class="p">.</span><span class="nx">observedTime</span> <span class="p">=</span> <span class="nx">le</span><span class="p">.</span><span class="nx">clock</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span>
 <span class="k">return</span> <span class="kc">true</span>
 </code></pre></div><p><a href="https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L357-L364">https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L357-L364</a></p>
 <h2 id="reference">Reference</h2>
@@ -889,6 +889,10 @@ Kubernetes の API Server は Object の 更新時に指定された <code>resou
             </li>
           
           
+            <li class="next">
+              <a href="https://d-kuro.github.io/posts/kubernetes-cidr/" data-toggle="tooltip" data-placement="top" title="CIDR allocation failed for Kubernetes">Next Post &rarr;</a>
+            </li>
+          
         </ul>
       
 
@@ -971,7 +975,7 @@ Kubernetes の API Server は Object の 更新時に指定された <code>resou
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.62.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.69.2</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>
