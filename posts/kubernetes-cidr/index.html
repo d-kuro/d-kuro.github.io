@@ -276,11 +276,11 @@ I0502 02:42:02.830972       1 main.go:544] Defaulting external address to interf
 I0502 02:42:02.849385       1 kube.go:126] Waiting 10m0s for node controller to sync
 I0502 02:42:02.849412       1 kube.go:309] Starting kube subnet manager
 I0502 02:42:03.849506       1 kube.go:133] Node controller sync successful
-I0502 02:42:03.849550       1 main.go:244] Created subnet manager: Kubernetes Subnet Manager - ip-10-12-2-236.ap-northeast-1.compute.internal
+I0502 02:42:03.849550       1 main.go:244] Created subnet manager: Kubernetes Subnet Manager - foo-node
 I0502 02:42:03.849557       1 main.go:247] Installing signal handlers
 I0502 02:42:03.849682       1 main.go:386] Found network config - Backend type: vxlan
 I0502 02:42:03.849719       1 vxlan.go:120] VXLAN config: VNI=1 Port=0 GBP=false DirectRouting=false
-E0502 02:42:03.849902       1 main.go:289] Error registering network: failed to acquire lease: node &#34;ip-10-12-2-236.ap-northeast-1.compute.internal&#34; pod cidr not assigned
+E0502 02:42:03.849902       1 main.go:289] Error registering network: failed to acquire lease: node &#34;foo-node&#34; pod cidr not assigned
 I0502 02:42:03.849937       1 main.go:366] Stopping shutdownHandler...
 </code></pre></div><h2 id="check-controller-manager-logs">Check controller-manager logs</h2>
 <p>controller-manager had an error message like the following:</p>
