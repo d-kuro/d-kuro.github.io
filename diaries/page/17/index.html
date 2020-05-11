@@ -1,846 +1,806 @@
-<!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
-  <head>
-    
+<!DOCTYPE html><html lang="en-us" >
 
-  <meta charset="utf-8" />
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
-  <title>Diaries - AFN Blog</title>
-  <meta name="author" content="d-kuro"/><script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "AFN Blog",
+  
+
+  
+  
+  
+  
+  
     
-    "url": "https:\/\/d-kuro.github.io\/"
-}
-</script><script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "",
-  "url": "https:\/\/d-kuro.github.io\/"
+    
+    
+  
+  
+
+  <meta name="author" content="d-kuro">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="SRE">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://d-kuro.github.io/diaries/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
   
   
   
   
-}
-</script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
-<meta property="og:title" content="Diaries" />
-<meta property="og:image" content="https://d-kuro.github.io/img/avatar-icon.jpg" />
-<meta property="og:url" content="https://d-kuro.github.io/diaries/" />
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="AFN Blog" />
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/vs2015.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/vs2015.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
 
-  <meta name="twitter:title" content="Diaries" />
-  <meta name="twitter:image" content="https://d-kuro.github.io/img/avatar-icon.jpg" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@ponde_m" />
-  <meta name="twitter:creator" content="@ponde_m" />
-  <meta name="generator" content="Hugo 0.69.2" />
-  <link rel="alternate" href="https://d-kuro.github.io/index.xml" type="application/rss+xml" title="AFN Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://d-kuro.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://d-kuro.github.io/css/syntax.css" /><link rel="stylesheet" href="https://d-kuro.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
 
 
 
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="https://d-kuro.github.io/">AFN Blog</a>
+
+  
+
+
+  
+  
+
+  
+  <link rel="alternate" href="/diaries/index.xml" type="application/rss+xml" title="AFN Blog">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://d-kuro.github.io/diaries/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ponde_m">
+  <meta property="twitter:creator" content="@ponde_m">
+  
+  <meta property="og:site_name" content="AFN Blog">
+  <meta property="og:url" content="https://d-kuro.github.io/diaries/">
+  <meta property="og:title" content="Diaries | AFN Blog">
+  <meta property="og:description" content="SRE"><meta property="og:image" content="https://d-kuro.github.io/img/static/img/avatar.jpg">
+  <meta property="twitter:image" content="https://d-kuro.github.io/img/static/img/avatar.jpg"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2020-05-11T15:04:38&#43;00:00">
+  
+
+  
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Diaries | AFN Blog</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">AFN Blog</a>
     </div>
+    
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
-          
-            <li>
-              <a title="Blog" href="/">Blog</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="About" href="/page/about/">About</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Diary" href="/diaries/">Diary</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Events" href="/events/">Events</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Tags" href="/tags">Tags</a>
-            </li>
-          
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">AFN Blog</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/post/"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/diaries/"><span>Diaries</span></a>
+        </li>
+
+        
+        
+
+      
 
         
       </ul>
     </div>
 
-    
-      <div class="avatar-container">
-        <div class="avatar-img-border">
-          <a title="AFN Blog" href="https://d-kuro.github.io/">
-            <img class="avatar-img" src="https://d-kuro.github.io/img/avatar-icon.jpg" alt="AFN Blog" />
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
           </a>
         </div>
-      </div>
-    
+      </li>
+      
+
+      
+
+    </ul>
 
   </div>
 </nav>
 
 
+  
 
 
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
     
+  
+<div class="universal-wrapper pt-3">
+  <h1>Diaries</h1>
 
+  
 
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-    
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
+  
 </div>
 
 
-  
-  
-  
 
-
-
-
-
-
+<div class="universal-wrapper">
   
 
-  <header class="header-section ">
-    
-    <div class="intro-header no-img">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="diaries-heading">
-              
-                <h1>Diaries</h1>
-              
-              
-                <hr class="small">
-              
-              
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-    
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-    <a href="https://d-kuro.github.io/diaries/201911/20191124/">
-        <h2 class="post-title">2019-11-24</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 23, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;63&nbsp;words
   
   
     
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;d-kuro
     
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h2 id="want-to-do">Want to do</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="achievement">Achievement</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="diary">Diary</h2>
-<ul>
-<li>I haven&rsquo;t written a program recently</li>
-</ul>
-<h2 id="note">Note</h2>
-<ul>
-<li>Debugging network stalls on Kubernetes
-<ul>
-<li><a href="https://github.blog/2019-11-21-debugging-network-stalls-on-kubernetes/">https://github.blog/2019-11-21-debugging-network-stalls-on-kubernetes/</a></li>
-<li>何もわからんってなってしまった</li>
-</ul>
-</li>
-<li>Shopifyはいかにしてモジュラモノリスへ移行したか
-<ul>
-<li><a href="https://www.infoq.com/jp/news/2019/10/shopify-modular-monolith/">https://www.infoq.com/jp/news/2019/10/shopify-modular-monolith/</a></li>
-</ul>
-</li>
-</ul>
-
-        
-    </div>
-
     
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://d-kuro.github.io/diaries/201911/20191123/">
-        <h2 class="post-title">2019-11-23</h2>
+    <div>
+      <h2><a href="/diaries/201911/20191124/" >2019-11-24</a></h2>
+      <div class="article-style">
         
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 22, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;14&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;d-kuro
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h2 id="want-to-do">Want to do</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="achievement">Achievement</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="diary">Diary</h2>
-<ul>
-<li>I get sick at night</li>
-</ul>
-<h2 id="note">Note</h2>
-<ul>
-<li>None</li>
-</ul>
-
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://d-kuro.github.io/diaries/201911/20191122/">
-        <h2 class="post-title">2019-11-22</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 21, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;378&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;d-kuro
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        Want to do None Achievement None Diary Learn more about Kubernetes certificates Note Accessing Kubelet API https://gist.github.com/lizrice/c32740fac51db2a5518f06c3dae4944f Kubelet の API にアクセスする Is there API documentation for Kubelet API https://stackoverflow.com/questions/35075195/is-there-api-documentation-for-kubelet-api Kubelet の API のドキュメントはないよってやつ Attacking Kubernetes through Kubelet https://labs.f-secure.com/blog/attacking-kubernetes-through-kubelet/ Kubelet の API で Pod への exec ができる
-        <a href="https://d-kuro.github.io/diaries/201911/20191122/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://d-kuro.github.io/diaries/201911/20191121/">
-        <h2 class="post-title">2019-11-21</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 20, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;109&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;d-kuro
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        Want to do None Achievement None Diary There was a dinner for hiring Note Using Native Memory by JVM https://dev.classmethod.jp/server-side/using-native-memory-by-jvm/ JVM のメモリの話 Datadog Agent の livenessProbe が失敗して Pod が再起動されまくるやつを踏んだ https://github.com/DataDog/datadog-agent/issues/1830 DD_CHECK_RUNNERS とか試したけど改善しなくてサポー
-        <a href="https://d-kuro.github.io/diaries/201911/20191121/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://d-kuro.github.io/diaries/201911/20191120/">
-        <h2 class="post-title">2019-11-20</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 19, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;67&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;d-kuro
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h2 id="want-to-do">Want to do</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="achievement">Achievement</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="diary">Diary</h2>
-<ul>
-<li>I have a cold.</li>
-</ul>
-<h2 id="note">Note</h2>
-<ul>
-<li>knsh14/sourcegraph-go-style-guide-ja
-<ul>
-<li><a href="https://github.com/knsh14/sourcegraph-go-style-guide-ja">https://github.com/knsh14/sourcegraph-go-style-guide-ja</a></li>
-<li>Sourcegraph の Go の style ガイド</li>
-</ul>
-</li>
-<li>&ldquo;Building Secure Reliable Systems&rdquo; Book Early Release
-<ul>
-<li><a href="https://landing.google.com/sre/resources/foundationsandprinciples/srs-book/">https://landing.google.com/sre/resources/foundationsandprinciples/srs-book/</a></li>
-<li><a href="https://twitter.com/openshiftjp/status/1197292343591919616">https://twitter.com/openshiftjp/status/1197292343591919616</a></li>
-<li>Google の SRE 本, セキュリティと信頼性がテーマらしい</li>
-</ul>
-</li>
-<li>Loki version 1.0 is generally available for production use
-<ul>
-<li><a href="https://www.apmdigest.com/grafana-labs-releases-loki">https://www.apmdigest.com/grafana-labs-releases-loki</a></li>
-<li><a href="https://twitter.com/grafana/status/1197262407334342656">https://twitter.com/grafana/status/1197262407334342656</a></li>
-<li>Loki が GA</li>
-</ul>
-</li>
-</ul>
-
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://d-kuro.github.io/diaries/201911/20191119/">
-        <h2 class="post-title">2019-11-19</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 18, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;104&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;d-kuro
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        Want to do None Achievement None Diary None Note Graceful shutdown of pods with Kubernetes https://pracucci.com/graceful-shutdown-of-kubernetes-pods.html SIGTERM が子プロセスに送られないやつにハマってた straceコマンドの使い方 https://qiita.com/hana_shin/items/a03150552e2f70994248 strace -e trace=signal -p $PID 覚えた GitOps and Kubernetes https://www.manning.com/books/gitops-and-kubernetes#toc GitOps の本 Extending the EKS
-        <a href="https://d-kuro.github.io/diaries/201911/20191119/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://d-kuro.github.io/diaries/201911/20191118/">
-        <h2 class="post-title">2019-11-18</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 17, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;188&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;d-kuro
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        Want to do None Achievement None Diary I want to go to Kubecon (2回目) Note Javaのコンテナのメモリ割り当ての考え方をまきさんに教えていただいたので記録 https://bufferings.hatenablog.com/entry/2019/11/18/000007 Helm 3.0.0 has been released! https://helm.sh/blog/helm-3-released/ Helm v3 がリリ
-        <a href="https://d-kuro.github.io/diaries/201911/20191118/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://d-kuro.github.io/diaries/201911/20191117/">
-        <h2 class="post-title">2019-11-17</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 16, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;21&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;d-kuro
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h2 id="want-to-do">Want to do</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="achievement">Achievement</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="diary">Diary</h2>
-<ul>
-<li>I want to go to Kubecon</li>
-</ul>
-<h2 id="note">Note</h2>
-<ul>
-<li>Design It! 読みたい
-<ul>
-<li><a href="https://twitter.com/bufferings/status/1195705931859972096">https://twitter.com/bufferings/status/1195705931859972096</a></li>
-</ul>
-</li>
-</ul>
-
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://d-kuro.github.io/diaries/201911/20191116/">
-        <h2 class="post-title">2019-11-16</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 15, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;15&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;d-kuro
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h2 id="want-to-do">Want to do</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="achievement">Achievement</h2>
-<ul>
-<li>None</li>
-</ul>
-<h2 id="diary">Diary</h2>
-<ul>
-<li>I will tackle this issue
-<ul>
-<li><a href="https://github.com/weaveworks/eksctl/issues/1355">https://github.com/weaveworks/eksctl/issues/1355</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="note">Note</h2>
-<ul>
-<li>None</li>
-</ul>
-
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://d-kuro.github.io/diaries/201911/20191115/">
-        <h2 class="post-title">2019-11-15</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 14, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;135&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;d-kuro
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        Want to do None Achievement None Diary I have to study English Note Introducing Argo Flux - A Weaveworks-Intuit-AWS Collaboration https://www.weave.works/blog/argo-flux-join-forces Argo Flux なる新しい OSS が誕生するよという話 この話が出たことで Argo CD にも Flux にはあった Docker レジストリの監視機能と
-        <a href="https://d-kuro.github.io/diaries/201911/20191115/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
-        </div>
-        
-          <ul class="pager main-pager">
-            
-              <li class="previous">
-                <a href="https://d-kuro.github.io/diaries/page/16/">&larr; Newer Posts</a>
-              </li>
-            
-            
-              <li class="next">
-                <a href="https://d-kuro.github.io/diaries/page/18/">Older Posts &rarr;</a>
-              </li>
-            
-          </ul>
+          Want to do None Achievement None Diary I haven&rsquo;t written a program recently Note Debugging network stalls on Kubernetes https://github.blog/2019-11-21-debugging-network-stalls-on-kubernetes/ 何もわからんってなっ
         
       </div>
     </div>
-  </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201911/20191123/" >2019-11-23</a></h2>
+      <div class="article-style">
+        
+          Want to do  None  Achievement  None  Diary  I get sick at night  Note  None  
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201911/20191122/" >2019-11-22</a></h2>
+      <div class="article-style">
+        
+          Want to do None Achievement None Diary Learn more about Kubernetes certificates Note Accessing Kubelet API https://gist.github.com/lizrice/c32740fac51db2a5518f06c3dae4944f Kubelet の API にアクセスする Is there API
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201911/20191121/" >2019-11-21</a></h2>
+      <div class="article-style">
+        
+          Want to do None Achievement None Diary There was a dinner for hiring Note Using Native Memory by JVM https://dev.classmethod.jp/server-side/using-native-memory-by-jvm/ JVM のメモリの話 Datadog Agent の
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201911/20191120/" >2019-11-20</a></h2>
+      <div class="article-style">
+        
+          Want to do None Achievement None Diary I have a cold. Note knsh14/sourcegraph-go-style-guide-ja https://github.com/knsh14/sourcegraph-go-style-guide-ja Sourcegraph の Go の style ガイド &ldquo;Building Secure Reliable Systems&rdquo; Book Early Release https://landing.google.com/sre/resources/foundationsandprinciples/srs-book/
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201911/20191119/" >2019-11-19</a></h2>
+      <div class="article-style">
+        
+          Want to do None Achievement None Diary None Note Graceful shutdown of pods with Kubernetes https://pracucci.com/graceful-shutdown-of-kubernetes-pods.html SIGTERM が子プロセスに送られないや
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201911/20191118/" >2019-11-18</a></h2>
+      <div class="article-style">
+        
+          Want to do None Achievement None Diary I want to go to Kubecon (2回目) Note Javaのコンテナのメ
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201911/20191117/" >2019-11-17</a></h2>
+      <div class="article-style">
+        
+          Want to do None Achievement None Diary I want to go to Kubecon Note Design It! 読みたい https://twitter.com/bufferings/status/1195705931859972096
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201911/20191116/" >2019-11-16</a></h2>
+      <div class="article-style">
+        
+          Want to do  None  Achievement  None  Diary  I will tackle this issue  https://github.com/weaveworks/eksctl/issues/1355    Note  None  
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201911/20191115/" >2019-11-15</a></h2>
+      <div class="article-style">
+        
+          Want to do None Achievement None Diary I have to study English Note Introducing Argo Flux - A Weaveworks-Intuit-AWS Collaboration https://www.weave.works/blog/argo-flux-join-forces Argo Flux なる新しい OSS が
+        
+      </div>
+    </div>
+  
+
+  
+<nav>
+  <ul class="pagination justify-content-center">
+    
+    <li class="page-item"><a class="page-link" href="/diaries/page/16/">&laquo;</a></li>
+    
+    
+    <li class="page-item"><a class="page-link" href="/diaries/page/18/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
+
+</div>
 
       
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-              <li>
-                <a href="mailto:kurosawa7620@gmail.com" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/d-kuro" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/ponde_m" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/in/d-kuro" title="LinkedIn">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            <a href="/diaries/index.xml" title="RSS">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-        <p class="credits copyright text-muted">
-          
-            
-              d-kuro
-            
-          
 
-          &nbsp;&bull;&nbsp;&copy;
-          
-            2020
-          
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
-          
-            &nbsp;&bull;&nbsp;
-            <a href="https://d-kuro.github.io/">AFN Blog</a>
-          
-        </p>
+      
+
+      
         
-        <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.69.2</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
-          
-        </p>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 d-kuro &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
       </div>
     </div>
   </div>
-</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</div>
 
-<script src="https://d-kuro.github.io/js/main.js"></script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://d-kuro.github.io/js/load-photoswipe.js"></script>
-
-
-
-
-
-
-
-
-
-    
-  </body>
+</body>
 </html>
-

@@ -1,107 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on AFN Blog</title>
+    <title>Tags | AFN Blog</title>
     <link>https://d-kuro.github.io/tags/</link>
-    <description>Recent content in Tags on AFN Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
-    <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    <lastBuildDate>Wed, 06 May 2020 22:09:56 +0900</lastBuildDate>
-    
-	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Kubernetes</title>
-      <link>https://d-kuro.github.io/tags/kubernetes/</link>
-      <pubDate>Wed, 06 May 2020 22:09:56 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>client-go</title>
-      <link>https://d-kuro.github.io/tags/client-go/</link>
-      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/client-go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>controller-runtime</title>
-      <link>https://d-kuro.github.io/tags/controller-runtime/</link>
-      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/controller-runtime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leader election</title>
-      <link>https://d-kuro.github.io/tags/leader-election/</link>
-      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/leader-election/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Operator SDK</title>
-      <link>https://d-kuro.github.io/tags/operator-sdk/</link>
-      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/operator-sdk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Poem</title>
-      <link>https://d-kuro.github.io/tags/poem/</link>
-      <pubDate>Thu, 02 Jan 2020 22:42:00 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/poem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CSI</title>
-      <link>https://d-kuro.github.io/tags/csi/</link>
-      <pubDate>Wed, 13 Nov 2019 18:52:43 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/csi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Event</title>
-      <link>https://d-kuro.github.io/tags/event/</link>
-      <pubDate>Wed, 13 Nov 2019 18:52:43 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/event/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kubernetes Meetup Tokyo</title>
-      <link>https://d-kuro.github.io/tags/kubernetes-meetup-tokyo/</link>
-      <pubDate>Wed, 13 Nov 2019 18:52:43 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/kubernetes-meetup-tokyo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Storage</title>
-      <link>https://d-kuro.github.io/tags/storage/</link>
-      <pubDate>Wed, 13 Nov 2019 18:52:43 +0900</pubDate>
-      <author>kurosawa7620@gmail.com (d-kuro)</author>
-      <guid>https://d-kuro.github.io/tags/storage/</guid>
-      <description></description>
-    </item>
+      <atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 06 May 2020 22:09:56 +0900</lastBuildDate>
+    <image>
+      <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
+      <title>Tags</title>
+      <link>https://d-kuro.github.io/tags/</link>
+    </image>
     
   </channel>
 </rss>

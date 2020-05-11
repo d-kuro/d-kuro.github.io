@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on AFN Blog</title>
+    <title>Categories | AFN Blog</title>
     <link>https://d-kuro.github.io/categories/</link>
-    <description>Recent content in Categories on AFN Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <managingEditor>kurosawa7620@gmail.com (d-kuro)</managingEditor>
-    <webMaster>kurosawa7620@gmail.com (d-kuro)</webMaster>
-    
-	<atom:link href="https://d-kuro.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://d-kuro.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 06 May 2020 22:09:56 +0900</lastBuildDate>
+    <image>
+      <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
+      <title>Categories</title>
+      <link>https://d-kuro.github.io/categories/</link>
+    </image>
     
   </channel>
 </rss>

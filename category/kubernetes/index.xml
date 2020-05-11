@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes | AFN Blog</title>
+    <link>https://d-kuro.github.io/category/kubernetes/</link>
+      <atom:link href="https://d-kuro.github.io/category/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kubernetes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 06 May 2020 22:09:56 +0900</lastBuildDate>
+    <image>
+      <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
+      <title>Kubernetes</title>
+      <link>https://d-kuro.github.io/category/kubernetes/</link>
+    </image>
+    
+    <item>
+      <title>CIDR allocation failed for Kubernetes</title>
+      <link>https://d-kuro.github.io/post/kubernetes-cidr/</link>
+      <pubDate>Wed, 06 May 2020 22:09:56 +0900</pubDate>
+      <guid>https://d-kuro.github.io/post/kubernetes-cidr/</guid>
+      <description>&lt;p&gt;What to do when the Pod does not start due to CIDR allocation failure.&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;We are using 
+&lt;a href=&#34;https://github.com/kubernetes-incubator/kube-aws&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kube-aws&lt;/a&gt; to build Kubernetes cluster.
+One day, I saw that the Pod was in a lot of errors and would not start.
+This has only occurred on certain nodes.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;NAMESPACE     NAME                         READY   STATUS              RESTARTS   AGE
+kube-system   canal-node-g2vfn             2/3     CrashLoopBackOff    20         79m
+kube-system   kube-proxy-8n2lj             1/1     Running             0          79m
+monitor       datadog-lr74g                0/3     Init:0/2            0          79m
+production    foo-9d6944774-9jlls          0/2     ContainerCreating   0          55s
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;check-flannel-logs&#34;&gt;Check flannel logs&lt;/h2&gt;
+&lt;p&gt;flannel had an error message like the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;I0502 02:42:02.830771       1 main.go:514] Determining IP address of default interface
+I0502 02:42:02.830960       1 main.go:527] Using interface with name eth0 and address 10.12.2.236
+I0502 02:42:02.830972       1 main.go:544] Defaulting external address to interface address (10.12.2.236)
+I0502 02:42:02.849385       1 kube.go:126] Waiting 10m0s for node controller to sync
+I0502 02:42:02.849412       1 kube.go:309] Starting kube subnet manager
+I0502 02:42:03.849506       1 kube.go:133] Node controller sync successful
+I0502 02:42:03.849550       1 main.go:244] Created subnet manager: Kubernetes Subnet Manager - foo-node
+I0502 02:42:03.849557       1 main.go:247] Installing signal handlers
+I0502 02:42:03.849682       1 main.go:386] Found network config - Backend type: vxlan
+I0502 02:42:03.849719       1 vxlan.go:120] VXLAN config: VNI=1 Port=0 GBP=false DirectRouting=false
+E0502 02:42:03.849902       1 main.go:289] Error registering network: failed to acquire lease: node &amp;quot;foo-node&amp;quot; pod cidr not assigned
+I0502 02:42:03.849937       1 main.go:366] Stopping shutdownHandler...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;check-controller-manager-logs&#34;&gt;Check controller-manager logs&lt;/h2&gt;
+&lt;p&gt;controller-manager had an error message like the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CIDR allocation failed; there are no remaining CIDRs left to allocate in the accepted range&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;E0502 03:11:40.819569       1 controller_utils.go:282] Error while processing Node Add/Delete: failed to allocate cidr: CIDR allocation failed; there are no remaining CIDRs left to allocate in the accepted range
+I0502 03:11:40.820095       1 event.go:221] Event(v1.ObjectReference{Kind:&amp;quot;Node&amp;quot;, Namespace:&amp;quot;&amp;quot;, Name:&amp;quot;foo-node&amp;quot;, UID:&amp;quot;2e10b7b3-8c14-11ea-a498-066c4ca4071a&amp;quot;, APIVersion:&amp;quot;&amp;quot;, ResourceVersion:&amp;quot;&amp;quot;, FieldPath:&amp;quot;&amp;quot;}): type: &#39;Normal&#39; reason: &#39;CIDRNotAvailable&#39; Node foo-node status is now: CIDRNotAvailable
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Kubernetes assigns a range of IP addresses (CIDR blocks) to each node so that a unique IP address is specified for each Pod.
+By default, Kubernetes assigns /24 CIDR blocks (256 addresses) to each node.
+This error message is displayed if the Node could not be assigned a CIDR blocks.&lt;/p&gt;
+&lt;p&gt;This explanation is detailed in GKE documentation by GCP.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📝
+&lt;a href=&#34;https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optimizing IP address allocation  |  Kubernetes Engine Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;check-cluster-cidr-blocks&#34;&gt;Check cluster CIDR blocks&lt;/h2&gt;
+&lt;p&gt;Checking CIDR block for a cluster, run the following command on master node:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ps aux | grep cluster-cidr
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Run it, you will get the following results:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;root      3159  0.0  0.5 818604 89064 ?        Ssl  May02   1:53 /hyperkube controller-manager --cloud-provider=aws --cluster-name=foo-cluster --kubeconfig=/etc/kubernetes/kubeconfig/kube-controller-manager.yaml --authentication-kubeconfig=/etc/kubernetes/kubeconfig/kube-controller-manager.yaml --authorization-kubeconfig=/etc/kubernetes/kubeconfig/kube-controller-manager.yaml --leader-elect=true --root-ca-file=/etc/kubernetes/ssl/ca.pem --service-account-private-key-file=/etc/kubernetes/ssl/service-account-key.pem --use-service-account-credentials --cluster-signing-cert-file=/etc/kubernetes/ssl/worker-ca.pem --cluster-signing-key-file=/etc/kubernetes/ssl/worker-ca-key.pem --allocate-node-cidrs=true --cluster-cidr=10.2.0.0/16 --configure-cloud-routes=false --service-cluster-ip-range=10.3.0.0/16
+core      6843  0.0  0.0   2820   844 pts/0    S+   14:07   0:00 grep --colour=auto cluster-cidr
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Checking the value of the &lt;code&gt;--cluster-cidr&lt;/code&gt; option:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;--cluster-cidr=10.2.0.0/16&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Kubernetes grants each node a /24 CIDR blocks by default for use by the nodes Pods. Because this cluster assigns Pod IP addresses from a /16 CIDR blocks (&lt;code&gt;cluster-cidr&lt;/code&gt;), there can be up to 256 nodes (24-16 = 8, 2^8 = 256).&lt;/p&gt;
+&lt;p&gt;The reason why the Pods didn&amp;rsquo;t start this time was that the HPA scaled so many Pods that there were more than 265 nodes.&lt;/p&gt;
+&lt;h2 id=&#34;change-cidr-blocks-assigned-to-node&#34;&gt;Change CIDR blocks assigned to node&lt;/h2&gt;
+&lt;p&gt;To solve this problem I made change to the CIDR blocks assigned to the nodes.
+Changing the CIDR blocks from /24 to /25 reduces the number of Pods per nodes, but allowed will be 512 nodes（25-16 = 9、2^9 = 512).&lt;/p&gt;
+&lt;p&gt;To change the CIDR blocks, run controller-manager with the following options:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;--node-cidr-mask-size=25&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Also, we limited the number of Pods that can be launched with the kubelet option to 64.
+For the basis of this number 64, see the 
+&lt;a href=&#34;https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GKE document&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;--max-pods=64&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When running a large Kubernetes cluster, you need to take care of the CIDR ranges.&lt;/p&gt;
+&lt;h3 id=&#34;refs&#34;&gt;Refs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optimizing IP address allocation  |  Kubernetes Engine Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://srcco.de/posts/many-kubernetes-clusters.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Many Kubernetes Clusters | SRCco.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe style=&#34;width:120px;height:240px;&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; src=&#34;//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=dkuro-22&amp;language=ja_JP&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=as_ss_li_til&amp;asins=1617293725&amp;linkId=7d9809d003dc1511008d6f38334afe09&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Leader Election in Depth</title>
+      <link>https://d-kuro.github.io/post/kubernetes-leader-election/</link>
+      <pubDate>Mon, 06 Jan 2020 01:09:52 +0900</pubDate>
+      <guid>https://d-kuro.github.io/post/kubernetes-leader-election/</guid>
+      <description>&lt;p&gt;この記事では Kubernetes の Leader election について解説していきます。&lt;/p&gt;
+&lt;h2 id=&#34;kubernetes-における-leader-election&#34;&gt;Kubernetes における Leader election&lt;/h2&gt;
+&lt;p&gt;Kubernetes における Leader election は Controller 間の競合を防ぐために使われます。&lt;/p&gt;
+&lt;p&gt;例として Deployment を watch して処理を行う Controller の Pod がある場合に Replica の Pod が 2 台だと 1 つの Deployment の操作に対して 2 つの Pod が処理を行うため, 場合によっては競合してしまいます。
+そのような競合を防ぐために Kubernetes では clinet-go に Leader election の仕組みが用意されています。
+Leader election を使用するとリーダーとなる Controller が reconciliation loop を実行している間, 他の Controller は待機します。
+リーダーが辞任した場合待機していた Controller がリーダーに昇格し, すぐに処理を再開することができます。&lt;/p&gt;
+&lt;p&gt;可用性が必要な Controller 以外の場合は &lt;code&gt;replicas: 1&lt;/code&gt; にすれば問題ない, と思うかもしれませんが Deployment の strategy を RollingUpdate にしている場合は一時的に 2 つの Pod が動作する状況が存在するため, 注意が必要です。&lt;/p&gt;
+&lt;p&gt;本ブログでは以下の 2 つの Leader election の実装について解説していきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Leader-for-life
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://godoc.org/github.com/operator-framework/operator-sdk/pkg/leader&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/operator-framework/operator-sdk/pkg/leader&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Leader-with-lease
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://godoc.org/github.com/kubernetes-sigs/controller-runtime/pkg/leaderelection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/kubernetes-sigs/controller-runtime/pkg/leaderelection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;上記の名前は Operator SDK のドキュメントから持ってきています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.openshift.com/container-platform/4.1/applications/operator_sdk/osdk-leader-election.html&#34;&gt;https://docs.openshift.com/container-platform/4.1/applications/operator_sdk/osdk-leader-election.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;追記-kubernetes-meetup-tokyo-27-で-lt-しました&#34;&gt;追記: Kubernetes Meetup Tokyo #27 で LT しました&lt;/h3&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;6aa22d2c4ff34536bc52461feacb2be5&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;leader-for-life&#34;&gt;Leader-for-life&lt;/h2&gt;
+&lt;p&gt;Leader-for-life は Operator SDK が提供している Leader election の仕組みです。&lt;/p&gt;
+&lt;p&gt;仕組みは単純で OwnerReference がリーダーの Pod である ConfigMap を作成し, ロックします。
+Pod が削除されると Kubernetes のガベージコレクションの仕組みにより ConfigMap も自動的に削除されるため, 他の Pod がリーダーを獲得することができます。&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://kubernetes.io/docs/concepts/workloads/controllers/garbage-collection/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Garbage Collection - Kubernetes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用の際には以下の用に Pod の名前を環境変数として渡してあげる必要があります。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;- name: POD_NAME
+  valueFrom:
+    fieldRef:
+      fieldPath: metadata.name
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;作成される ConfigMap の例:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;apiVersion: v1
+kind: ConfigMap
+metadata:
+  creationTimestamp: &amp;quot;2019-12-27T04:26:18Z&amp;quot;
+  name: operator-lock
+  namespace: default
+  ownerReferences:
+  - apiVersion: v1
+    kind: Pod
+    name: operator-787d565ff9-xzf69
+    uid: fb50cbf0-2860-11ea-8930-065483f65576
+  resourceVersion: &amp;quot;27146109&amp;quot;
+  selfLink: /api/v1/namespaces/default/configmaps/operator-lock
+  uid: 07468a04-2861-11ea-8930-065483f65576
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;利用するための関数は次のようになっています。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func Become(ctx context.Context, lockName string) error
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://godoc.org/github.com/operator-framework/operator-sdk/pkg/leader#Become&#34;&gt;https://godoc.org/github.com/operator-framework/operator-sdk/pkg/leader#Become&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用する際には次のように使用します。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;import (
+  ...
+  &amp;quot;github.com/operator-framework/operator-sdk/pkg/leader&amp;quot;
+)
+
+func main() {
+  ...
+  err = leader.Become(context.TODO(), &amp;quot;memcached-operator-lock&amp;quot;)
+  if err != nil {
+    log.Error(err, &amp;quot;Failed to retry for leader lock&amp;quot;)
+    os.Exit(1)
+  }
+  ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以下では詳しくコードを見ていきます。&lt;/p&gt;
+&lt;h3 id=&#34;ownerreference-を作成する&#34;&gt;OwnerReference を作成する&lt;/h3&gt;
+&lt;p&gt;環境変数 &lt;code&gt;POD_NAME&lt;/code&gt; より自身の Pod の name を取得して Pod を取得後, その情報を用いて OwnerReference を作成します。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;owner, err := myOwnerRef(ctx, client, ns)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/operator-framework/operator-sdk/blob/v0.13.0/pkg/leader/leader.go#L67&#34;&gt;https://github.com/operator-framework/operator-sdk/blob/v0.13.0/pkg/leader/leader.go#L67&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;configmap-を取得し-owner-を確認する&#34;&gt;ConfigMap を取得し, Owner を確認する&lt;/h3&gt;
+&lt;p&gt;ここで一度 ConfigMap を取得します。
+取得した結果, 自身が Owner であることが確認でした場合は &lt;code&gt;nil&lt;/code&gt; を return し関数を終了します。&lt;/p&gt;
+&lt;p&gt;リーダーである Pod が再起動された場合はここのロジックでリーダーを継続することができます。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// check for existing lock from this pod, in case we got restarted
+existing := &amp;amp;corev1.ConfigMap{}
+key := crclient.ObjectKey{Namespace: ns, Name: lockName}
+err = client.Get(ctx, key, existing)
+
+switch {
+case err == nil:
+    for _, existingOwner := range existing.GetOwnerReferences() {
+        if existingOwner.Name == owner.Name {
+            log.Info(&amp;quot;Found existing lock with my name. I was likely restarted.&amp;quot;)
+            log.Info(&amp;quot;Continuing as the leader.&amp;quot;)
+            return nil
+        }
+        log.Info(&amp;quot;Found existing lock&amp;quot;, &amp;quot;LockOwner&amp;quot;, existingOwner.Name)
+    }
+case apierrors.IsNotFound(err):
+    log.Info(&amp;quot;No pre-existing lock was found.&amp;quot;)
+default:
+    log.Error(err, &amp;quot;Unknown error trying to get ConfigMap&amp;quot;)
+    return err
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/operator-framework/operator-sdk/blob/v0.13.0/pkg/leader/leader.go#L72-L92&#34;&gt;https://github.com/operator-framework/operator-sdk/blob/v0.13.0/pkg/leader/leader.go#L72-L92&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;configmap-の作成を試行する&#34;&gt;ConfigMap の作成を試行する&lt;/h3&gt;
+&lt;p&gt;for でループしながら ConfigMap の作成を試行します。
+このループは ConfigMap が作成され, 自身がリーダーになるまで実行されます。&lt;/p&gt;
+&lt;p&gt;リーダーの Pod が evict された場合はその Pod の削除を行います。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// try to create a lock
+backoff := time.Second
+for {
+    err := client.Create(ctx, cm)
+    switch {
+    case err == nil:
+        log.Info(&amp;quot;Became the leader.&amp;quot;)
+        return nil
+    case apierrors.IsAlreadyExists(err):
+        existingOwners := existing.GetOwnerReferences()
+        switch {
+        case len(existingOwners) != 1:
+            log.Info(&amp;quot;Leader lock configmap must have exactly one owner reference.&amp;quot;, &amp;quot;ConfigMap&amp;quot;, existing)
+        case existingOwners[0].Kind != &amp;quot;Pod&amp;quot;:
+            log.Info(&amp;quot;Leader lock configmap owner reference must be a pod.&amp;quot;, &amp;quot;OwnerReference&amp;quot;, existingOwners[0])
+        default:
+            leaderPod := &amp;amp;corev1.Pod{}
+            key = crclient.ObjectKey{Namespace: ns, Name: existingOwners[0].Name}
+            err = client.Get(ctx, key, leaderPod)
+            switch {
+            case apierrors.IsNotFound(err):
+                log.Info(&amp;quot;Leader pod has been deleted, waiting for garbage collection do remove the lock.&amp;quot;)
+            case err != nil:
+                return err
+            case isPodEvicted(*leaderPod) &amp;amp;&amp;amp; leaderPod.GetDeletionTimestamp() == nil:
+                log.Info(&amp;quot;Operator pod with leader lock has been evicted.&amp;quot;, &amp;quot;leader&amp;quot;, leaderPod.Name)
+                log.Info(&amp;quot;Deleting evicted leader.&amp;quot;)
+                // Pod may not delete immediately, continue with backoff
+                err := client.Delete(ctx, leaderPod)
+                if err != nil {
+                    log.Error(err, &amp;quot;Leader pod could not be deleted.&amp;quot;)
+                }
+
+            default:
+                log.Info(&amp;quot;Not the leader. Waiting.&amp;quot;)
+            }
+        }
+
+        select {
+        case &amp;lt;-time.After(wait.Jitter(backoff, .2)):
+            if backoff &amp;lt; maxBackoffInterval {
+                backoff *= 2
+            }
+            continue
+        case &amp;lt;-ctx.Done():
+            return ctx.Err()
+        }
+    default:
+        log.Error(err, &amp;quot;Unknown error creating ConfigMap&amp;quot;)
+        return err
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/operator-framework/operator-sdk/blob/v0.13.0/pkg/leader/leader.go#L102-L153&#34;&gt;https://github.com/operator-framework/operator-sdk/blob/v0.13.0/pkg/leader/leader.go#L102-L153&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;leader-with-lease&#34;&gt;Leader-with-lease&lt;/h2&gt;
+&lt;p&gt;Leader-with-lease は controller-runtime が提供している Leader election の仕組みです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://godoc.org/github.com/kubernetes-sigs/controller-runtime/pkg/leaderelection&#34;&gt;https://godoc.org/github.com/kubernetes-sigs/controller-runtime/pkg/leaderelection&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;中では client-go で提供されてる &lt;code&gt;leaderelection&lt;/code&gt; package を使用しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://godoc.org/k8s.io/client-go/tools/leaderelection&#34;&gt;https://godoc.org/k8s.io/client-go/tools/leaderelection&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Leader-with-lease の仕組みは先程の Leader-for-life と同じように ConfigMap または Endpoints を用いて分散ロックを実現しています。
+ロックを取得する Controller はリーダーになり, 取得できない Controller は待機します。
+Leader-for-life と違う点はリース期間が設定されている点です。
+リーダーは定期的にリースを更新しています。
+リーダーが何らかの理由で死ぬとリースは期限切れになり, 待機していた Controller がリーダーを獲得しようとします。&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L50-L52&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;この仕組みは現時点で Alpha であり将来的に大幅に変更または削除される可能性があることが記載されています。&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用する際には以下のように使用します。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;import (
+  ...
+  &amp;quot;sigs.k8s.io/controller-runtime/pkg/manager&amp;quot;
+)
+
+func main() {
+  ...
+  opts := manager.Options{
+    ...
+    LeaderElection: true,
+    LeaderElectionID: &amp;quot;memcached-operator-lock&amp;quot;
+  }
+  mgr, err := manager.New(cfg, opts)
+  ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以下では詳しくコードを見ていきます。&lt;/p&gt;
+&lt;h3 id=&#34;manager-の初期化&#34;&gt;Manager の初期化&lt;/h3&gt;
+&lt;p&gt;上記のコードで言うと以下の部分です。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;mgr, err := manager.New(cfg, opts)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;manager.New()&lt;/code&gt; 関数の中で, Leader election に関する初期化を行っています。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// Create the resource lock to enable leader election)
+resourceLock, err := options.newResourceLock(config, recorderProvider, leaderelection.Options{
+    LeaderElection:          options.LeaderElection,
+    LeaderElectionID:        options.LeaderElectionID,
+    LeaderElectionNamespace: options.LeaderElectionNamespace,
+})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/manager.go#L265-L270&#34;&gt;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/manager.go#L265-L270&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;newResourceLock&lt;/code&gt; は &lt;code&gt;setOptionsDefaults&lt;/code&gt; という関数で初期化されています。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// setOptionsDefaults set default values for Options fields
+func setOptionsDefaults(options Options) Options {
+    ...
+    // Allow newResourceLock to be mocked
+    if options.newResourceLock == nil {
+        options.newResourceLock = leaderelection.NewResourceLock
+    }
+    ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/manager.go#L375-L378&#34;&gt;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/manager.go#L375-L378&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;leaderelection.NewResourceLock()&lt;/code&gt; 関数を見ていきます。
+ここで client-go の &lt;code&gt;leaderelection&lt;/code&gt; package を使用しているのがわかります。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;import (
+    ...
+    &amp;quot;k8s.io/client-go/tools/leaderelection/resourcelock&amp;quot;
+    ...
+)
+
+// NewResourceLock creates a new config map resource lock for use in a leader
+// election loop
+func NewResourceLock(config *rest.Config, recorderProvider recorder.Provider, options Options) (resourcelock.Interface, error) {
+    // TODO(JoelSpeed): switch to leaderelection object in 1.12
+    return resourcelock.New(resourcelock.ConfigMapsResourceLock,
+        options.LeaderElectionNamespace,
+        options.LeaderElectionID,
+        client.CoreV1(),
+        client.CoordinationV1(),
+        resourcelock.ResourceLockConfig{
+            Identity:      id,
+            EventRecorder: recorderProvider.GetEventRecorderFor(id),
+        })
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/leaderelection/leader_election.go#L82-L91&#34;&gt;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/leaderelection/leader_election.go#L82-L91&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;resourcelock.New()&lt;/code&gt; 関数の引数に &lt;code&gt;resourcelock.ConfigMapsResourceLock&lt;/code&gt; という値を渡しており, controller-runtime では ConfigMap を用いる方法で分散ロックを実現していることがわかります。&lt;/p&gt;
+&lt;h3 id=&#34;leader-election-の実行&#34;&gt;Leader election の実行&lt;/h3&gt;
+&lt;p&gt;Manager は &lt;code&gt;Start()&lt;/code&gt; という関数で実行されます。
+Leader election の実行もこの中で行っています。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func (cm *controllerManager) Start(stop &amp;lt;-chan struct{}) error {
+    ...
+    if cm.resourceLock != nil {
+        err := cm.startLeaderElection()
+        if err != nil {
+            return err
+        }
+    } else {
+        go cm.startLeaderElectionRunnables()
+    }
+    ...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/internal.go#L424-L431&#34;&gt;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/internal.go#L424-L431&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cm.startLeaderElection()&lt;/code&gt; 関数を見ていきます。
+client-go の &lt;code&gt;leaderelection&lt;/code&gt; package を使用して Leader election プロセスを開始してるのがわかります。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;import (
+    ...
+    &amp;quot;k8s.io/client-go/tools/leaderelection&amp;quot;
+    &amp;quot;k8s.io/client-go/tools/leaderelection/resourcelock&amp;quot;
+    ...
+)
+
+func (cm *controllerManager) startLeaderElection() (err error) {
+    l, err := leaderelection.NewLeaderElector(leaderelection.LeaderElectionConfig{
+        Lock:          cm.resourceLock,
+        LeaseDuration: cm.leaseDuration,
+        RenewDeadline: cm.renewDeadline,
+        RetryPeriod:   cm.retryPeriod,
+        Callbacks: leaderelection.LeaderCallbacks{
+            OnStartedLeading: func(_ context.Context) {
+                cm.startLeaderElectionRunnables()
+            },
+            OnStoppedLeading: func() {
+                // Most implementations of leader election log.Fatal() here.
+                // Since Start is wrapped in log.Fatal when called, we can just return
+                // an error here which will cause the program to exit.
+                cm.errSignal.SignalError(fmt.Errorf(&amp;quot;leader election lost&amp;quot;))
+            },
+        },
+    })
+    ...
+    // Start the leader elector process
+    go l.Run(ctx)
+    ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/internal.go#L510-L544&#34;&gt;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/internal.go#L510-L544&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;leader-election-loop&#34;&gt;Leader election loop&lt;/h3&gt;
+&lt;p&gt;1 つ前のセクションで見た下のコードの中を掘り下げていきます。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// Start the leader elector process
+go l.Run(ctx)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;Run()&lt;/code&gt; 関数の中は以下のようになっています。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// Run starts the leader election loop
+func (le *LeaderElector) Run(ctx context.Context) {
+	defer func() {
+		runtime.HandleCrash()
+		le.config.Callbacks.OnStoppedLeading()
+	}()
+	if !le.acquire(ctx) {
+		return // ctx signalled done
+	}
+	ctx, cancel := context.WithCancel(ctx)
+	defer cancel()
+	go le.config.Callbacks.OnStartedLeading(ctx)
+	le.renew(ctx)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L189-L202&#34;&gt;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L189-L202&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;le.acquire()&lt;/code&gt; と &lt;code&gt;le.renew()&lt;/code&gt; 関数はどちらも内部では &lt;code&gt;le.tryAcquireOrRenew()&lt;/code&gt; 関数を呼び出しています。
+&lt;code&gt;le.acquire()&lt;/code&gt; では &lt;code&gt;le.tryAcquireOrRenew()&lt;/code&gt; 関数が成功した場合は終了し, 失敗した場合は一定の周期でリトライされます。
+&lt;code&gt;le.renew()&lt;/code&gt; ではその逆で &lt;code&gt;le.tryAcquireOrRenew()&lt;/code&gt; 関数が失敗した場合は終了し, 成功した場合は一定の周期でリトライされます。&lt;/p&gt;
+&lt;p&gt;わかりやすい言葉で説明すると, &lt;code&gt;le.acquire()&lt;/code&gt; ではリーダーを獲得できるまでリトライを行い, &lt;code&gt;le.renew()&lt;/code&gt; ではリーダー獲得できている間リトライを行います。
+リーダーをロストした場合は defer で実行している &lt;code&gt;le.config.Callbacks.OnStoppedLeading()&lt;/code&gt; というコールバック関数でエラーを返し, Controller を終了させます。
+こうすることにより Kubernetes の Deployment 等の仕組みにより新しい Pod が起動し, また Leader election loop を実行することができます。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;Callbacks: leaderelection.LeaderCallbacks{
+    OnStartedLeading: func(_ context.Context) {
+        cm.startLeaderElectionRunnables()
+    },
+    OnStoppedLeading: func() {
+        // Most implementations of leader election log.Fatal() here.
+        // Since Start is wrapped in log.Fatal when called, we can just return
+        // an error here which will cause the program to exit.
+        cm.errSignal.SignalError(fmt.Errorf(&amp;quot;leader election lost&amp;quot;))
+    },
+},
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/internal.go#L516-L525&#34;&gt;https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/pkg/manager/internal.go#L516-L525&lt;/a&gt;&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;le.acquire() Details&lt;/summary&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// acquire loops calling tryAcquireOrRenew and returns true immediately when tryAcquireOrRenew succeeds.
+// Returns false if ctx signals done.
+func (le *LeaderElector) acquire(ctx context.Context) bool {
+    ctx, cancel := context.WithCancel(ctx)
+    defer cancel()
+    succeeded := false
+    desc := le.config.Lock.Describe()
+    klog.Infof(&amp;quot;attempting to acquire leader lease  %v...&amp;quot;, desc)
+    wait.JitterUntil(func() {
+        succeeded = le.tryAcquireOrRenew()
+        le.maybeReportTransition()
+        if !succeeded {
+            klog.V(4).Infof(&amp;quot;failed to acquire lease %v&amp;quot;, desc)
+            return
+        }
+        le.config.Lock.RecordEvent(&amp;quot;became leader&amp;quot;)
+        le.metrics.leaderOn(le.config.Name)
+        klog.Infof(&amp;quot;successfully acquired lease %v&amp;quot;, desc)
+        cancel()
+    }, le.config.RetryPeriod, JitterFactor, true, ctx.Done())
+    return succeeded
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L228-L249&#34;&gt;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L228-L249&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;le.renew() Details&lt;/summary&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// renew loops calling tryAcquireOrRenew and returns immediately when tryAcquireOrRenew fails or ctx signals done.
+func (le *LeaderElector) renew(ctx context.Context) {
+    ctx, cancel := context.WithCancel(ctx)
+    defer cancel()
+    wait.Until(func() {
+        timeoutCtx, timeoutCancel := context.WithTimeout(ctx, le.config.RenewDeadline)
+        defer timeoutCancel()
+        err := wait.PollImmediateUntil(le.config.RetryPeriod, func() (bool, error) {
+            done := make(chan bool, 1)
+            go func() {
+                defer close(done)
+                done &amp;lt;- le.tryAcquireOrRenew()
+            }()
+
+            select {
+            case &amp;lt;-timeoutCtx.Done():
+                return false, fmt.Errorf(&amp;quot;failed to tryAcquireOrRenew %s&amp;quot;, timeoutCtx.Err())
+            case result := &amp;lt;-done:
+                return result, nil
+            }
+        }, timeoutCtx.Done())
+
+        le.maybeReportTransition()
+        desc := le.config.Lock.Describe()
+        if err == nil {
+            klog.V(5).Infof(&amp;quot;successfully renewed lease %v&amp;quot;, desc)
+            return
+        }
+        le.config.Lock.RecordEvent(&amp;quot;stopped leading&amp;quot;)
+        le.metrics.leaderOff(le.config.Name)
+        klog.Infof(&amp;quot;failed to renew lease %v: %v&amp;quot;, desc, err)
+        cancel()
+    }, le.config.RetryPeriod, ctx.Done())
+
+    // if we hold the lease, give it up
+    if le.config.ReleaseOnCancel {
+        le.release()
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L251-L289&#34;&gt;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L251-L289&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;以下では, &lt;code&gt;le.tryAcquireOrRenew()&lt;/code&gt; 関数の中を詳しく見ていきます。&lt;/p&gt;
+&lt;h3 id=&#34;letryacquireorrenew&#34;&gt;le.tryAcquireOrRenew()&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt; le.tryAcquireOrRenew() Details&lt;/summary&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// tryAcquireOrRenew tries to acquire a leader lease if it is not already acquired,
+// else it tries to renew the lease if it has already been acquired. Returns true
+// on success else returns false.
+func (le *LeaderElector) tryAcquireOrRenew() bool {
+    now := metav1.Now()
+    leaderElectionRecord := rl.LeaderElectionRecord{
+        HolderIdentity:       le.config.Lock.Identity(),
+        LeaseDurationSeconds: int(le.config.LeaseDuration / time.Second),
+        RenewTime:            now,
+        AcquireTime:          now,
+    }
+
+    // 1. obtain or create the ElectionRecord
+    oldLeaderElectionRecord, err := le.config.Lock.Get()
+    if err != nil {
+        if !errors.IsNotFound(err) {
+            klog.Errorf(&amp;quot;error retrieving resource lock %v: %v&amp;quot;, le.config.Lock.Describe(), err)
+            return false
+        }
+        if err = le.config.Lock.Create(leaderElectionRecord); err != nil {
+            klog.Errorf(&amp;quot;error initially creating leader election record: %v&amp;quot;, err)
+            return false
+        }
+        le.observedRecord = leaderElectionRecord
+        le.observedTime = le.clock.Now()
+        return true
+    }
+
+    // 2. Record obtained, check the Identity &amp;amp; Time
+    if !reflect.DeepEqual(le.observedRecord, *oldLeaderElectionRecord) {
+        le.observedRecord = *oldLeaderElectionRecord
+        le.observedTime = le.clock.Now()
+    }
+    if len(oldLeaderElectionRecord.HolderIdentity) &amp;gt; 0 &amp;amp;&amp;amp;
+        le.observedTime.Add(le.config.LeaseDuration).After(now.Time) &amp;amp;&amp;amp;
+        !le.IsLeader() {
+        klog.V(4).Infof(&amp;quot;lock is held by %v and has not yet expired&amp;quot;, oldLeaderElectionRecord.HolderIdentity)
+        return false
+    }
+
+    // 3. We&#39;re going to try to update. The leaderElectionRecord is set to it&#39;s default
+    // here. Let&#39;s correct it before updating.
+    if le.IsLeader() {
+        leaderElectionRecord.AcquireTime = oldLeaderElectionRecord.AcquireTime
+        leaderElectionRecord.LeaderTransitions = oldLeaderElectionRecord.LeaderTransitions
+    } else {
+        leaderElectionRecord.LeaderTransitions = oldLeaderElectionRecord.LeaderTransitions + 1
+    }
+
+    // update the lock itself
+    if err = le.config.Lock.Update(leaderElectionRecord); err != nil {
+        klog.Errorf(&amp;quot;Failed to update lock: %v&amp;quot;, err)
+        return false
+    }
+    le.observedRecord = leaderElectionRecord
+    le.observedTime = le.clock.Now()
+    return true
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L308-L365&#34;&gt;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L308-L365&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h4 id=&#34;更新に使用する-leaderelectionrecord-の作成&#34;&gt;更新に使用する LeaderElectionRecord の作成&lt;/h4&gt;
+&lt;p&gt;はじめに, 更新に使用する LeaderElectionRecord の作成を行います。&lt;/p&gt;
+&lt;p&gt;LeaderElectionRecord とは, ロックに用いる Object の &lt;code&gt;control-plane.alpha.kubernetes.io/leader&lt;/code&gt; annotation に JSON で格納される struct です。
+誰がロックを獲得しているかなどの情報が格納されており, この情報を元にロックの制御を行います。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;now := metav1.Now()
+leaderElectionRecord := rl.LeaderElectionRecord{
+    HolderIdentity:       le.config.Lock.Identity(),
+    LeaseDurationSeconds: int(le.config.LeaseDuration / time.Second),
+    RenewTime:            now,
+    AcquireTime:          now,
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L312-L318&#34;&gt;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L312-L318&lt;/a&gt;&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;LeaderElectionRecord Details&lt;/summary&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// LeaderElectionRecord is the record that is stored in the leader election annotation.
+// This information should be used for observational purposes only and could be replaced
+// with a random string (e.g. UUID) with only slight modification of this code.
+// TODO(mikedanese): this should potentially be versioned
+type LeaderElectionRecord struct {
+    // HolderIdentity is the ID that owns the lease. If empty, no one owns this lease and
+    // all callers may acquire. Versions of this library prior to Kubernetes 1.14 will not
+    // attempt to acquire leases with empty identities and will wait for the full lease
+    // interval to expire before attempting to reacquire. This value is set to empty when
+    HolderIdentity       string      `json:&amp;quot;holderIdentity&amp;quot;`
+    LeaseDurationSeconds int         `json:&amp;quot;leaseDurationSeconds&amp;quot;`
+    AcquireTime          metav1.Time `json:&amp;quot;acquireTime&amp;quot;`
+    RenewTime            metav1.Time `json:&amp;quot;renewTime&amp;quot;`
+    LeaderTransitions    int         `json:&amp;quot;leaderTransitions&amp;quot;`
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/resourcelock/interface.go#L35-L50&#34;&gt;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/resourcelock/interface.go#L35-L50&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h4 id=&#34;leaderelectionrecord-の取得&#34;&gt;LeaderElectionRecord の取得&lt;/h4&gt;
+&lt;p&gt;LeaderElectionRecord の取得 or 作成を行います。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// 1. obtain or create the ElectionRecord
+oldLeaderElectionRecord, err := le.config.Lock.Get()
+if err != nil {
+    if !errors.IsNotFound(err) {
+        klog.Errorf(&amp;quot;error retrieving resource lock %v: %v&amp;quot;, le.config.Lock.Describe(), err)
+        return false
+    }
+    if err = le.config.Lock.Create(leaderElectionRecord); err != nil {
+        klog.Errorf(&amp;quot;error initially creating leader election record: %v&amp;quot;, err)
+        return false
+    }
+    le.observedRecord = leaderElectionRecord
+    le.observedTime = le.clock.Now()
+    return true
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L320-L334&#34;&gt;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L320-L334&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;ロックの所有者とリース時間の確認&#34;&gt;ロックの所有者とリース時間の確認&lt;/h4&gt;
+&lt;p&gt;取得した LeaderElectionRecord の情報を取り込み, ロックの所有者と時間の確認を行います。&lt;/p&gt;
+&lt;p&gt;現在のロックを保持しているのが自身ではなく, 最後に確認した時間がリース時間を超えていない場合は, 現在のロックは他人に確保されているとみなし, &lt;code&gt;false&lt;/code&gt; を return します。
+これより下のロジックは, 自身がリーダーである場合かリーダーの入れ替えを行う際に通過します。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// 2. Record obtained, check the Identity &amp;amp; Time
+if !reflect.DeepEqual(le.observedRecord, *oldLeaderElectionRecord) {
+    le.observedRecord = *oldLeaderElectionRecord
+    le.observedTime = le.clock.Now()
+}
+if len(oldLeaderElectionRecord.HolderIdentity) &amp;gt; 0 &amp;amp;&amp;amp;
+    le.observedTime.Add(le.config.LeaseDuration).After(now.Time) &amp;amp;&amp;amp;
+    !le.IsLeader() {
+    klog.V(4).Infof(&amp;quot;lock is held by %v and has not yet expired&amp;quot;, oldLeaderElectionRecord.HolderIdentity)
+    return false
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L336-L346&#34;&gt;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L336-L346&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;leaderelectionrecord-フィールドの更新&#34;&gt;LeaderElectionRecord フィールドの更新&lt;/h4&gt;
+&lt;p&gt;更新用の LeaderElectionRecord のフィールドを更新します。&lt;/p&gt;
+&lt;p&gt;自身がリーダーである場合は &lt;code&gt;AcquireTime&lt;/code&gt; には古い値を使用します。
+リーダーの入れ替え時には &lt;code&gt;LeaderTransitions&lt;/code&gt; に 1 を加算します。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// 3. We&#39;re going to try to update. The leaderElectionRecord is set to it&#39;s default
+// here. Let&#39;s correct it before updating.
+if le.IsLeader() {
+    leaderElectionRecord.AcquireTime = oldLeaderElectionRecord.AcquireTime
+    leaderElectionRecord.LeaderTransitions = oldLeaderElectionRecord.LeaderTransitions
+} else {
+    leaderElectionRecord.LeaderTransitions = oldLeaderElectionRecord.LeaderTransitions + 1
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L348-L355&#34;&gt;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L348-L355&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;ロック情報の更新&#34;&gt;ロック情報の更新&lt;/h4&gt;
+&lt;p&gt;ロックの情報を更新します。&lt;/p&gt;
+&lt;p&gt;ロックには Kubernetes の Object を用いているため Kubernetes API の Atomicity の仕組みを利用することができます。
+Kubernetes の API Server は Object の 更新時に指定された &lt;code&gt;resourceVersion&lt;/code&gt; と現在の &lt;code&gt;resourceVersion&lt;/code&gt; が一致することを確認し, 更新操作の間に他の更新が行われていないことを確認します。&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://kubernetes.io/docs/reference/using-api/api-concepts/#resource-versions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kubernetes API Concepts #Resource Versions - Kubernetes&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// update the lock itself
+if err = le.config.Lock.Update(leaderElectionRecord); err != nil {
+    klog.Errorf(&amp;quot;Failed to update lock: %v&amp;quot;, err)
+    return false
+}
+le.observedRecord = leaderElectionRecord
+le.observedTime = le.clock.Now()
+return true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L357-L364&#34;&gt;https://github.com/kubernetes/client-go/blob/v12.0.0/tools/leaderelection/leaderelection.go#L357-L364&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.openshift.com/container-platform/4.1/applications/operator_sdk/osdk-leader-election.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Configuring leader election - Operator SDK | Applications | OpenShift Container Platform 4.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.2/html/operators/osdk-leader-election&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;11.6. リーダー選択の設定 4.2 | Red Hat Customer Portal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://blog.fatedier.com/2019/04/17/k8s-custom-controller-high-available/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kubernetes 自定义控制器的高可用&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Deployment の API Version が古いと revisionHistoryLimit のデフォルト値が 2147483647 に設定される</title>
+      <link>https://d-kuro.github.io/post/deployment-revisionhistorylimit-default/</link>
+      <pubDate>Tue, 17 Dec 2019 23:45:16 +0900</pubDate>
+      <guid>https://d-kuro.github.io/post/deployment-revisionhistorylimit-default/</guid>
+      <description>&lt;p&gt;小ネタです。&lt;/p&gt;
+&lt;p&gt;ある日 &lt;code&gt;kubectl get replicaset&lt;/code&gt; とかを叩いた際にやたら履歴の数が多いことに気づきました。&lt;/p&gt;
+&lt;p&gt;Deployment に紐づく ReplicaSet の履歴の保持数を設定するためのフィールドとして &lt;code&gt;revisionHistoryLimit&lt;/code&gt; というものが存在します。
+デフォルト値は確か 10 だったはずと公式ドキュメントを確認しに行きましたが、そこには&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can set &lt;code&gt;.spec.revisionHistoryLimit&lt;/code&gt; field in a Deployment to specify how many old ReplicaSets for this Deployment you want to retain. The rest will be garbage-collected in the background. By default, it is 10.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#clean-up-policy&#34;&gt;https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#clean-up-policy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;と記載されています。&lt;/p&gt;
+&lt;p&gt;でも実際に &lt;code&gt;kubectl get deployment foo -o yaml&lt;/code&gt; をしてみると実際に設定されていたのは &lt;code&gt;revisionHistoryLimit: 2147483647&lt;/code&gt; でした。
+うーん多い。こういうときの便利コマンドとして &lt;code&gt;kubectl explain&lt;/code&gt; というコマンドが存在します。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;kubectl explain deployment.spec.revisionHistoryLimit&lt;/code&gt; のような感じで各 Object のフィールドのドキュメントを表示することができます。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;$ kubectl explain deployment.spec.revisionHistoryLimit
+KIND:     Deployment
+VERSION:  extensions/v1beta1
+
+FIELD:    revisionHistoryLimit &amp;lt;integer&amp;gt;
+
+DESCRIPTION:
+     The number of old ReplicaSets to retain to allow rollback. This is a
+     pointer to distinguish between explicit zero and not specified. This is set
+     to the max value of int32 (i.e. 2147483647) by default, which means
+     &amp;quot;retaining all old RelicaSets&amp;quot;.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is set to the max value of int32 (i.e. 2147483647) by default, which means &amp;ldquo;retaining all old RelicaSets&amp;rdquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;2147483647&lt;/code&gt; が設定されているのは正しそうですが、公式ドキュメントの記載とは食い違います。
+ここで注目してほしいのが &lt;code&gt;VERSION:  extensions/v1beta1&lt;/code&gt; です。古い。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;$ kubectl explain -h
+List the fields for supported resources
+
+ This command describes the fields associated with each supported API resource. Fields are identified via a simple
+JSONPath identifier:
+
+  &amp;lt;type&amp;gt;.&amp;lt;fieldName&amp;gt;[.&amp;lt;fieldName&amp;gt;]
+
+ Add the --recursive flag to display all of the fields at once without descriptions. Information about each field is
+retrieved from the server in OpenAPI format.
+
+Use &amp;quot;kubectl api-resources&amp;quot; for a complete list of supported resources.
+
+Examples:
+  # Get the documentation of the resource and its fields
+  kubectl explain pods
+
+  # Get the documentation of a specific field of a resource
+  kubectl explain pods.spec.containers
+
+Options:
+      --api-version=&#39;&#39;: Get different explanations for particular API version
+      --recursive=false: Print the fields of fields (Currently only 1 level deep)
+
+Usage:
+  kubectl explain RESOURCE [options]
+
+Use &amp;quot;kubectl options&amp;quot; for a list of global command-line options (applies to all commands).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Help を見ると &lt;code&gt;--api-version&lt;/code&gt; というオプションで指定ができそうです。
+&lt;code&gt;apps/v1&lt;/code&gt; の方を explain してみます。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;$ kubectl explain deployment.spec.revisionHistoryLimit --api-version apps/v1
+KIND:     Deployment
+VERSION:  apps/v1
+
+FIELD:    revisionHistoryLimit &amp;lt;integer&amp;gt;
+
+DESCRIPTION:
+     The number of old ReplicaSets to retain to allow rollback. This is a
+     pointer to distinguish between explicit zero and not specified. Defaults to
+     10.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;はい、完全に理解しました。
+バージョンは追従しましょう。
+Deployment の API Version が &lt;code&gt;apps/v1beta2&lt;/code&gt; になった際にデフォルトが 10 になったみたいです。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;kubectl explain&lt;/code&gt; は意外と便利なのでおすすめです。バージョンは追従しましょう (大事なことなので二回言いました)&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

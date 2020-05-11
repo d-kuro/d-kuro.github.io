@@ -43,17 +43,27 @@
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/posts/kubernetes-cidr/</loc>
+    <loc>https://d-kuro.github.io/categories/</loc>
     <lastmod>2020-05-06T22:09:56+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/tags/kubernetes/</loc>
+    <loc>https://d-kuro.github.io/post/kubernetes-cidr/</loc>
     <lastmod>2020-05-06T22:09:56+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/posts/</loc>
+    <loc>https://d-kuro.github.io/tag/kubernetes/</loc>
+    <lastmod>2020-05-06T22:09:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/category/kubernetes/</loc>
+    <lastmod>2020-05-06T22:09:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d-kuro.github.io/post/</loc>
     <lastmod>2020-05-06T22:09:56+09:00</lastmod>
   </url>
   
@@ -663,27 +673,7 @@
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/tags/client-go/</loc>
-    <lastmod>2020-01-06T01:09:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/controller-runtime/</loc>
-    <lastmod>2020-01-06T01:09:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/posts/kubernetes-leader-election/</loc>
-    <lastmod>2020-01-06T01:09:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/leader-election/</loc>
-    <lastmod>2020-01-06T01:09:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/operator-sdk/</loc>
+    <loc>https://d-kuro.github.io/post/kubernetes-leader-election/</loc>
     <lastmod>2020-01-06T01:09:52+09:00</lastmod>
   </url>
   
@@ -705,16 +695,6 @@
   <url>
     <loc>https://d-kuro.github.io/diaries/202001/20200103/</loc>
     <lastmod>2020-01-02T15:01:52+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/posts/2019-2020/</loc>
-    <lastmod>2020-01-02T22:42:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/poem/</loc>
-    <lastmod>2020-01-02T22:42:00+09:00</lastmod>
   </url>
   
   <url>
@@ -798,7 +778,7 @@
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/posts/deployment-revisionhistorylimit-default/</loc>
+    <loc>https://d-kuro.github.io/post/deployment-revisionhistorylimit-default/</loc>
     <lastmod>2019-12-17T23:45:16+09:00</lastmod>
   </url>
   
@@ -928,36 +908,6 @@
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/tags/csi/</loc>
-    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/event/</loc>
-    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/events/</loc>
-    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/kubernetes-meetup-tokyo/</loc>
-    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/events/k8sjp-25/</loc>
-    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-kuro.github.io/tags/storage/</loc>
-    <lastmod>2019-11-13T18:52:43+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://d-kuro.github.io/diaries/201911/20191113/</loc>
     <lastmod>2019-11-12T15:01:36+00:00</lastmod>
   </url>
@@ -1053,11 +1003,6 @@
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/events/k8sjp-24/</loc>
-    <lastmod>2019-10-25T10:31:10+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://d-kuro.github.io/diaries/201910/20191025/</loc>
     <lastmod>2019-10-24T15:01:41+00:00</lastmod>
   </url>
@@ -1108,20 +1053,19 @@
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/posts/to-quipper/</loc>
-    <lastmod>2019-10-01T01:33:11+09:00</lastmod>
+    <loc>https://d-kuro.github.io/authors/</loc>
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/page/about/</loc>
+    <loc>https://d-kuro.github.io/author/d-kuro/</loc>
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/categories/</loc>
+    <loc>https://d-kuro.github.io/publication_types/</loc>
   </url>
   
   <url>
-    <loc>https://d-kuro.github.io/page/</loc>
+    <loc>https://d-kuro.github.io/talk/</loc>
   </url>
   
 </urlset>
