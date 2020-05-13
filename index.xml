@@ -48,6 +48,13 @@
 &lt;li&gt;IPVS の説明とか書いてある, &lt;code&gt;kube-ipvs0&lt;/code&gt; というダミーの NIC を作ってそれ経由にするらしい&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Switch core master base images (kube-apiserver, kube-scheduler) from debian to distroless by dims · Pull Request #90674 · kubernetes/kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kubernetes/pull/90674&#34;&gt;https://github.com/kubernetes/kubernetes/pull/90674&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/superbrothers/status/1260377159635329024&#34;&gt;https://twitter.com/superbrothers/status/1260377159635329024&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;api-server と schduler が distroless になるらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
