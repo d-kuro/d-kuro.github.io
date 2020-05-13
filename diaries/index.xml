@@ -13,11 +13,42 @@
     </image>
     
     <item>
-      <title>20200513</title>
+      <title>2020-05-13</title>
       <link>https://d-kuro.github.io/diaries/202005/20200513/</link>
       <pubDate>Wed, 13 May 2020 10:58:38 +0900</pubDate>
       <guid>https://d-kuro.github.io/diaries/202005/20200513/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Top 10 must-know Kubernetes design patterns - Red Hat Developer
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/&#34;&gt;https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes Patterns, 読んでない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;IPVS-Based In-Cluster Load Balancing Deep Dive - Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/&#34;&gt;https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Comparing kube-proxy modes: iptables or IPVS? | Project Calico
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.projectcalico.org/comparing-kube-proxy-modes-iptables-or-ipvs/&#34;&gt;https://www.projectcalico.org/comparing-kube-proxy-modes-iptables-or-ipvs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;IPVS, 10000 Pods ぐらいないと効果ないのか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;When Linux conntrack is no longer your friend | Project Calico
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.projectcalico.org/when-linux-conntrack-is-no-longer-your-friend/&#34;&gt;https://www.projectcalico.org/when-linux-conntrack-is-no-longer-your-friend/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;conntrack チョットワカッタ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;一見普通なのにKubernetesを破壊するyaml - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/ozota/items/db74fc3d06834345afc9&#34;&gt;https://qiita.com/ozota/items/db74fc3d06834345afc9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;IPVS の説明とか書いてある, &lt;code&gt;kube-ipvs0&lt;/code&gt; というダミーの NIC を作ってそれ経由にするらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
