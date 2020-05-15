@@ -5,12 +5,21 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Fri, 15 May 2020 23:57:10 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Sat, 16 May 2020 00:07:19 +0900</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>20200516</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200516/</link>
+      <pubDate>Sat, 16 May 2020 00:07:19 +0900</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200516/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>20200515</title>
