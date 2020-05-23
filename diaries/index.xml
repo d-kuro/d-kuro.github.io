@@ -5,12 +5,200 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Tue, 19 May 2020 00:37:04 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Sat, 23 May 2020 15:02:10 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>2020-05-24</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200524/</link>
+      <pubDate>Sat, 23 May 2020 15:02:10 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200524/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Goのパッケージ名は単数形？複数形？ - My External Storage
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://budougumi0617.github.io/2020/05/22/package-name-in-go/&#34;&gt;https://budougumi0617.github.io/2020/05/22/package-name-in-go/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;単数形&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Style guideline for Go packages · Go, the unwritten parts
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rakyll.org/style-packages/https://github.com/kubernetes-sigs/aws-alb-ingress-controller/issues/914&#34;&gt;https://rakyll.org/style-packages/https://github.com/kubernetes-sigs/aws-alb-ingress-controller/issues/914&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go のパッケージガイドライン, めっちゃいい記事だ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;v1.18 から Ingress に追加された &lt;code&gt;ingressClassName&lt;/code&gt; は &lt;code&gt;kubernetes.io/ingress.class&lt;/code&gt; と共存ができない
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/ymmt2005/status/1262183955186384896&#34;&gt;https://twitter.com/ymmt2005/status/1262183955186384896&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/alexellisuk/status/1262056154403831813&#34;&gt;https://twitter.com/alexellisuk/status/1262056154403831813&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;istioctl upgrade&lt;/code&gt; コマンド, 便利
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/ido_kara_deru/status/1263746479522365440&#34;&gt;https://twitter.com/ido_kara_deru/status/1263746479522365440&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hugo v0.60以上を使うと、Markdown中のHTMLタグが「raw HTML omitted」となって消えてしまう - My External Storage
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://budougumi0617.github.io/2020/03/10/hugo-render-raw-html/&#34;&gt;https://budougumi0617.github.io/2020/03/10/hugo-render-raw-html/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;罠っぽい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CPU律速なRuby/Pythonコードはデフォルト設定のdocker上で遅くなる - まめめも
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mametter.hatenablog.com/entry/2020/05/23/032650&#34;&gt;https://mametter.hatenablog.com/entry/2020/05/23/032650&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;seccomp=unconfined&lt;/code&gt; で早くなるけどセキュリティ的に脆弱になるらしい, seccomp なんもわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Creating a Kubernetes cloud provider, doesn&amp;rsquo;t required boiling the ocean
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://thebsdbox.co.uk/2020/03/18/Creating-a-Kubernetes-cloud-doesn-t-required-boiling-the-ocean/?utm_sq=gee58hcvzn#Wait-what-is-the-cloud-controller-manager&#34;&gt;https://thebsdbox.co.uk/2020/03/18/Creating-a-Kubernetes-cloud-doesn-t-required-boiling-the-ocean/?utm_sq=gee58hcvzn#Wait-what-is-the-cloud-controller-manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;cloud-controller-manager の interface を実装して独自のクラウドプロバイダで type Loadbarancer を実装する話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ingress Group Feature Testing · Issue #914 · kubernetes-sigs/aws-alb-ingress-controller
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/aws-alb-ingress-controller/issues/914&#34;&gt;https://github.com/kubernetes-sigs/aws-alb-ingress-controller/issues/914&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1 つの ALB で複数の Ingress を表現するやつ, alpha らしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Istio &amp;amp; JWT: Step by Step Guide for Micro-Services Authentication
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/intelligentmachines/istio-jwt-step-by-step-guide-for-micro-services-authentication-690b170348fc&#34;&gt;https://medium.com/intelligentmachines/istio-jwt-step-by-step-guide-for-micro-services-authentication-690b170348fc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Istio 使って JWT で認証する話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第4章Kubernetesのトラブルシューティング-Red Hat Customer Portal
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://access.redhat.com/obsolete-documentation/ja/red-hat-enterprise-linux-atomic-host/7/paged/getting-started-with-containers/chapter-4-troubleshooting-kubernetes&#34;&gt;https://access.redhat.com/obsolete-documentation/ja/red-hat-enterprise-linux-atomic-host/7/paged/getting-started-with-containers/chapter-4-troubleshooting-kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;etcd のデバッグとかも乗ってる, etcdctl の使い方なんもわからんのでありがたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-05-23</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200523/</link>
+      <pubDate>Fri, 22 May 2020 15:01:38 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200523/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Go Tips 連載5: エラーコードベースの例外ハンドリングの実装＋morikuni/failureサンプル | フューチャー技術ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://future-architect.github.io/articles/20200522/&#34;&gt;https://future-architect.github.io/articles/20200522/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;エラーコードの価値がよく分かってない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go Tips連載6: Error wrappingされた各クラウドSDKの独自型エラーを扱う | フューチャー技術ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://future-architect.github.io/articles/20200523/&#34;&gt;https://future-architect.github.io/articles/20200523/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Canary deployment with Argo
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://particule.io/en/blog/argocd-canary/&#34;&gt;https://particule.io/en/blog/argocd-canary/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;【公開期間延長 7/31まで】「プログラミング言語Go完全入門」の期間限定公開のお知らせ - Mercari Engineering Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.mercari.com/entry/2020/03/17/120137&#34;&gt;https://tech.mercari.com/entry/2020/03/17/120137&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;テキスト処理とリフレクションが増えた, すごい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Istio / Change Notes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://istio.io/news/releases/1.6.x/announcing-1.6/change-notes/&#34;&gt;https://istio.io/news/releases/1.6.x/announcing-1.6/change-notes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Istio v1.6 が来ていた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;kubernetes-sigs/service-apis: Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/service-apis/&#34;&gt;https://github.com/kubernetes-sigs/service-apis/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ingress v2 と言われていたものっぽい, &lt;code&gt;Gateway&lt;/code&gt; って Kind になっていたりする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-05-22</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200522/</link>
+      <pubDate>Thu, 21 May 2020 15:01:39 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200522/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ConfigMap vs Secret #k8sjp - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/potsbo/configmap-vs-secret-number-k8sjp&#34;&gt;https://speakerdeck.com/potsbo/configmap-vs-secret-number-k8sjp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ConfigMap と Secret の違い, Secret はメモリに持ってたりする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Facebook London に入社することになりました
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.notion.so/Facebook-London-13743da603ce4632bd9f96672faa0d74&#34;&gt;https://www.notion.so/Facebook-London-13743da603ce4632bd9f96672faa0d74&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LeetCode やる実力がありません&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;aws/aws-eks-best-practices: A best practices guide for day 2 operations, including operational excellence, security, reliability, performance efficiency, and cost optimization.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aws/aws-eks-best-practices&#34;&gt;https://github.com/aws/aws-eks-best-practices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;EKS Best Practices Guide for Security
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.github.io/aws-eks-best-practices/&#34;&gt;https://aws.github.io/aws-eks-best-practices/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CNI Metrics Helper - Amazon EKS
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/eks/latest/userguide/cni-metrics-helper.html&#34;&gt;https://docs.aws.amazon.com/ja_jp/eks/latest/userguide/cni-metrics-helper.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ENI の数とか監視するやつ, 知らんかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-05-20</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200520/</link>
+      <pubDate>Tue, 19 May 2020 15:01:41 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200520/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;トライ木(Trie木) の解説と実装【接頭辞(prefix) を利用したデータ構造】 | アルゴリズムロジック
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://algo-logic.info/trie-tree/&#34;&gt;https://algo-logic.info/trie-tree/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;O(文字の長さ) で検索ができる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;EKS で ALB のホストごとにヘルスチェックを設定する - hatappi.blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.hatappi.me/entry/2019/01/13/134840&#34;&gt;https://blog.hatappi.me/entry/2019/01/13/134840&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Service の annotation で設定できる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Three bugs in the Go MySQL Driver - The GitHub Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.blog/2020-05-20-three-bugs-in-the-go-mysql-driver/&#34;&gt;https://github.blog/2020-05-20-three-bugs-in-the-go-mysql-driver/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の MySQL Driver のバグについて&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scheduling Profile が実現する Pod 配置戦略の最前線 #InfraStudy / Infra Study Meetup 2nd - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/ytaka23/infra-study-meetup-2nd&#34;&gt;https://speakerdeck.com/ytaka23/infra-study-meetup-2nd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2020-05-18</title>
@@ -76,11 +264,31 @@
     </item>
     
     <item>
-      <title>20200519</title>
+      <title>2020-05-19</title>
       <link>https://d-kuro.github.io/diaries/202005/20200519/</link>
       <pubDate>Mon, 18 May 2020 15:01:19 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202005/20200519/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft PowerPoint - 2019-01-25 オンプレミス Kubernetes のネットワーク
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.janog.gr.jp/meeting/janog43/application/files/2215/4900/5049/janog43-k8s-shirota.pdf&#34;&gt;https://www.janog.gr.jp/meeting/janog43/application/files/2215/4900/5049/janog43-k8s-shirota.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CNI とかの仕組みが図解されておりわかりやすい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;注目のOpen Policy Agent、その概要とKubernetesでの活用事例 | Think IT（シンクイット）
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://thinkit.co.jp/article/17511&#34;&gt;https://thinkit.co.jp/article/17511&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OPA, Rego がよくわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;サービス間通信のための新技術「gRPC」入門 | さくらのナレッジ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://knowledge.sakura.ad.jp/24059/&#34;&gt;https://knowledge.sakura.ad.jp/24059/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;gRPC, 軽く触った程度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
