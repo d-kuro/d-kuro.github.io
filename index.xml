@@ -5,12 +5,147 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>AFN Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Sat, 23 May 2020 15:02:10 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Tue, 02 Jun 2020 00:36:04 +0900</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
       <title>AFN Blog</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>20200602</title>
+      <link>https://d-kuro.github.io/content/diaries/202006/20200602/</link>
+      <pubDate>Tue, 02 Jun 2020 00:36:04 +0900</pubDate>
+      <guid>https://d-kuro.github.io/content/diaries/202006/20200602/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>20200601</title>
+      <link>https://d-kuro.github.io/content/diaries/202006/20200601/</link>
+      <pubDate>Tue, 02 Jun 2020 00:36:02 +0900</pubDate>
+      <guid>https://d-kuro.github.io/content/diaries/202006/20200601/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>20200531</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200531/</link>
+      <pubDate>Tue, 02 Jun 2020 00:35:53 +0900</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200531/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>20200530</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200530/</link>
+      <pubDate>Tue, 02 Jun 2020 00:35:51 +0900</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200530/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>20200529</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200529/</link>
+      <pubDate>Fri, 29 May 2020 23:49:56 +0900</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200529/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>20200528</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200528/</link>
+      <pubDate>Fri, 29 May 2020 23:49:53 +0900</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200528/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2020-05-27</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200527/</link>
+      <pubDate>Tue, 26 May 2020 15:02:24 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200527/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;cgroup による oom-killer の状態を eventfd 経由で受け取る
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://harasou.jp/2015/05/20/cgroup-eventfd/&#34;&gt;https://harasou.jp/2015/05/20/cgroup-eventfd/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;カーネルの通知ってこんな感じになってるのかー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.13. 通知 API の使用 Red Hat Enterprise Linux 6 | Red Hat Customer Portal
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/6/html/resource_management_guide/sec-Using_the_Notification_API&#34;&gt;https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/6/html/resource_management_guide/sec-Using_the_Notification_API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;カーネル周りの RedHat のドキュメントの信頼性がやばい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go言語（golang）における値渡しとポインタ渡しのパフォーマンス影響について - Finatext - Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/finatext/go%E8%A8%80%E8%AA%9E-golang-%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%80%A4%E6%B8%A1%E3%81%97%E3%81%A8%E3%83%9D%E3%82%A4%E3%83%B3%E3%82%BF%E6%B8%A1%E3%81%97%E3%81%AE%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E5%BD%B1%E9%9F%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-70aa3605adc5&#34;&gt;https://medium.com/finatext/go%E8%A8%80%E8%AA%9E-golang-%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%80%A4%E6%B8%A1%E3%81%97%E3%81%A8%E3%83%9D%E3%82%A4%E3%83%B3%E3%82%BF%E6%B8%A1%E3%81%97%E3%81%AE%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E5%BD%B1%E9%9F%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-70aa3605adc5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;よく話に出るやつ, めんどいので脳死ポインタしているけど中でポインタ使ってないなら値渡しのがよさそうにみえる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-05-26</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200526/</link>
+      <pubDate>Mon, 25 May 2020 15:04:16 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200526/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes research
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnk8s.io/research&#34;&gt;https://learnk8s.io/research&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;インスタンスタイプごとの比較とか, Managed Kubernetes 比較とか Service Mesh 比較とか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CPU CFS Quotaを制限している場合の適切なGOMAXPROCS - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/appropriate-gomaxprocs-when-limiting-cfs-quota&#34;&gt;https://christina04.hatenablog.com/entry/appropriate-gomaxprocs-when-limiting-cfs-quota&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CPU Limits 基本書かないんだがその場合は気にしなくていいのかな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;スマホゲームの API サーバにおける EKS の運用事例 | エンジニアブログ | GREE Engineering
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://labs.gree.jp/blog/2020/01/20271/&#34;&gt;https://labs.gree.jp/blog/2020/01/20271/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改めて IP range 考えるときに見た, 便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-05-25</title>
+      <link>https://d-kuro.github.io/diaries/202005/20200525/</link>
+      <pubDate>Sun, 24 May 2020 15:02:20 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202005/20200525/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The Kubernetes Cloud Controller Manager - Mikael Johansson - Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@m.json/the-kubernetes-cloud-controller-manager-d440af0d2be5&#34;&gt;https://medium.com/@m.json/the-kubernetes-cloud-controller-manager-d440af0d2be5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cloud Controller Manager の記事が増えて来た気がする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sidecar Containers · Issue #753 · kubernetes/enhancements
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/enhancements/issues/753&#34;&gt;https://github.com/kubernetes/enhancements/issues/753&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sidecar コンテナの制御の Issue, v1.19 にも入らなさそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Inside Kinvolk Labs: Investigating Kubernetes performance issues with BPF | Kinvolk
+&lt;ul&gt;
+&lt;li&gt;eBPF なんもわからん, &lt;code&gt;docker.io/kinvolk/bcc&lt;/code&gt; image は便利そう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2020-05-24</title>
