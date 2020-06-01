@@ -27,6 +27,15 @@
       <pubDate>Tue, 02 Jun 2020 00:38:44 +0900</pubDate>
       <guid>https://d-kuro.github.io/diaries/202006/20200601/</guid>
       <description>&lt;h1 id=&#34;note&#34;&gt;Note&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;containerd/cgroups: cgroups package for Go
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/containerd/cgroups&#34;&gt;https://github.com/containerd/cgroups&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;cgroup の Go 向けライブラリ, コードリーディングしたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -36,6 +45,38 @@
       <pubDate>Tue, 02 Jun 2020 00:35:53 +0900</pubDate>
       <guid>https://d-kuro.github.io/diaries/202005/20200531/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Week Ending May 24, 2020 | Last Week in Kubernetes Development
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://lwkd.info/2020/20200526&#34;&gt;http://lwkd.info/2020/20200526&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JSON の構造化ログが入ろうとしてるのかな, 最高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Thomas Kurian: Google will donate Istio to a foundation - Protocol
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.protocol.com/google-cloud-kurian-istio-foundation&#34;&gt;https://www.protocol.com/google-cloud-kurian-istio-foundation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Istio が CNCF に寄贈されそう, しらんかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goのtestを理解する - httptestサブパッケージ編 - My External Storage
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://budougumi0617.github.io/2020/05/29/go-testing-httptest/&#34;&gt;https://budougumi0617.github.io/2020/05/29/go-testing-httptest/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;httptest, 便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Microservices における認証と認可の設計パターン - Please Sleep
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://please-sleep.cou929.nu/microservices-auth-design.html&#34;&gt;https://please-sleep.cou929.nu/microservices-auth-design.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最近チョット JWT 覚えた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ssh-rsa，非推奨のお知らせ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://orumin.blogspot.com/2020/05/ssh-rsa.html&#34;&gt;https://orumin.blogspot.com/2020/05/ssh-rsa.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;しらんかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -45,6 +86,38 @@
       <pubDate>Tue, 02 Jun 2020 00:35:51 +0900</pubDate>
       <guid>https://d-kuro.github.io/diaries/202005/20200530/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Conntrack metrics from the node exporter – Robust Perception | Prometheus Monitoring Experts
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robustperception.io/conntrack-metrics-from-the-node-exporter&#34;&gt;https://www.robustperception.io/conntrack-metrics-from-the-node-exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;node exporter で conntrack のメトリクスを取得する話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;prometheus/node_exporter: Exporter for machine metrics
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/prometheus/node_exporter&#34;&gt;https://github.com/prometheus/node_exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;しらんかった, めっちゃいいじゃんこれ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kustomize - Kubernetes native configuration management
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kustomize.io/&#34;&gt;https://kustomize.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;kustomize の公式サイト&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CPU CFS Quotaを制限している場合の適切なGOMAXPROCS - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/appropriate-gomaxprocs-when-limiting-cfs-quota&#34;&gt;https://christina04.hatenablog.com/entry/appropriate-gomaxprocs-when-limiting-cfs-quota&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go のコンテナアプリ, とりあえず &lt;code&gt;github.com/uber-go/automaxprocs&lt;/code&gt; 使うと良さそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;uber-go/automaxprocs: Automatically set GOMAXPROCS to match Linux container CPU quota.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/uber-go/automaxprocs&#34;&gt;https://github.com/uber-go/automaxprocs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;べんりっぽい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -54,6 +127,42 @@
       <pubDate>Fri, 29 May 2020 23:49:56 +0900</pubDate>
       <guid>https://d-kuro.github.io/diaries/202005/20200529/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;jq -c paths&lt;/code&gt; で JSON の path が取れるらしい, 知らんかった
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/raki/status/1264266344070959106&#34;&gt;https://twitter.com/raki/status/1264266344070959106&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AWS上のコンテナはネットワークをどう利用するのか？ ポート番号の扱いとDNSの仕組みを中心に - エンジニアHub｜若手Webエンジニアのキャリアを考える！
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://employment.en-japan.com/engineerhub/entry/2020/05/21/103000&#34;&gt;https://employment.en-japan.com/engineerhub/entry/2020/05/21/103000&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;【Go】構造体のフィールドに定義してある&lt;code&gt;_ struct{}&lt;/code&gt;はどういう意味？ - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/fuubit/items/88ff1185de1a67d9e5bd&#34;&gt;https://qiita.com/fuubit/items/88ff1185de1a67d9e5bd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;フィールド名が省略できなくなる, ほへー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Most common design issues found during Production Readiness Reviews | Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@bocytko/most-common-design-issues-found-during-production-readiness-and-post-incident-reviews-47b2c9e14a9d&#34;&gt;https://medium.com/@bocytko/most-common-design-issues-found-during-production-readiness-and-post-incident-reviews-47b2c9e14a9d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;いい話, タイムアウトとかサーキットブレイカーとか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;コンピュータ・サイエンスやりたくなって1年ちょっとコツコツやってる/やったことたち - でこてっくろぐ ねお
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dekotech.dekokun.info/entry/2019/05/22/135330&#34;&gt;https://dekotech.dekokun.info/entry/2019/05/22/135330&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;すごい, コンピュータサイエンス系の Podcast, なるほど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Google社のテクニカルライティングの基礎教育資料がとても良かったので紹介したい - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/yasuoyasuo/items/c43783316a4d141a140f&#34;&gt;https://qiita.com/yasuoyasuo/items/c43783316a4d141a140f&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;いい話, ドキュメントを書くときに&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -63,6 +172,31 @@
       <pubDate>Fri, 29 May 2020 23:49:53 +0900</pubDate>
       <guid>https://d-kuro.github.io/diaries/202005/20200528/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;コンテナ仮想、その裏側 〜user namespaceとrootlessコンテナ〜 - Retrieva TECH BLOG
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.retrieva.jp/entry/2019/06/04/130134&#34;&gt;https://tech.retrieva.jp/entry/2019/06/04/130134&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;力作, 全然読めてない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TCP/IP エラー処理 connect 編
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://x68000.q-e-d.net/~68user/net/tcp-connect-1.html&#34;&gt;http://x68000.q-e-d.net/~68user/net/tcp-connect-1.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Overriding the default Linux kernel 20-second TCP socket connect timeout - willbryant.net
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://willbryant.net/overriding_the_default_linux_kernel_20_second_tcp_socket_connect_timeout&#34;&gt;http://willbryant.net/overriding_the_default_linux_kernel_20_second_tcp_socket_connect_timeout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/proc/sys/net/ipv4/tcp_syn_retries&lt;/code&gt; で SYN のリトライ回数が決まっていて, タイムアウトもそのリトライ回数に引っ張られるという話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;負荷が低いのにアクセスを捌けきれない時の対応 - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/2016/12/31/124314&#34;&gt;https://christina04.hatenablog.com/entry/2016/12/31/124314&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;勉強になる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
