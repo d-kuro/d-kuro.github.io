@@ -18,6 +18,43 @@
       <pubDate>Tue, 02 Jun 2020 00:38:47 +0900</pubDate>
       <guid>https://d-kuro.github.io/diaries/202006/20200602/</guid>
       <description>&lt;h1 id=&#34;note&#34;&gt;Note&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;カーネルとシステムコール - YouTube
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8YGNg38-6jM&#34;&gt;https://www.youtube.com/watch?v=8YGNg38-6jM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;わかりやすい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;あなたのGoアプリ/ライブラリのパッケージ構成もっとシンプルでよくない？ | フューチャー技術ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://future-architect.github.io/articles/20200528/&#34;&gt;https://future-architect.github.io/articles/20200528/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;まあわかる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MySQL max_connections は雑に設定しておけば良い - mita2 database life
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mita2db.hateblo.jp/entry/2020/05/31/175523&#34;&gt;https://mita2db.hateblo.jp/entry/2020/05/31/175523&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ほへー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Seccomp in Kubernetes — Part 2: Crafting custom seccomp profiles for your applications
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://itnext.io/seccomp-in-kubernetes-part-2-crafting-custom-seccomp-profiles-for-your-applications-c28c658f676e&#34;&gt;https://itnext.io/seccomp-in-kubernetes-part-2-crafting-custom-seccomp-profiles-for-your-applications-c28c658f676e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;大変そう, そこまでやりたくない問題&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;LinuxのBPF : (1) パケットフィルタ - 睡分不足
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://mmi.hatenablog.com/entry/2016/08/01/031233&#34;&gt;http://mmi.hatenablog.com/entry/2016/08/01/031233&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;このへんシュッと理解できないのでだめ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;LinuxのBPF : (2) seccompでの利用 - 睡分不足
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://mmi.hatenablog.com/entry/2016/08/01/044000&#34;&gt;http://mmi.hatenablog.com/entry/2016/08/01/044000&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -34,7 +71,24 @@
 &lt;li&gt;cgroup の Go 向けライブラリ, コードリーディングしたい&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;Go and CPU Caches - Teiva Harsanyi - Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@teivah/go-and-cpu-caches-af5d32cc5592&#34;&gt;https://medium.com/@teivah/go-and-cpu-caches-af5d32cc5592&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CPU キャッシュ, なるほど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;転職したらKubernetesだった件 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/yuanying/items/ceeeb7329a4fdc566546&#34;&gt;https://qiita.com/yuanying/items/ceeeb7329a4fdc566546&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;めっちゃいい記事, Kubernete が中で何やってるのかよくわかる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CPU and Linux - YouTube
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=etZrDmrD5Q0&#34;&gt;https://www.youtube.com/watch?v=etZrDmrD5Q0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;sat さんの Youtube チャンネル, subscribe した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
