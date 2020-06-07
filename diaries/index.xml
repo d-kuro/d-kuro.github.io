@@ -5,12 +5,131 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 03 Jun 2020 15:02:06 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Sun, 07 Jun 2020 15:02:10 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>20200608</title>
+      <link>https://d-kuro.github.io/diaries/202006/20200608/</link>
+      <pubDate>Sun, 07 Jun 2020 15:02:10 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202006/20200608/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-06-07</title>
+      <link>https://d-kuro.github.io/diaries/202006/20200607/</link>
+      <pubDate>Sat, 06 Jun 2020 15:01:55 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202006/20200607/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How to keep your Kubernetes secrets secure in Git
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnk8s.io/kubernetes-secrets-in-git&#34;&gt;https://learnk8s.io/kubernetes-secrets-in-git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Secret を Git に commit するときに使えるツール類の紹介&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Certified Kubernetes Administrator (CKA) Program Changes: 2020 - Linux Foundation - Training
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://training.linuxfoundation.org/cka-program-changes-2020/&#34;&gt;https://training.linuxfoundation.org/cka-program-changes-2020/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;09/01 から CKA が新しくなるっぽい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;goccy/go-yaml: YAML support for the Go language
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/goccy/go-yaml&#34;&gt;https://github.com/goccy/go-yaml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;新しく出てきた Go の YAML パッケージ, YAMLPath めっちゃ便利そう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;kubernetes-sigs/ingress-controller-conformance: Repository for a compliance specification of ingress-controllers.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/ingress-controller-conformance&#34;&gt;https://github.com/kubernetes-sigs/ingress-controller-conformance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ingress controller の conformance test するやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;x/lint: freeze and deprecate · Issue #38968 · golang/go
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/38968&#34;&gt;https://github.com/golang/go/issues/38968&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;golint が非推奨 and フリーズ, まあ仕方ない気がする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-06-06</title>
+      <link>https://d-kuro.github.io/diaries/202006/20200606/</link>
+      <pubDate>Fri, 05 Jun 2020 15:01:40 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202006/20200606/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;When it’s not only about a Kubernetes CVE… - Breizh Zero-day Hunters - Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@BreizhZeroDayHunters/when-its-not-only-about-a-kubernetes-cve-8f6b448eafa8&#34;&gt;https://medium.com/@BreizhZeroDayHunters/when-its-not-only-about-a-kubernetes-cve-8f6b448eafa8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes に SSRF の脆弱性があることを見つけた話, おもしろい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Announcing k8s-image-availability-exporter - Flant - Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/flant-com/prometheus-exporter-to-check-kubernetes-images-availability-26c306c44c08&#34;&gt;https://medium.com/flant-com/prometheus-exporter-to-check-kubernetes-images-availability-26c306c44c08&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;使ってる Image が無いことをメトリクスにして吐き出せるようにしてくれるやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitOps CLI tool | werf
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://werf.io/&#34;&gt;https://werf.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;こんなのあるのか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Using SSL certificates from Let’s Encrypt in your Kubernetes Ingress via cert-manager
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/flant-com/cert-manager-lets-encrypt-ssl-certs-for-kubernetes-7642e463bbce&#34;&gt;https://medium.com/flant-com/cert-manager-lets-encrypt-ssl-certs-for-kubernetes-7642e463bbce&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;cert-manager なんもわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-06-05</title>
+      <link>https://d-kuro.github.io/diaries/202006/20200605/</link>
+      <pubDate>Thu, 04 Jun 2020 15:02:47 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202006/20200605/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;goで書いたコードがヒープ割り当てになるかを確認する方法 · hnakamur&amp;rsquo;s blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hnakamur.github.io/blog/2018/01/30/go-heap-allocations/&#34;&gt;https://hnakamur.github.io/blog/2018/01/30/go-heap-allocations/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;破棄容易性の観点から、データパイプラインのk8s移行にまつわるGoコード改修を振り返る - 好奇心に殺される。- pon のテックブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://po3rin.com/blog/mq-reconnect&#34;&gt;https://po3rin.com/blog/mq-reconnect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;gracefull shutdown のコードとかは毎回使う頻出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes上のアプリケーション開発を加速させるツール(1) Skaffold | Think IT（シンクイット）
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://thinkit.co.jp/article/17553&#34;&gt;https://thinkit.co.jp/article/17553&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Skaffold, ローカルで開発するなら便利かもしれない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Supporting the Evolving Ingress Specification in Kubernetes 1.18 - Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18/&#34;&gt;https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;pathType field, IngressClass resource, Support for wildcards in hostnames&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2020-06-04</title>
