@@ -13,38 +13,122 @@
     </image>
     
     <item>
-      <title>20200621</title>
+      <title>2020-06-21</title>
       <link>https://d-kuro.github.io/diaries/202006/20200621/</link>
       <pubDate>Sat, 20 Jun 2020 15:01:55 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202006/20200621/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dockerfile のベスト・プラクティス — Docker-docs-ja 19.03 ドキュメント
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.docker.jp/develop/develop-images/dockerfile_best-practices.html&#34;&gt;https://docs.docker.jp/develop/develop-images/dockerfile_best-practices.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;更新されたらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Expose Pod Information to Containers Through Environment Variables | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/&#34;&gt;https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fieldPath&lt;/code&gt; みたいなので環境変数に Pod の name とか入れられるやつ, Downward API という名前がついているらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Expose Pod Information to Containers Through Files | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information/&#34;&gt;https://kubernetes.io/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Capabilities of the Downward API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>20200620</title>
+      <title>2020-06-20</title>
       <link>https://d-kuro.github.io/diaries/202006/20200620/</link>
       <pubDate>Fri, 19 Jun 2020 15:02:14 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202006/20200620/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;cgroup の cpu.shares を検証した
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://harasou.jp/2015/06/02/cgroup-cpu-cpushare/&#34;&gt;https://harasou.jp/2015/06/02/cgroup-cpu-cpushare/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;わかりやすい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;mapの競合状態のはなし - 今川館
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://imagawa.hatenadiary.jp/entry/2019/08/14/090000&#34;&gt;http://imagawa.hatenadiary.jp/entry/2019/08/14/090000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;atomic.Value&lt;/code&gt;, なるほど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;kubernetes/sample-cli-plugin: Sample kubectl plugin
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/sample-cli-plugin&#34;&gt;https://github.com/kubernetes/sample-cli-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;kubectl プラグインのサンプル&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;fzf ライクな fuzzy-finder を提供する Go ライブラリを書いた - blog.syfm
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://syfm.hatenablog.com/entry/2019/02/09/120000&#34;&gt;https://syfm.hatenablog.com/entry/2019/02/09/120000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Building a Kubernetes Client in Go · Johandry&amp;rsquo;s Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.johandry.com/post/build-k8s-client/&#34;&gt;http://blog.johandry.com/post/build-k8s-client/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Client の使い方, わからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>20200619</title>
+      <title>2020-06-19</title>
       <link>https://d-kuro.github.io/diaries/202006/20200619/</link>
       <pubDate>Thu, 18 Jun 2020 15:02:08 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202006/20200619/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The Next Step for Generics - The Go Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/generics-next-step&#34;&gt;https://blog.golang.org/generics-next-step&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The Go Playground
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://go2goplay.golang.org/&#34;&gt;https://go2goplay.golang.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Generics が使えるぞ！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A Concise Guide to the Latest Go Generics Draft Design | Preslav Mihaylov
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pmihaylov.com/go-generics-draft-design/&#34;&gt;https://pmihaylov.com/go-generics-draft-design/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の Generics についてのサンプルコードがいっぱい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>20200618</title>
+      <title>2020-06-18</title>
       <link>https://d-kuro.github.io/diaries/202006/20200618/</link>
       <pubDate>Wed, 17 Jun 2020 15:02:24 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202006/20200618/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Speeding up a Git monorepo at Dropbox with &amp;lt;200 lines of code - Dropbox
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dropbox.tech/application/speeding-up-a-git-monorepo-at-dropbox-with--200-lines-of-code&#34;&gt;https://dropbox.tech/application/speeding-up-a-git-monorepo-at-dropbox-with--200-lines-of-code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dropbox の monorepo の話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CVE-2020-10749（Kubernetesの脆弱性）のPoCについての解説 - knqyf263&amp;rsquo;s blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://knqyf263.hatenablog.com/entry/2020/06/19/063431&#34;&gt;https://knqyf263.hatenablog.com/entry/2020/06/19/063431&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
