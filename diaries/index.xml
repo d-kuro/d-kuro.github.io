@@ -5,7 +5,7 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 01 Jul 2020 15:02:41 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Sat, 04 Jul 2020 15:02:26 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
       <title>Diaries</title>
@@ -13,11 +13,105 @@
     </image>
     
     <item>
-      <title>20200702</title>
+      <title>2020-07-05</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200705/</link>
+      <pubDate>Sat, 04 Jul 2020 15:02:26 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200705/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon VPC CNI plugin for KubernetesのソースコードリーディングでEKSのネットワーキングについて理解を深める #1 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/jlandowner/items/fec3cc33bc754282db11&#34;&gt;https://qiita.com/jlandowner/items/fec3cc33bc754282db11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CNI わからんって N 回言ってる気がする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-04</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200704/</link>
+      <pubDate>Fri, 03 Jul 2020 15:02:23 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200704/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Goのジェネリクスについて - Google スライド
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1OdVqicGYtjdkp9XTlQKR2B_5_RWpu97GmNOKw4cPRnU/edit#slide=id.p&#34;&gt;https://docs.google.com/presentation/d/1OdVqicGYtjdkp9XTlQKR2B_5_RWpu97GmNOKw4cPRnU/edit#slide=id.p&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ジェネリクスについて, まとまってる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go言語らしくGoコードを実装するための手法と思想 - かねしんショップ - BOOTH
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://booth.pm/ja/items/1061168&#34;&gt;https://booth.pm/ja/items/1061168&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;本, 無料化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kourier: A lightweight Knative Serving ingress - Red Hat Developer
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress/&#34;&gt;https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/kuromt_/status/1278492055916867584&#34;&gt;https://twitter.com/kuromt_/status/1278492055916867584&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Knative で istio の代わりに Kourier を Ingress に使えるようになったとかなんとか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-03</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200703/</link>
+      <pubDate>Thu, 02 Jul 2020 15:02:17 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200703/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;次期 Go 言語で導入される総称型について予習する（その2） — プログラミング言語 Go | text.Baldanders.info
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://text.baldanders.info/golang/generics-in-go-2-update/&#34;&gt;https://text.baldanders.info/golang/generics-in-go-2-update/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ジェネリクスほしいけどまあそんないらない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;golang の iota の使い所 - pospomeのプログラミング日記
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pospome.work/entry/2017/08/20/153604&#34;&gt;https://www.pospome.work/entry/2017/08/20/153604&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;そういやあんま使うコード書いたこと無いなあ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-02</title>
       <link>https://d-kuro.github.io/diaries/202007/20200702/</link>
       <pubDate>Wed, 01 Jul 2020 15:02:41 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202007/20200702/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Date Formats: ISO 8601 | SRCco.de
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://srcco.de/posts/date-formats-iso-8601.html&#34;&gt;https://srcco.de/posts/date-formats-iso-8601.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ISO 8601 を使おうという話, ごめん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Production Checklist for Web Apps on Kubernetes | SRCco.de
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://srcco.de/posts/web-service-on-kubernetes-production-checklist-2019.html&#34;&gt;https://srcco.de/posts/web-service-on-kubernetes-production-checklist-2019.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes の production readiness check list, まとまってる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goでインメモリキャッシュを取り扱う時にハマった話 - Gunosy Tech Blog
+&lt;ul&gt;
+&lt;li&gt;インメモリキャッシュでポインタを格納するときは気をつけようねという話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goを学ぶときにつまずきやすいポイントFAQ | フューチャー技術ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://future-architect.github.io/articles/20190713/&#34;&gt;https://future-architect.github.io/articles/20190713/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
