@@ -18,6 +18,20 @@
       <pubDate>Mon, 06 Jul 2020 15:02:41 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202007/20200707/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Minimum Viable Kubernetes · Emanuel Evans
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eevans.co/blog/minimum-viable-kubernetes/&#34;&gt;https://eevans.co/blog/minimum-viable-kubernetes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最小構成の Kubernetes を手動でセットアップするやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Deepen Understanding of CNI by reading amazon-vpc-cni-k8s
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@terako.studio/deepen-understanding-of-cni-by-reading-amazon-vpc-cni-k8s-11ab525882f2&#34;&gt;https://medium.com/@terako.studio/deepen-understanding-of-cni-by-reading-amazon-vpc-cni-k8s-11ab525882f2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CNI の実装について, 日本語記事&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
