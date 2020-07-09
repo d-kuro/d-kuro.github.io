@@ -5,12 +5,104 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>AFN Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Mon, 06 Jul 2020 15:02:41 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 08 Jul 2020 15:02:52 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
       <title>AFN Blog</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>2020-07-09</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200709/</link>
+      <pubDate>Wed, 08 Jul 2020 15:02:52 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200709/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OIDC issuer discovery for Kubernetes service accounts · Banzai Cloud
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://banzaicloud.com/blog/kubernetes-oidc/&#34;&gt;https://banzaicloud.com/blog/kubernetes-oidc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;この辺なんもわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Open Usage Commons
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://openusage.org/&#34;&gt;https://openusage.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Istio が CNCF に入らずこっちに入ったらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Graceful shutdown in Kubernetes is not always trivial | by Flant staff | Flant | Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/flant-com/kubernetes-graceful-shutdown-nginx-php-fpm-d5ab266963c2&#34;&gt;https://medium.com/flant-com/kubernetes-graceful-shutdown-nginx-php-fpm-d5ab266963c2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Graceful shutdown しような&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;go.mod&lt;/code&gt; のメジャーバージョン上げる時に &lt;code&gt;module&lt;/code&gt; に &lt;code&gt;v2&lt;/code&gt; とかつけるといいらしい
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/sonatard/status/1280714421711499266&#34;&gt;https://twitter.com/sonatard/status/1280714421711499266&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Datadog を Kubernetes 上で運用するときのカーディナリティ設定 - たんぶろぐ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zuiurs.hatenablog.com/entry/2020/07/07/194501&#34;&gt;https://zuiurs.hatenablog.com/entry/2020/07/07/194501&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DD_CHECKS_TAG_CARDINALITY&lt;/code&gt;, 知らなかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GoでWebアプリ開発時にあるあるだったレビューコメント | フューチャー技術ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://future-architect.github.io/articles/20200709/&#34;&gt;https://future-architect.github.io/articles/20200709/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;いいまとめ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitHub Actions: Manual triggers with workflow_dispatch The GitHub Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/&#34;&gt;https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub Actions の手動実行, 便利な気がする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Node で実行されている Pod のリソース計算に initContainers が考慮されてなかったのが直るらしい
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/superbrothers/status/1280478918064005120&#34;&gt;https://twitter.com/superbrothers/status/1280478918064005120&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetesで private registry のイメージをPull する場合には ImagePullSecretsを使う | by makotow | makotow’s blog clone | Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/makotows-blog/kubernetes-private-registry-tips-image-pullsecretse-20dfb808dfc-e20dfb808dfc&#34;&gt;https://medium.com/makotows-blog/kubernetes-private-registry-tips-image-pullsecretse-20dfb808dfc-e20dfb808dfc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ServiceAccount に &lt;code&gt;IamgepullSecrets&lt;/code&gt; を追加できるらしい, 知らなかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-08</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200708/</link>
+      <pubDate>Tue, 07 Jul 2020 15:02:21 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200708/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;マイクロサービスにおける決済トランザクション管理 - Mercari Engineering Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.mercari.com/entry/2019/06/07/155849&#34;&gt;https://tech.mercari.com/entry/2019/06/07/155849&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;補償トランザクションとかの話, 大変そう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;お手軽Kubernetesクラスタ作成ツール &amp;ldquo;kind&amp;quot;の紹介 - Cybozu Inside Out | サイボウズエンジニアのブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cybozu.io/entry/2019/07/03/170000&#34;&gt;https://blog.cybozu.io/entry/2019/07/03/170000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;kind load&lt;/code&gt; コマンドの存在をよく忘れる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ストレージの基礎 - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/ysakashita/sutorezifalseji-chu&#34;&gt;https://speakerdeck.com/ysakashita/sutorezifalseji-chu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;わかりやすくまとまっている, ブロックストレージとオブジェクトストレージの違いすら説明できんかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2020-07-07</title>
