@@ -13,11 +13,36 @@
     </image>
     
     <item>
-      <title>20200713</title>
+      <title>2020-07-13</title>
       <link>https://d-kuro.github.io/diaries/202007/20200713/</link>
       <pubDate>Sun, 12 Jul 2020 15:02:08 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202007/20200713/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Japan Dev Blog | 日本で働くソフトウェアエンジニアの給与：東京で働く外国人エンジニアによる究極のガイド | Japan Dev
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://japan-dev.com/blog/jp-software-developer-salaries-in-japan-the-ultimate-guide&#34;&gt;https://japan-dev.com/blog/jp-software-developer-salaries-in-japan-the-ultimate-guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rust ツアー - Let&amp;rsquo;s go on an adventure!
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tourofrust.com/00_ja.html&#34;&gt;https://tourofrust.com/00_ja.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;日本語版もあるのか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;実践的低レイヤプログラミング
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tanakamura.github.io/pllp/docs/index.html&#34;&gt;https://tanakamura.github.io/pllp/docs/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;なんもわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;amazon-eks-user-guide/kubernetes-versions.md at master · awsdocs/amazon-eks-user-guide
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/awsdocs/amazon-eks-user-guide/blob/master/doc_source/kubernetes-versions.md#kubernetes-117&#34;&gt;https://github.com/awsdocs/amazon-eks-user-guide/blob/master/doc_source/kubernetes-versions.md#kubernetes-117&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;EKS, v1.17 がきている, めぼしい機能は Pod Topology Spread Constraints ぐらい?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -31,6 +56,13 @@
 &lt;li&gt;Go 1.13時代のエラー実装者のお作法 - Qiita
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://qiita.com/shibukawa/items/e633e426a6e67ea2e830&#34;&gt;https://qiita.com/shibukawa/items/e633e426a6e67ea2e830&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;まだ Is しかつかったことがない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Software Engineer Salaries in Japan | OpenSalary
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://opensalary.jp/&#34;&gt;https://opensalary.jp/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;年収一覧サイト&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
