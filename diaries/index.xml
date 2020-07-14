@@ -25,6 +25,24 @@
 &lt;li&gt;Google 入社ブログ&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;TCPが遅すぎる？QUICを使おう！. 「それ、QUIC使えないの？」 | by FUJITA Tomonori | nttlabs | Jul, 2020 | Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/nttlabs/quic-with-rust-9cf9b44596ad&#34;&gt;https://medium.com/nttlabs/quic-with-rust-9cf9b44596ad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;QUIC なんもわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes Tip: What Happens To Pods Running On Node That Become Unreachable? | by Bhargav Bhikkaji | tailwinds-navigator | Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/tailwinds-navigator/kubernetes-tip-what-happens-to-pods-running-on-node-that-become-unreachable-3d409f734e5d&#34;&gt;https://medium.com/tailwinds-navigator/kubernetes-tip-what-happens-to-pods-running-on-node-that-become-unreachable-3d409f734e5d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Node に疎通が取れなくなった時に Pod がどうなるのか, pod-eviction-timeout に依存する, デフォルト 5 分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go 1.13 Release Notes - The Go Programming Language
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/doc/go1.13#language&#34;&gt;https://golang.org/doc/go1.13#language&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;8 進数が &lt;code&gt;0o660&lt;/code&gt; みたいな書き方に変わった, このせいで linter に怒られた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
