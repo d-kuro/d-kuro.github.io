@@ -5,12 +5,87 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Mon, 13 Jul 2020 15:02:35 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 15 Jul 2020 15:02:26 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>2020-07-16</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200716/</link>
+      <pubDate>Wed, 15 Jul 2020 15:02:26 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200716/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Time型をJSONに変換するとtime.Locationの情報が欠落する場合の対処法 - A Day In The Life
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://glassonion.hatenablog.com/entry/2020/07/12/135200&#34;&gt;https://glassonion.hatenablog.com/entry/2020/07/12/135200&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reflect.DeepEqual&lt;/code&gt; で比較すると死ぬというやつ, go-cmp 便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;かなカナ変換 — プログラミング言語 Go | text.Baldanders.info
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://text.baldanders.info/golang/kana-conversion/&#34;&gt;https://text.baldanders.info/golang/kana-conversion/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;How we tracked down (what seemed like) a memory leak in one of our Go microservices | Detectify Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://text.baldanders.info/golang/kana-conversion/&#34;&gt;https://text.baldanders.info/golang/kana-conversion/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;メモリリークから pprof を使って原因を探して最終的に Go のランタイムの話になる, 面白い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;fluxcd/kustomize-controller: Experimental Kubernetes operator for building GitOps pipelines with Kustomize
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fluxcd/kustomize-controller&#34;&gt;https://github.com/fluxcd/kustomize-controller&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;kustomize build したものをデプロイする operator かな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-15</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200715/</link>
+      <pubDate>Tue, 14 Jul 2020 15:02:43 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200715/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;命名のプロセス - kawasima
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://scrapbox.io/kawasima/%E5%91%BD%E5%90%8D%E3%81%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9&#34;&gt;https://scrapbox.io/kawasima/%E5%91%BD%E5%90%8D%E3%81%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;命名, ほんと難しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GoLand の Semantic highlighting
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/sonatard/status/1283284644935294976&#34;&gt;https://twitter.com/sonatard/status/1283284644935294976&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;変数をスコープ別に色付けしてくれる, 便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Keeping Your Modules Compatible - The Go Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/module-compatibility&#34;&gt;https://blog.golang.org/module-compatibility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;関数の互換性, ライブラリを書かないのであんまり気にしたことがない, functional option pattern を使うと良さそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Functional Option Pattern
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.web-apps.tech/go-functional-option-pattern/&#34;&gt;https://blog.web-apps.tech/go-functional-option-pattern/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;上で書いたあれ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Golang でファイルを書き込んだ時に古い内容が末尾に残る件 - stamemo
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://stakiran.hatenablog.com/entry/2019/06/19/071707&#34;&gt;https://stakiran.hatenablog.com/entry/2019/06/19/071707&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;os.O_TRUNC&lt;/code&gt;, 知らなかった, そもそも上書きなら &lt;code&gt;os.Create&lt;/code&gt; でいい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2020-07-14</title>
