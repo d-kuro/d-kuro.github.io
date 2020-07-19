@@ -5,12 +5,116 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 15 Jul 2020 15:02:26 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Sat, 18 Jul 2020 15:02:33 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>2020-07-19</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200719/</link>
+      <pubDate>Sat, 18 Jul 2020 15:02:33 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200719/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes Sample APIServerの動かし方 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/go_vargo/items/c7a526c0d4dbc9199dd4&#34;&gt;https://qiita.com/go_vargo/items/c7a526c0d4dbc9199dd4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ユースケースがあんまりわからん, metrics-server とかがそうなのはそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rust support in Envoy · Issue #12155 · envoyproxy/envoy
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/envoyproxy/envoy/issues/12155&#34;&gt;https://github.com/envoyproxy/envoy/issues/12155&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust, 触りたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Exposing services on GKE | Google Cloud Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/blog/products/containers-kubernetes/exposing-services-on-gke&#34;&gt;https://cloud.google.com/blog/products/containers-kubernetes/exposing-services-on-gke&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes完全ガイド 第2版 (Top Gear) | ⻘⼭真也 |本 | 通販 | Amazon
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.jp/dp/4295009792&#34;&gt;https://www.amazon.co.jp/dp/4295009792&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;第2版&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;New Kubernetes Security Specialist Certification to Help Professionals Demonstrate Expertise in Securing Container-Based Applications - Linux Foundation - Training
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://training.linuxfoundation.org/announcements/new-kubernetes-security-specialist-certification-to-help-professionals-demonstrate-expertise-in-securing-container-based-applications/&#34;&gt;https://training.linuxfoundation.org/announcements/new-kubernetes-security-specialist-certification-to-help-professionals-demonstrate-expertise-in-securing-container-based-applications/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;セキュリティの新資格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-18</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200718/</link>
+      <pubDate>Fri, 17 Jul 2020 15:02:39 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200718/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Register | Linux Foundation Events
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/&#34;&gt;https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;kubecon, 無料チケット&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goのソースコード内のトリビア - YAMAGUCHI::weblog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ymotongpoo.hatenablog.com/entry/2020/07/17/093000&#34;&gt;https://ymotongpoo.hatenablog.com/entry/2020/07/17/093000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;へぇー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;どのようにPlatformチームの組織変更をしたか - Mercari Engineering Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.mercari.com/entry/2020/07/16/083548&#34;&gt;https://tech.mercari.com/entry/2020/07/16/083548&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 year goal, いいな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-17</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200717/</link>
+      <pubDate>Thu, 16 Jul 2020 15:02:33 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200717/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;コンピューターサイエンスの学習は簡単なチートではない - JavaScript勉強会
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jsstudy.hatenablog.com/entry/Learning-computer-science-is-not-an-easy-cheat&#34;&gt;https://jsstudy.hatenablog.com/entry/Learning-computer-science-is-not-an-easy-cheat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CS 学習したい人生だった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;30分でOpenID Connect完全に理解したと言えるようになる勉強会 - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/d_endo/30fen-deopenid-connectwan-quan-nili-jie-sitatoyan-eruyouninarumian-qiang-hui&#34;&gt;https://speakerdeck.com/d_endo/30fen-deopenid-connectwan-quan-nili-jie-sitatoyan-eruyouninarumian-qiang-hui&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;完全に理解したい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DNS Lookups in Kubernetes - Karan Sharma
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/d_endo/30fen-deopenid-connectwan-quan-nili-jie-sitatoyan-eruyouninarumian-qiang-hui&#34;&gt;https://speakerdeck.com/d_endo/30fen-deopenid-connectwan-quan-nili-jie-sitatoyan-eruyouninarumian-qiang-hui&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;定期 ndots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes pods /etc/resolv.conf ndots:5 option and why it may negatively affect your application performances
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pracucci.com/kubernetes-dns-resolution-ndots-options-and-why-it-may-affect-application-performances.html&#34;&gt;https://pracucci.com/kubernetes-dns-resolution-ndots-options-and-why-it-may-affect-application-performances.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;定期 ndots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2020-07-16</title>
