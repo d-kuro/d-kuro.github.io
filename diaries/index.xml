@@ -27,6 +27,50 @@
       <pubDate>Fri, 24 Jul 2020 15:02:23 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202007/20200725/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ドイツの大学院でコンピュータサイエンスを学ぶー文系卒会社員から理転して修士号を取得するまで - 元コンサルタントな歴史家―ドイツから見た日本
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ito-tomohide.com/entry/Master-in-Computer-Science-in-Germany&#34;&gt;https://www.ito-tomohide.com/entry/Master-in-Computer-Science-in-Germany&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;行動力がすごすぎる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amazon EFS CSI Driver is now generally available
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/jp/about-aws/whats-new/2020/07/amazon-efs-csi-driver-now-generally-available/&#34;&gt;https://aws.amazon.com/jp/about-aws/whats-new/2020/07/amazon-efs-csi-driver-now-generally-available/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;EKS の EFS CSI Driver が GA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Container Networking Security Issue (CVE-2020-8558)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/jp/security/security-bulletins/AWS-2020-002/&#34;&gt;https://aws.amazon.com/jp/security/security-bulletins/AWS-2020-002/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CVE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetesでやりたいことがまだたくさんある - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/takanariko/kubernetesdeyaritaikotogamadatakusanaru&#34;&gt;https://speakerdeck.com/takanariko/kubernetesdeyaritaikotogamadatakusanaru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Zlab の話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;VSCode + golangでの快適な補完について自分なりにまとめてみた - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/akinobufujii/items/50d605ecf22daa3309cb&#34;&gt;https://qiita.com/akinobufujii/items/50d605ecf22daa3309cb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go / VSCode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Prow に学ぶ Kubernetes のCI環境/Prow &amp;amp; Kubernetes - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/bells17/prow-and-kubernetes&#34;&gt;https://speakerdeck.com/bells17/prow-and-kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prow, 大体の場合複雑すぎるなあと思いつつ生きてる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;July Tech Festa 2020で Prowについてお話しました | by bells17 | Jul, 2020 | Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@bells17/talked-about-prow-at-july-tech-festa-2020-f293c6365048&#34;&gt;https://medium.com/@bells17/talked-about-prow-at-july-tech-festa-2020-f293c6365048&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;上のスライドの解説ブログ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
