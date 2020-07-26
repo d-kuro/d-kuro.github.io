@@ -18,6 +18,32 @@
       <pubDate>Sat, 25 Jul 2020 15:02:33 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202007/20200726/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux Foundation の A Beginner&amp;rsquo;s Guide to Linux Kernel Development (LFD103) ってやつで Linux の開発が学べるらしい
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/o8_vm/status/1287049635131924480&#34;&gt;https://twitter.com/o8_vm/status/1287049635131924480&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bringing Traffic Into Your Kubernetes Cluster - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/thockin/bringing-traffic-into-your-kubernetes-cluster&#34;&gt;https://speakerdeck.com/thockin/bringing-traffic-into-your-kubernetes-cluster&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/superbrothers/status/1287178380903714816&#34;&gt;https://twitter.com/superbrothers/status/1287178380903714816&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes クラスタの外からのトラフィックの流れを解説する記事&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;andreazorzetto/yh: YAML syntax highlighter to bring colours where only jq could
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/andreazorzetto/yh&#34;&gt;https://github.com/andreazorzetto/yh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;パイプで繋いで Kubernets の YAML を色付けするやつ, 便利そう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;中年プログラマの競プロ事始 - hydrakecat’s blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hydrakecat.hatenablog.jp/entry/2020/07/26/%E4%B8%AD%E5%B9%B4%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%81%AE%E7%AB%B6%E3%83%97%E3%83%AD%E4%BA%8B%E5%A7%8B&#34;&gt;https://hydrakecat.hatenablog.jp/entry/2020/07/26/%E4%B8%AD%E5%B9%B4%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%81%AE%E7%AB%B6%E3%83%97%E3%83%AD%E4%BA%8B%E5%A7%8B&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;競技プログラミング真面目にやりたいと思いつつやる気が続かないやつをやっている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
