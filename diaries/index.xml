@@ -36,6 +36,26 @@
       <pubDate>Thu, 23 Jul 2020 15:02:51 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202007/20200724/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Alerting on Kubernetes: How to &amp;amp; best practices | Sysdig
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sysdig.com/blog/alerting-kubernetes/&#34;&gt;https://sysdig.com/blog/alerting-kubernetes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes のアラートをどうするか, 結局はアプリケーションに SLO が定義してあればそれに対するアラートだけあればいいのではという気持ちがありつつ プラットフォーム SLO みたいなのを考える時にどうするみたいなのはある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CRD is just a table in Kubernetes | by Hiro OSAKI | Jul, 2020 | ITNEXT
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://itnext.io/crd-is-just-a-table-in-kubernetes-13e15367bbe4&#34;&gt;https://itnext.io/crd-is-just-a-table-in-kubernetes-13e15367bbe4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CRD を DB のテーブルと見立てる話, まあわかる, いい感じに client-go から扱うすべを知りたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Introducing Domain-Oriented Microservice Architecture | Uber Engineering Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eng.uber.com/microservice-architecture/&#34;&gt;https://eng.uber.com/microservice-architecture/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uber のマイクロサービスの話, ドメイン志向のアーキテクチャになってるらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -45,6 +65,26 @@
       <pubDate>Wed, 22 Jul 2020 15:02:34 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202007/20200723/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/drken/items/dc53c683d6de8aeacf5a&#34;&gt;https://qiita.com/drken/items/dc53c683d6de8aeacf5a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;動的計画法なんもわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;典型的な DP (動的計画法) のパターンを整理 Part 1 ～ ナップサック DP 編 ～ - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/drken/items/a5e6fe22863b7992efdb&#34;&gt;https://qiita.com/drken/items/a5e6fe22863b7992efdb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;解説見ればわかるんだけどわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GoBGP
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://osrg.github.io/gobgp/&#34;&gt;https://osrg.github.io/gobgp/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の BGP 実装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
