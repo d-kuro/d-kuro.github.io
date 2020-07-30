@@ -5,12 +5,246 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>AFN Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Sat, 25 Jul 2020 15:02:33 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Thu, 30 Jul 2020 15:03:07 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/img/static/img/avatar.jpg</url>
       <title>AFN Blog</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>2020-07-31</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200731/</link>
+      <pubDate>Thu, 30 Jul 2020 15:03:07 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200731/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducing the Datadog Mobile App | Datadog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datadoghq.com/ja/blog/datadog-mobile-app/&#34;&gt;https://www.datadoghq.com/ja/blog/datadog-mobile-app/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;datadog のモバイルアプリ, 今までダッシュボードがスマホだと見れたもんじゃなかったのでそれはありがたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes Prometheus and OpenMetrics metrics collection
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.datadoghq.com/ja/agent/kubernetes/prometheus/&#34;&gt;https://docs.datadoghq.com/ja/agent/kubernetes/prometheus/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;毎回忘れる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Golangで簡単にPrometheusのExporterを作れる。 - ry&amp;rsquo;s Tech blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ryo-xjsbx.hatenablog.com/entry/prometheus-exporter-with-golang&#34;&gt;https://ryo-xjsbx.hatenablog.com/entry/prometheus-exporter-with-golang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Prometheus で独自メトリクスを用意する - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/prometheus-metrics-collector&#34;&gt;https://christina04.hatenablog.com/entry/prometheus-metrics-collector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の Prometheus exporter で Counter, Gauge, Summary, Histogram, それぞれの使い方が載ってる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Certificate management on Kubernetes · Banzai Cloud
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://banzaicloud.com/blog/cert-management-on-kubernetes/&#34;&gt;https://banzaicloud.com/blog/cert-management-on-kubernetes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;cert-manager, 完全に理解したい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;multi-tenancy/incubator/hnc at master · kubernetes-sigs/multi-tenancy
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/multi-tenancy/tree/master/incubator/hnc&#34;&gt;https://github.com/kubernetes-sigs/multi-tenancy/tree/master/incubator/hnc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hierarchical Namespace Controller, Namespace を階層構造にできるやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hierarchical Namespace で Namespace を階層構造に管理してオブジェクトを伝搬させる - @amsy810&amp;rsquo;s Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://amsy810.hateblo.jp/entry/2019/12/01/230822&#34;&gt;https://amsy810.hateblo.jp/entry/2019/12/01/230822&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;日本語ブログ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;aws-samples/amazon-k8s-node-drainer: Gracefully drain Kubernetes pods from EKS worker nodes during autoscaling scale-in events.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aws-samples/amazon-k8s-node-drainer&#34;&gt;https://github.com/aws-samples/amazon-k8s-node-drainer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ASG の scale-in event で Pod を drain してくれるやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-30</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200730/</link>
+      <pubDate>Wed, 29 Jul 2020 15:02:56 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200730/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kustomize でマニフェストのフィールドを削除する | text․superbrothers․dev
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://text.superbrothers.dev/200315-delete-field-with-kustomize/&#34;&gt;https://text.superbrothers.dev/200315-delete-field-with-kustomize/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;null で patch する, 便利だよね&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Extend the Kubernetes API with CustomResourceDefinitions | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/&#34;&gt;https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CRD の書き方, 細かいフィールドの定義はなくてもいいのか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Linux は全てがファイルと言う概念なので IOPS が大事という話
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/hodahgi/status/1288321007048986624&#34;&gt;https://twitter.com/hodahgi/status/1288321007048986624&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;OAuth 2.0 サーバをGo言語で実装しテストを書く at golang.tokyo#18 - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/hgsgtk/oauth-2-dot-0-sahawogoyan-yu-teshi-zhuang-sitesutowoshu-ku-at-golang-dot-tokyo-number-18&#34;&gt;https://speakerdeck.com/hgsgtk/oauth-2-dot-0-sahawogoyan-yu-teshi-zhuang-sitesutowoshu-ku-at-golang-dot-tokyo-number-18&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Namespaces in operation, part 1: namespaces overview [LWN.net]
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lwn.net/Articles/531114/&#34;&gt;https://lwn.net/Articles/531114/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux の namespace について&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;lxc-jp/Namespace-in-Operation-ja: lwn.net の Namespaces in Operation シリーズ (&lt;a href=&#34;http://lwn.net/Articles/531114/&#34;&gt;http://lwn.net/Articles/531114/&lt;/a&gt;) の翻訳
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lxc-jp/Namespace-in-Operation-ja&#34;&gt;https://github.com/lxc-jp/Namespace-in-Operation-ja&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;上の翻訳&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-29</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200729/</link>
+      <pubDate>Tue, 28 Jul 2020 15:02:55 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200729/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Go関連の比較的新しいTips - Plan 9とGo言語のブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.lufia.org/entry/2020/07/28/215746&#34;&gt;https://blog.lufia.org/entry/2020/07/28/215746&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reflect.Select&lt;/code&gt;, そんなのあるのか, &lt;code&gt;pkg.go.dev&lt;/code&gt; のバッジとかは便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;NodeLocal DNSCache の設定  |  Kubernetes Engine ドキュメント  |  Google Cloud
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/kubernetes-engine/docs/how-to/nodelocal-dns-cache&#34;&gt;https://cloud.google.com/kubernetes-engine/docs/how-to/nodelocal-dns-cache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ちゃんとしてる NodeLocal DNSCache のドキュメント&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Webブラウザ上で純粋なHTTPだけで単方向リアルタイム通信を可能にするHTTPのストリーミングアップロードが遂にやってくる - nwtgck / Ryo Ota
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/kubernetes-engine/docs/how-to/nodelocal-dns-cache&#34;&gt;https://cloud.google.com/kubernetes-engine/docs/how-to/nodelocal-dns-cache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;すごいな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;golang.tokyo＃4でGo開発環境Goglandのライブデモを見てきた | メルカリエンジニアリング
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://engineering.mercari.com/blog/entry/2017-03-23-124437/&#34;&gt;https://engineering.mercari.com/blog/entry/2017-03-23-124437/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GoLand 使いこなせません&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goで作るテキストエディタ - Sansan Builders Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://buildersbox.corp-sansan.com/entry/2020/07/29/113000&#34;&gt;https://buildersbox.corp-sansan.com/entry/2020/07/29/113000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GapBuffer, なるほど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-28</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200728/</link>
+      <pubDate>Mon, 27 Jul 2020 15:02:39 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200728/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;summerwind/actions-runner-controller: Kubernetes controller for GitHub Actions self-hosted runnners
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/summerwind/actions-runner-controller&#34;&gt;https://github.com/summerwind/actions-runner-controller&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;self hosted GtiHub Actions の controller, よさそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;flant/k8s-image-availability-exporter: Alert if an image used in Kubernetes cannot be pulled from container registry
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/flant/k8s-image-availability-exporter&#34;&gt;https://github.com/flant/k8s-image-availability-exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Image が使えるかのメトリクスを出してくれる君&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1人運用を支えるAmazon EKSノウハウ / Amazon EKS Know-How - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/hi1280/amazon-eks-know-how&#34;&gt;https://speakerdeck.com/hi1280/amazon-eks-know-how&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitHub Actions の self-hosted runner と Amazon EKS を使った Docker の Build Pipeline/Build Pipeline for Docker with GitHub Actions self-hosted runner and Amazon EKS - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/tmnakagawa/build-pipeline-for-docker-with-github-actions-self-hosted-runner-and-amazon-eks&#34;&gt;https://speakerdeck.com/tmnakagawa/build-pipeline-for-docker-with-github-actions-self-hosted-runner-and-amazon-eks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;self hosted な CI を使うとクレデンシャルを引き渡ししないといけない問題が解決する, 確かに&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitHub Actions の self-hosted runner と Amazon EKS を使った Docker のビルドパイプライン / secure-docker-build-pipeline - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/manabusakai/secure-docker-build-pipeline&#34;&gt;https://speakerdeck.com/manabusakai/secure-docker-build-pipeline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Introduction to Flagger - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/mathetake/introduction-to-flagger&#34;&gt;https://speakerdeck.com/mathetake/introduction-to-flagger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Flagger のアーキテクチャ, Argo Rollout よりも好き&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-07-27</title>
+      <link>https://d-kuro.github.io/diaries/202007/20200727/</link>
+      <pubDate>Sun, 26 Jul 2020 15:02:51 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202007/20200727/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;第45回　Linuxカーネルのコンテナ機能 ― cgroupの改良版cgroup v2［6］：LXCで学ぶコンテナ入門 －軽量仮想化環境を実現する技術｜gihyo.jp … 技術評論社
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gihyo.jp/admin/serial/01/linux_containers/0045?page=1&#34;&gt;https://gihyo.jp/admin/serial/01/linux_containers/0045?page=1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;cgroup なんもわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;プロダクションの Rails サーバーの利用メモリがひたすら増加していくような挙動を観測したとき、どう対応するのがよいですか？ - Quora
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jp.quora.com/purodakushon-no-Rails-sa-ba-no-riyou-memori-ga-hitasura-zouka-shi-tei-ku-you-na-kyodou-wo-kansoku-shita-toki-dou-taiou-suru-no-ga-yoi-desu-ka&#34;&gt;https://jp.quora.com/purodakushon-no-Rails-sa-ba-no-riyou-memori-ga-hitasura-zouka-shi-tei-ku-you-na-kyodou-wo-kansoku-shita-toki-dou-taiou-suru-no-ga-yoi-desu-ka&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;memory bloat, フラグメンテーションで再利用できない領域がだんだん増えていく, なるほど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;introduction-to-modern-gc - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/yokotaso/introduction-to-modern-gc&#34;&gt;https://speakerdeck.com/yokotaso/introduction-to-modern-gc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3分で理解するG1ガベージコレクション - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/tshk_mtsys/items/5a027fe00b3bff009b17&#34;&gt;https://qiita.com/tshk_mtsys/items/5a027fe00b3bff009b17&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GoのGCを10分で学ぼう　 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/gold-kou/items/4431d3dd41606d41732b&#34;&gt;https://qiita.com/gold-kou/items/4431d3dd41606d41732b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の GC はコンパクションをしない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go言語のGCについて - LINE ENGINEERING
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://engineering.linecorp.com/ja/blog/go-gc/&#34;&gt;https://engineering.linecorp.com/ja/blog/go-gc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;TCMalloc ベースのメモリアロケータで断片化の問題を解決したらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2020-07-26</title>
