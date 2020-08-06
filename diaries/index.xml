@@ -5,7 +5,7 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Mon, 03 Aug 2020 15:02:58 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 05 Aug 2020 15:02:55 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/media/static/img/avatar.jpg</url>
       <title>Diaries</title>
@@ -13,20 +13,115 @@
     </image>
     
     <item>
-      <title>20200804</title>
-      <link>https://d-kuro.github.io/diaries/202008/20200804/</link>
-      <pubDate>Mon, 03 Aug 2020 15:02:58 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202008/20200804/</guid>
+      <title>20200806</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200806/</link>
+      <pubDate>Wed, 05 Aug 2020 15:02:55 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200806/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
 </description>
     </item>
     
     <item>
-      <title>20200803</title>
+      <title>2020-08-05</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200805/</link>
+      <pubDate>Tue, 04 Aug 2020 15:02:48 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200805/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～ - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/drken/items/fd4e5e3630d0f5859067&#34;&gt;https://qiita.com/drken/items/fd4e5e3630d0f5859067&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;あとでみる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;計算量オーダーの求め方を総整理！ 〜 どこから log が出て来るか 〜 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/drken/items/872ebc3a2b5caaa4a0d0&#34;&gt;https://qiita.com/drken/items/872ebc3a2b5caaa4a0d0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;なんかループとかはわかるんだけど log n みたいなのをシュッと出せない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-08-04</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200804/</link>
+      <pubDate>Mon, 03 Aug 2020 15:02:58 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200804/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Gopher道場 自習室 - Gopher道場
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gopherdojo.org/studyroom/&#34;&gt;https://gopherdojo.org/studyroom/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;動画公開された&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Prometheus で独自メトリクスを用意する - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/prometheus-metrics-collector&#34;&gt;https://christina04.hatenablog.com/entry/prometheus-metrics-collector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go で Prometheus exporter 作る時に見るやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Prometheus でAPIサーバの監視【HTTP】 - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/prometheus-application-over-http&#34;&gt;https://christina04.hatenablog.com/entry/prometheus-application-over-http&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go で Prometheus exporter 作る時に見るやつ その 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;slok/go-http-metrics: Go modular http middleware to measure HTTP requests independent of metrics backend (with Prometheus and OpenCensus as backend implementations) and http framework/library
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/slok/go-http-metrics&#34;&gt;https://github.com/slok/go-http-metrics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Duration の metrics 作る時に参考になった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-08-03</title>
       <link>https://d-kuro.github.io/diaries/202008/20200803/</link>
       <pubDate>Sun, 02 Aug 2020 15:02:56 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202008/20200803/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;goroutineはなぜ軽量なのか - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/why-goroutine-is-good&#34;&gt;https://christina04.hatenablog.com/entry/why-goroutine-is-good&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;メモリ使用量が少なくてスイッチングコストが低いらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Service Topology | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/concepts/services-networking/service-topology/&#34;&gt;https://kubernetes.io/docs/concepts/services-networking/service-topology/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Service で通信する時に zone が違いところにルーティングするみたいなのができるやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;悩みに悩んだ Kubernetes Secrets の管理方法、External Secrets を選んだ理由 | PLAID engineer blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.plaid.co.jp/nayanda-kubernetes-secret-management/&#34;&gt;https://tech.plaid.co.jp/nayanda-kubernetes-secret-management/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;external-secrets, Go 製じゃないのが微妙だなあと思いつつみてる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Repositoryによる抽象化の理想と現実/Ideal and reality of abstraction by Repository - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/sonatard/ideal-and-reality-of-abstraction-by-repository&#34;&gt;https://speakerdeck.com/sonatard/ideal-and-reality-of-abstraction-by-repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go で Repository 書く時に見るやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;もう一度テストパターンを整理しよう(WebApp編) - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/codehex/mou-du-tesutopatanwozheng-li-siyou-webappbian&#34;&gt;https://speakerdeck.com/codehex/mou-du-tesutopatanwozheng-li-siyou-webappbian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go で Repository 書く時に見るやつその 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GoのAPIのテストにおける共通処理. GoのAPIを書くとき、参考になるユニットテストの話は非常によく見ます。Tabl… | by timakin | Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@timakin/go-api-testing-173b97fb23ec&#34;&gt;https://medium.com/@timakin/go-api-testing-173b97fb23ec&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
