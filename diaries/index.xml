@@ -75,6 +75,12 @@
 &lt;li&gt;Google Meet のスケールについて&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;GitHub Availability Report: July 2020
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.blog/2020-08-05-github-availability-report-july-2020/&#34;&gt;https://github.blog/2020-08-05-github-availability-report-july-2020/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ImagePullPolicy を Always にしてて OOM で死んだ後名前解決ができずに死んだらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -90,6 +96,36 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://qiita.com/iaoiui/items/024673f0af1057ab08f6&#34;&gt;https://qiita.com/iaoiui/items/024673f0af1057ab08f6&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;統合されるのか, いい話っぽい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Using Custom Plugin Indexes · Krew
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://krew.sigs.k8s.io/docs/user-guide/custom-indexes/&#34;&gt;https://krew.sigs.k8s.io/docs/user-guide/custom-indexes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Krew の Custom Index 機能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes CronJobs at Scale Part 1 by Kevin Yang | Lyft Engineering
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eng.lyft.com/improving-kubernetes-cronjobs-at-scale-part-1-cf1479df98d4&#34;&gt;https://eng.lyft.com/improving-kubernetes-cronjobs-at-scale-part-1-cf1479df98d4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lyft の CronJob 運用の話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes CronJobs at Scale Part 2 by Kevin Yang | Lyft Engineering
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eng.lyft.com/how-we-learned-to-improve-kubernetes-cronjobs-at-scale-part-2-of-2-dad0c973ffca&#34;&gt;https://eng.lyft.com/how-we-learned-to-improve-kubernetes-cronjobs-at-scale-part-2-of-2-dad0c973ffca&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Alert とかどうしてるかみたいなのが書いてある, &lt;code&gt;create job --from=cronjob&lt;/code&gt; で手動で実行してテストとか手動での回復とかに使ってるらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;実践Rustプログラミング入門   初田 直也
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.jp/dp/4798061700&#34;&gt;https://www.amazon.co.jp/dp/4798061700&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust やりたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Netlifyが日本からだと遅い - id:anatooのブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.anatoo.jp/2020-08-03&#34;&gt;https://blog.anatoo.jp/2020-08-03&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;デバッグの仕方, 参考になる&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
