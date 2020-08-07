@@ -18,6 +18,30 @@
       <pubDate>Fri, 07 Aug 2020 15:02:56 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202008/20200808/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;最速のJSONライブラリを求めて - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/goccy/zui-su-falsejsonraiburariwoqiu-mete&#34;&gt;https://speakerdeck.com/goccy/zui-su-falsejsonraiburariwoqiu-mete&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Decode よりも Unmarshal のは速いのか……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Extend the Kubernetes API - Google スライド
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1xiAaW1jjmyincK2yDezJZxwq9AaclQ658vkO-17fTIA/edit#slide=id.p&#34;&gt;https://docs.google.com/presentation/d/1xiAaW1jjmyincK2yDezJZxwq9AaclQ658vkO-17fTIA/edit#slide=id.p&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;kubebuilder の話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;リトライでtime.Sleepを使ったら積んだ話
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.slideshare.net/ssuser329cba/timesleep-237600676&#34;&gt;https://www.slideshare.net/ssuser329cba/timesleep-237600676&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;mercari.go #14 オンライン開催 - YouTube
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=BpKBUAqkxsw&#34;&gt;https://www.youtube.com/watch?v=BpKBUAqkxsw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
