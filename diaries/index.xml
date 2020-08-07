@@ -5,7 +5,7 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 05 Aug 2020 15:02:55 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Fri, 07 Aug 2020 15:02:56 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/media/static/img/avatar.jpg</url>
       <title>Diaries</title>
@@ -13,11 +13,62 @@
     </image>
     
     <item>
-      <title>20200806</title>
+      <title>20200808</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200808/</link>
+      <pubDate>Fri, 07 Aug 2020 15:02:56 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200808/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-08-07</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200807/</link>
+      <pubDate>Thu, 06 Aug 2020 15:02:42 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200807/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;argoproj-labs/argocd-image-updater: Automatic container image update for ArgoCD
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/argoproj-labs/argocd-image-updater&#34;&gt;https://github.com/argoproj-labs/argocd-image-updater&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Argo CD 用の image tag 更新する君, Git に変更を push するのではなく Application に永続化するらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;アルゴリズム本、書きました！ - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/drken/items/08fd5c8c2b9d8c441dc3&#34;&gt;https://qiita.com/drken/items/08fd5c8c2b9d8c441dc3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;良さそう, DP よくわからんので欲しいな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;問題解決力を鍛える!アルゴリズムとデータ構造 (KS情報科学専門書)   大槻 兼資
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.jp/dp/4065128447/&#34;&gt;https://www.amazon.co.jp/dp/4065128447/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Keeping Google Meet ahead of usage demand during COVID-19 | Google Cloud Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/blog/products/g-suite/keeping-google-meet-ahead-of-usage-demand-during-covid-19&#34;&gt;https://cloud.google.com/blog/products/g-suite/keeping-google-meet-ahead-of-usage-demand-during-covid-19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Google Meet のスケールについて&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-08-06</title>
       <link>https://d-kuro.github.io/diaries/202008/20200806/</link>
       <pubDate>Wed, 05 Aug 2020 15:02:55 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202008/20200806/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;【Kubernetes Operator】operator-sdkとkubebuilder統合に関する注意点 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/iaoiui/items/024673f0af1057ab08f6&#34;&gt;https://qiita.com/iaoiui/items/024673f0af1057ab08f6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;統合されるのか, いい話っぽい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -38,6 +89,24 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://qiita.com/drken/items/872ebc3a2b5caaa4a0d0&#34;&gt;https://qiita.com/drken/items/872ebc3a2b5caaa4a0d0&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;なんかループとかはわかるんだけど log n みたいなのをシュッと出せない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;lxc-jp/Namespace-in-Operation-ja: lwn.net の Namespaces in Operation シリーズ (&lt;a href=&#34;http://lwn.net/Articles/531114/&#34;&gt;http://lwn.net/Articles/531114/&lt;/a&gt;) の翻訳
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lxc-jp/Namespace-in-Operation-ja&#34;&gt;https://github.com/lxc-jp/Namespace-in-Operation-ja&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;namespace なんもわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;LIFULLを支えるKubernetesエコシステムまとめ 2020年版 - LIFULL Creators Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lifull.blog/entry/2020/08/03/113000&#34;&gt;https://www.lifull.blog/entry/2020/08/03/113000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;よくばりセットみたいな感じ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Announcing the Spinnaker Kubernetes Operator: Spinnaker Management Made Simple | by Rosalind Benoit | Aug, 2020 | The Spinnaker Community Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.spinnaker.io/announcing-the-spinnaker-kubernetes-operator-spinnaker-management-made-simple-8ea69fc3cf64&#34;&gt;https://blog.spinnaker.io/announcing-the-spinnaker-kubernetes-operator-spinnaker-management-made-simple-8ea69fc3cf64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spinnaker Operator, なるほど&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
