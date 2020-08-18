@@ -31,6 +31,12 @@
 &lt;li&gt;managed node group が launch tempalate に対応, kubelet の option とかいじれるようになったかな&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Intuit and Red Hat join forces on Argo Project! | by Mukulika Kapas | Aug, 2020 | Argo Project
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.argoproj.io/red-hat-and-intuit-join-forces-on-argo-project-3442e9ae9bd8&#34;&gt;https://blog.argoproj.io/red-hat-and-intuit-join-forces-on-argo-project-3442e9ae9bd8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Red Hat が join したらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -48,16 +54,30 @@
 &lt;li&gt;仮想メモリと物理メモリの話 is わからん&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Knowledge map – JetBrains Academy
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hyperskill.org/knowledge-map/521?v=table&#34;&gt;https://hyperskill.org/knowledge-map/521?v=table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JetBrains Academy, アルゴリズムとか学べるらしい, やりたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>20200816</title>
+      <title>2020-08-16</title>
       <link>https://d-kuro.github.io/diaries/202008/20200816/</link>
       <pubDate>Sat, 15 Aug 2020 15:03:06 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202008/20200816/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Argo CD v1.7-rc1 is here!. The first release candidate is… | by Alexander Matyushentsev | Aug, 2020 | Argo Project
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.argoproj.io/argo-cd-v1-7-rc1-is-here-bd133c7d5c64&#34;&gt;https://blog.argoproj.io/argo-cd-v1-7-rc1-is-here-bd133c7d5c64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Argo CD v1.7 の話, namespace の自動作成とか sync のリトライポリシーとか指定できるようになったっぽい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -113,6 +133,12 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://keens.github.io/blog/2017/04/30/memoritosutakkutohi_puto/&#34;&gt;https://keens.github.io/blog/2017/04/30/memoritosutakkutohi_puto/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;スタックとヒープの話, Ruby は全部ヒープを使うのか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Introducing Tekton Hub - CD Foundation
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cd.foundation/blog/2020/08/10/introducing-tekton-hub/&#34;&gt;https://cd.foundation/blog/2020/08/10/introducing-tekton-hub/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tekton Hub, なんか色々登録されていた&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
