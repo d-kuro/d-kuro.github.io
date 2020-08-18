@@ -158,6 +158,12 @@
 &lt;li&gt;データ構造とアルゴリズム, 学びたい&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Release v1.0.0 · operator-framework/operator-sdk
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/operator-framework/operator-sdk/releases/tag/v1.0.0&#34;&gt;https://github.com/operator-framework/operator-sdk/releases/tag/v1.0.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;v1 になった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -179,6 +185,12 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://cd.foundation/blog/2020/08/10/introducing-tekton-hub/&#34;&gt;https://cd.foundation/blog/2020/08/10/introducing-tekton-hub/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Tekton Hub, なんか色々登録されていた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;golangのio.Readerは使い回しできない - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/sueken/items/30b6da9259e94c1ede71&#34;&gt;https://qiita.com/sueken/items/30b6da9259e94c1ede71&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;io.TeeReader&lt;/code&gt; で使い回す, 便利&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
