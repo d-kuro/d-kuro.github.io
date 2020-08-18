@@ -77,16 +77,42 @@
 &lt;li&gt;Argo CD v1.7 の話, namespace の自動作成とか sync のリトライポリシーとか指定できるようになったっぽい&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;aws-sdk-go, aws-sdk-go-v2 でMFAトークンによるAssumeRoleに対応する · horizoon
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://horizoon.jp/post/2019/08/16/aws_sdk_go_assumerole/&#34;&gt;https://horizoon.jp/post/2019/08/16/aws_sdk_go_assumerole/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;v2 だと &lt;code&gt;aws/session&lt;/code&gt; パッケージが削除されたらしい, まじか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>20200815</title>
+      <title>2020-08-15</title>
       <link>https://d-kuro.github.io/diaries/202008/20200815/</link>
       <pubDate>Fri, 14 Aug 2020 15:03:01 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202008/20200815/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Feature Gates | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/reference/command-line-tools-reference/feature-gates/&#34;&gt;https://kubernetes.io/docs/reference/command-line-tools-reference/feature-gates/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes の feature gates 一覧, 便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Incident Management With Datadog | Datadog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datadoghq.com/ja/blog/incident-response-with-datadog/&#34;&gt;https://www.datadoghq.com/ja/blog/incident-response-with-datadog/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Datadog の incident management 機能, 便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Singleton Pattern in Go · marcio.io
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://marcio.io/2015/07/singleton-pattern-in-go/&#34;&gt;http://marcio.io/2015/07/singleton-pattern-in-go/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;sync.Once の使い所さん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -119,6 +145,20 @@
       <pubDate>Wed, 12 Aug 2020 15:02:59 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202008/20200813/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Go 1.15 Release Notes - The Go Programming Language
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/doc/go1.15&#34;&gt;https://golang.org/doc/go1.15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go 1.15, リリースされた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Build@Mercari第2〜4週目のテーマ「データ構造／アルゴリズム」を深堀り！#BuildAtMercari | mercan (メルカン)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mercan.mercari.com/articles/24335/&#34;&gt;https://mercan.mercari.com/articles/24335/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;データ構造とアルゴリズム, 学びたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
