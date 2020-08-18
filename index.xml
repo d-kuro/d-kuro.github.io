@@ -5,12 +5,170 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>AFN Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Fri, 07 Aug 2020 15:02:56 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Mon, 17 Aug 2020 15:02:57 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/media/static/img/avatar.jpg</url>
       <title>AFN Blog</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>2020-08-18</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200818/</link>
+      <pubDate>Mon, 17 Aug 2020 15:02:57 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200818/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetesのモダンな活用法 - 設計メソッドと、Virtual Kubeletで実現するサーバーレス化を学ぼう - エンジニアHub｜若手Webエンジニアのキャリアを考える！
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://employment.en-japan.com/engineerhub/entry/2020/08/18/103000&#34;&gt;https://employment.en-japan.com/engineerhub/entry/2020/08/18/103000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;virtual kubelet, AWS が EKS Fargate で採用しないあたりでうーんになった感がある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Introducing launch template and custom AMI support in Amazon EKS Managed Node Groups | Containers
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/jp/blogs/containers/introducing-launch-template-and-custom-ami-support-in-amazon-eks-managed-node-groups/&#34;&gt;https://aws.amazon.com/jp/blogs/containers/introducing-launch-template-and-custom-ami-support-in-amazon-eks-managed-node-groups/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;managed node group が launch tempalate に対応, kubelet の option とかいじれるようになったかな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200817</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200817/</link>
+      <pubDate>Sun, 16 Aug 2020 15:03:32 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200817/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200816</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200816/</link>
+      <pubDate>Sat, 15 Aug 2020 15:03:06 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200816/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200815</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200815/</link>
+      <pubDate>Fri, 14 Aug 2020 15:03:01 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200815/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200814</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200814/</link>
+      <pubDate>Thu, 13 Aug 2020 15:03:25 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200814/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducing Hierarchical Namespaces | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/blog/2020/08/14/introducing-hierarchical-namespaces/&#34;&gt;https://kubernetes.io/blog/2020/08/14/introducing-hierarchical-namespaces/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;階層的な Namesapce, RABC とかを引き継ぐ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Docker Hub の新しいコンテナ・イメージ保管ポリシー（参考訳） - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/zembutsu/items/e92a2e2f46b147e5a206&#34;&gt;https://qiita.com/zembutsu/items/e92a2e2f46b147e5a206&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;半年使ってない Image を消すよとのこと&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200813</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200813/</link>
+      <pubDate>Wed, 12 Aug 2020 15:02:59 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200813/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200812</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200812/</link>
+      <pubDate>Tue, 11 Aug 2020 15:03:18 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200812/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200811</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200811/</link>
+      <pubDate>Mon, 10 Aug 2020 15:02:47 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200811/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-08-10</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200810/</link>
+      <pubDate>Sun, 09 Aug 2020 15:02:34 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200810/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;FlannelのVXLANバックエンドの仕組み - めもめも
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://enakai00.hatenablog.com/entry/2015/04/02/173739&#34;&gt;https://enakai00.hatenablog.com/entry/2015/04/02/173739&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;仮想ネットワークなんもわからん……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;なぜ Go では何百万もの Goroutine を作れるのに Java は数千のスレッドしか作れないのか?
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mahata.gitlab.io/post/2018-10-15-goroutines-vs-java-threads/&#34;&gt;https://mahata.gitlab.io/post/2018-10-15-goroutines-vs-java-threads/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;goroutine は軽量スレッド, スケジューラをランタイムが実装している&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;イケてるエンジニアになろうシリーズ 〜メモリとプロセスとスレッド編〜 - もろず blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://moro-archive.hatenablog.com/entry/2014/09/11/013520&#34;&gt;https://moro-archive.hatenablog.com/entry/2014/09/11/013520&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;プロセスとスレッドの違い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;マルチスレッドのコンテキスト切り替えに伴うコスト - naoyaのはてなダイアリー
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://naoya-2.hatenadiary.org/entry/20071010/1192040413&#34;&gt;https://naoya-2.hatenadiary.org/entry/20071010/1192040413&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;スレッドの話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-08-09</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200809/</link>
+      <pubDate>Sat, 08 Aug 2020 15:02:49 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200809/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;nil は nil — プログラミング言語 Go | text.Baldanders.info
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://text.baldanders.info/golang/nil-is-nil/&#34;&gt;https://text.baldanders.info/golang/nil-is-nil/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;型付き nil の話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ホストからの Prometheus および OpenMetrics メトリクスの収集
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.datadoghq.com/ja/integrations/guide/prometheus-host-collection/&#34;&gt;https://docs.datadoghq.com/ja/integrations/guide/prometheus-host-collection/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Datadog で prometheus exporter からメトリクス収集するやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>20200808</title>
