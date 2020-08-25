@@ -5,12 +5,103 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>AFN Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Mon, 17 Aug 2020 15:02:57 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Mon, 24 Aug 2020 15:04:25 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/media/static/img/avatar.jpg</url>
       <title>AFN Blog</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>20200825</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200825/</link>
+      <pubDate>Mon, 24 Aug 2020 15:04:25 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200825/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200824</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200824/</link>
+      <pubDate>Sun, 23 Aug 2020 15:03:02 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200824/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200823</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200823/</link>
+      <pubDate>Sat, 22 Aug 2020 15:02:52 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200823/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200822</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200822/</link>
+      <pubDate>Fri, 21 Aug 2020 15:03:11 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200822/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20200821</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200821/</link>
+      <pubDate>Thu, 20 Aug 2020 15:03:19 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200821/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-08-20</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200820/</link>
+      <pubDate>Wed, 19 Aug 2020 15:02:59 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200820/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;kubectlのプラグイン機構とおすすめプラグインのご紹介 〜 Kubernetes制御用コマンド #k8sjp - Yahoo! JAPAN Tech Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://techblog.yahoo.co.jp/entry/2020081830014718/&#34;&gt;https://techblog.yahoo.co.jp/entry/2020081830014718/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;kubectl プラグインまとめ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-08-19</title>
+      <link>https://d-kuro.github.io/diaries/202008/20200819/</link>
+      <pubDate>Tue, 18 Aug 2020 15:03:19 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202008/20200819/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Deconstructing Kubernetes Networking · Emanuel Evans
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eevans.co/blog/deconstructing-kubernetes-networking/&#34;&gt;https://eevans.co/blog/deconstructing-kubernetes-networking/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;いい記事, Kubernetes のネットワーキングについて CNI とかの説明が書いてある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes Controllers - A new hope | Slinky&amp;rsquo;s corner
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://slinkydeveloper.com/Kubernetes-controllers-A-New-Hope/&#34;&gt;https://slinkydeveloper.com/Kubernetes-controllers-A-New-Hope/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;WASM の Kubernetes Controller の話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;秒間3万リクエストをkubernetesでさばく - Gunosy Tech Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.gunosy.io/entry/high_traffic_server_on_eks&#34;&gt;https://tech.gunosy.io/entry/high_traffic_server_on_eks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;sidecar fluentd, DaemonSet に比べてリソースもったいなくない？という気持ちがある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2020-08-18</title>
