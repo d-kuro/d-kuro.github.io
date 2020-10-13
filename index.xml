@@ -5,7 +5,7 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>AFN Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Mon, 24 Aug 2020 15:04:25 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Mon, 12 Oct 2020 15:04:09 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/media/static/img/avatar.jpg</url>
       <title>AFN Blog</title>
@@ -13,47 +13,452 @@
     </image>
     
     <item>
-      <title>20200825</title>
-      <link>https://d-kuro.github.io/diaries/202008/20200825/</link>
-      <pubDate>Mon, 24 Aug 2020 15:04:25 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202008/20200825/</guid>
+      <title>20201013</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201013/</link>
+      <pubDate>Mon, 12 Oct 2020 15:04:09 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201013/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
 </description>
     </item>
     
     <item>
-      <title>20200824</title>
-      <link>https://d-kuro.github.io/diaries/202008/20200824/</link>
-      <pubDate>Sun, 23 Aug 2020 15:03:02 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202008/20200824/</guid>
+      <title>20201012</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201012/</link>
+      <pubDate>Sun, 11 Oct 2020 15:03:37 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201012/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
 </description>
     </item>
     
     <item>
-      <title>20200823</title>
-      <link>https://d-kuro.github.io/diaries/202008/20200823/</link>
-      <pubDate>Sat, 22 Aug 2020 15:02:52 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202008/20200823/</guid>
+      <title>20201011</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201011/</link>
+      <pubDate>Sat, 10 Oct 2020 15:03:44 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201011/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
 </description>
     </item>
     
     <item>
-      <title>20200822</title>
-      <link>https://d-kuro.github.io/diaries/202008/20200822/</link>
-      <pubDate>Fri, 21 Aug 2020 15:03:11 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202008/20200822/</guid>
+      <title>20201010</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201010/</link>
+      <pubDate>Fri, 09 Oct 2020 15:04:19 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201010/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
 </description>
     </item>
     
     <item>
-      <title>20200821</title>
-      <link>https://d-kuro.github.io/diaries/202008/20200821/</link>
-      <pubDate>Thu, 20 Aug 2020 15:03:19 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202008/20200821/</guid>
+      <title>20201009</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201009/</link>
+      <pubDate>Thu, 08 Oct 2020 15:04:08 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201009/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-10-08</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201008/</link>
+      <pubDate>Wed, 07 Oct 2020 15:03:47 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201008/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes 1.19: Metrics Changes と SIG Instrumentation の変更内容 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/watawuwu/items/8be903465f92e44f4286&#34;&gt;https://qiita.com/watawuwu/items/8be903465f92e44f4286&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;構造化ログはいい話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;フェーズから読み解くKubernetesクラスタ構築ツールの全貌『解体kubeadm』発行　技術の泉シリーズ、9月の新刊｜株式会社インプレスホールディングスのプレスリリース
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://prtimes.jp/main/html/rd/p/000003429.000005875.html&#34;&gt;https://prtimes.jp/main/html/rd/p/000003429.000005875.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;kubeadm の話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetesのマルチテナントの現状を整理する - TECHSTEP
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://techstep.hatenablog.com/entry/2020/09/06/160435&#34;&gt;https://techstep.hatenablog.com/entry/2020/09/06/160435&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;まとまってる, でもクラスタ分けとこうなが一番いいと思ってる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes 1.19: SIG-Apps の変更内容 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/yosshi_/items/56493481553ded0c3ad1&#34;&gt;https://qiita.com/yosshi_/items/56493481553ded0c3ad1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;めぼしいものはなかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Introducing Structured Logs | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/blog/2020/09/04/kubernetes-1-19-introducing-structured-logs/&#34;&gt;https://kubernetes.io/blog/2020/09/04/kubernetes-1-19-introducing-structured-logs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;構造化ログの話, klog に &lt;code&gt;InfoS&lt;/code&gt; と &lt;code&gt;ErrorS&lt;/code&gt; が生えたらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Warning: Helpful Warnings Ahead | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/blog/2020/09/03/warnings/&#34;&gt;https://kubernetes.io/blog/2020/09/03/warnings/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;deprecated な API を kubectl で呼び出したときに警告がでるようになった, 便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scaling Kubernetes Networking With EndpointSlices | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/blog/2020/09/02/scaling-kubernetes-networking-with-endpointslices/&#34;&gt;https://kubernetes.io/blog/2020/09/02/scaling-kubernetes-networking-with-endpointslices/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;EndpointSlice の話, 今までの Endpoint だと etcd のサイズ制限に接触する可能性があったしデータ転送量も馬鹿にならなかった, それをシャーディングの容量でEndpintSlice に分割することで解決した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ephemeral volumes with storage capacity tracking: EmptyDir on steroids | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/blog/2020/09/01/ephemeral-volumes-with-storage-capacity-tracking/&#34;&gt;https://kubernetes.io/blog/2020/09/01/ephemeral-volumes-with-storage-capacity-tracking/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ephemeral volumes の話, CSI になんか入ったのかな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Increasing the Kubernetes Support Window to One Year | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/blog/2020/08/31/kubernetes-1-19-feature-one-year-support/&#34;&gt;https://kubernetes.io/blog/2020/08/31/kubernetes-1-19-feature-one-year-support/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;v1.19 からサポート期間が一年に&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes 1.19: Accentuate the Paw-sitive | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/blog/2020/08/26/kubernetes-release-1.19-accentuate-the-paw-sitive/&#34;&gt;https://kubernetes.io/blog/2020/08/26/kubernetes-release-1.19-accentuate-the-paw-sitive/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;公式ブログの v1.19 まとめ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Moving Forward From Beta | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/blog/2020/08/21/moving-forward-from-beta/&#34;&gt;https://kubernetes.io/blog/2020/08/21/moving-forward-from-beta/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;永続的に beta な API が生まれることを回避するために 9 ヶ月で今の beta が非推奨になる仕組みができたらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-10-07</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201007/</link>
+      <pubDate>Tue, 06 Oct 2020 15:04:12 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201007/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;攻撃しながら考えるKubernetesのセキュリティ / Considering Kubernetes Security While Attacking - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/fujiihda/considering-kubernetes-security-while-attacking&#34;&gt;https://speakerdeck.com/fujiihda/considering-kubernetes-security-while-attacking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;セキュリティの本, 良さそうと思いつつ買ってない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Istio integrated Telepresence - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/morux2/istio-integrated-telepresence&#34;&gt;https://speakerdeck.com/morux2/istio-integrated-telepresence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ちゃんとしてる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;How to gracefully kill Kubernetes Jobs with a sidecar? - Suraj Deshmukh
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://suraj.io/post/how-to-gracefully-kill-kubernetes-jobs-with-a-sidecar/&#34;&gt;https://suraj.io/post/how-to-gracefully-kill-kubernetes-jobs-with-a-sidecar/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;shareProcessNamespace: true&lt;/code&gt; にして Job で pkill を実行して sidecar を殺す話, かんたんで良さそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitHub Container Registry(ghcr.io)にDockerイメージをpushする手順 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/zembutsu/items/1effae6c39ceae3c3d0a&#34;&gt;https://qiita.com/zembutsu/items/1effae6c39ceae3c3d0a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;KubernetesのCPU limits設定時における「不要なスロットリング」を回避する方法とは？ - GIGAZINE
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gigazine.net/news/20200904-kubernetes-buffer-remove-cpu-limit/&#34;&gt;https://gigazine.net/news/20200904-kubernetes-buffer-remove-cpu-limit/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;翻訳記事&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;How a Kubernetes Pod Gets an IP Address | Ronak Nathani
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/&#34;&gt;https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pod 同士がどうやって通信しているのか, CNI とかについて深堀りして書いてある, 便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes NodePort and iptables rules | Ronak Nathani
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ronaknathani.com/blog/2020/07/kubernetes-nodeport-and-iptables-rules/&#34;&gt;https://ronaknathani.com/blog/2020/07/kubernetes-nodeport-and-iptables-rules/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Service と iptables の話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-10-06</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201006/</link>
+      <pubDate>Mon, 05 Oct 2020 15:03:59 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201006/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;syscall - The Go Programming Language
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/pkg/syscall/#Errno&#34;&gt;https://golang.org/pkg/syscall/#Errno&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;syscall で帰ってくる Errno の GoDoc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Man page of WAIT
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxjm.osdn.jp/html/LDP_man-pages/man2/waitpid.2.html&#34;&gt;https://linuxjm.osdn.jp/html/LDP_man-pages/man2/waitpid.2.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;wait() syscall の man&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;7-4. ネットワークサービスは必ずforkしよう
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ipa.go.jp/security/awareness/vendor/programmingv1/b07_04_main.html&#34;&gt;https://www.ipa.go.jp/security/awareness/vendor/programmingv1/b07_04_main.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ゾンビと wait() syscall の話が書いてある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go 1.14でシステムコールがEINTRエラーを返すようになった - Plan 9とGo言語のブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.lufia.org/entry/2020/02/29/162727&#34;&gt;https://blog.lufia.org/entry/2020/02/29/162727&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;らしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[CNDT2020]Linux Observability with BPF Performance Tools - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/govargo/cndt2020-linux-observability-with-bpf-performance-tools&#34;&gt;https://speakerdeck.com/govargo/cndt2020-linux-observability-with-bpf-performance-tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;便利そう OOM のとか割とすぐつかいたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-10-05</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201005/</link>
+      <pubDate>Sun, 04 Oct 2020 15:03:45 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201005/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;「プログラミング言語Go完全入門」の「完全」公開のお知らせ | メルカリエンジニアリング
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://engineering.mercari.com/blog/entry/goforbeginners/&#34;&gt;https://engineering.mercari.com/blog/entry/goforbeginners/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ずっと無料公開, すごい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ramr/go-reaper: Process (Grim) reaper library for golang - this is useful for cleaning up zombie processes inside docker containers (which do not have an init process running as pid 1).
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ramr/go-reaper&#34;&gt;https://github.com/ramr/go-reaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ゾンビ刈り取るくん, 検討してたけど結局 pause コンテナ使ってしまった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Docker で node.js を動かすときは PID 1 にしてはいけない - ngzmのブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ngzm.hateblo.jp/entry/2017/08/22/185224&#34;&gt;https://ngzm.hateblo.jp/entry/2017/08/22/185224&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;node が SIGTERM をハンドリングしてないので Tini を PID 1 にしてあげる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;initのお仕事〜tiniのコードを読んでみた - ローファイ日記
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://udzura.hatenablog.jp/entry/2018/04/16/162024&#34;&gt;https://udzura.hatenablog.jp/entry/2018/04/16/162024&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;コードの話, 割とシンプルで読みやすい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Unix プロセスと Docker の罠 :: けちゃぶろぐ — GoとかVimとか色々と
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kechako.dev/posts/2015/05/27/210459/&#34;&gt;https://kechako.dev/posts/2015/05/27/210459/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SIGCHLD signal で子が死んだときの通知を受け取ることができるので signal をハンドリングして wait() を呼んであげることでゾンビの対処ができる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-10-04</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201004/</link>
+      <pubDate>Sat, 03 Oct 2020 15:03:35 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201004/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;【暫定版】 Kubernetesの性能監視で必要なメトリクス一覧とPrometheusでのHowTo - kashionki38 blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kashionki38.hatenablog.com/entry/2020/08/06/011420&#34;&gt;https://kashionki38.hatenablog.com/entry/2020/08/06/011420&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes の監視すべきメトリクスがまとまっている, すごい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;github.com/prometheus/client_golang&lt;/code&gt; を使って 99.9 percentileでのHTTPハンドラのメトリクスを取ってみる - 京都行きたい
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://progret.hatenadiary.com/entry/2018/12/19/154927&#34;&gt;https://progret.hatenadiary.com/entry/2018/12/19/154927&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の Prometheus client を使ってパーセンタイルメトリクスを取る話, Summary で取れるらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What’s new in Kubernetes 1.19? | Sysdig
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sysdig.com/blog/whats-new-kubernetes-1-19/&#34;&gt;https://sysdig.com/blog/whats-new-kubernetes-1-19/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes v1.19, 細かいので嬉しいものが多い気がする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;eBPF and Kubernetes: Little Helper Minions for Scaling Microservices - @kanatakita&amp;rsquo;s blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kanatakita.hatenablog.com/entry/2020/08/20/012851&#34;&gt;https://kanatakita.hatenablog.com/entry/2020/08/20/012851&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;eBPF なにもわからない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Improving the Performance of Your Kubernetes Cluster - @kanatakita&amp;rsquo;s blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kanatakita.hatenablog.com/entry/2020/08/19/115825&#34;&gt;https://kanatakita.hatenablog.com/entry/2020/08/19/115825&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes Cluster のパフォーマンスを改善する話, ちゃんと計測しててすごい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-10-03</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201003/</link>
+      <pubDate>Fri, 02 Oct 2020 15:03:37 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201003/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;循環小数の循環節を求める「ウサギとカメのアルゴリズム」
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hack.jp/?p=254&#34;&gt;https://hack.jp/?p=254&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;フロイドの循環検出法というらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;OSSエンジニアを1年やってみた所感 - knqyf263&amp;rsquo;s blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://knqyf263.hatenablog.com/entry/2020/08/28/074749&#34;&gt;https://knqyf263.hatenablog.com/entry/2020/08/28/074749&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;仕事で OSS したい人生だった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go言語でのテストの並列化 〜t.Parallel()メソッドを理解する〜 | メルカリエンジニアリング
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://engineering.mercari.com/blog/entry/how_to_use_t_parallel/&#34;&gt;https://engineering.mercari.com/blog/entry/how_to_use_t_parallel/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;なんだかんだ使ったこと無い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;エンジニア向けの余白の基礎 / Spacing - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/yuyaink/spacing&#34;&gt;https://speakerdeck.com/yuyaink/spacing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;余白の話, スライドづくりに, スライド作ってるとデザイン勉強したくなる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;How does a Prometheus Counter work? – Robust Perception | Prometheus Monitoring Experts
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robustperception.io/how-does-a-prometheus-counter-work&#34;&gt;https://www.robustperception.io/how-does-a-prometheus-counter-work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prometheus の Counter Metrics について&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;How does a Prometheus Gauge work? – Robust Perception | Prometheus Monitoring Experts
+&lt;ul&gt;
+&lt;li&gt;Prometheus の Gauge Metrics について&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;How does a Prometheus Summary work? – Robust Perception | Prometheus Monitoring Experts
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robustperception.io/how-does-a-prometheus-summary-work&#34;&gt;https://www.robustperception.io/how-does-a-prometheus-summary-work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Primetheus の Summary Metrics について&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;How does a Prometheus Histogram work? – Robust Perception | Prometheus Monitoring Experts
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robustperception.io/how-does-a-prometheus-histogram-work&#34;&gt;https://www.robustperception.io/how-does-a-prometheus-histogram-work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prometheus の Histogram Metrics について, いちばんよくわからない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-10-02</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201002/</link>
+      <pubDate>Thu, 01 Oct 2020 15:04:04 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201002/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Go] signal.Notifyを使うときは必ずバッファ付きチャネルで利用すること - My External Storage
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://budougumi0617.github.io/2020/09/06/why_signal_notify_want_buffered_channel/&#34;&gt;https://budougumi0617.github.io/2020/09/06/why_signal_notify_want_buffered_channel/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;バッファ忘れないようにしような&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;patchStrategicMerge elides null and {} · Issue #2734 · kubernetes-sigs/kustomize
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/kustomize/issues/2734&#34;&gt;https://github.com/kubernetes-sigs/kustomize/issues/2734&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;kustomize が &lt;code&gt;foo: {}&lt;/code&gt; をうまく解釈できなかったバグ, 直っていた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes’ Shadows. KubernetesにはShadowsと言われる、将来のリーダー候補を育てるため… | by Hodagi | Sep, 2020 | Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@genboku/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%81%E3%83%BC%E3%83%A0-shadows-996c8174fb6b&#34;&gt;https://medium.com/@genboku/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%81%E3%83%BC%E3%83%A0-shadows-996c8174fb6b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OSS 真面目にやりたい人生だった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;その Kubernetes は 効率的にマシンを活用できているか #CNDT2020_RJKT #CNDT2020_RJKT_B / CNDT2020 Rejekts - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/koudaiii/cndt2020-rejekts&#34;&gt;https://speakerdeck.com/koudaiii/cndt2020-rejekts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ARP table 原因って突き止めたのすごい, Pod が増えすぎたのが起因らしいので覚えとく&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;プロセスとスレッドの違い - ついでにタスクとジョブ - | ただ屋ぁのブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tadtadya.com/process-thread-task-job/&#34;&gt;https://tadtadya.com/process-thread-task-job/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ゾンビとかについての説明もある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goで子プロセスを確実にKillする方法 | makiuchi-d.github.io
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://makiuchi-d.github.io/2020/05/10/go-kill-child-process.ja.html&#34;&gt;http://makiuchi-d.github.io/2020/05/10/go-kill-child-process.ja.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;os/exec で呼び出したプロセスの子がいるとそれがゾンビになったりする, &lt;code&gt;cmd.SysProcAttr = &amp;amp;syscall.SysProcAttr{Setpgid: true}&lt;/code&gt; を設定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Docker/Kubernetes で PID 1 問題を回避する | text․superbrothers․dev
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://text.superbrothers.dev/200328-how-to-avoid-pid-1-problem-in-kubernetes/&#34;&gt;https://text.superbrothers.dev/200328-how-to-avoid-pid-1-problem-in-kubernetes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pod の &lt;code&gt;spec.shareProcessNamespace&lt;/code&gt; を true にすると pause コンテナが PID1 になる, そいつがゾンビの刈り取りとかをしてくれるの便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-10-01</title>
+      <link>https://d-kuro.github.io/diaries/202010/20201001/</link>
+      <pubDate>Wed, 30 Sep 2020 15:04:01 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202010/20201001/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;pauseコンテナについて - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/tkj06/items/3e72701962c5f4c525c2&#34;&gt;https://qiita.com/tkj06/items/3e72701962c5f4c525c2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;pause コンテナ, ゾンビの刈り取りもしてくれる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;kubernetes/pause.c at v1.19.2 · kubernetes/kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/v1.19.2/build/pause/pause.c&#34;&gt;https://github.com/kubernetes/kubernetes/blob/v1.19.2/build/pause/pause.c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;passe コンテナの中身, C で書かれている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;waitシステムコールとerrnoによる子プロセスがいないときの判定方法
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kaworu.jpn.org/kaworu/2007-12-22-2.php&#34;&gt;https://kaworu.jpn.org/kaworu/2007-12-22-2.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;wait() で子プロセスの終了のハンドリングするときの処理方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitHub Container Registry 入門 - 生産性向上ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaizenprogrammer.com/entry/2020/09/03/060236&#34;&gt;https://www.kaizenprogrammer.com/entry/2020/09/03/060236&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub のレジストリ, 個人用とはぜんぶこっちで良さそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes: Make your services faster by removing CPU limits · Eric Khun
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://erickhun.com/posts/kubernetes-faster-services-no-cpu-limits/&#34;&gt;https://erickhun.com/posts/kubernetes-faster-services-no-cpu-limits/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CPU Limits を削除してスロットリングを解消した話, ちゃんと計測してて偉い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
