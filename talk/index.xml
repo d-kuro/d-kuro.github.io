@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | d-kuro</title>
+    <link>https://d-kuro.github.io/talk/</link>
+      <atom:link href="https://d-kuro.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://d-kuro.github.io/talk/</link>
+    </image>
+    
+    <item>
+      <title>Understanding CPU throttling in Kubernetes to improve application performance</title>
+      <link>https://d-kuro.github.io/talk/understanding-cpu-throttling-in-kubernetes-to-improve-application-performance/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0900</pubDate>
+      <guid>https://d-kuro.github.io/talk/understanding-cpu-throttling-in-kubernetes-to-improve-application-performance/</guid>
+      <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;7bcad712d03841d9af70ac26f789f4fe&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href=&#34;https://k8sjp.github.io/kubefest-2020/sessions/12/&#34;&gt;https://k8sjp.github.io/kubefest-2020/sessions/12/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leader Election in Kubernetes</title>
+      <link>https://d-kuro.github.io/talk/leader-election-in-kubernetes/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>https://d-kuro.github.io/talk/leader-election-in-kubernetes/</guid>
+      <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;6aa22d2c4ff34536bc52461feacb2be5&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href=&#34;https://k8sjp.connpass.com/event/162343/&#34;&gt;https://k8sjp.connpass.com/event/162343/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Argo CD 実践ガイド / Argo CD Practice Guide</title>
+      <link>https://d-kuro.github.io/talk/argo-cd-practice-guide/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+      <guid>https://d-kuro.github.io/talk/argo-cd-practice-guide/</guid>
+      <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3986564d8d62406aabc06fe60d29cbaf&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href=&#34;https://k8sjp.connpass.com/event/138375/&#34;&gt;https://k8sjp.connpass.com/event/138375/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>図で理解する Descheduler / Introduction to Descheduler</title>
+      <link>https://d-kuro.github.io/talk/introduction-to-descheduler/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+      <guid>https://d-kuro.github.io/talk/introduction-to-descheduler/</guid>
+      <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;d25008a684ee484895c4fe46e53b6ab3&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href=&#34;https://k8sjp.connpass.com/event/126207/&#34;&gt;https://k8sjp.connpass.com/event/126207/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes のソースコードとの付き合い方 / Kubernetes source code reading</title>
+      <link>https://d-kuro.github.io/talk/kubernetes-source-code-reading/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0900</pubDate>
+      <guid>https://d-kuro.github.io/talk/kubernetes-source-code-reading/</guid>
+      <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;808633635ae8440e814a06e8c6c303e7&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href=&#34;https://gounconference.connpass.com/event/129090/&#34;&gt;https://gounconference.connpass.com/event/129090/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

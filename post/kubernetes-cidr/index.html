@@ -1,0 +1,1254 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.0 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="d-kuro">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="What to do when the Pod does not start due to CIDR allocation failure.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://d-kuro.github.io/post/kubernetes-cidr/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://d-kuro.github.io/post/kubernetes-cidr/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@ponde_m">
+  <meta property="twitter:creator" content="@ponde_m">
+  
+  <meta property="og:site_name" content="d-kuro">
+  <meta property="og:url" content="https://d-kuro.github.io/post/kubernetes-cidr/">
+  <meta property="og:title" content="CIDR allocation failed for Kubernetes | d-kuro">
+  <meta property="og:description" content="What to do when the Pod does not start due to CIDR allocation failure."><meta property="og:image" content="https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-05-06T22:09:56&#43;09:00">
+    
+    <meta property="article:modified_time" content="2020-05-06T22:09:56&#43;09:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://d-kuro.github.io/post/kubernetes-cidr/"
+  },
+  "headline": "CIDR allocation failed for Kubernetes",
+  
+  "datePublished": "2020-05-06T22:09:56+09:00",
+  "dateModified": "2020-05-06T22:09:56+09:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "d-kuro"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "d-kuro",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "\u003cp\u003eWhat to do when the Pod does not start due to CIDR allocation failure.\u003c/p\u003e"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>CIDR allocation failed for Kubernetes | d-kuro</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+    <script>window.wcDarkLightEnabled = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">d-kuro</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">d-kuro</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/post/"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/talk/"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/author/d-kuro/"><span>About Me</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/diaries/"><span>Diaries</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>CIDR allocation failed for Kubernetes</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2020-05-06
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/kubernetes/">Kubernetes</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>What to do when the Pod does not start due to CIDR allocation failure.</p>
+<h2 id="context">Context</h2>
+<p>We are using <a href="https://github.com/kubernetes-incubator/kube-aws" target="_blank" rel="noopener">kube-aws</a> to build Kubernetes cluster.
+One day, I saw that the Pod was in a lot of errors and would not start.
+This has only occurred on certain nodes.</p>
+<pre><code class="language-text">NAMESPACE     NAME                         READY   STATUS              RESTARTS   AGE
+kube-system   canal-node-g2vfn             2/3     CrashLoopBackOff    20         79m
+kube-system   kube-proxy-8n2lj             1/1     Running             0          79m
+monitor       datadog-lr74g                0/3     Init:0/2            0          79m
+production    foo-9d6944774-9jlls          0/2     ContainerCreating   0          55s
+...
+</code></pre>
+<h2 id="check-flannel-logs">Check flannel logs</h2>
+<p>flannel had an error message like the following:</p>
+<pre><code class="language-text">I0502 02:42:02.830771       1 main.go:514] Determining IP address of default interface
+I0502 02:42:02.830960       1 main.go:527] Using interface with name eth0 and address 10.12.2.236
+I0502 02:42:02.830972       1 main.go:544] Defaulting external address to interface address (10.12.2.236)
+I0502 02:42:02.849385       1 kube.go:126] Waiting 10m0s for node controller to sync
+I0502 02:42:02.849412       1 kube.go:309] Starting kube subnet manager
+I0502 02:42:03.849506       1 kube.go:133] Node controller sync successful
+I0502 02:42:03.849550       1 main.go:244] Created subnet manager: Kubernetes Subnet Manager - foo-node
+I0502 02:42:03.849557       1 main.go:247] Installing signal handlers
+I0502 02:42:03.849682       1 main.go:386] Found network config - Backend type: vxlan
+I0502 02:42:03.849719       1 vxlan.go:120] VXLAN config: VNI=1 Port=0 GBP=false DirectRouting=false
+E0502 02:42:03.849902       1 main.go:289] Error registering network: failed to acquire lease: node &quot;foo-node&quot; pod cidr not assigned
+I0502 02:42:03.849937       1 main.go:366] Stopping shutdownHandler...
+</code></pre>
+<h2 id="check-controller-manager-logs">Check controller-manager logs</h2>
+<p>controller-manager had an error message like the following:</p>
+<blockquote>
+<p>CIDR allocation failed; there are no remaining CIDRs left to allocate in the accepted range</p>
+</blockquote>
+<pre><code class="language-text">E0502 03:11:40.819569       1 controller_utils.go:282] Error while processing Node Add/Delete: failed to allocate cidr: CIDR allocation failed; there are no remaining CIDRs left to allocate in the accepted range
+I0502 03:11:40.820095       1 event.go:221] Event(v1.ObjectReference{Kind:&quot;Node&quot;, Namespace:&quot;&quot;, Name:&quot;foo-node&quot;, UID:&quot;2e10b7b3-8c14-11ea-a498-066c4ca4071a&quot;, APIVersion:&quot;&quot;, ResourceVersion:&quot;&quot;, FieldPath:&quot;&quot;}): type: 'Normal' reason: 'CIDRNotAvailable' Node foo-node status is now: CIDRNotAvailable
+</code></pre>
+<p>Kubernetes assigns a range of IP addresses (CIDR blocks) to each node so that a unique IP address is specified for each Pod.
+By default, Kubernetes assigns /24 CIDR blocks (256 addresses) to each node.
+This error message is displayed if the Node could not be assigned a CIDR blocks.</p>
+<p>This explanation is detailed in GKE documentation by GCP.</p>
+<blockquote>
+<p>📝<a href="https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr" target="_blank" rel="noopener">Optimizing IP address allocation  |  Kubernetes Engine Documentation</a></p>
+</blockquote>
+<h2 id="check-cluster-cidr-blocks">Check cluster CIDR blocks</h2>
+<p>Checking CIDR block for a cluster, run the following command on master node:</p>
+<pre><code class="language-bash">ps aux | grep cluster-cidr
+</code></pre>
+<p>Run it, you will get the following results:</p>
+<pre><code class="language-bash">root      3159  0.0  0.5 818604 89064 ?        Ssl  May02   1:53 /hyperkube controller-manager --cloud-provider=aws --cluster-name=foo-cluster --kubeconfig=/etc/kubernetes/kubeconfig/kube-controller-manager.yaml --authentication-kubeconfig=/etc/kubernetes/kubeconfig/kube-controller-manager.yaml --authorization-kubeconfig=/etc/kubernetes/kubeconfig/kube-controller-manager.yaml --leader-elect=true --root-ca-file=/etc/kubernetes/ssl/ca.pem --service-account-private-key-file=/etc/kubernetes/ssl/service-account-key.pem --use-service-account-credentials --cluster-signing-cert-file=/etc/kubernetes/ssl/worker-ca.pem --cluster-signing-key-file=/etc/kubernetes/ssl/worker-ca-key.pem --allocate-node-cidrs=true --cluster-cidr=10.2.0.0/16 --configure-cloud-routes=false --service-cluster-ip-range=10.3.0.0/16
+core      6843  0.0  0.0   2820   844 pts/0    S+   14:07   0:00 grep --colour=auto cluster-cidr
+</code></pre>
+<p>Checking the value of the <code>--cluster-cidr</code> option:</p>
+<blockquote>
+<p><code>--cluster-cidr=10.2.0.0/16</code></p>
+</blockquote>
+<p>Kubernetes grants each node a /24 CIDR blocks by default for use by the nodes Pods. Because this cluster assigns Pod IP addresses from a /16 CIDR blocks (<code>cluster-cidr</code>), there can be up to 256 nodes (24-16 = 8, 2^8 = 256).</p>
+<p>The reason why the Pods didn&rsquo;t start this time was that the HPA scaled so many Pods that there were more than 265 nodes.</p>
+<h2 id="change-cidr-blocks-assigned-to-node">Change CIDR blocks assigned to node</h2>
+<p>To solve this problem I made change to the CIDR blocks assigned to the nodes.
+Changing the CIDR blocks from /24 to /25 reduces the number of Pods per nodes, but allowed will be 512 nodes（25-16 = 9、2^9 = 512).</p>
+<p>To change the CIDR blocks, run controller-manager with the following options:</p>
+<blockquote>
+<p><code>--node-cidr-mask-size=25</code></p>
+</blockquote>
+<p>Also, we limited the number of Pods that can be launched with the kubelet option to 64.
+For the basis of this number 64, see the <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr" target="_blank" rel="noopener">GKE document</a>.</p>
+<blockquote>
+<p><code>--max-pods=64</code></p>
+</blockquote>
+<p>When running a large Kubernetes cluster, you need to take care of the CIDR ranges.</p>
+<h3 id="refs">Refs</h3>
+<ul>
+<li><a href="https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr" target="_blank" rel="noopener">Optimizing IP address allocation  |  Kubernetes Engine Documentation</a></li>
+<li><a href="https://srcco.de/posts/many-kubernetes-clusters.html" target="_blank" rel="noopener">Many Kubernetes Clusters | SRCco.de</a></li>
+</ul>
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/kubernetes/">Kubernetes</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://d-kuro.github.io/post/kubernetes-cidr/&amp;text=CIDR%20allocation%20failed%20for%20Kubernetes" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://d-kuro.github.io/post/kubernetes-cidr/&amp;t=CIDR%20allocation%20failed%20for%20Kubernetes" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=CIDR%20allocation%20failed%20for%20Kubernetes&amp;body=https://d-kuro.github.io/post/kubernetes-cidr/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://d-kuro.github.io/post/kubernetes-cidr/&amp;title=CIDR%20allocation%20failed%20for%20Kubernetes" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=CIDR%20allocation%20failed%20for%20Kubernetes%20https://d-kuro.github.io/post/kubernetes-cidr/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://d-kuro.github.io/post/kubernetes-cidr/&amp;title=CIDR%20allocation%20failed%20for%20Kubernetes" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://d-kuro.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/d-kuro/avatar_hu8295ee91e5fefa8eb751e1ce3d9add44_44200_270x270_fill_q90_lanczos_center.jpg" alt="d-kuro"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://d-kuro.github.io/">d-kuro</a></h5>
+      <h6 class="card-subtitle">Software Engineer</h6>
+      <p class="card-text">I&rsquo;m a software engineer interested in Kubernetes and other cloud-native technologies.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ponde_m" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/d-kuro" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/d-kuro/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/kubernetes-leader-election/">Kubernetes Leader Election in Depth</a></li>
+      
+      <li><a href="/post/deployment-revisionhistorylimit-default/">Deployment の API Version が古いと revisionHistoryLimit のデフォルト値が 2147483647 に設定される</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 d-kuro
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/go.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/yaml.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.d9d80f811e95b4b4f6df1eaaf297b05f.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
