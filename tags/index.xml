@@ -1,16 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | AFN Blog</title>
+    <title>Tags on AFN Blog</title>
     <link>https://d-kuro.github.io/tags/</link>
-      <atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Wed, 06 May 2020 22:09:56 +0900</lastBuildDate>
-    <image>
-      <url>https://d-kuro.github.io/media/static/img/avatar.jpg</url>
-      <title>Tags</title>
-      <link>https://d-kuro.github.io/tags/</link>
-    </image>
+    <description>Recent content in Tags on AFN Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year} d-kuro</copyright>
+    <lastBuildDate>Wed, 06 May 2020 22:09:56 +0900</lastBuildDate>
+    
+	<atom:link href="https://d-kuro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://d-kuro.github.io/tag/kubernetes/</link>
+      <pubDate>Wed, 06 May 2020 22:09:56 +0900</pubDate>
+      
+      <guid>https://d-kuro.github.io/tag/kubernetes/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

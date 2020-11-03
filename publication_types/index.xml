@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types | AFN Blog</title>
+    <title>Publication_types on AFN Blog</title>
     <link>https://d-kuro.github.io/publication_types/</link>
-      <atom:link href="https://d-kuro.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright>
-    <image>
-      <url>https://d-kuro.github.io/media/static/img/avatar.jpg</url>
-      <title>Publication_types</title>
-      <link>https://d-kuro.github.io/publication_types/</link>
-    </image>
+    <description>Recent content in Publication_types on AFN Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year} d-kuro</copyright>
+    
+	<atom:link href="https://d-kuro.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>
