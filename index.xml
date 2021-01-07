@@ -5,21 +5,12 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>d-kuro</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 d-kuro</copyright><lastBuildDate>Mon, 12 Oct 2020 15:04:09 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>d-kuro</title>
       <link>https://d-kuro.github.io/</link>
     </image>
-    
-    <item>
-      <title>20201013</title>
-      <link>https://d-kuro.github.io/diaries/202010/20201013/</link>
-      <pubDate>Mon, 12 Oct 2020 15:04:09 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202010/20201013/</guid>
-      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
-</description>
-    </item>
     
     <item>
       <title>Understanding CPU throttling in Kubernetes to improve application performance</title>
@@ -28,42 +19,6 @@
       <guid>https://d-kuro.github.io/talk/understanding-cpu-throttling-in-kubernetes-to-improve-application-performance/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;7bcad712d03841d9af70ac26f789f4fe&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;a href=&#34;https://k8sjp.github.io/kubefest-2020/sessions/12/&#34;&gt;https://k8sjp.github.io/kubefest-2020/sessions/12/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20201012</title>
-      <link>https://d-kuro.github.io/diaries/202010/20201012/</link>
-      <pubDate>Sun, 11 Oct 2020 15:03:37 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202010/20201012/</guid>
-      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20201011</title>
-      <link>https://d-kuro.github.io/diaries/202010/20201011/</link>
-      <pubDate>Sat, 10 Oct 2020 15:03:44 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202010/20201011/</guid>
-      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20201010</title>
-      <link>https://d-kuro.github.io/diaries/202010/20201010/</link>
-      <pubDate>Fri, 09 Oct 2020 15:04:19 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202010/20201010/</guid>
-      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20201009</title>
-      <link>https://d-kuro.github.io/diaries/202010/20201009/</link>
-      <pubDate>Thu, 08 Oct 2020 15:04:08 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202010/20201009/</guid>
-      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
 </description>
     </item>
     

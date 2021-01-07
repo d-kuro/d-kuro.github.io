@@ -8,7 +8,7 @@
   
   
   
-  <meta name="generator" content="Wowchemy 5.0.0-beta.0 for Hugo">
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
   
 
   
@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#1565c0">
   
 
   
@@ -73,7 +73,7 @@
     
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
 
     
     
@@ -83,8 +83,8 @@
     
       
       
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/monokai-sublime.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/monokai-sublime.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
       
     
 
@@ -225,8 +225,8 @@
   
     
       
-      
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -234,7 +234,8 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.css">
+  
+  <link rel="stylesheet" href="/css/wowchemy.9d711cebf380679328885aff8188d64e.css">
 
   
 
@@ -253,7 +254,10 @@
   <link rel="alternate" href="/diaries/index.xml" type="application/rss+xml" title="d-kuro">
   
 
+  
   <link rel="manifest" href="/index.webmanifest">
+  
+
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
@@ -281,7 +285,7 @@
   <meta property="og:description" content="d-kuro&#39;s personal site"><meta property="og:image" content="https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-10-12T15:04:09&#43;00:00">
+    <meta property="og:updated_time" content="2020-10-07T15:03:47&#43;00:00">
   
 
   
@@ -308,15 +312,16 @@
   
   
   
-    <script>window.wcDarkLightEnabled = true;</script>
   
   
-    <script>const isSiteThemeDark = false;</script>
   
   
-  <script src="/js/load-theme.js"></script>
+  
+  <script src="/js/wowchemy-init.min.7264cf0eba3b66951b36da7d2cecf9c5.js"></script>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-modal" id="search">
   <div class="container">
     <section class="search-header">
 
@@ -325,16 +330,19 @@
           <h1>Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
       </div>
 
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
         
       </div>
+
+      
 
     </section>
     <section class="section-search-results">
@@ -346,6 +354,7 @@
     </section>
   </div>
 </aside>
+
 
 
   <div class="page-header">
@@ -581,6 +590,12 @@
     </div>
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
       
       
       <li class="nav-item">
@@ -591,7 +606,7 @@
       
       
       <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
           <i class="fas fa-moon" aria-hidden="true"></i>
         </a>
         <div class="dropdown-menu">
@@ -658,66 +673,6 @@
     
     
     <div>
-      <h2><a href="/diaries/201912/20191225/" >2019-12-25</a></h2>
-      <div class="article-style">
-        
-          Diary Merry Christmas 🎄 Note Practice Enough With These 150 Questions for the CKAD Exam https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552 CKAD 150 問 Logging Guidelines https://github.com/kubernetes-sigs/controller-runtime/blob/v0.4.0/TMP-LOGGING.md controller-runtime の log についての
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/diaries/201912/20191224/" >2019-12-24</a></h2>
-      <div class="article-style">
-        
-          Diary Merry Christmas 🎄 Note Go の testing パッケージにアサーションやその他便利関数がな
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/diaries/201912/20191223/" >2019-12-23</a></h2>
-      <div class="article-style">
-        
-          Diary Upgrading kustomize from v1 to v3 Note より良いコードレビューをするために気をつけて
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/diaries/201912/20191222/" >2019-12-22</a></h2>
-      <div class="article-style">
-        
-          Diary None Note time.Timer#Reset() の正しい使い方 https://www.kaoriya.net/blog/2019/12/19/ あんまり使ったことなかった Amazon EKS でなん
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/diaries/201912/20191221/" >2019-12-21</a></h2>
-      <div class="article-style">
-        
-          Diary None Note 「詰める」と「散らす」の動力学 - 原理・原則から理解する
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
       <h2><a href="/diaries/201912/20191220/" >2019-12-20</a></h2>
       <div class="article-style">
         
@@ -774,6 +729,66 @@
       </div>
     </div>
   
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201912/20191215/" >2019-12-15</a></h2>
+      <div class="article-style">
+        
+          Diary I trial the Kubebuilder Note 入門 EKS on Fargate https://qiita.com/mumoshu/items/c9dea2d82a402b4f9c31 アプリケーションが stdout/stderr にログを吐けない
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201912/20191214/" >2019-12-14</a></h2>
+      <div class="article-style">
+        
+          Diary I have to create materials for in-house study sessions Note EKS production ready! part.1 https://medium.com/@sueken0117/eks-production-ready-part-1-8f08be5f873f EKS production ready! part.2 https://medium.com/@sueken0117/eks-production-ready-part-2-1702a120476d IP アドレスの制限に
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201912/20191213/" >2019-12-13</a></h2>
+      <div class="article-style">
+        
+          Diary I don&rsquo;t understand English without Google Translate Note kyaml2go https://kyaml2go.prasadg.dev/ manigest の YAML を client-go を使った Go のコードに変換して
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201912/20191212/" >2019-12-12</a></h2>
+      <div class="article-style">
+        
+          Diary I&rsquo;m wondering if a bucket for velero backup should be provided for each cluster https://velero.io/docs/v1.2.0/ Note Go の命名規則 https://micnncim.com/post/2019/12/11/go-naming-conventions/ いい話 Go の strings.Index
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/diaries/201912/20191211/" >2019-12-11</a></h2>
+      <div class="article-style">
+        
+          Diary Confirmed increase in CPU usage due to API server not being able to connect with metrics-server Note Amazon VPC CNI plugin for Kuberne
+        
+      </div>
+    </div>
+  
 
   
 <nav>
@@ -799,7 +814,7 @@
   
 
   <p class="powered-by">
-    © 2020 d-kuro
+    © 2021 d-kuro
   </p>
 
   
@@ -815,7 +830,7 @@
     
     
     Published with
-    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
     the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
     open source</a> website builder that empowers creators.
     
@@ -903,7 +918,7 @@
         'post': "Posts",
         'project': "Projects",
         'publication' : "Publications",
-        'talk' : "Talks",
+        'event' : "Events",
         'slides' : "Slides"
         };
     </script>
@@ -938,13 +953,15 @@
 
     
     
-
-    
     
 
     
     
 
+    
+    
+
+    
     
     
     
@@ -955,11 +972,10 @@
     
     
       
+      
     
     
-    
-    
-    <script src="/js/wowchemy.min.d9d80f811e95b4b4f6df1eaaf297b05f.js"></script>
+    <script src="/js/wowchemy.min.aeecf26c1eff6b9588dbafc1a9f3953c.js"></script>
 
     
 
