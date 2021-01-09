@@ -5,12 +5,43 @@
     <link>https://d-kuro.github.io/post/</link>
       <atom:link href="https://d-kuro.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Wed, 06 May 2020 22:09:56 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Sat, 09 Jan 2021 16:29:56 +0900</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://d-kuro.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Quipper を退職して Z Lab に入社しました</title>
+      <link>https://d-kuro.github.io/post/zlab/</link>
+      <pubDate>Sat, 09 Jan 2021 16:29:56 +0900</pubDate>
+      <guid>https://d-kuro.github.io/post/zlab/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;from: Quipper Limited&lt;/li&gt;
+&lt;li&gt;to: ゼットラボ株式会社&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Quipper を 2020 年 12 月末で退職して 2021 年 1 月から Z Lab で働いています。
+Quipper では SRE として働いていましたが、Z Lab ではソフトウェアエンジニアとして働きます。&lt;/p&gt;
+&lt;h2 id=&#34;何をやっていたか&#34;&gt;何をやっていたか&lt;/h2&gt;
+&lt;p&gt;SRE として主に Kubernetes 周りのお仕事などを積極的にやっていたりしました。
+CPU スロットリング撲滅してこの辺の登壇に繋がったり色々学ばせていただいたなーと思っています。&lt;/p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;7bcad712d03841d9af70ac26f789f4fe&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;後半は社内の monorepo で既存のデプロイメントフローを踏襲した上で GitOps を実現するために必要なコンポーネントの開発を Go でやったりもしていました。
+この辺外部にアウトプットしたかったけど残念。&lt;/p&gt;
+&lt;h2 id=&#34;なぜ転職するのか&#34;&gt;なぜ転職するのか&lt;/h2&gt;
+&lt;p&gt;Kubernetes をもっともっとやっていきたかったというのと、Quipper の SRE としての仕事を通して自分はプラットフォーム開発に興味があることがわかってきたのでそこにチャレンジしたいなと思ったのが大きいです。&lt;/p&gt;
+&lt;h2 id=&#34;quipper-では-sre-を募集しています&#34;&gt;Quipper では SRE を募集しています&lt;/h2&gt;
+&lt;p&gt;現在 Quipper では SRE を募集中です。
+海外に拠点もあって英語でコミュニケーションする機会があったり、抱えている課題も面白いものがあるので興味のある方はぜひ！&lt;/p&gt;
+&lt;p&gt;カジュアル面談もやっているので &lt;a href=&#34;https://twitter.com/chaspy_&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@chaspy_&lt;/a&gt; さんとかに気軽にリプライを送ってみると話が聞けると思います。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;野良 Envoy(Control Plane で管理されてないの意)が増えてきたので誰か入社してシュッと Service Mesh いれてください。。。&lt;a href=&#34;https://t.co/SbZGJYrTbY&#34;&gt;https://t.co/SbZGJYrTbY&lt;/a&gt;&lt;/p&gt;&amp;mdash; Takeshi Kondo (@chaspy_) &lt;a href=&#34;https://twitter.com/chaspy_/status/1346676186064175106?ref_src=twsrc%5Etfw&#34;&gt;January 6, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;干し芋&#34;&gt;干し芋&lt;/h2&gt;
+&lt;p&gt;
+いつもの干し芋です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.amazon.jp/hz/wishlist/ls/1A2K96YA85SCT?ref_=wl_share&#34;&gt;https://www.amazon.jp/hz/wishlist/ls/1A2K96YA85SCT?ref_=wl_share&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CIDR allocation failed for Kubernetes</title>
