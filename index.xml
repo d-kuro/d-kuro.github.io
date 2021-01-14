@@ -5,12 +5,65 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>d-kuro</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Sat, 09 Jan 2021 16:29:56 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Wed, 13 Jan 2021 15:33:07 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>d-kuro</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>2021-01-14</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210114/</link>
+      <pubDate>Wed, 13 Jan 2021 15:33:07 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210114/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes で cgroup がどう利用されているか - VA Linux エンジニアブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://valinux.hatenablog.com/entry/20210114&#34;&gt;https://valinux.hatenablog.com/entry/20210114&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes における cgroup について, シュッとまとまっていて便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go Slice Tricks Cheat Sheet
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ueokande.github.io/go-slice-tricks/&#34;&gt;https://ueokande.github.io/go-slice-tricks/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の slice の chatsheet, 図で書いてあって便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;パーシャルクローンとシャロークローンを活用しよう - GitHubブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.blog/jp/2021-01-13-get-up-to-speed-with-partial-clone-and-shallow-clone/&#34;&gt;https://github.blog/jp/2021-01-13-get-up-to-speed-with-partial-clone-and-shallow-clone/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ケース分けしてあって便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Introduction - Rust By Example 日本語版
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doc.rust-jp.rs/rust-by-example-ja/&#34;&gt;https://doc.rust-jp.rs/rust-by-example-ja/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust のサンプルスクリプト集らしい, 軽く見るときに良さそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Home | Rustの日本語ドキュメント/Japanese Docs for Rust
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doc.rust-jp.rs/&#34;&gt;https://doc.rust-jp.rs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust について学ぶときのエントリーポイントして&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Introduction - Rust Design Patterns
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rust-unofficial.github.io/patterns/intro.html&#34;&gt;https://rust-unofficial.github.io/patterns/intro.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;いつか読むかもしれない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rust の所有権システムが難しくて一度挫折したあの日の自分のためにわかりやすい読み物があるとよいと思ったのだ。 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/nirasan/items/9e169859c6807c2c175b&#34;&gt;https://qiita.com/nirasan/items/9e169859c6807c2c175b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;所有権なんもわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Quipper を退職して Z Lab に入社しました</title>
@@ -40,24 +93,6 @@ CPU スロットリング撲滅してこの辺の登壇に繋がったり色々�
 &lt;p&gt;
 いつもの干し芋です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.amazon.jp/hz/wishlist/ls/1A2K96YA85SCT?ref_=wl_share&#34;&gt;https://www.amazon.jp/hz/wishlist/ls/1A2K96YA85SCT?ref_=wl_share&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20210109</title>
-      <link>https://d-kuro.github.io/diaries/202101/20210109/</link>
-      <pubDate>Fri, 08 Jan 2021 15:21:34 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202101/20210109/</guid>
-      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20210108</title>
-      <link>https://d-kuro.github.io/diaries/202101/20210108/</link>
-      <pubDate>Thu, 07 Jan 2021 15:20:34 +0000</pubDate>
-      <guid>https://d-kuro.github.io/diaries/202101/20210108/</guid>
-      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
 </description>
     </item>
     
