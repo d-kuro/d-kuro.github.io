@@ -5,12 +5,135 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Wed, 13 Jan 2021 15:33:07 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Sun, 17 Jan 2021 15:28:54 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>2021-01-18</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210118/</link>
+      <pubDate>Sun, 17 Jan 2021 15:28:54 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210118/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Prometheus でAPIサーバの監視【HTTP】 - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/prometheus-application-over-http&#34;&gt;https://christina04.hatenablog.com/entry/prometheus-application-over-http&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;error rate のクエリの書き方が参考になった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;sum by(handler, method)(rate(http_requests_total{code=~&amp;quot;4..&amp;quot;}[1m]))
+/
+sum by(handler, method)(rate(http_requests_total[1m]))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Query functions | Prometheus
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://prometheus.io/docs/prometheus/latest/querying/functions/&#34;&gt;https://prometheus.io/docs/prometheus/latest/querying/functions/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;覚えられないシリーズ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Prometheus Absent function - Stack Overflow
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/53191746/prometheus-absent-function&#34;&gt;https://stackoverflow.com/questions/53191746/prometheus-absent-function&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;absent はグルーピングできないので下みたいなのを使うらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;count(up{job=&amp;quot;prometheus&amp;quot;} offset 1h) by (project) unless count(up{job=&amp;quot;prometheus&amp;quot;} ) by (project)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-01-17</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210117/</link>
+      <pubDate>Sat, 16 Jan 2021 15:29:28 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210117/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;攻撃しながら考えるKubernetesセキュリティ / Considering Kubernetes Security While Attacking 2 - Speaker Deck
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/fujiihda/considering-kubernetes-security-while-attacking-2&#34;&gt;https://speakerdeck.com/fujiihda/considering-kubernetes-security-while-attacking-2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ServiceAccount を悪用されて攻撃される話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Using Persistent Volumes on AWS – Giant Swarm Documentation
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.giantswarm.io/guides/using-persistent-volumes-on-aws/&#34;&gt;https://docs.giantswarm.io/guides/using-persistent-volumes-on-aws/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AWS で PV 使うとき&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TerraformでNLBを使う - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/2018/02/09/095743&#34;&gt;https://christina04.hatenablog.com/entry/2018/02/09/095743&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NLB にはセキュリティグループをつけられない、ハマった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PodSecurityPolicy が 1.21 で deprecate, 1.25 で removal
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/ymmt2005/status/1350613526407127040&#34;&gt;https://twitter.com/ymmt2005/status/1350613526407127040&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ついに死ぬらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-01-16</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210116/</link>
+      <pubDate>Fri, 15 Jan 2021 15:31:02 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210116/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Istio Source Code Reading
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/potsbo/scraps/4f1348365625e7&#34;&gt;https://zenn.dev/potsbo/scraps/4f1348365625e7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Istio のソースリーディングのメモ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;「会社で買うなら」知っておきたいJetBrainsのライセンスとお金の話 | JetBrains Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/ja/2019/02/25/1731/&#34;&gt;https://blog.jetbrains.com/ja/2019/02/25/1731/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JetBrains のライセンスについて、個人で買ったものは仕事でも使える&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Certified Kubernetes Application Developer (CKAD) Study Guide [Book]
+&lt;ul&gt;
+&lt;li&gt;Certified Kubernetes Application Developer (CKAD) Study Guide [Book]&lt;/li&gt;
+&lt;li&gt;CKAD の本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-01-15</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210115/</link>
+      <pubDate>Thu, 14 Jan 2021 15:32:22 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210115/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;openstackclient — Homebrew Formulae
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://formulae.brew.sh/formula/openstackclient&#34;&gt;https://formulae.brew.sh/formula/openstackclient&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;openstack コマンドのインストール&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go のレシーバもコンパイルすると関数の引数と変わらないという話
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/DQNEO/status/1349670759665340416&#34;&gt;https://twitter.com/DQNEO/status/1349670759665340416&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-01-14</title>
