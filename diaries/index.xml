@@ -5,12 +5,63 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Fri, 22 Jan 2021 15:33:18 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Sun, 24 Jan 2021 15:33:18 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>2021-01-25</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210125/</link>
+      <pubDate>Sun, 24 Jan 2021 15:33:18 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210125/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Go Modulesのproxyとsumdb - sambaiz-net
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sambaiz.net/article/261/&#34;&gt;https://www.sambaiz.net/article/261/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;private repo はめんどくさいなあ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Prometheus でカスタムコレクタを用意する - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/prometheus-custom-collector&#34;&gt;https://christina04.hatenablog.com/entry/prometheus-custom-collector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;direct instrumentation の違いが微妙にわかってない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-01-24</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210124/</link>
+      <pubDate>Sat, 23 Jan 2021 15:33:18 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210124/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;generics 便利そう
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://go2goplay.golang.org/p/WWPUAGNo1xe&#34;&gt;https://go2goplay.golang.org/p/WWPUAGNo1xe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;大量にあるKubernetesをどのように運用するか　ヤフーの運用自動化の仕組み - ログミーTech
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://logmi.jp/tech/articles/323803&#34;&gt;https://logmi.jp/tech/articles/323803&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Yahoo の話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;普通の人が資産運用で99点をとる方法とその考え方 - hayato
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hayatoito.github.io/2020/investing/&#34;&gt;https://hayatoito.github.io/2020/investing/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;しっかり読みたいシリーズ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-01-23</title>
