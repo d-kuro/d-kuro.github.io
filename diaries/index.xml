@@ -5,12 +5,36 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Mon, 18 Jan 2021 15:32:17 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Fri, 22 Jan 2021 15:33:18 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>2021-01-23</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210123/</link>
+      <pubDate>Fri, 22 Jan 2021 15:33:18 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210123/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust を始めるための資料集 - Don&amp;rsquo;t Repeat Yourself
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog-dry.com/entry/2021/01/23/141936&#34;&gt;https://blog-dry.com/entry/2021/01/23/141936&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;すごい便利っぽい Rust 便利リンク集&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;モノレポのはなし / karino2 - Message Passing
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://messagepassing.github.io/07-repo/01-karino2/&#34;&gt;https://messagepassing.github.io/07-repo/01-karino2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;面白い, monorepo ちゃんと整備に使えるリソースあるならそんな悪くないよ派&lt;/li&gt;
+&lt;li&gt;でもまあエコシステムが未成熟だよね感はある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-01-19</title>
