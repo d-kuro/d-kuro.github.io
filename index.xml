@@ -5,7 +5,7 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>d-kuro</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Tue, 26 Jan 2021 15:16:55 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Wed, 27 Jan 2021 15:16:51 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>d-kuro</title>
@@ -13,11 +13,65 @@
     </image>
     
     <item>
-      <title>20210127</title>
+      <title>2021-01-28</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210128/</link>
+      <pubDate>Wed, 27 Jan 2021 15:16:51 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210128/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;質の高い技術文書を書く方法 - As a Futurist&amp;hellip;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.riywo.com/2021/01/how-to-write-high-quality-technical-doc/&#34;&gt;https://blog.riywo.com/2021/01/how-to-write-high-quality-technical-doc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;物書き、難しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;go/analysisのSuggestedFixでコードを修正する - daisuzu&amp;rsquo;s notes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://daisuzu.hatenablog.com/entry/2021/01/28/121303&#34;&gt;https://daisuzu.hatenablog.com/entry/2021/01/28/121303&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitHub CLI now includes comment support for issues and pull requests - GitHub Changelog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.blog/changelog/2021-01-27-github-cli-now-includes-comment-support-for-issues-and-pull-requests/&#34;&gt;https://github.blog/changelog/2021-01-27-github-cli-now-includes-comment-support-for-issues-and-pull-requests/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Issue と PR にコメントできるようになった便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-01-27</title>
       <link>https://d-kuro.github.io/diaries/202101/20210127/</link>
       <pubDate>Tue, 26 Jan 2021 15:16:55 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202101/20210127/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;プログラミング言語の未来はどうなるか | κeenのHappy Hacκing Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://keens.github.io/blog/2021/01/04/future_of_proguramming_languages/&#34;&gt;https://keens.github.io/blog/2021/01/04/future_of_proguramming_languages/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust やりたいと言い続けて N ヶ月たった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;git commit &amp;ndash;fixup とは何か - 詩と創作・思索のひろば
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://motemen.hatenablog.com/entry/2015/10/git-commit-fixup&#34;&gt;https://motemen.hatenablog.com/entry/2015/10/git-commit-fixup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;しらんかった、べんり&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Graceful Node Shutdown では critical system pods があとに終了されるようになっているという話
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/ryot_a_rai/status/1354040432846544896&#34;&gt;https://twitter.com/ryot_a_rai/status/1354040432846544896&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scenario Testing to Improve Product Quality at Merpay - Google スライド
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1526Md64pmPdQIEamz5IBWvVZd7X70grz4XZ5VG4JFx4/edit#slide=id.gb926849ae2_0_0&#34;&gt;https://docs.google.com/presentation/d/1526Md64pmPdQIEamz5IBWvVZd7X70grz4XZ5VG4JFx4/edit#slide=id.gb926849ae2_0_0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;メルペイの E2E の事例、Prow とか使いつつ相当作り込まれてる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
