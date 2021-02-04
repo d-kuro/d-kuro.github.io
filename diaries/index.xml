@@ -5,12 +5,166 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Wed, 27 Jan 2021 15:16:51 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Wed, 03 Feb 2021 15:21:32 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>2021-02-04</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210204/</link>
+      <pubDate>Wed, 03 Feb 2021 15:21:32 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210204/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Building container images in Go
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ahmet.im/blog/building-container-images-in-go/&#34;&gt;https://ahmet.im/blog/building-container-images-in-go/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go から container image 操作できるやつ、なんか使えそう、container registory の list とか生えてないかな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;標準パッケージでスタックトレース出せたっけって思ったけど &lt;code&gt;pkg/errors&lt;/code&gt; の方だった
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/k1LoW/status/1356974970526601216&#34;&gt;https://twitter.com/k1LoW/status/1356974970526601216&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkg.go.dev/github.com/pkg/errors#WithStack&#34;&gt;https://pkg.go.dev/github.com/pkg/errors#WithStack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;etcd の health check
+&lt;ul&gt;
+&lt;li&gt;しらなかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ kubectl get --raw /healthz/etcd
+ok
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes API health endpoints | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/reference/using-api/health-checks/&#34;&gt;https://kubernetes.io/docs/reference/using-api/health-checks/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/healthz&lt;/code&gt; は v1.16 以降非推奨らしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-03</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210203/</link>
+      <pubDate>Tue, 02 Feb 2021 15:16:26 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210203/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Graceful shutdown and zero downtime deployments in Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnk8s.io/graceful-shutdown&#34;&gt;https://learnk8s.io/graceful-shutdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pod のライフサイクルについて、図解付き&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Site Reliability Engineer (Service Mesh) at SpaceX - Stack Overflow
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/jobs/451055/site-reliability-engineer-service-mesh-spacex&#34;&gt;https://stackoverflow.com/jobs/451055/site-reliability-engineer-service-mesh-spacex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;宇宙に istio、ワードが強い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-02</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210202/</link>
+      <pubDate>Mon, 01 Feb 2021 15:27:22 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210202/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;絶対にRosetta 2を入れてはいけないM1 Mac開発環境構築 2021-2-1版
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/hinastory/articles/71983c4ac8aa2d&#34;&gt;https://zenn.dev/hinastory/articles/71983c4ac8aa2d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;わりとやれそう、でも M2 の噂とか来てるし待ちたい気持ちもある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-01</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210201/</link>
+      <pubDate>Sun, 31 Jan 2021 15:18:04 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210201/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GoLand 2021.1 Early Access Program Begins! | JetBrains Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2021/01/29/goland-2021-1-eap-begins/&#34;&gt;https://blog.jetbrains.com/go/2021/01/29/goland-2021-1-eap-begins/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;機械学習コード補完、なるほど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-01-31</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210131/</link>
+      <pubDate>Sat, 30 Jan 2021 15:16:18 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210131/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust Collections Case Study: BTreeMap
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cglab.ca/~abeinges/blah/rust-btree-case/&#34;&gt;https://cglab.ca/~abeinges/blah/rust-btree-case/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust の BTreeMap の話し、なぜ 二分探索木じゃだめなのかとか実装の話が書いてある&lt;/li&gt;
+&lt;li&gt;二分探索木はメモリ効率が悪いらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;maguro.dev - Rust の BTreeSet / BTreeMap で最大値を素早く取得する方法
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://maguro.dev/btree-maximum-value/&#34;&gt;https://maguro.dev/btree-maximum-value/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BTreeSet/Map があるんだ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-01-30</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210130/</link>
+      <pubDate>Fri, 29 Jan 2021 15:16:56 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210130/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes クラスタが AWS 上でコンテナイメージを pull するときの権限まわりの話 | トリの部屋
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://toris.io/2021/01/how-kubernetes-pulls-private-container-images-on-aws/&#34;&gt;https://toris.io/2021/01/how-kubernetes-pulls-private-container-images-on-aws/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;今は kubelet にクラウドプロバイダ固有のコードが生えているらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-01-29</title>
+      <link>https://d-kuro.github.io/diaries/202101/20210129/</link>
+      <pubDate>Thu, 28 Jan 2021 15:17:36 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202101/20210129/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PipeCDを使ってSecretsをGitで極力安全に管理する · blog.stormcat.io
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.stormcat.io/post/pipecd-sealed-secret/&#34;&gt;https://blog.stormcat.io/post/pipecd-sealed-secret/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PipeCD、よさそうにみえる、なんか事例出始めれば流行る気もするけどどうだろう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-01-28</title>
