@@ -47,6 +47,24 @@ ok
 &lt;li&gt;&lt;code&gt;/healthz&lt;/code&gt; は v1.16 以降非推奨らしい&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;EKSでDNSを安定させるために対応したこと - Chatwork Creator&amp;rsquo;s Note
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://creators-note.chatwork.com/entry/2021/01/05/104206&#34;&gt;https://creators-note.chatwork.com/entry/2021/01/05/104206&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;EKS で node-local-dns 使う際の force_tcp、ハマり事例をたまに見る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;📖 upgrade migration guide for v3 by camilamacedo86 · Pull Request #1916 · kubernetes-sigs/kubebuilder
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/kubebuilder/pull/1916&#34;&gt;https://github.com/kubernetes-sigs/kubebuilder/pull/1916&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;kubebuilder v3 の migration guide&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;go getだけでコマンドのバージョンを埋め込む - Plan 9とGo言語のブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.lufia.org/entry/2020/12/18/002238&#34;&gt;https://blog.lufia.org/entry/2020/12/18/002238&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
