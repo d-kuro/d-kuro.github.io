@@ -5,12 +5,226 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>d-kuro</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Wed, 03 Feb 2021 15:21:32 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Mon, 08 Feb 2021 15:14:37 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>d-kuro</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>2021-02-09</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210209/</link>
+      <pubDate>Mon, 08 Feb 2021 15:14:37 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210209/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Go 1.16のgo installについて | フューチャー技術ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://future-architect.github.io/articles/20210209/&#34;&gt;https://future-architect.github.io/articles/20210209/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ツールのインストールをするときは go install を使おうというやつ、バージョン指定ができるようになったらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go: Type Parameters - Draft Design 抄訳
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/shuyo/books/4536b976e169ca&#34;&gt;https://zenn.dev/shuyo/books/4536b976e169ca&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の generics design の日本語訳&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;time.Time の比較が覚えれん！ | text.Baldanders.info
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://text.baldanders.info/golang/order-by-time/&#34;&gt;https://text.baldanders.info/golang/order-by-time/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;わかる&lt;/li&gt;
+&lt;li&gt;a が b より before/after なのか a は b より before/after なのかで毎回悩む&lt;/li&gt;
+&lt;li&gt;UnixNano とかに変換して比較するのが一番わかりやすくねってなってる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;th&gt;Methed&lt;/th&gt;
+&lt;th&gt;Result&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;a == b&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;a.Equal(b)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;true&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a == b&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;a.Before(b)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a == b&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;a.After(b)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a &amp;gt; b&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;a.Equal(b)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a &amp;gt; b&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;a.Before(b)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a &amp;gt; b&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;a.After(b)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;true&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a &amp;lt; b&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;a.Equal(b)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a &amp;lt; b&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;a.Before(b)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;true&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a &amp;lt; b&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;a.After(b)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-08</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210208/</link>
+      <pubDate>Sun, 07 Feb 2021 15:16:01 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210208/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;多次元 Pod 自動スケーリングの構成  |  Kubernetes Engine ドキュメント  |  Google Cloud
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/kubernetes-engine/docs/how-to/multidimensional-pod-autoscaling&#34;&gt;https://cloud.google.com/kubernetes-engine/docs/how-to/multidimensional-pod-autoscaling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;MultidimPodAutoscaler, HPA と VPA のあわせ技みたいなやつ&lt;/li&gt;
+&lt;li&gt;OSS になってないのかな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;原理原則から適切なgoroutineの数を考える
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/imamura_sh/articles/goroutine-29492669efb6aef33306&#34;&gt;https://zenn.dev/imamura_sh/articles/goroutine-29492669efb6aef33306&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;難しい、厳密にやるならちゃんと計測しろ案件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go 1.16連載が始まります | フューチャー技術ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://future-architect.github.io/articles/20210207/&#34;&gt;https://future-architect.github.io/articles/20210207/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go 1.16からリリースされたgo:embedとは | フューチャー技術ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://future-architect.github.io/articles/20210208/&#34;&gt;https://future-architect.github.io/articles/20210208/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;便利そう、testdata とかもこっちに寄せるのがいいのかな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-07</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210207/</link>
+      <pubDate>Sat, 06 Feb 2021 15:13:55 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210207/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Repl.it - Killing Containers at Scale
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.repl.it/killing-containers-at-scale&#34;&gt;https://blog.repl.it/killing-containers-at-scale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Docker 経由でコンテナが死ぬのを待ってたら遅かったので自分でコンテナの PID に対して SIGKILL 送って殺した話？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rustの所有権（ownership）を語義から理解する - igagurimk2の日記
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://igaguri.hatenablog.com/entry/2019/08/17/184205&#34;&gt;https://igaguri.hatenablog.com/entry/2019/08/17/184205&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;わかるけどわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;英語力と技術力向上のための海外Tech系Youtuber10選 +1 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/e99h2121/items/81aad5a2b5be667b93cb&#34;&gt;https://qiita.com/e99h2121/items/81aad5a2b5be667b93cb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hacking Kubernetes [Book]
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/hacking-kubernetes/9781492081722/&#34;&gt;https://www.oreilly.com/library/view/hacking-kubernetes/9781492081722/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes のセキュリティ周りの本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-06</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210206/</link>
+      <pubDate>Fri, 05 Feb 2021 15:14:11 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210206/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;N番目の素数を求める - すぎゃーんメモ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://memo.sugyan.com/entry/2021/02/06/021949&#34;&gt;https://memo.sugyan.com/entry/2021/02/06/021949&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;アトキンの篩, しらない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;本当は遅い「似非エラトステネスの篩」の罠
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/noodlewhale/articles/c5b069237ee72a&#34;&gt;https://zenn.dev/noodlewhale/articles/c5b069237ee72a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;リストの操作すると遅いので bool で管理しようねというやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-05</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210205/</link>
+      <pubDate>Thu, 04 Feb 2021 15:14:25 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210205/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Krator: My God, it&amp;rsquo;s Full of States!
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://deislabs.io/posts/introducing-krator/&#34;&gt;https://deislabs.io/posts/introducing-krator/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Operator を作るための Rust のライブラリ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Serviceをたずねて3000行 - Kubernetesコードリーディングの旅
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/ryusa/articles/3000-lines-in-search-of-service&#34;&gt;https://zenn.dev/ryusa/articles/3000-lines-in-search-of-service&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Service の内部の話 iptables とか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hildegard: Kubernetesを標的とする新たなTeamTNTのマルウェア
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://unit42.paloaltonetworks.jp/hildegard-malware-teamtnt/&#34;&gt;https://unit42.paloaltonetworks.jp/hildegard-malware-teamtnt/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes をターゲットにしたマルウェアの話, kubelet の API を使ってゴニョゴニョするらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;［Golang］&lt;code&gt;errors.Is()&lt;/code&gt; &lt;code&gt;errors.As()&lt;/code&gt; 完全ガイド〜使い方と違いをしっかり調査しました〜
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/kskumgk63/articles/550dc9d42078d968beac&#34;&gt;https://zenn.dev/kskumgk63/articles/550dc9d42078d968beac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;As/Is, 毎回忘れる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-02-04</title>
