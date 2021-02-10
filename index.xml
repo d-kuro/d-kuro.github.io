@@ -5,12 +5,99 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>d-kuro</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Mon, 08 Feb 2021 15:14:37 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Tue, 09 Feb 2021 15:33:16 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>d-kuro</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>2021-02-10</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210210/</link>
+      <pubDate>Tue, 09 Feb 2021 15:33:16 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210210/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DBaaS on Kubernetes: Under the Hood - Percona Database Performance Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.percona.com/blog/2021/02/08/dbaas-on-kubernetes-under-the-hood/&#34;&gt;https://www.percona.com/blog/2021/02/08/dbaas-on-kubernetes-under-the-hood/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes で DBaaS を提供するときのパターンについて&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A fork() in the road を読んで.md
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/4ge32/7139dfd3041d4d4723cd9faff18e9279&#34;&gt;https://gist.github.com/4ge32/7139dfd3041d4d4723cd9faff18e9279&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fork() syscall の問題点について&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ブラウザにおけるメモリリークを解決するために読んでおけると良い資料 - mizdra&amp;rsquo;s blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mizdra.net/entry/2021/02/09/001157&#34;&gt;https://www.mizdra.net/entry/2021/02/09/001157&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;メモリ撹拌、初めて聞いた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;税の視点で街を歩く :: デイリーポータルZ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dailyportalz.jp/kiji/streethee-daikanyama-01&#34;&gt;https://dailyportalz.jp/kiji/streethee-daikanyama-01&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;経費について、おもしろい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;kstatus: k8s リソースの status 判定ツール
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/dulltz/articles/02f2e820a658b8&#34;&gt;https://zenn.dev/dulltz/articles/02f2e820a658b8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.status.conditions&lt;/code&gt; の format, type の一覧とかが決まってるっぽい, controller これに準拠したほうがいいんだろうなあ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;cgroup による oom-killer の状態を eventfd 経由で受け取る
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://harasou.jp/2015/05/20/cgroup-eventfd/&#34;&gt;https://harasou.jp/2015/05/20/cgroup-eventfd/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;cgroup の OOM について&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go1.16からのio/ioutilパッケージ | フューチャー技術ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://future-architect.github.io/articles/20210210/&#34;&gt;https://future-architect.github.io/articles/20210210/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;リリースされたら移行していきたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Living with Kubernetes: API Lifecycles and You – The New Stack
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://thenewstack.io/living-with-kubernetes-api-lifecycles-and-you/&#34;&gt;https://thenewstack.io/living-with-kubernetes-api-lifecycles-and-you/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes の API version について&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Versions in CustomResourceDefinitions | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definition-versioning/&#34;&gt;https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definition-versioning/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Webhook conversion, 知らなかった&lt;/li&gt;
+&lt;li&gt;CRD の API Version を webhook で変換するやつらしい&lt;/li&gt;
+&lt;li&gt;CustomResourceConversionWebhook が名称かな&lt;/li&gt;
+&lt;li&gt;CRD の spec に書くっぽい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;kubernetes/test/images/crd-conversion-webhook at v1.15.0 · kubernetes/kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kubernetes/tree/v1.15.0/test/images/crd-conversion-webhook&#34;&gt;https://github.com/kubernetes/kubernetes/tree/v1.15.0/test/images/crd-conversion-webhook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;上のやつの実装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Getting Started with Traefik and the New Kubernetes Service APIs
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://traefik.io/blog/getting-started-with-traefik-and-the-new-kubernetes-service-apis/&#34;&gt;https://traefik.io/blog/getting-started-with-traefik-and-the-new-kubernetes-service-apis/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes の新しい Service API について, 現状は CRD として提供されているらしい&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HTTPRoute&lt;/code&gt; という Object がある, Ingress っぽい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rustのturbofishを理解する | κeenのHappy Hacκing Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://keens.github.io/blog/2019/12/03/rustnoturbofishworikaisuru/&#34;&gt;https://keens.github.io/blog/2019/12/03/rustnoturbofishworikaisuru/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;なんもわからんな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-02-09</title>
