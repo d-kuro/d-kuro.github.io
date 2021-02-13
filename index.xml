@@ -5,12 +5,118 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>d-kuro</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Tue, 09 Feb 2021 15:33:16 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Sat, 13 Feb 2021 15:14:14 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>d-kuro</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>2021-02-14</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210214/</link>
+      <pubDate>Sat, 13 Feb 2021 15:14:14 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210214/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Goのバイナリから依存するmodule情報を取り出す方法 - knqyf263&amp;rsquo;s blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://knqyf263.hatenablog.com/entry/2021/02/12/162928&#34;&gt;https://knqyf263.hatenablog.com/entry/2021/02/12/162928&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;go version -m &amp;lt;binary&amp;gt;&lt;/code&gt; で依存 module が見れるらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The Best Golang Blogs - DEV Community
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/draft/the-best-golang-blogs-4ih7&#34;&gt;https://dev.to/draft/the-best-golang-blogs-4ih7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;全然読んだことなかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-13</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210213/</link>
+      <pubDate>Fri, 12 Feb 2021 15:14:44 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210213/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Go 標準のソート・アルゴリズム
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/spiegel/articles/20200926-standard-sort-package-by-golang&#34;&gt;https://zenn.dev/spiegel/articles/20200926-standard-sort-package-by-golang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の sort パッケージのソートアルゴリズム、条件によって使い分けされている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Building container images in Go
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ahmet.im/blog/building-container-images-in-go/&#34;&gt;https://ahmet.im/blog/building-container-images-in-go/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;google/go-containerregistry の話、Go だけで Image Pull したりレイヤーを足したりできる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-12</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210212/</link>
+      <pubDate>Thu, 11 Feb 2021 15:14:35 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210212/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rustの非同期ランタイムが多すぎる？io_uringなやつを使おう！ - nttlabs - Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/nttlabs/rust-async-runtime-comparison-7a79a4477fed&#34;&gt;https://medium.com/nttlabs/rust-async-runtime-comparison-7a79a4477fed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;非同期ランタイム非公式ってなんでそんな感じになってるんだろう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go 1.16のsignal.NotifyContext() | フューチャー技術ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://future-architect.github.io/articles/20210212/&#34;&gt;https://future-architect.github.io/articles/20210212/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;便利&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;signal.NotifyContext&lt;/code&gt; で作った context を使って &lt;code&gt;exec.CommandContext&lt;/code&gt; すると孫プロセスが作られたとき詰むよね&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goで子プロセスを確実にKillする方法 | makiuchi-d.github.io
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://makiuchi-d.github.io/2020/05/10/go-kill-child-process.ja.html&#34;&gt;http://makiuchi-d.github.io/2020/05/10/go-kill-child-process.ja.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;覚え直しシリーズ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Network Policy Editor for Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://editor.cilium.io/&#34;&gt;https://editor.cilium.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Network Policy をビジュアル化できるやつ、便利っぽい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20210211</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210211/</link>
+      <pubDate>Wed, 10 Feb 2021 15:15:48 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210211/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Linuxメモ : あると便利かもしれないRust製コマンドラインツール - もた日記
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wonderwall.hatenablog.com/entry/rust-command-line-tools&#34;&gt;https://wonderwall.hatenablog.com/entry/rust-command-line-tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;便利、だけど整備がめんどいのでデフォルトで使えるものを使おうってなるやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Markdown support in milestones - GitHub Changelog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.blog/changelog/2021-02-11-markdown-support-in-milestones/&#34;&gt;https://github.blog/changelog/2021-02-11-markdown-support-in-milestones/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;milestone に markdown を書けるようになったらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-02-10</title>
