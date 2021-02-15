@@ -74,6 +74,12 @@
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/amsy810/status/1298043098073665536&#34;&gt;https://twitter.com/amsy810/status/1298043098073665536&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;kustomize v4
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/superbrothers/status/1361118746253819904&#34;&gt;https://twitter.com/superbrothers/status/1361118746253819904&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hashicorp/go-getter&lt;/code&gt; が外されたので今まで取得できていた外部リソースが一部取得できなくなった模様&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
