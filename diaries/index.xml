@@ -5,12 +5,39 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Sun, 14 Feb 2021 15:14:24 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Mon, 15 Feb 2021 15:14:59 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>2021-02-16</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210216/</link>
+      <pubDate>Mon, 15 Feb 2021 15:14:59 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210216/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;負荷分散装置：DSR(Direct Server Return)方式 - ぢろーらものおもちゃ箱：引っ越し後
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.goo.ne.jp/jiro-omocha/e/7d18783e28725dc54c894df52534f306&#34;&gt;https://blog.goo.ne.jp/jiro-omocha/e/7d18783e28725dc54c894df52534f306&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;DSR の話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DSR の話, 図解付き
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.opensquare.co.jp/lmfile/support/document/TraningG/Module-8.pdf&#34;&gt;https://www.opensquare.co.jp/lmfile/support/document/TraningG/Module-8.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Linux kernel Parameters Arp_ignore &amp;amp; arp_announce Detailed
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://topic.alibabacloud.com/a/linux-kernel-parameters-arp_ignore-amp-arp_announce-detailed_1_16_30136827.html&#34;&gt;https://topic.alibabacloud.com/a/linux-kernel-parameters-arp_ignore-amp-arp_announce-detailed_1_16_30136827.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-02-15</title>
