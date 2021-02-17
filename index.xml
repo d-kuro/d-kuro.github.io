@@ -37,6 +37,12 @@
 &lt;li&gt;ネットワーク弱すぎて L3DSR とか言われてもあんまりわかっていない&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Enable kubectl-get to strip managed fields by knight42 · Pull Request #96878 · kubernetes/kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kubernetes/pull/96878&#34;&gt;https://github.com/kubernetes/kubernetes/pull/96878&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;kubectl が managedFields を消してくれるようになったっぽい, 最高便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
