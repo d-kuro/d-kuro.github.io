@@ -25,6 +25,12 @@
 &lt;li&gt;go.mod と go.sum が勝手に更新されなくなったらしい&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;cmd/go: lazy module loading · Issue #36460 · golang/go
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/36460&#34;&gt;https://github.com/golang/go/issues/36460&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ビルドするパッケージに関わるモジュール以外は読み込まないやつかな, ほしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
