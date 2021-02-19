@@ -5,12 +5,59 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Tue, 16 Feb 2021 15:14:38 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Thu, 18 Feb 2021 15:14:54 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>2021-02-19</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210219/</link>
+      <pubDate>Thu, 18 Feb 2021 15:14:54 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210219/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;New module changes in Go 1.16 - The Go Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/go116-module-changes&#34;&gt;https://blog.golang.org/go116-module-changes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;go.mod と go.sum が勝手に更新されなくなったらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-18</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210218/</link>
+      <pubDate>Wed, 17 Feb 2021 15:26:24 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210218/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GoDocドキュメントの書き方 - Plan 9とGo言語のブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.lufia.org/entry/2018/05/14/150400&#34;&gt;https://blog.lufia.org/entry/2018/05/14/150400&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最近わりと気を使って書く機会が増えた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;シェルスクリプトを書くときにいつもやるやつを調べた - Please Sleep
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.lufia.org/entry/2018/05/14/150400&#34;&gt;https://blog.lufia.org/entry/2018/05/14/150400&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;シェルスクリプト書くとき毎回 set なんちゃらでググってる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Extend the Kubernetes API with CustomResourceDefinitions | Kubernetes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#controlling-pruning&#34;&gt;https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#controlling-pruning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x-kubernetes-preserve-unknown-fields&lt;/code&gt; 未指定のフィールドの prun を制御できるらしい&lt;/li&gt;
+&lt;li&gt;でも kubectl 側で validate error 出ると思うのであんまり恩恵のあるケースなさそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-02-17</title>
