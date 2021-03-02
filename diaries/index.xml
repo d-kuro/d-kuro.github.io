@@ -5,12 +5,262 @@
     <link>https://d-kuro.github.io/diaries/</link>
       <atom:link href="https://d-kuro.github.io/diaries/index.xml" rel="self" type="application/rss+xml" />
     <description>Diaries</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Thu, 18 Feb 2021 15:14:54 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Mon, 01 Mar 2021 15:15:30 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Diaries</title>
       <link>https://d-kuro.github.io/diaries/</link>
     </image>
+    
+    <item>
+      <title>2021-03-02</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210302/</link>
+      <pubDate>Mon, 01 Mar 2021 15:15:30 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210302/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ko を使用して Go アプリケーションを Cloud Run に迅速にデプロイ | Google Cloud Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/blog/ja/products/containers-kubernetes/ship-your-go-applications-faster-cloud-run-ko&#34;&gt;https://cloud.google.com/blog/ja/products/containers-kubernetes/ship-your-go-applications-faster-cloud-run-ko&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dockerfile なしでコンテナイメージをビルドしてくれて Image registory に push してくれるやつ&lt;/li&gt;
+&lt;li&gt;ググラビリティ低くない？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes におけるシャーディングの方法
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kube-state-metrics/blob/v2.0.0-beta/pkg/sharding/listwatch.go#L89-L98&#34;&gt;https://github.com/kubernetes/kube-state-metrics/blob/v2.0.0-beta/pkg/sharding/listwatch.go#L89-L98&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Object の UID を hash して mod すれば良さそう、かんたん&lt;/li&gt;
+&lt;li&gt;StatefulSet Pod にして末尾の数字を使えば shard number になる&lt;/li&gt;
+&lt;li&gt;どうでもいいけど mod のことをモジュロ演算っていうらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;golangで使える 軽量ハッシュアルゴリズム FNV - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/yamasaki-masahide/items/d478dd111690bc84784a&#34;&gt;https://qiita.com/yamasaki-masahide/items/d478dd111690bc84784a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;上ので出てきたやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-03-01</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210301/</link>
+      <pubDate>Sun, 28 Feb 2021 15:14:49 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210301/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Prometheus の監視対象を ServiceDiscovery で動的に設定する - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/prometheus-service-discovery&#34;&gt;https://christina04.hatenablog.com/entry/prometheus-service-discovery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes の Service Discovery について&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Implementing Custom Service Discovery | Prometheus
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://prometheus.io/blog/2018/07/05/implementing-custom-sd/&#34;&gt;https://prometheus.io/blog/2018/07/05/implementing-custom-sd/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;なんかファイルでやるのがあんま好きじゃない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go 1.16で追加されたiotest.ErrReaderを使ってio.Readerの異常系をテストする
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/rinchsan/articles/e37c4444d601246536ec&#34;&gt;https://zenn.dev/rinchsan/articles/e37c4444d601246536ec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;便利そう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-28</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210228/</link>
+      <pubDate>Sat, 27 Feb 2021 15:14:51 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210228/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Prometheus でカスタムコレクタを用意する - Carpe Diem
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://christina04.hatenablog.com/entry/prometheus-custom-collector&#34;&gt;https://christina04.hatenablog.com/entry/prometheus-custom-collector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Promethues の Collector interface について&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;RDBMSの先を行く？NewSQLを支えるアルゴリズムRaftをGoで紐解く - カミナシ開発者ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kaminashi-developer.hatenablog.jp/entry/newsql-algorithm-raft-golang&#34;&gt;https://kaminashi-developer.hatenablog.jp/entry/newsql-algorithm-raft-golang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go での Raft の実装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-27</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210227/</link>
+      <pubDate>Fri, 26 Feb 2021 15:14:58 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210227/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;expfmt · pkg.go.dev
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkg.go.dev/github.com/prometheus/common/expfmt&#34;&gt;https://pkg.go.dev/github.com/prometheus/common/expfmt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prometheus の metrics の parser&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;RDBMSの先を行く？NewSQLを支えるアルゴリズムRaftをGoで紐解く - カミナシ開発者ブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kaminashi-developer.hatenablog.jp/entry/newsql-algorithm-raft-golang&#34;&gt;https://kaminashi-developer.hatenablog.jp/entry/newsql-algorithm-raft-golang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go での Raft の実装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-26</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210226/</link>
+      <pubDate>Thu, 25 Feb 2021 15:21:00 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210226/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kyopro Encyclopedia of Algorithms (ア辞典) | Kyopro Encyclopedia of Algorithms
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dic.kimiyuki.net/&#34;&gt;https://dic.kimiyuki.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;競プロとかで使えそうなアルゴリズム時点&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goのプロジェクト構成の基本
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/nobonobo/articles/4fb018a24f9ee9&#34;&gt;https://zenn.dev/nobonobo/articles/4fb018a24f9ee9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GOPATH, まあ罠っぽい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-25</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210225/</link>
+      <pubDate>Wed, 24 Feb 2021 15:31:17 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210225/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Contexts and structs - The Go Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/context-and-structs&#34;&gt;https://blog.golang.org/context-and-structs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;context を構造体に入れるのはやめようねという話のブログ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;完全マネージドな k8s ! GKE Autopilot を解説する | by Kazuu Shinohara | google-cloud-jp | Feb, 2021 | Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/google-cloud-jp/gke-autopilot-87f8458ccf74&#34;&gt;https://medium.com/google-cloud-jp/gke-autopilot-87f8458ccf74&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Autopilot, EKS Farget よりは筋が良いなーと思ってみてる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-24</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210224/</link>
+      <pubDate>Tue, 23 Feb 2021 15:59:35 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210224/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dependabot で go modules の自動アップデートをする（go mod tidy付き） - Hack Your Design!
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.toshimaru.net/dependabot-gomod/&#34;&gt;https://blog.toshimaru.net/dependabot-gomod/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最近 Renovate の go mod tidy うまく動かないのがだるので dependabot でいいかってなってる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-23</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210223/</link>
+      <pubDate>Mon, 22 Feb 2021 15:15:13 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210223/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dockerfile COPY の &lt;code&gt;–chown&lt;/code&gt; フラグが便利 – oki2a24
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://oki2a24.com/2019/10/26/dockerfile-copy-chown-is-useful/&#34;&gt;https://oki2a24.com/2019/10/26/dockerfile-copy-chown-is-useful/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes Pod Security Policy Deprecation: All You Need to Know
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.aquasec.com/kubernetess-policy&#34;&gt;https://blog.aquasec.com/kubernetess-policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PSP が廃止されるのでその代替手段について&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-22</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210222/</link>
+      <pubDate>Sun, 21 Feb 2021 15:14:42 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210222/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;hediet/browser-ext-github-monaco: This extension brings the famous Monaco editor to Github
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hediet/browser-ext-github-monaco&#34;&gt;https://github.com/hediet/browser-ext-github-monaco&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chrome 拡張, GitHub のテキスト欄にシンタックスハイライトとか出してくれる&lt;/li&gt;
+&lt;li&gt;最近素の GitHub の勝手にインデントいれてくるやつだるかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-21</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210221/</link>
+      <pubDate>Sat, 20 Feb 2021 15:14:39 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210221/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust Cookbook for Beginners - CADDi Tech Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://caddi.tech/archives/2381&#34;&gt;https://caddi.tech/archives/2381&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust 学習リンク&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rust Language Cheat Sheet
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cheats.rs/&#34;&gt;https://cheats.rs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust cheat sheet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-02-20</title>
+      <link>https://d-kuro.github.io/diaries/202102/20210220/</link>
+      <pubDate>Fri, 19 Feb 2021 15:17:49 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202102/20210220/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Go で普通にアセンブリが動かせるらしい
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/dqneo/status/1362624226088218629?s=21&#34;&gt;https://twitter.com/dqneo/status/1362624226088218629?s=21&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-02-19</title>
