@@ -5,12 +5,193 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>d-kuro</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Mon, 01 Mar 2021 15:15:30 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Sun, 07 Mar 2021 15:16:35 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>d-kuro</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>2021-03-08</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210308/</link>
+      <pubDate>Sun, 07 Mar 2021 15:16:35 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210308/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust入門
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/mebiusbox/books/22d4c1ed9b0003&#34;&gt;https://zenn.dev/mebiusbox/books/22d4c1ed9b0003&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;新しい Rust book&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Intro to generics - Learn Go with tests
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://quii.gitbook.io/learn-go-with-tests/meta/intro-to-generics&#34;&gt;https://quii.gitbook.io/learn-go-with-tests/meta/intro-to-generics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の generics について学べる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes: etcd の容量管理 (Quota, Compaction, Defrag など) - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/tkusumi/items/235cb82847d0bf8795ae&#34;&gt;https://qiita.com/tkusumi/items/235cb82847d0bf8795ae&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;しらなかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;etcd はデフォルトで 2GB のクォータ が設定されています。これを超過すると etcd が Alarm があがった状態となり、アラームを解除 (disarm) しない限り、etcd にデータの書き込みができない状態になります。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;etcd docs | Metrics
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://etcd.io/docs/v3.4.0/metrics/&#34;&gt;https://etcd.io/docs/v3.4.0/metrics/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;etcd_mvcc_db_total_size_in_bytes&lt;/code&gt; この辺ドキュメントにない&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;etcd_server_quota_backend_bytes&lt;/code&gt; Server のクオータはこれ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;File Finder | etcd
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/etcd-io/etcd/find/ae7862e8bc8007eb396099db4e0e04ac026c8df5&#34;&gt;https://github.com/etcd-io/etcd/find/ae7862e8bc8007eb396099db4e0e04ac026c8df5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;metrics.go&lt;/code&gt; で find するとソースが見つかる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Prometheus の rate() 関数を理解する - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/MetricFire/items/356054a458f4ef88d86c&#34;&gt;https://qiita.com/MetricFire/items/356054a458f4ef88d86c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rate()&lt;/code&gt; よくわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AA(アスキーアート)で始める各種図のすヽめ - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/ayumu838/items/ceb6106a02ab99db9f7b&#34;&gt;https://qiita.com/ayumu838/items/ceb6106a02ab99db9f7b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ASCIIFlow
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asciiflow.com/#/&#34;&gt;https://asciiflow.com/#/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AA で図を書けるやつ、前より使いやすくなってた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-03-07</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210307/</link>
+      <pubDate>Sat, 06 Mar 2021 15:15:32 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210307/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;EKS FargateとGKE Autopilotの違いを外野から解説してみる - inductor&amp;rsquo;s blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.inductor.me/entry/2021/03/07/011811&#34;&gt;https://blog.inductor.me/entry/2021/03/07/011811&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GKE Autopilot, 顧客が求めていたもの感ある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Kubernetes] ConfigMapのおさらい (作成・環境変数・ボリュームマウント) - zaki work log
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zaki-hmkc.hatenablog.com/entry/2020/12/27/211908&#34;&gt;https://zaki-hmkc.hatenablog.com/entry/2020/12/27/211908&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;subPath&lt;/code&gt; の挙動がよくわからない人をやっていた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ConfigMapの場合もこの機能を使うことができ、でもConfigMapではディレクトリの概念がないため、「マウントポイントにファイルをマウント」という動作になる。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-03-06</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210306/</link>
+      <pubDate>Fri, 05 Mar 2021 15:20:19 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210306/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Entire Computer Science Curriculum in 1000 YouTube Videos | Laconicml
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://laconicml.com/computer-science-curriculum-youtube-videos/&#34;&gt;https://laconicml.com/computer-science-curriculum-youtube-videos/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Youtube で学ぶ CS、こういうの絶対見ない問題&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-03-05</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210305/</link>
+      <pubDate>Thu, 04 Mar 2021 15:20:19 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210305/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-03-04</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210304/</link>
+      <pubDate>Wed, 03 Mar 2021 15:15:33 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210304/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes 専門家として知るべき 47 のこと - 誰かの役に立てばいいブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ymmt.hatenablog.com/entry/k8s-things&#34;&gt;https://ymmt.hatenablog.com/entry/k8s-things&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;意外とわからない人をやった, Kubernetes 専門家難しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goエラーハンドリング戦略
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/nobonobo/articles/0b722c9c2b18d5&#34;&gt;https://zenn.dev/nobonobo/articles/0b722c9c2b18d5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ビルドタグ使いこなしたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go言語の記述の迷いどころについて
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/nobonobo/articles/19c84c231aff46&#34;&gt;https://zenn.dev/nobonobo/articles/19c84c231aff46&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;レシーバはポインタ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goクイズアドベントカレンダー1日目 - tenntenn.dev
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tenntenn.dev/ja/posts/2020-12-01-goquiz/&#34;&gt;https://tenntenn.dev/ja/posts/2020-12-01-goquiz/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;構造体のコピーはハマるのでポインタ&lt;/li&gt;
+&lt;li&gt;コピーチェック, 使ってみたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;構造体はとりあえずポインタ関連リンク
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/CodeReviewComments#copying&#34;&gt;https://github.com/golang/go/wiki/CodeReviewComments#copying&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/CodeReviewComments#receiver-type&#34;&gt;https://github.com/golang/go/wiki/CodeReviewComments#receiver-type&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-03-03</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210303/</link>
+      <pubDate>Tue, 02 Mar 2021 15:13:05 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210303/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;strategicpatch · pkg.go.dev
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkg.go.dev/k8s.io/apimachinery/pkg/util/strategicpatch&#34;&gt;https://pkg.go.dev/k8s.io/apimachinery/pkg/util/strategicpatch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Strategic Merge Patch するアレ、apimachinery に生えてた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scaling Kubernetes to 7,500 Nodes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/scaling-kubernetes-to-7500-nodes/&#34;&gt;https://openai.com/blog/scaling-kubernetes-to-7500-nodes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;7500 Node の大規模 Kubernetes クラスタ, 流石に色々なところがボトルネックになって大変そう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-03-02</title>
