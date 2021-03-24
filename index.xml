@@ -5,12 +5,190 @@
     <link>https://d-kuro.github.io/</link>
       <atom:link href="https://d-kuro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>d-kuro</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Sun, 07 Mar 2021 15:16:35 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 d-kuro</copyright><lastBuildDate>Tue, 23 Mar 2021 15:23:58 +0000</lastBuildDate>
     <image>
       <url>https://d-kuro.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>d-kuro</title>
       <link>https://d-kuro.github.io/</link>
     </image>
+    
+    <item>
+      <title>20210324</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210324/</link>
+      <pubDate>Tue, 23 Mar 2021 15:23:58 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210324/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20210323</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210323/</link>
+      <pubDate>Mon, 22 Mar 2021 15:17:04 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210323/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20210322</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210322/</link>
+      <pubDate>Sun, 21 Mar 2021 15:16:35 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210322/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-03-21</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210321/</link>
+      <pubDate>Sat, 20 Mar 2021 15:16:40 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210321/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How To Get Hired as a Software Engineer into a FAANG Company · Dan Hacks
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.danhacks.com/software/getting-hired-by-a-faang-company.html&#34;&gt;https://www.danhacks.com/software/getting-hired-by-a-faang-company.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;テックジャイアントに Software Enginner として採用される方法、まとまってる&lt;/li&gt;
+&lt;li&gt;Cracking the Coding Interview, 読みたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;applyconfigurations · pkg.go.dev
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkg.go.dev/k8s.io/client-go@v0.21.0-beta.1/applyconfigurations&#34;&gt;https://pkg.go.dev/k8s.io/client-go@v0.21.0-beta.1/applyconfigurations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Server Side Apply を typed client から実行できるやつらしい、Kubernetes v1.21 から追加&lt;/li&gt;
+&lt;li&gt;With なんちゃらでフィールドを足していく fucntional option pattern みたいな感じっぽい&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkg.go.dev/k8s.io/client-go@v0.21.0-beta.1/applyconfigurations/apps/v1&#34;&gt;https://pkg.go.dev/k8s.io/client-go@v0.21.0-beta.1/applyconfigurations/apps/v1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;KEP-2155: Apply for client-go&amp;rsquo;s typed client
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/enhancements/tree/master/keps/sig-api-machinery/2155-clientgo-apply&#34;&gt;https://github.com/kubernetes/enhancements/tree/master/keps/sig-api-machinery/2155-clientgo-apply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;上のやつの KEP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goアセンブリの書き方 - Plan 9とGo言語のブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.lufia.org/entry/2021/03/17/113000&#34;&gt;https://blog.lufia.org/entry/2021/03/17/113000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go でアセンブリが書ける&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goの型同一性を理解する
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/syumai/articles/77bc12aca9b654&#34;&gt;https://zenn.dev/syumai/articles/77bc12aca9b654&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go の言語仕様輪読会、面白そう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ladicle/kubectl-rolesum: Summarize Kubernetes RBAC roles for the specified subjects.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Ladicle/kubectl-rolesum&#34;&gt;https://github.com/Ladicle/kubectl-rolesum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RBAC をいい感じに見やすく表示してくれる kubectl plugin、便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-03-20</title>
+      <link>https://d-kuro.github.io/diaries/202103/20210320/</link>
+      <pubDate>Fri, 19 Mar 2021 15:21:28 +0000</pubDate>
+      <guid>https://d-kuro.github.io/diaries/202103/20210320/</guid>
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;APIとかABIとかシステムコールとか
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/satoru_takeuchi/articles/d0fc7eaa0080cf7c0b02&#34;&gt;https://zenn.dev/satoru_takeuchi/articles/d0fc7eaa0080cf7c0b02&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goでひたすら運用を楽にするためのコード生成をする. Goでコード生成をするのは非常に簡単なので、それを公式のコードや記述のサンプルを… | by kaneshin | Eureka Engineering | Medium
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/eureka-engineering/advent-calendar-2020-vim-go-generate-1a2a11cf0cef&#34;&gt;https://medium.com/eureka-engineering/advent-calendar-2020-vim-go-generate-1a2a11cf0cef&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;go/format&lt;/code&gt; パッケージ便利、imports もほしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;golang : template で変数を利用した前後のスペース、改行をなくす - i++
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://increment.hatenablog.com/entry/2018/08/05/121602&#34;&gt;http://increment.hatenablog.com/entry/2018/08/05/121602&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{{-&lt;/code&gt;, &lt;code&gt;-}}&lt;/code&gt; のような書き方をすると前後のスペースが消せるらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;eBPFやLD_PRELOADを利用した共有ライブラリの関数フック - Tier IV Tech Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.tier4.jp/entry/2021/03/10/160000&#34;&gt;https://tech.tier4.jp/entry/2021/03/10/160000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;カーネルわからん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dockerfileのベストプラクティス Top 20 | Sysdig
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sysdig.jp/blog/dockerfile-best-practices/&#34;&gt;https://sysdig.jp/blog/dockerfile-best-practices/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;いいまとめ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;golang.org/x/tools/go/analysis を使ってコードを自動修正する - tchsskのブログ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchssk.hatenablog.com/entry/2019/12/03/070000&#34;&gt;https://tchssk.hatenablog.com/entry/2019/12/03/070000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SuggestedFix、便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;netaddr.IP: a new IP address type for Go · Tailscale Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tailscale.com/blog/netaddr-new-ip-type-for-go/&#34;&gt;https://tailscale.com/blog/netaddr-new-ip-type-for-go/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;IP アドレスを扱うためのライブラリの紹介&lt;/li&gt;
+&lt;li&gt;途中出てくる &lt;code&gt;_ [0]func()&lt;/code&gt; ってなんだっけってなったけど &lt;code&gt;==&lt;/code&gt; による比較を禁止するやつらしい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// A Value pointer is the handle to an underlying comparable value.
+// See func Get for how Value pointers may be used.
+type Value struct {
+	_      [0]func() // prevent people from accidentally using value type as comparable
+	cmpVal interface{}
+	// resurrected is guarded by mu (for all instances of Value).
+	// It is set true whenever v is synthesized from a uintptr.
+	resurrected bool
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Ensmallening Go binaries by prohibiting comparisons – The acme of foolishness
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2020/05/09/ensmallening-go-binaries-by-prohibiting-comparisons&#34;&gt;https://dave.cheney.net/2020/05/09/ensmallening-go-binaries-by-prohibiting-comparisons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;比較禁止させるやつについての Dave Cheney さんのブログ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;マイクロサービスでもポチポチ確認するための Kubefork | Wantedly Engineer Blog
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wantedly.com/companies/wantedly/post_articles/313884&#34;&gt;https://www.wantedly.com/companies/wantedly/post_articles/313884&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Watntedly の Pull Request 環境についてのブログ、めっちゃキレイに作られてる気がする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes マニフェストを Go で書きやすくする
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/f110/articles/01e208994e09f2&#34;&gt;https://zenn.dev/f110/articles/01e208994e09f2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;プログラムで書くのだるいわかる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kubernetes 1.18: clientgofix を使って client-go の新しいインタフェイスに移行する | text․superbrothers․dev
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://text.superbrothers.dev/200406-trying-to-use-clientgofix/&#34;&gt;https://text.superbrothers.dev/200406-trying-to-use-clientgofix/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;clientgofix、役に立った&lt;/li&gt;
+&lt;li&gt;ちゃんと &lt;code&gt;-custom-clientset&lt;/code&gt; オプションが生えててちゃんとしてた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ clientgofix -h
+Usage of clientgofix:
+  -custom-clientset string
+    	package path of generated client sets that need to be transformed, multiple paths separated by commas, eg: github.com/xx/xxrepo/pkg/clientset/versioned/typed/
+  -overwrite
+    	overwrite files in place (defaults to true; when false, results are written to peer tmp files) (default true)
+  -version
+    	display version information
+  -write-on-error
+    	write files even when errors are encountered (defaults to false)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>2021-03-08</title>
