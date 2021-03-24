@@ -22,11 +22,34 @@
     </item>
     
     <item>
-      <title>20210323</title>
+      <title>2021-03-23</title>
       <link>https://d-kuro.github.io/diaries/202103/20210323/</link>
       <pubDate>Mon, 22 Mar 2021 15:17:04 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202103/20210323/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;etcd の Learner とは? - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/kkohtaka/items/b7b0475428821b22814a&#34;&gt;https://qiita.com/kkohtaka/items/b7b0475428821b22814a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;投票権を持たない member のこと&lt;/li&gt;
+&lt;li&gt;failure tolerance は壊れてもいい member の数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;etcd のヘルスチェックの参考実装 | etcd/ep_command.go at v3.5.0-alpha.0 · etcd-io/etcd
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/etcd-io/etcd/blob/v3.5.0-alpha.0/etcdctl/ctlv3/command/ep_command.go#L127-L155&#34;&gt;https://github.com/etcd-io/etcd/blob/v3.5.0-alpha.0/etcdctl/ctlv3/command/ep_command.go#L127-L155&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/etcd-io/etcd/commit/00e00f16bb1df1cf14476e76a35ac5346f4d8e3a&#34;&gt;https://github.com/etcd-io/etcd/commit/00e00f16bb1df1cf14476e76a35ac5346f4d8e3a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;health というキーを Get している&lt;/li&gt;
+&lt;li&gt;ヘルスチェックがしたいだけなので取得の結果とかはどうでもいい、みたいな感じかな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1: Go 1.16 and Generics with tenntenn - e34.fm
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://e34.fm/1/&#34;&gt;https://e34.fm/1/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;新しい podcast, @deeeet さんとかがやってる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
