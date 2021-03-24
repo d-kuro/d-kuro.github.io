@@ -31,11 +31,38 @@
     </item>
     
     <item>
-      <title>20210322</title>
+      <title>2021-03-22</title>
       <link>https://d-kuro.github.io/diaries/202103/20210322/</link>
       <pubDate>Sun, 21 Mar 2021 15:16:35 +0000</pubDate>
       <guid>https://d-kuro.github.io/diaries/202103/20210322/</guid>
       <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rustにおける「厳密な型付け」という文化 - Qiita
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/dalance/items/93928ad1e0f68f9baa2d&#34;&gt;https://qiita.com/dalance/items/93928ad1e0f68f9baa2d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust の型付けについて、Go との比較が載っておりわかりやすい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Astroで構造化されたTerraformを管理してみる - BIGLOBE Style ｜ 多様な働き方やイノベーションを生み出すヒントをピックアップするメディア
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://style.biglobe.co.jp/entry/2021/03/19/100000&#34;&gt;https://style.biglobe.co.jp/entry/2021/03/19/100000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Terraform を構造化して実行できるやつ、ディレクトリ分けられるのは嬉しい気もする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;go 1.16のgo installを用いてtools.goを削除する
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/tarotaro0/articles/1d5bf3e32d5ef2&#34;&gt;https://zenn.dev/tarotaro0/articles/1d5bf3e32d5ef2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;go install がバージョン指定可能になったので tools.go みたいなのがいらなくなった&lt;/li&gt;
+&lt;li&gt;といっても go.mod に記載されることでライブラリのアップグレードエコシステムに載れる恩恵は確かにあったなあとは思う&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go database/sql tutorial
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://go-database-sql.org/&#34;&gt;http://go-database-sql.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;*sql.DB&lt;/code&gt; は使いまわせとか &lt;code&gt;rows.Close()&lt;/code&gt; 呼べとか &lt;code&gt;rows.Err()&lt;/code&gt; でエラーハンドリングしろとか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
